@@ -1,0 +1,66 @@
+{
+    "Function": "nvmet_exit_discovery",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "nvmet_subsys_put",
+        "4": "nvmet_disc_subsys",
+        "5": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "Function": "adf_cleanup_pci_dev",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12
+    ],
+    "cfgEdges": [
+        [
+            14,
+            10
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            13,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pci_release_regions",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "accel_dev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "pci_disable_device",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "accel_dev",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

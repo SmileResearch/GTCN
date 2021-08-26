@@ -1,0 +1,83 @@
+{
+    "Function": "smu10_power_off_asic",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "smu10_reset_cc6_data",
+        "5": "hwmgr",
+        "6": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "Function": "pty_cleanup",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tty_port_put",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "tty",
+        "6": "FIELD_IDENTIFIER",
+        "7": "METHOD_RETURN"
+    }
+}

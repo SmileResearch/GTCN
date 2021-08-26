@@ -1,0 +1,155 @@
+{
+    "Function": "nvmet_bdev_ns_revalidate",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ns",
+        "6": "FIELD_IDENTIFIER",
+        "7": "i_size_read",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ns",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

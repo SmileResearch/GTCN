@@ -1,0 +1,97 @@
+{
+    "Function": "ti81xx_check_features",
+    "astEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5
+    ],
+    "cfgEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "omap_features",
+        "5": "OMAP3_HAS_NEON",
+        "6": "omap3_cpuinfo",
+        "7": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "Function": "ipu_ch_param_set_rotation",
+    "astEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "params",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "rotate",
+        "11": "METHOD_RETURN"
+    }
+}

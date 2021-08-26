@@ -1,0 +1,106 @@
+{
+    "Function": "hci_cc_remote_name_req_cancel",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "BT_DBG",
+        "5": "LITERAL",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hdev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "METHOD_RETURN"
+    }
+}

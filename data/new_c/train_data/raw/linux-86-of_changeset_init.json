@@ -1,0 +1,107 @@
+{
+    "Function": "of_changeset_init",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "memset",
+        "4": "ocs",
+        "5": "LITERAL",
+        "6": "<operator>.sizeOf",
+        "7": "<operator>.indirection",
+        "8": "ocs",
+        "9": "INIT_LIST_HEAD",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ocs",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

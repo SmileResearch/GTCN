@@ -1,0 +1,189 @@
+{
+    "Function": "adv7511_audio_exit",
+    "astEdges": [
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        14,
+        16
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "adv7511",
+        "6": "FIELD_IDENTIFIER",
+        "7": "BLOCK",
+        "8": "platform_device_unregister",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "adv7511",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "adv7511",
+        "15": "FIELD_IDENTIFIER",
+        "16": "NULL",
+        "17": "METHOD_RETURN"
+    }
+}

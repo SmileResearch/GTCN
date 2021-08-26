@@ -1,0 +1,89 @@
+{
+    "Function": "b43_wa_cck_shiftbits",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "b43_phy_write",
+        "4": "dev",
+        "5": "B43_PHY_CCKSHIFTBITS",
+        "6": "LITERAL",
+        "7": "METHOD_RETURN"
+    }
+}

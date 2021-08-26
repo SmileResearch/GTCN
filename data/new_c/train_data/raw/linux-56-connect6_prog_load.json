@@ -1,0 +1,97 @@
+{
+    "Function": "connect6_prog_load",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "load_path",
+        "5": "test",
+        "6": "CONNECT6_PROG_PATH",
+        "7": "METHOD_RETURN"
+    }
+}

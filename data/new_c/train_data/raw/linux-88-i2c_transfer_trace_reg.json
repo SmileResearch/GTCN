@@ -1,0 +1,97 @@
+{
+    "Function": "i2c_transfer_trace_reg",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "static_branch_inc",
+        "4": "<operator>.addressOf",
+        "5": "i2c_trace_msg_key",
+        "6": "RETURN",
+        "7": "LITERAL",
+        "8": "METHOD_RETURN"
+    }
+}

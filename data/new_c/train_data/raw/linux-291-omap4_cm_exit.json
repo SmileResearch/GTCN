@@ -1,0 +1,71 @@
+{
+    "Function": "omap4_cm_exit",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cm_unregister",
+        "4": "<operator>.addressOf",
+        "5": "omap4xxx_cm_ll_data",
+        "6": "METHOD_RETURN"
+    }
+}

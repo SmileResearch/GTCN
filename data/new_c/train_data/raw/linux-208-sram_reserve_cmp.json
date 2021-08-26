@@ -1,0 +1,155 @@
+{
+    "Function": "sram_reserve_cmp",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            13
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "<operator>.subtraction",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ra",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "rb",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

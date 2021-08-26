@@ -1,0 +1,136 @@
+{
+    "Function": "analogix_dp_get_lane0_link_training",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "readl",
+        "5": "<operator>.addition",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "ANALOGIX_DP_LN0_LINK_TRAINING_CTL",
+        "10": "METHOD_RETURN"
+    }
+}

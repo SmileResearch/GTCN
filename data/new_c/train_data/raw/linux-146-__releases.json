@@ -1,0 +1,71 @@
+{
+    "Function": "__releases",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_unlock",
+        "4": "<operator>.addressOf",
+        "5": "capi_controller_lock",
+        "6": "METHOD_RETURN"
+    }
+}

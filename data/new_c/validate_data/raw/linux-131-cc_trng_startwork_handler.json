@@ -1,0 +1,124 @@
+{
+    "Function": "cc_trng_startwork_handler",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "drvdata",
+        "6": "FIELD_IDENTIFIER",
+        "7": "LITERAL",
+        "8": "cc_trng_hw_trigger",
+        "9": "drvdata",
+        "10": "METHOD_RETURN"
+    }
+}

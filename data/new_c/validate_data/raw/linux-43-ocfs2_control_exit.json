@@ -1,0 +1,71 @@
+{
+    "Function": "ocfs2_control_exit",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "misc_deregister",
+        "4": "<operator>.addressOf",
+        "5": "ocfs2_control_device",
+        "6": "METHOD_RETURN"
+    }
+}

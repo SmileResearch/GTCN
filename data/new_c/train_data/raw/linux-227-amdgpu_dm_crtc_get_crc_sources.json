@@ -1,0 +1,138 @@
+{
+    "Function": "amdgpu_dm_crtc_get_crc_sources",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirection",
+        "6": "count",
+        "7": "ARRAY_SIZE",
+        "8": "pipe_crc_sources",
+        "9": "RETURN",
+        "10": "pipe_crc_sources",
+        "11": "METHOD_RETURN"
+    }
+}

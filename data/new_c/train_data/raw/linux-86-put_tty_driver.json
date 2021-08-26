@@ -1,0 +1,44 @@
+{
+    "Function": "put_tty_driver",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tty_driver_kref_put",
+        "4": "d",
+        "5": "METHOD_RETURN"
+    }
+}

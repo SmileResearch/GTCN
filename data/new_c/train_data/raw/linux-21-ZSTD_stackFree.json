@@ -1,0 +1,86 @@
+{
+    "Function": "ZSTD_stackFree",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.cast",
+        "5": "UNKNOWN",
+        "6": "opaque",
+        "7": "<operator>.cast",
+        "8": "UNKNOWN",
+        "9": "address",
+        "10": "METHOD_RETURN"
+    }
+}

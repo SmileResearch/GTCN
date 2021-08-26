@@ -1,0 +1,330 @@
+{
+    "Function": "flush_echoes",
+    "astEdges": [
+        [
+            16,
+            17
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            9,
+            25
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            0,
+            45
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            26
+        ],
+        [
+            2,
+            31
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            40
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            38
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        14,
+        17,
+        20,
+        23,
+        29,
+        33,
+        36,
+        39,
+        43
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            43,
+            44
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "ldata",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "tty",
+        "8": "FIELD_IDENTIFIER",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.logicalOr",
+        "11": "<operator>.logicalAnd",
+        "12": "<operator>.logicalNot",
+        "13": "L_ECHO",
+        "14": "tty",
+        "15": "<operator>.logicalNot",
+        "16": "L_ECHONL",
+        "17": "tty",
+        "18": "<operator>.equals",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "ldata",
+        "21": "FIELD_IDENTIFIER",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "ldata",
+        "24": "FIELD_IDENTIFIER",
+        "25": "RETURN",
+        "26": "mutex_lock",
+        "27": "<operator>.addressOf",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "ldata",
+        "30": "FIELD_IDENTIFIER",
+        "31": "<operator>.assignment",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "ldata",
+        "34": "FIELD_IDENTIFIER",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "ldata",
+        "37": "FIELD_IDENTIFIER",
+        "38": "__process_echoes",
+        "39": "tty",
+        "40": "mutex_unlock",
+        "41": "<operator>.addressOf",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "ldata",
+        "44": "FIELD_IDENTIFIER",
+        "45": "METHOD_RETURN"
+    }
+}

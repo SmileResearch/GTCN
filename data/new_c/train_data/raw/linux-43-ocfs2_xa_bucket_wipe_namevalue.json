@@ -1,0 +1,185 @@
+{
+    "Function": "ocfs2_xa_bucket_wipe_namevalue",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        13
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            3
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "le16_add_cpu",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "loc",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.minus",
+        "11": "namevalue_size_xe",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "loc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

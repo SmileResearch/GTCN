@@ -1,0 +1,106 @@
+{
+    "Function": "kgdbts_post_exp_handler",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "kgdb_connected",
+        "6": "module_put",
+        "7": "THIS_MODULE",
+        "8": "METHOD_RETURN"
+    }
+}

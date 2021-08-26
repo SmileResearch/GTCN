@@ -1,0 +1,68 @@
+{
+    "Function": "LZ4_resetStream",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "memset",
+        "4": "LZ4_stream",
+        "5": "LITERAL",
+        "6": "<operator>.sizeOf",
+        "7": "LZ4_stream_t",
+        "8": "METHOD_RETURN"
+    }
+}

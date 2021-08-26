@@ -1,0 +1,303 @@
+{
+    "Function": "of_prop_next_string",
+    "astEdges": [
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            3,
+            38
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            26,
+            36
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            0,
+            40
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            38,
+            39
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        10,
+        12,
+        15,
+        18,
+        21,
+        24,
+        28,
+        31,
+        34,
+        37,
+        39
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            39
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "curv",
+        "7": "cur",
+        "8": "CONTROL_STRUCTURE",
+        "9": "<operator>.logicalNot",
+        "10": "prop",
+        "11": "RETURN",
+        "12": "NULL",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.logicalNot",
+        "15": "cur",
+        "16": "RETURN",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "prop",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.assignmentPlus",
+        "21": "curv",
+        "22": "<operator>.addition",
+        "23": "strlen",
+        "24": "cur",
+        "25": "LITERAL",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.greaterEqualsThan",
+        "28": "curv",
+        "29": "<operator>.addition",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "prop",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "prop",
+        "35": "FIELD_IDENTIFIER",
+        "36": "RETURN",
+        "37": "NULL",
+        "38": "RETURN",
+        "39": "curv",
+        "40": "METHOD_RETURN"
+    }
+}

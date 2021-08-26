@@ -1,0 +1,106 @@
+{
+    "Function": "cache_unregister_net",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "remove_cache_proc_entries",
+        "5": "cd",
+        "6": "sunrpc_destroy_cache_detail",
+        "7": "cd",
+        "8": "METHOD_RETURN"
+    }
+}

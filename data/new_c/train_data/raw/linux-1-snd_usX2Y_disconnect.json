@@ -1,0 +1,118 @@
+{
+    "Function": "snd_usX2Y_disconnect",
+    "astEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            3
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "usX2Y_usb_disconnect",
+        "4": "interface_to_usbdev",
+        "5": "intf",
+        "6": "usb_get_intfdata",
+        "7": "intf",
+        "8": "METHOD_RETURN"
+    }
+}

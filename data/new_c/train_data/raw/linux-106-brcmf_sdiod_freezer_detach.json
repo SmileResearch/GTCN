@@ -1,0 +1,227 @@
+{
+    "Function": "brcmf_sdiod_freezer_detach",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        13,
+        18
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            8,
+            19
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            20
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            11,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            20
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            20
+        ],
+        [
+            8,
+            20
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "sdiodev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "BLOCK",
+        "8": "WARN_ON",
+        "9": "atomic_read",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "sdiodev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "kfree",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "sdiodev",
+        "19": "FIELD_IDENTIFIER",
+        "20": "METHOD_RETURN"
+    }
+}

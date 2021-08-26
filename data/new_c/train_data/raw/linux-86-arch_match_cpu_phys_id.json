@@ -1,0 +1,82 @@
+{
+    "Function": "arch_match_cpu_phys_id",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.equals",
+        "6": "<operator>.cast",
+        "7": "UNKNOWN",
+        "8": "phys_id",
+        "9": "cpu",
+        "10": "METHOD_RETURN"
+    }
+}

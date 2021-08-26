@@ -1,0 +1,100 @@
+{
+    "Function": "ZSTD_compressBlock_lazy",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "ZSTD_compressBlock_lazy_generic",
+        "6": "ctx",
+        "7": "src",
+        "8": "srcSize",
+        "9": "LITERAL",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

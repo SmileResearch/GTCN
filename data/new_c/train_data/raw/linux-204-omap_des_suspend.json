@@ -1,0 +1,92 @@
+{
+    "Function": "omap_des_suspend",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pm_runtime_put_sync",
+        "4": "dev",
+        "5": "RETURN",
+        "6": "LITERAL",
+        "7": "METHOD_RETURN"
+    }
+}

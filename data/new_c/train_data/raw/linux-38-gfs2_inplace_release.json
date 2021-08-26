@@ -1,0 +1,164 @@
+{
+    "Function": "gfs2_inplace_release",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "gfs2_holder_initialized",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ip",
+        "8": "FIELD_IDENTIFIER",
+        "9": "gfs2_glock_dq_uninit",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ip",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

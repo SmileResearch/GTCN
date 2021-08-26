@@ -1,0 +1,97 @@
+{
+    "Function": "tls_proc_fini",
+    "astEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "remove_proc_entry",
+        "4": "LITERAL",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "net",
+        "7": "FIELD_IDENTIFIER",
+        "8": "METHOD_RETURN"
+    }
+}

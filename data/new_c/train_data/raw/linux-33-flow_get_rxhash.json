@@ -1,0 +1,83 @@
+{
+    "Function": "flow_get_rxhash",
+    "astEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "skb_get_hash",
+        "5": "skb",
+        "6": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "Function": "vega12_get_current_pcie_link_speed_level",
+    "astEdges": [
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        13,
+        14,
+        15
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "adev",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hwmgr",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RETURN",
+        "10": "<operator>.arithmeticShiftRight",
+        "11": "<operator>.and",
+        "12": "RREG32_PCIE",
+        "13": "smnPCIE_LC_SPEED_CNTL",
+        "14": "PSWUSP0_PCIE_LC_SPEED_CNTL__LC_CURRENT_DATA_RATE_MASK",
+        "15": "PSWUSP0_PCIE_LC_SPEED_CNTL__LC_CURRENT_DATA_RATE__SHIFT",
+        "16": "METHOD_RETURN"
+    }
+}

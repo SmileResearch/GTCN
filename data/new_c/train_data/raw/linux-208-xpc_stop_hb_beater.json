@@ -1,0 +1,92 @@
+{
+    "Function": "xpc_stop_hb_beater",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "del_timer_sync",
+        "4": "<operator>.addressOf",
+        "5": "xpc_hb_timer",
+        "6": "xpc_arch_ops.heartbeat_exit",
+        "7": "METHOD_RETURN"
+    }
+}

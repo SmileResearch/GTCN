@@ -1,0 +1,108 @@
+{
+    "Function": "mv78xx0_ge01_init",
+    "astEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "orion_ge01_init",
+        "4": "eth_data",
+        "5": "GE01_PHYS_BASE",
+        "6": "IRQ_MV78XX0_GE01_SUM",
+        "7": "MV643XX_TX_CSUM_DEFAULT_LIMIT",
+        "8": "METHOD_RETURN"
+    }
+}

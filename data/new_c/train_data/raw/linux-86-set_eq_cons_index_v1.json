@@ -1,0 +1,150 @@
+{
+    "Function": "set_eq_cons_index_v1",
+    "astEdges": [
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        12,
+        14,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "roce_raw_write",
+        "5": "<operator>.or",
+        "6": "<operator>.and",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "eq",
+        "9": "FIELD_IDENTIFIER",
+        "10": "HNS_ROCE_V1_CONS_IDX_M",
+        "11": "<operator>.shiftLeft",
+        "12": "req_not",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "eq",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "eq",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "Function": "b43_bus_bcma_device_is_enabled",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            7,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "bcma_core_is_enabled",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "METHOD_RETURN"
+    }
+}

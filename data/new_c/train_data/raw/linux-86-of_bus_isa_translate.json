@@ -1,0 +1,115 @@
+{
+    "Function": "of_bus_isa_translate",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "of_bus_default_translate",
+        "7": "<operator>.addition",
+        "8": "addr",
+        "9": "LITERAL",
+        "10": "offset",
+        "11": "<operator>.subtraction",
+        "12": "na",
+        "13": "LITERAL",
+        "14": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "Function": "irq_to_pic_mask",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        14
+    ],
+    "cfgEdges": [
+        [
+            12,
+            4
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            11,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            16
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.conditional",
+        "5": "<operator>.lessEqualsThan",
+        "6": "irq",
+        "7": "LITERAL",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "cpld_regs",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "cpld_regs",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

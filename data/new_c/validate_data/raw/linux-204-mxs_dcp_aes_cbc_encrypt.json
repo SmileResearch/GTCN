@@ -1,0 +1,101 @@
+{
+    "Function": "mxs_dcp_aes_cbc_encrypt",
+    "astEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "mxs_dcp_aes_enqueue",
+        "5": "req",
+        "6": "LITERAL",
+        "7": "LITERAL",
+        "8": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "Function": "mtk_register_reset_controller_set_clr",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "mtk_register_reset_controller_common",
+        "6": "np",
+        "7": "num_regs",
+        "8": "regofs",
+        "9": "<operator>.addressOf",
+        "10": "mtk_reset_ops_set_clr",
+        "11": "METHOD_RETURN"
+    }
+}

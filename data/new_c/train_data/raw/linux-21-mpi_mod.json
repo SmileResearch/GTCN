@@ -1,0 +1,82 @@
+{
+    "Function": "mpi_mod",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "mpi_fdiv_r",
+        "6": "rem",
+        "7": "dividend",
+        "8": "divisor",
+        "9": "METHOD_RETURN"
+    }
+}

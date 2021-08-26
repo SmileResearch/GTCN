@@ -1,0 +1,135 @@
+{
+    "Function": "hfi1_ipoib_wake_txq",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "atomic_dec_and_test",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "txq",
+        "8": "FIELD_IDENTIFIER",
+        "9": "netif_wake_subqueue",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "txq",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "txq",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

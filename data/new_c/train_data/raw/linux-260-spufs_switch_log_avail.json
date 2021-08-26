@@ -1,0 +1,118 @@
+{
+    "Function": "spufs_switch_log_avail",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.subtraction",
+        "5": "SWITCH_LOG_BUFSIZE",
+        "6": "spufs_switch_log_used",
+        "7": "ctx",
+        "8": "METHOD_RETURN"
+    }
+}

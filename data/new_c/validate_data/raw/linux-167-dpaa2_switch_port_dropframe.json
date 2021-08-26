@@ -1,0 +1,102 @@
+{
+    "Function": "dpaa2_switch_port_dropframe",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "dev_kfree_skb_any",
+        "5": "skb",
+        "6": "RETURN",
+        "7": "NETDEV_TX_OK",
+        "8": "METHOD_RETURN"
+    }
+}

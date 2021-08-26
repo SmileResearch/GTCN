@@ -1,0 +1,127 @@
+{
+    "Function": "store_sigregs",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "save_access_regs",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "current",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "save_fpu_regs",
+        "10": "METHOD_RETURN"
+    }
+}

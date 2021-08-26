@@ -1,0 +1,285 @@
+{
+    "Function": "mips_ejtag_fdc_tty_write_room",
+    "astEdges": [
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            37
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        13,
+        19,
+        22,
+        25,
+        28,
+        33,
+        36
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            36
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "dport",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "tty",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "priv",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dport",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LOCAL",
+        "16": "spin_lock",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "dport",
+        "20": "FIELD_IDENTIFIER",
+        "21": "<operator>.assignment",
+        "22": "room",
+        "23": "<operator>.subtraction",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "priv",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "dport",
+        "29": "FIELD_IDENTIFIER",
+        "30": "spin_unlock",
+        "31": "<operator>.addressOf",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "dport",
+        "34": "FIELD_IDENTIFIER",
+        "35": "RETURN",
+        "36": "room",
+        "37": "METHOD_RETURN"
+    }
+}

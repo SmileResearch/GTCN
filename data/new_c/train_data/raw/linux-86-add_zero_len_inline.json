@@ -1,0 +1,153 @@
+{
+    "Function": "add_zero_len_inline",
+    "astEdges": [
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "inl",
+        "6": "wqe",
+        "7": "memset",
+        "8": "wqe",
+        "9": "LITERAL",
+        "10": "LITERAL",
+        "11": "<operator>.assignment",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "inl",
+        "14": "FIELD_IDENTIFIER",
+        "15": "cpu_to_be32",
+        "16": "<operator>.shiftLeft",
+        "17": "LITERAL",
+        "18": "LITERAL",
+        "19": "METHOD_RETURN"
+    }
+}

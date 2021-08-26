@@ -1,0 +1,261 @@
+{
+    "Function": "get_aeqe_v1",
+    "astEdges": [
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            31
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            30
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            34
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        15,
+        25,
+        28,
+        29,
+        32,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            33
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "off",
+        "7": "<operator>.multiplication",
+        "8": "<operator>.and",
+        "9": "entry",
+        "10": "<operator>.subtraction",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "eq",
+        "13": "FIELD_IDENTIFIER",
+        "14": "LITERAL",
+        "15": "HNS_ROCE_AEQE_SIZE",
+        "16": "RETURN",
+        "17": "<operator>.cast",
+        "18": "UNKNOWN",
+        "19": "<operator>.addition",
+        "20": "<operator>.cast",
+        "21": "UNKNOWN",
+        "22": "<operator>.fieldAccess",
+        "23": "<operator>.indirectIndexAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "eq",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.division",
+        "28": "off",
+        "29": "HNS_ROCE_BA_SIZE",
+        "30": "FIELD_IDENTIFIER",
+        "31": "<operator>.modulo",
+        "32": "off",
+        "33": "HNS_ROCE_BA_SIZE",
+        "34": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "Function": "add_kernel_ctx_switch",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "add_event_entry",
+        "4": "ESCAPE_CODE",
+        "5": "CONTROL_STRUCTURE",
+        "6": "in_kernel",
+        "7": "add_event_entry",
+        "8": "KERNEL_ENTER_SWITCH_CODE",
+        "9": "CONTROL_STRUCTURE",
+        "10": "add_event_entry",
+        "11": "KERNEL_EXIT_SWITCH_CODE",
+        "12": "METHOD_RETURN"
+    }
+}

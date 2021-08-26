@@ -1,0 +1,111 @@
+{
+    "Function": "qemu_e500_probe",
+    "astEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.logicalNot",
+        "6": "of_machine_is_compatible",
+        "7": "LITERAL",
+        "8": "METHOD_RETURN"
+    }
+}

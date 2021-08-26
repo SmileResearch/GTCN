@@ -1,0 +1,240 @@
+{
+    "Function": "tiocswinsz",
+    "astEdges": [
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            16,
+            27
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        12,
+        15,
+        19,
+        24,
+        26,
+        30,
+        32
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            30,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "copy_from_user",
+        "7": "<operator>.addressOf",
+        "8": "tmp_ws",
+        "9": "arg",
+        "10": "<operator>.sizeOf",
+        "11": "<operator>.indirection",
+        "12": "arg",
+        "13": "RETURN",
+        "14": "<operator>.minus",
+        "15": "EFAULT",
+        "16": "CONTROL_STRUCTURE",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "tty",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "RETURN",
+        "23": "tty->ops->resize",
+        "24": "tty",
+        "25": "<operator>.addressOf",
+        "26": "tmp_ws",
+        "27": "CONTROL_STRUCTURE",
+        "28": "RETURN",
+        "29": "tty_do_resize",
+        "30": "tty",
+        "31": "<operator>.addressOf",
+        "32": "tmp_ws",
+        "33": "METHOD_RETURN"
+    }
+}

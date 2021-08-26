@@ -1,0 +1,59 @@
+{
+    "Function": "hfi1_trace_get_tid_ctrl",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "EXP_TID_GET",
+        "5": "ent",
+        "6": "CTRL",
+        "7": "METHOD_RETURN"
+    }
+}

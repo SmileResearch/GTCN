@@ -1,0 +1,122 @@
+{
+    "Function": "free_cpu_buffers",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "op_ring_buffer",
+        "5": "ring_buffer_free",
+        "6": "op_ring_buffer",
+        "7": "<operator>.assignment",
+        "8": "op_ring_buffer",
+        "9": "NULL",
+        "10": "METHOD_RETURN"
+    }
+}

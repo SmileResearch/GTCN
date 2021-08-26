@@ -1,0 +1,203 @@
+{
+    "Function": "trigger_measure",
+    "astEdges": [
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        12
+    ],
+    "cfgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            15,
+            9
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            17
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "res",
+        "6": "FIELD_IDENTIFIER",
+        "7": "atomic_swap",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "<operator>.fieldAccess",
+        "12": "ctx",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

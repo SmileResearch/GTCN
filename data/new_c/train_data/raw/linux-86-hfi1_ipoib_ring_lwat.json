@@ -1,0 +1,153 @@
+{
+    "Function": "hfi1_ipoib_ring_lwat",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.arithmeticShiftRight",
+        "5": "min_t",
+        "6": "uint",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "txq",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "txq",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "LITERAL",
+        "20": "METHOD_RETURN"
+    }
+}

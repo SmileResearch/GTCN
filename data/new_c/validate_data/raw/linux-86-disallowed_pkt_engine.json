@@ -1,0 +1,64 @@
+{
+    "Function": "disallowed_pkt_engine",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.subtraction",
+        "5": "posn",
+        "6": "SEES",
+        "7": "TX_SDMA0_DISALLOWED_PACKET",
+        "8": "METHOD_RETURN"
+    }
+}

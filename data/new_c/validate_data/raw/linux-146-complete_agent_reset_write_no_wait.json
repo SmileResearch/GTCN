@@ -1,0 +1,102 @@
+{
+    "Function": "complete_agent_reset_write_no_wait",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "kfree",
+        "8": "data",
+        "9": "METHOD_RETURN"
+    }
+}

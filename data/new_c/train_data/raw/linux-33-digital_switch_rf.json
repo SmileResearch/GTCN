@@ -1,0 +1,89 @@
+{
+    "Function": "digital_switch_rf",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "ddev->ops->switch_rf",
+        "5": "ddev",
+        "6": "on",
+        "7": "METHOD_RETURN"
+    }
+}

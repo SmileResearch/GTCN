@@ -1,0 +1,136 @@
+{
+    "Function": "dtl_current_index",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            10,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "be64_to_cpu",
+        "5": "<operator>.fieldAccess",
+        "6": "lppaca_of",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dtl",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "Function": "cp110_syscon_legacy_clk_probe",
+    "astEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "cp110_syscon_common_probe",
+        "5": "pdev",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "pdev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

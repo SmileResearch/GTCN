@@ -1,0 +1,190 @@
+{
+    "Function": "rpcauth_stringify_acceptor",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "cred",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "NULL",
+        "12": "RETURN",
+        "13": "cred->cr_ops->crstringify_acceptor",
+        "14": "cred",
+        "15": "METHOD_RETURN"
+    }
+}

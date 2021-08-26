@@ -1,0 +1,561 @@
+{
+    "Function": "ZSTD_reduceIndex",
+    "astEdges": [
+        [
+            0,
+            73
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            53,
+            67
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            47
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            53
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            47,
+            52
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            57,
+            66
+        ],
+        [
+            57,
+            61
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            40,
+            46
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            28,
+            36
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            67,
+            71
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            67,
+            72
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            37
+        ],
+        [
+            27,
+            38
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        13,
+        19,
+        21,
+        22,
+        26,
+        32,
+        36,
+        43,
+        49,
+        51,
+        52,
+        56,
+        59,
+        64,
+        69,
+        71,
+        72
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            66,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            71,
+            72
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "hSize",
+        "8": "<operator>.shiftLeft",
+        "9": "LITERAL",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "zc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "ZSTD_reduceTable",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "zc",
+        "20": "FIELD_IDENTIFIER",
+        "21": "hSize",
+        "22": "reducerValue",
+        "23": "BLOCK",
+        "24": "LOCAL",
+        "25": "<operator>.assignment",
+        "26": "chainSize",
+        "27": "<operator>.conditional",
+        "28": "<operator>.equals",
+        "29": "<operator>.fieldAccess",
+        "30": "<operator>.fieldAccess",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "zc",
+        "33": "FIELD_IDENTIFIER",
+        "34": "FIELD_IDENTIFIER",
+        "35": "FIELD_IDENTIFIER",
+        "36": "ZSTD_fast",
+        "37": "LITERAL",
+        "38": "<operator>.shiftLeft",
+        "39": "LITERAL",
+        "40": "<operator>.fieldAccess",
+        "41": "<operator>.fieldAccess",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "zc",
+        "44": "FIELD_IDENTIFIER",
+        "45": "FIELD_IDENTIFIER",
+        "46": "FIELD_IDENTIFIER",
+        "47": "ZSTD_reduceTable",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "zc",
+        "50": "FIELD_IDENTIFIER",
+        "51": "chainSize",
+        "52": "reducerValue",
+        "53": "BLOCK",
+        "54": "LOCAL",
+        "55": "<operator>.assignment",
+        "56": "h3Size",
+        "57": "<operator>.conditional",
+        "58": "<operator>.indirectFieldAccess",
+        "59": "zc",
+        "60": "FIELD_IDENTIFIER",
+        "61": "<operator>.shiftLeft",
+        "62": "LITERAL",
+        "63": "<operator>.indirectFieldAccess",
+        "64": "zc",
+        "65": "FIELD_IDENTIFIER",
+        "66": "LITERAL",
+        "67": "ZSTD_reduceTable",
+        "68": "<operator>.indirectFieldAccess",
+        "69": "zc",
+        "70": "FIELD_IDENTIFIER",
+        "71": "h3Size",
+        "72": "reducerValue",
+        "73": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "Function": "reset_freesync_config_for_crtc",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        16
+    ],
+    "cfgEdges": [
+        [
+            14,
+            8
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            18
+        ],
+        [
+            12,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            14,
+            18
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            8,
+            18
+        ],
+        [
+            8,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "new_crtc_state",
+        "6": "FIELD_IDENTIFIER",
+        "7": "false",
+        "8": "memset",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "new_crtc_state",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "<operator>.sizeOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "new_crtc_state",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

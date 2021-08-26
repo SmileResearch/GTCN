@@ -1,0 +1,71 @@
+{
+    "Function": "davinci_i2c_exit_driver",
+    "astEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "davinci_i2c_driver",
+        "6": "METHOD_RETURN"
+    }
+}

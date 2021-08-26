@@ -1,0 +1,120 @@
+{
+    "Function": "do_softirq_own_stack",
+    "astEdges": [
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "old",
+        "5": "current_stack_pointer",
+        "6": "<operator>.fieldAccess",
+        "7": "S390_lowcore",
+        "8": "FIELD_IDENTIFIER",
+        "9": "BLOCK",
+        "10": "METHOD_RETURN"
+    }
+}

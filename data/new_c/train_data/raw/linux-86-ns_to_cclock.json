@@ -1,0 +1,278 @@
+{
+    "Function": "ns_to_cclock",
+    "astEdges": [
+        [
+            3,
+            34
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            31
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        12,
+        15,
+        17,
+        20,
+        23,
+        25,
+        28,
+        30,
+        32,
+        35
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.equals",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dd",
+        "9": "FIELD_IDENTIFIER",
+        "10": "ICODE_FPGA_EMULATION",
+        "11": "<operator>.assignment",
+        "12": "cclocks",
+        "13": "<operator>.division",
+        "14": "<operator>.multiplication",
+        "15": "ns",
+        "16": "LITERAL",
+        "17": "FPGA_CCLOCK_PS",
+        "18": "CONTROL_STRUCTURE",
+        "19": "<operator>.assignment",
+        "20": "cclocks",
+        "21": "<operator>.division",
+        "22": "<operator>.multiplication",
+        "23": "ns",
+        "24": "LITERAL",
+        "25": "ASIC_CCLOCK_PS",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.logicalAnd",
+        "28": "ns",
+        "29": "<operator>.logicalNot",
+        "30": "cclocks",
+        "31": "<operator>.assignment",
+        "32": "cclocks",
+        "33": "LITERAL",
+        "34": "RETURN",
+        "35": "cclocks",
+        "36": "METHOD_RETURN"
+    }
+}

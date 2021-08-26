@@ -1,0 +1,108 @@
+{
+    "Function": "nmi_get_mcesa_size",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "MACHINE_HAS_GS",
+        "5": "RETURN",
+        "6": "MCESA_MAX_SIZE",
+        "7": "RETURN",
+        "8": "MCESA_MIN_SIZE",
+        "9": "METHOD_RETURN"
+    }
+}

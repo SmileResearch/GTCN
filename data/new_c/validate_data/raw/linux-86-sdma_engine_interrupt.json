@@ -1,0 +1,410 @@
+{
+    "Function": "sdma_engine_interrupt",
+    "astEdges": [
+        [
+            51,
+            52
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            26,
+            36
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            32
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            55
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            15,
+            25
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            3,
+            50
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            47
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        10,
+        13,
+        14,
+        17,
+        19,
+        23,
+        28,
+        30,
+        34,
+        39,
+        41,
+        45,
+        48,
+        49,
+        53
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "trace_hfi1_sdma_engine_interrupt",
+        "5": "sde",
+        "6": "status",
+        "7": "write_seqlock",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "sde",
+        "11": "FIELD_IDENTIFIER",
+        "12": "sdma_set_desc_cnt",
+        "13": "sde",
+        "14": "sdma_desct_intr",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.and",
+        "17": "status",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "sde",
+        "20": "FIELD_IDENTIFIER",
+        "21": "<operator>.postIncrement",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "sde",
+        "24": "FIELD_IDENTIFIER",
+        "25": "CONTROL_STRUCTURE",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.and",
+        "28": "status",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "sde",
+        "31": "FIELD_IDENTIFIER",
+        "32": "<operator>.postIncrement",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "sde",
+        "35": "FIELD_IDENTIFIER",
+        "36": "CONTROL_STRUCTURE",
+        "37": "CONTROL_STRUCTURE",
+        "38": "<operator>.and",
+        "39": "status",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "sde",
+        "42": "FIELD_IDENTIFIER",
+        "43": "<operator>.postIncrement",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "sde",
+        "46": "FIELD_IDENTIFIER",
+        "47": "sdma_make_progress",
+        "48": "sde",
+        "49": "status",
+        "50": "write_sequnlock",
+        "51": "<operator>.addressOf",
+        "52": "<operator>.indirectFieldAccess",
+        "53": "sde",
+        "54": "FIELD_IDENTIFIER",
+        "55": "METHOD_RETURN"
+    }
+}

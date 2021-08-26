@@ -1,0 +1,87 @@
+{
+    "Function": "tty_hangup",
+    "astEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tty_debug_hangup",
+        "4": "tty",
+        "5": "LITERAL",
+        "6": "schedule_work",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "tty",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

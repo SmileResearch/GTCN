@@ -1,0 +1,143 @@
+{
+    "Function": "wlc_phy_get_pwrdet_offsets",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirection",
+        "7": "cckoffset",
+        "8": "LITERAL",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirection",
+        "11": "ofdmoffset",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

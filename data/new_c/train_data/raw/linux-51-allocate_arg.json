@@ -1,0 +1,99 @@
+{
+    "Function": "allocate_arg",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "calloc",
+        "5": "LITERAL",
+        "6": "<operator>.sizeOf",
+        "7": "UNKNOWN",
+        "8": "METHOD_RETURN"
+    }
+}

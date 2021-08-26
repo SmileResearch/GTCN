@@ -1,0 +1,80 @@
+{
+    "Function": "ql_tx_timeout_work",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ql_cycle_adapter",
+        "4": "qdev",
+        "5": "QL_DO_RESET",
+        "6": "METHOD_RETURN"
+    }
+}

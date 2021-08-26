@@ -1,0 +1,83 @@
+{
+    "Function": "sbi_get_spec_version",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "__sbi_base_ecall",
+        "5": "SBI_EXT_BASE_GET_SPEC_VERSION",
+        "6": "METHOD_RETURN"
+    }
+}

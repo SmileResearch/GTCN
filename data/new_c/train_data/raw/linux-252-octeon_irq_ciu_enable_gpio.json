@@ -1,0 +1,97 @@
+{
+    "Function": "octeon_irq_ciu_enable_gpio",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "octeon_irq_gpio_setup",
+        "4": "data",
+        "5": "octeon_irq_ciu_enable",
+        "6": "data",
+        "7": "METHOD_RETURN"
+    }
+}

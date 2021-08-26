@@ -1,0 +1,87 @@
+{
+    "Function": "xpc_teardown_partitions",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "xpc_arch_ops.teardown_partitions",
+        "4": "kfree",
+        "5": "xpc_partitions",
+        "6": "METHOD_RETURN"
+    }
+}

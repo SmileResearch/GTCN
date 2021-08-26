@@ -1,0 +1,151 @@
+{
+    "Function": "l2cap_cleanup_sockets",
+    "astEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "bt_procfs_cleanup",
+        "4": "<operator>.addressOf",
+        "5": "init_net",
+        "6": "LITERAL",
+        "7": "bt_sock_unregister",
+        "8": "BTPROTO_L2CAP",
+        "9": "proto_unregister",
+        "10": "<operator>.addressOf",
+        "11": "l2cap_proto",
+        "12": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "Function": "k3_r5_core_halt",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "ti_sci_proc_set_control",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "core",
+        "7": "FIELD_IDENTIFIER",
+        "8": "PROC_BOOT_CTRL_FLAG_R5_CORE_HALT",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

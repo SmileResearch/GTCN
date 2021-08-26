@@ -1,0 +1,72 @@
+{
+    "Function": "vau_to_au",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.multiplication",
+        "5": "LITERAL",
+        "6": "<operator>.shiftLeft",
+        "7": "LITERAL",
+        "8": "vau",
+        "9": "METHOD_RETURN"
+    }
+}

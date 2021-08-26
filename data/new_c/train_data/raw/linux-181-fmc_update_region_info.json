@@ -1,0 +1,144 @@
+{
+    "Function": "fmc_update_region_info",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        12
+    ],
+    "cfgEdges": [
+        [
+            10,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "fmdev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "region_configs",
+        "12": "region_to_set",
+        "13": "METHOD_RETURN"
+    }
+}

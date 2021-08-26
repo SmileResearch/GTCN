@@ -1,0 +1,63 @@
+{
+    "Function": "pre_unpatch_callback",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "callback_info",
+        "4": "__func__",
+        "5": "obj",
+        "6": "restore_console_loglevel",
+        "7": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,684 @@
+{
+    "Function": "hfi1_ipoib_sdma_sleep",
+    "astEdges": [
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            74,
+            76
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            44
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            91,
+            93
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            49
+        ],
+        [
+            6,
+            94
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            89
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            23,
+            86
+        ],
+        [
+            23,
+            53
+        ],
+        [
+            23,
+            38
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            81
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            78,
+            80
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            64,
+            69
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            23
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            97
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            72,
+            77
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            83,
+            85
+        ],
+        [
+            24,
+            29
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            61,
+            72
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            14,
+            22
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            62,
+            70
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            61
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            35,
+            36
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        18,
+        22,
+        26,
+        27,
+        28,
+        33,
+        37,
+        42,
+        47,
+        51,
+        58,
+        67,
+        71,
+        73,
+        75,
+        79,
+        84,
+        88,
+        92,
+        96
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            71,
+            73
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            76,
+            79
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            80,
+            84
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            85,
+            88
+        ],
+        [
+            88,
+            92
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            93,
+            96
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "write_seqlock",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "sde",
+        "11": "FIELD_IDENTIFIER",
+        "12": "CONTROL_STRUCTURE",
+        "13": "likely",
+        "14": "<operator>.equals",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "txq",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "NETREG_REGISTERED",
+        "23": "BLOCK",
+        "24": "CONTROL_STRUCTURE",
+        "25": "sdma_progress",
+        "26": "sde",
+        "27": "seq",
+        "28": "txreq",
+        "29": "BLOCK",
+        "30": "write_sequnlock",
+        "31": "<operator>.addressOf",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "sde",
+        "34": "FIELD_IDENTIFIER",
+        "35": "RETURN",
+        "36": "<operator>.minus",
+        "37": "EAGAIN",
+        "38": "CONTROL_STRUCTURE",
+        "39": "list_empty",
+        "40": "<operator>.addressOf",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "txreq",
+        "43": "FIELD_IDENTIFIER",
+        "44": "list_add_tail",
+        "45": "<operator>.addressOf",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "txreq",
+        "48": "FIELD_IDENTIFIER",
+        "49": "<operator>.addressOf",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "txq",
+        "52": "FIELD_IDENTIFIER",
+        "53": "CONTROL_STRUCTURE",
+        "54": "list_empty",
+        "55": "<operator>.addressOf",
+        "56": "<operator>.fieldAccess",
+        "57": "<operator>.indirectFieldAccess",
+        "58": "txq",
+        "59": "FIELD_IDENTIFIER",
+        "60": "FIELD_IDENTIFIER",
+        "61": "BLOCK",
+        "62": "CONTROL_STRUCTURE",
+        "63": "<operator>.logicalNot",
+        "64": "atomic_xchg",
+        "65": "<operator>.addressOf",
+        "66": "<operator>.indirectFieldAccess",
+        "67": "txq",
+        "68": "FIELD_IDENTIFIER",
+        "69": "LITERAL",
+        "70": "hfi1_ipoib_stop_txq",
+        "71": "txq",
+        "72": "iowait_queue",
+        "73": "pkts_sent",
+        "74": "<operator>.indirectFieldAccess",
+        "75": "wait",
+        "76": "FIELD_IDENTIFIER",
+        "77": "<operator>.addressOf",
+        "78": "<operator>.indirectFieldAccess",
+        "79": "sde",
+        "80": "FIELD_IDENTIFIER",
+        "81": "write_sequnlock",
+        "82": "<operator>.addressOf",
+        "83": "<operator>.indirectFieldAccess",
+        "84": "sde",
+        "85": "FIELD_IDENTIFIER",
+        "86": "RETURN",
+        "87": "<operator>.minus",
+        "88": "EBUSY",
+        "89": "write_sequnlock",
+        "90": "<operator>.addressOf",
+        "91": "<operator>.indirectFieldAccess",
+        "92": "sde",
+        "93": "FIELD_IDENTIFIER",
+        "94": "RETURN",
+        "95": "<operator>.minus",
+        "96": "EINVAL",
+        "97": "METHOD_RETURN"
+    }
+}

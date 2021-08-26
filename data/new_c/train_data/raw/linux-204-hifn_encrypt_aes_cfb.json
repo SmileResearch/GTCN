@@ -1,0 +1,125 @@
+{
+    "Function": "hifn_encrypt_aes_cfb",
+    "astEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "hifn_setup_crypto",
+        "5": "req",
+        "6": "ACRYPTO_OP_ENCRYPT",
+        "7": "ACRYPTO_TYPE_AES_128",
+        "8": "ACRYPTO_MODE_CFB",
+        "9": "METHOD_RETURN"
+    }
+}

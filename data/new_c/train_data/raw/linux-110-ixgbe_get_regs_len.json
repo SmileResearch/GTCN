@@ -1,0 +1,110 @@
+{
+    "Function": "ixgbe_get_regs_len",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.multiplication",
+        "5": "IXGBE_REGS_LEN",
+        "6": "<operator>.sizeOf",
+        "7": "u32",
+        "8": "METHOD_RETURN"
+    }
+}

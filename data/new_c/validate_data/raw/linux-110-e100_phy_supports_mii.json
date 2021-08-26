@@ -1,0 +1,119 @@
+{
+    "Function": "e100_phy_supports_mii",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.notEquals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "nic",
+        "7": "FIELD_IDENTIFIER",
+        "8": "mdio_ctrl_phy_mii_emulated",
+        "9": "METHOD_RETURN"
+    }
+}

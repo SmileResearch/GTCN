@@ -1,0 +1,97 @@
+{
+    "Function": "ocfs2_init_steal_slots",
+    "astEdges": [
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ocfs2_init_inode_steal_slot",
+        "4": "osb",
+        "5": "ocfs2_init_meta_steal_slot",
+        "6": "osb",
+        "7": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "Function": "of_path_device_type_exists",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "ovtype",
+        "6": "BLOCK",
+        "7": "JUMP_TARGET",
+        "8": "RETURN",
+        "9": "of_path_platform_device_exists",
+        "10": "path",
+        "11": "JUMP_TARGET",
+        "12": "RETURN",
+        "13": "of_path_i2c_client_exists",
+        "14": "path",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

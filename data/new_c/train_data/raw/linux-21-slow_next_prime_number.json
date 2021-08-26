@@ -1,0 +1,104 @@
+{
+    "Function": "slow_next_prime_number",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        11,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalAnd",
+        "5": "<operator>.lessThan",
+        "6": "x",
+        "7": "ULONG_MAX",
+        "8": "<operator>.logicalNot",
+        "9": "slow_is_prime_number",
+        "10": "<operator>.preIncrement",
+        "11": "x",
+        "12": "RETURN",
+        "13": "x",
+        "14": "METHOD_RETURN"
+    }
+}

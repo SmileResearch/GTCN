@@ -1,0 +1,154 @@
+{
+    "Function": "arch_trampoline_kprobe",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "p",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "<operator>.addressOf",
+        "11": "kretprobe_trampoline",
+        "12": "METHOD_RETURN"
+    }
+}

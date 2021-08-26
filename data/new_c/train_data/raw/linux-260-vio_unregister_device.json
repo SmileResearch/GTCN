@@ -1,0 +1,218 @@
+{
+    "Function": "vio_unregister_device",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            14,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "device_unregister",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "viodev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "CONTROL_STRUCTURE",
+        "9": "<operator>.equals",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "viodev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "VDEVICE",
+        "14": "irq_dispose_mapping",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "viodev",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

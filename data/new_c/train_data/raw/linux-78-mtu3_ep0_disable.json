@@ -1,0 +1,83 @@
+{
+    "Function": "mtu3_ep0_disable",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.minus",
+        "5": "EINVAL",
+        "6": "METHOD_RETURN"
+    }
+}

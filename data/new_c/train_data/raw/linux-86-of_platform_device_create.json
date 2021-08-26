@@ -1,0 +1,97 @@
+{
+    "Function": "of_platform_device_create",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9,
+        10
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "of_platform_device_create_pdata",
+        "7": "np",
+        "8": "bus_id",
+        "9": "NULL",
+        "10": "parent",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,466 @@
+{
+    "Function": "ZSTD_createCStream_advanced",
+    "astEdges": [
+        [
+            42,
+            43
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            55
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            50
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            2,
+            44
+        ],
+        [
+            2,
+            61
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            56
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            35,
+            40
+        ],
+        [
+            35,
+            42
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            0,
+            63
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12,
+        15,
+        17,
+        22,
+        23,
+        26,
+        27,
+        29,
+        31,
+        34,
+        38,
+        41,
+        43,
+        46,
+        49,
+        53,
+        55,
+        58,
+        60,
+        62
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            58
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            60,
+            62
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalOr",
+        "6": "<operator>.logicalNot",
+        "7": "<operator>.fieldAccess",
+        "8": "customMem",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.logicalNot",
+        "11": "<operator>.fieldAccess",
+        "12": "customMem",
+        "13": "FIELD_IDENTIFIER",
+        "14": "RETURN",
+        "15": "NULL",
+        "16": "<operator>.assignment",
+        "17": "zcs",
+        "18": "<operator>.cast",
+        "19": "UNKNOWN",
+        "20": "ZSTD_malloc",
+        "21": "<operator>.sizeOf",
+        "22": "ZSTD_CStream",
+        "23": "customMem",
+        "24": "CONTROL_STRUCTURE",
+        "25": "<operator>.equals",
+        "26": "zcs",
+        "27": "NULL",
+        "28": "RETURN",
+        "29": "NULL",
+        "30": "memset",
+        "31": "zcs",
+        "32": "LITERAL",
+        "33": "<operator>.sizeOf",
+        "34": "ZSTD_CStream",
+        "35": "memcpy",
+        "36": "<operator>.addressOf",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "zcs",
+        "39": "FIELD_IDENTIFIER",
+        "40": "<operator>.addressOf",
+        "41": "customMem",
+        "42": "<operator>.sizeOf",
+        "43": "ZSTD_customMem",
+        "44": "<operator>.assignment",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "zcs",
+        "47": "FIELD_IDENTIFIER",
+        "48": "ZSTD_createCCtx_advanced",
+        "49": "customMem",
+        "50": "CONTROL_STRUCTURE",
+        "51": "<operator>.equals",
+        "52": "<operator>.indirectFieldAccess",
+        "53": "zcs",
+        "54": "FIELD_IDENTIFIER",
+        "55": "NULL",
+        "56": "BLOCK",
+        "57": "ZSTD_freeCStream",
+        "58": "zcs",
+        "59": "RETURN",
+        "60": "NULL",
+        "61": "RETURN",
+        "62": "zcs",
+        "63": "METHOD_RETURN"
+    }
+}

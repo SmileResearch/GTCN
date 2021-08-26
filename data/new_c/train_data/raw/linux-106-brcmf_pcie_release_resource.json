@@ -1,0 +1,264 @@
+{
+    "Function": "brcmf_pcie_release_resource",
+    "astEdges": [
+        [
+            19,
+            20
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        17,
+        21
+    ],
+    "cfgEdges": [
+        [
+            19,
+            23
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            22,
+            20
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            12,
+            22
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            20,
+            19
+        ]
+    ],
+    "ddgEdges": [
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            7,
+            23
+        ],
+        [
+            7,
+            23
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            15,
+            23
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "devinfo",
+        "6": "FIELD_IDENTIFIER",
+        "7": "iounmap",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "devinfo",
+        "10": "FIELD_IDENTIFIER",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "devinfo",
+        "14": "FIELD_IDENTIFIER",
+        "15": "iounmap",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "devinfo",
+        "18": "FIELD_IDENTIFIER",
+        "19": "pci_disable_device",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "devinfo",
+        "22": "FIELD_IDENTIFIER",
+        "23": "METHOD_RETURN"
+    }
+}

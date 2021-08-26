@@ -1,0 +1,97 @@
+{
+    "Function": "ocfs2_cow_contig_clusters",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "ocfs2_clusters_for_bytes",
+        "5": "sb",
+        "6": "MAX_CONTIG_BYTES",
+        "7": "METHOD_RETURN"
+    }
+}

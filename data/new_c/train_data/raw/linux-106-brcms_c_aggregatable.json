@@ -1,0 +1,134 @@
+{
+    "Function": "brcms_c_aggregatable",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "wlc",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "tid",
+        "12": "METHOD_RETURN"
+    }
+}

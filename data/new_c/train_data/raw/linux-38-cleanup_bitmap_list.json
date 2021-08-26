@@ -1,0 +1,111 @@
+{
+    "Function": "cleanup_bitmap_list",
+    "astEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "list_del_init",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "entry",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

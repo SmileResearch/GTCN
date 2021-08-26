@@ -1,0 +1,112 @@
+{
+    "Function": "madera_mux_get_func_name",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "madera_mux_funcs",
+        "8": "selector",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

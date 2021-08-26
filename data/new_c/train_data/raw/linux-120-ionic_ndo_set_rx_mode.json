@@ -1,0 +1,80 @@
+{
+    "Function": "ionic_ndo_set_rx_mode",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ionic_set_rx_mode",
+        "4": "netdev",
+        "5": "true",
+        "6": "METHOD_RETURN"
+    }
+}

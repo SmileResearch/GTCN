@@ -1,0 +1,120 @@
+{
+    "Function": "__devlink_net_set",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "write_pnet",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "devlink",
+        "8": "FIELD_IDENTIFIER",
+        "9": "net",
+        "10": "METHOD_RETURN"
+    }
+}

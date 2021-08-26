@@ -1,0 +1,129 @@
+{
+    "Function": "fwnet_free_ptask",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dev_kfree_skb_any",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ptask",
+        "6": "FIELD_IDENTIFIER",
+        "7": "kmem_cache_free",
+        "8": "fwnet_packet_task_cache",
+        "9": "ptask",
+        "10": "METHOD_RETURN"
+    }
+}

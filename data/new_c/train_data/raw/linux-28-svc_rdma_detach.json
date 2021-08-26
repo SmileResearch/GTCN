@@ -1,0 +1,84 @@
+{
+    "Function": "svc_rdma_detach",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "rdma_disconnect",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "rdma",
+        "6": "FIELD_IDENTIFIER",
+        "7": "METHOD_RETURN"
+    }
+}

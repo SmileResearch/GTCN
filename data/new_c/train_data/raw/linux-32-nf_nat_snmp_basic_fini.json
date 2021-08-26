@@ -1,0 +1,137 @@
+{
+    "Function": "nf_nat_snmp_basic_fini",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RCU_INIT_POINTER",
+        "4": "nf_nat_snmp_hook",
+        "5": "NULL",
+        "6": "synchronize_rcu",
+        "7": "nf_conntrack_helper_unregister",
+        "8": "<operator>.addressOf",
+        "9": "snmp_trap_helper",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "Function": "qp_has_rq",
+    "astEdges": [
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        12,
+        14,
+        16,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalOr",
+        "5": "<operator>.equals",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "attr",
+        "8": "FIELD_IDENTIFIER",
+        "9": "IB_QPT_XRC_INI",
+        "10": "<operator>.equals",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "attr",
+        "13": "FIELD_IDENTIFIER",
+        "14": "IB_QPT_XRC_TGT",
+        "15": "RETURN",
+        "16": "false",
+        "17": "RETURN",
+        "18": "<operator>.logicalNot",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "attr",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

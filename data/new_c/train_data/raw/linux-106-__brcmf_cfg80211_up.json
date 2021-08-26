@@ -1,0 +1,221 @@
+{
+    "Function": "__brcmf_cfg80211_up",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        15
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            17,
+            13
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            12,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "set_bit",
+        "4": "BRCMF_VIF_STATUS_READY",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ifp",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "brcmf_config_dongle",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "ifp",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

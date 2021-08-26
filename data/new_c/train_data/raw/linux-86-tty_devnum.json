@@ -1,0 +1,144 @@
+{
+    "Function": "tty_devnum",
+    "astEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addition",
+        "5": "MKDEV",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "tty",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "tty",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "tty",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

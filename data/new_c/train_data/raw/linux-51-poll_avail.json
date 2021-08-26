@@ -1,0 +1,81 @@
+{
+    "Function": "poll_avail",
+    "astEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "avail_empty",
+        "5": "busy_wait",
+        "6": "METHOD_RETURN"
+    }
+}

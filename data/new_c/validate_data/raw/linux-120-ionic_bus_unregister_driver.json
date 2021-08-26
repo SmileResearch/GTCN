@@ -1,0 +1,71 @@
+{
+    "Function": "ionic_bus_unregister_driver",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pci_unregister_driver",
+        "4": "<operator>.addressOf",
+        "5": "ionic_driver",
+        "6": "METHOD_RETURN"
+    }
+}

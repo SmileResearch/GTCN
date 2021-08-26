@@ -1,0 +1,101 @@
+{
+    "Function": "dummy_enable_phys_dma",
+    "astEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "<operator>.minus",
+        "7": "ENODEV",
+        "8": "METHOD_RETURN"
+    }
+}

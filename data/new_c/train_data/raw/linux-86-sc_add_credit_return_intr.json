@@ -1,0 +1,339 @@
+{
+    "Function": "sc_add_credit_return_intr",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            23,
+            30
+        ],
+        [
+            23,
+            32
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            45
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            39
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            16,
+            23
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            44
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            30,
+            31
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        13,
+        19,
+        22,
+        25,
+        28,
+        31,
+        33,
+        37,
+        42,
+        44
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            44
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "spin_lock_irqsave",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "sc",
+        "8": "FIELD_IDENTIFIER",
+        "9": "flags",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.equals",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "sc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LITERAL",
+        "16": "BLOCK",
+        "17": "<operators>.assignmentOr",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "sc",
+        "20": "FIELD_IDENTIFIER",
+        "21": "SC",
+        "22": "CREDIT_CTRL_CREDIT_INTR_SMASK",
+        "23": "write_kctxt_csr",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "sc",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "sc",
+        "29": "FIELD_IDENTIFIER",
+        "30": "SC",
+        "31": "CREDIT_CTRL",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "sc",
+        "34": "FIELD_IDENTIFIER",
+        "35": "<operator>.postIncrement",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "sc",
+        "38": "FIELD_IDENTIFIER",
+        "39": "spin_unlock_irqrestore",
+        "40": "<operator>.addressOf",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "sc",
+        "43": "FIELD_IDENTIFIER",
+        "44": "flags",
+        "45": "METHOD_RETURN"
+    }
+}

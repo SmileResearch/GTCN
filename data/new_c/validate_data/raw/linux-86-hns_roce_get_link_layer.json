@@ -1,0 +1,53 @@
+{
+    "Function": "hns_roce_get_link_layer",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "IB_LINK_LAYER_ETHERNET",
+        "6": "METHOD_RETURN"
+    }
+}

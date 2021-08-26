@@ -1,0 +1,141 @@
+{
+    "Function": "mptscsih_get_tm_timeout",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ioc",
+        "6": "FIELD_IDENTIFIER",
+        "7": "BLOCK",
+        "8": "JUMP_TARGET",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "JUMP_TARGET",
+        "12": "RETURN",
+        "13": "LITERAL",
+        "14": "JUMP_TARGET",
+        "15": "JUMP_TARGET",
+        "16": "RETURN",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

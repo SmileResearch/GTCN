@@ -1,0 +1,161 @@
+{
+    "Function": "l2tp_ip6_exit",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "inet6_unregister_protosw",
+        "4": "<operator>.addressOf",
+        "5": "l2tp_ip6_protosw",
+        "6": "inet6_del_protocol",
+        "7": "<operator>.addressOf",
+        "8": "l2tp_ip6_protocol",
+        "9": "IPPROTO_L2TP",
+        "10": "proto_unregister",
+        "11": "<operator>.addressOf",
+        "12": "l2tp_ip6_prot",
+        "13": "METHOD_RETURN"
+    }
+}

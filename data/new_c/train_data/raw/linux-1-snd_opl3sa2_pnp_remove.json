@@ -1,0 +1,83 @@
+{
+    "Function": "snd_opl3sa2_pnp_remove",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "snd_card_free",
+        "4": "pnp_get_drvdata",
+        "5": "pdev",
+        "6": "METHOD_RETURN"
+    }
+}

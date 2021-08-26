@@ -1,0 +1,97 @@
+{
+    "Function": "atmel_aes_authenc_hmac_sha1_init_tfm",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "atmel_aes_authenc_init_tfm",
+        "5": "tfm",
+        "6": "SHA_FLAGS_HMAC_SHA1",
+        "7": "METHOD_RETURN"
+    }
+}

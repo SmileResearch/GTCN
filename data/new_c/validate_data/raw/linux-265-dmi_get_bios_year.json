@@ -1,0 +1,22 @@
+{
+    "Function": "dmi_get_bios_year",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "METHOD_RETURN",
+        "2": "BLOCK"
+    }
+}

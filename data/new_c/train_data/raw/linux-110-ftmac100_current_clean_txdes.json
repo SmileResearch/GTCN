@@ -1,0 +1,156 @@
+{
+    "Function": "ftmac100_current_clean_txdes",
+    "astEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "priv",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "priv",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

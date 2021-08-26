@@ -1,0 +1,172 @@
+{
+    "Function": "encode_rcv_header_entry_size",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            21
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "size",
+        "6": "LITERAL",
+        "7": "RETURN",
+        "8": "LITERAL",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.equals",
+        "11": "size",
+        "12": "LITERAL",
+        "13": "RETURN",
+        "14": "LITERAL",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.equals",
+        "17": "size",
+        "18": "LITERAL",
+        "19": "RETURN",
+        "20": "LITERAL",
+        "21": "RETURN",
+        "22": "LITERAL",
+        "23": "METHOD_RETURN"
+    }
+}

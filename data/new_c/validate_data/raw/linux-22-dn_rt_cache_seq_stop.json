@@ -1,0 +1,84 @@
+{
+    "Function": "dn_rt_cache_seq_stop",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "v",
+        "6": "rcu_read_unlock_bh",
+        "7": "METHOD_RETURN"
+    }
+}

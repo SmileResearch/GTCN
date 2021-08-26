@@ -1,0 +1,217 @@
+{
+    "Function": "rkisp1_unregister_capture",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        16
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            12,
+            19
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            14,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            12,
+            19
+        ],
+        [
+            12,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "media_entity_cleanup",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "cap",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "vb2_video_unregister_device",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "cap",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "Function": "hdcp_handle_cpirq",
+    "astEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        10,
+        14
+    ],
+    "cfgEdges": [
+        [
+            11,
+            16
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "hdcp_w",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "hdcp_work",
+        "10": "link_index",
+        "11": "schedule_work",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "hdcp_w",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

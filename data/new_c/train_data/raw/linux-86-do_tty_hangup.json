@@ -1,0 +1,53 @@
+{
+    "Function": "do_tty_hangup",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "__tty_hangup",
+        "4": "tty",
+        "5": "LITERAL",
+        "6": "METHOD_RETURN"
+    }
+}

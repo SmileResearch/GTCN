@@ -1,0 +1,233 @@
+{
+    "Function": "find_empty_entry",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            22,
+            27
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            28
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            30
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11,
+        14,
+        16,
+        19,
+        21,
+        24,
+        26,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "unlikely",
+        "7": "bitmap_full",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "idx_que",
+        "10": "FIELD_IDENTIFIER",
+        "11": "size",
+        "12": "RETURN",
+        "13": "<operator>.minus",
+        "14": "ENOSPC",
+        "15": "<operator>.assignment",
+        "16": "wqe_idx",
+        "17": "find_first_zero_bit",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "idx_que",
+        "20": "FIELD_IDENTIFIER",
+        "21": "size",
+        "22": "bitmap_set",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "idx_que",
+        "25": "FIELD_IDENTIFIER",
+        "26": "wqe_idx",
+        "27": "LITERAL",
+        "28": "RETURN",
+        "29": "wqe_idx",
+        "30": "METHOD_RETURN"
+    }
+}

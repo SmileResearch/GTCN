@@ -1,0 +1,220 @@
+{
+    "Function": "update_synth_timer",
+    "astEdges": [
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            28
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8,
+        9,
+        12,
+        16,
+        21,
+        24,
+        26,
+        27
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "dd",
+        "6": "from_timer",
+        "7": "dd",
+        "8": "t",
+        "9": "synth_stats_timer",
+        "10": "queue_work",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "dd",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "dd",
+        "17": "FIELD_IDENTIFIER",
+        "18": "mod_timer",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "dd",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.addition",
+        "24": "jiffies",
+        "25": "<operator>.multiplication",
+        "26": "HZ",
+        "27": "SYNTH_CNT_TIME",
+        "28": "METHOD_RETURN"
+    }
+}

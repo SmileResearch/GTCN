@@ -1,0 +1,125 @@
+{
+    "Function": "guest_unmap_slice_regs",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "afu",
+        "6": "FIELD_IDENTIFIER",
+        "7": "iounmap",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "afu",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

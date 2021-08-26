@@ -1,0 +1,128 @@
+{
+    "Function": "mt8192_scp_reset_assert",
+    "astEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "writel",
+        "4": "LITERAL",
+        "5": "<operator>.addition",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "scp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "MT8192_CORE0_SW_RSTN_SET",
+        "10": "METHOD_RETURN"
+    }
+}

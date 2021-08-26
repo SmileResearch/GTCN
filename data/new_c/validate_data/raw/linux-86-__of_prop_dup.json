@@ -1,0 +1,257 @@
+{
+    "Function": "__of_prop_dup",
+    "astEdges": [
+        [
+            30,
+            31
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            28
+        ],
+        [
+            3,
+            29
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            32
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12,
+        14,
+        17,
+        20,
+        22,
+        24,
+        26,
+        31
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "NULL",
+        "6": "<operator>.assignment",
+        "7": "name",
+        "8": "kstrdup",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "prop",
+        "11": "FIELD_IDENTIFIER",
+        "12": "allocflags",
+        "13": "<operator>.assignment",
+        "14": "value",
+        "15": "kmemdup",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "prop",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "prop",
+        "21": "FIELD_IDENTIFIER",
+        "22": "allocflags",
+        "23": "<operator>.assignment",
+        "24": "length",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "prop",
+        "27": "FIELD_IDENTIFIER",
+        "28": "CONTROL_STRUCTURE",
+        "29": "JUMP_TARGET",
+        "30": "RETURN",
+        "31": "NULL",
+        "32": "METHOD_RETURN"
+    }
+}

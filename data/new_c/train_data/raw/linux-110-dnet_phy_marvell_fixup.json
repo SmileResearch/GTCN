@@ -1,0 +1,101 @@
+{
+    "Function": "dnet_phy_marvell_fixup",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "phy_write",
+        "5": "phydev",
+        "6": "LITERAL",
+        "7": "LITERAL",
+        "8": "METHOD_RETURN"
+    }
+}

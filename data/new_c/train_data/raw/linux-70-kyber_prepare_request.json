@@ -1,0 +1,96 @@
+{
+    "Function": "kyber_prepare_request",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "rq_set_domain_token",
+        "4": "rq",
+        "5": "<operator>.minus",
+        "6": "LITERAL",
+        "7": "METHOD_RETURN"
+    }
+}

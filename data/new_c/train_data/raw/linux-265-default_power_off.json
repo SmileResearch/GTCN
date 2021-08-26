@@ -1,0 +1,73 @@
+{
+    "Function": "default_power_off",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            5
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "LITERAL",
+        "5": "wait_for_interrupt",
+        "6": "METHOD_RETURN"
+    }
+}

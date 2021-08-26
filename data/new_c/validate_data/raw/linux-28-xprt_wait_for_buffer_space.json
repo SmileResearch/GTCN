@@ -1,0 +1,111 @@
+{
+    "Function": "xprt_wait_for_buffer_space",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "set_bit",
+        "4": "XPRT_WRITE_SPACE",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "xprt",
+        "8": "FIELD_IDENTIFIER",
+        "9": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "Function": "hsu_dma_free_chan_resources",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "vchan_free_chan_resources",
+        "4": "to_virt_chan",
+        "5": "chan",
+        "6": "METHOD_RETURN"
+    }
+}

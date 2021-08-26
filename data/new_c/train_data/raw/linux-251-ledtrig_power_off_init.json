@@ -1,0 +1,110 @@
+{
+    "Function": "ledtrig_power_off_init",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "led_trigger_register_simple",
+        "4": "LITERAL",
+        "5": "<operator>.addressOf",
+        "6": "power_off_led_trigger",
+        "7": "RETURN",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

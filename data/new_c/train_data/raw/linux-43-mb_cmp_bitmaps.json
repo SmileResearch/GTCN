@@ -1,0 +1,64 @@
+{
+    "Function": "mb_cmp_bitmaps",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "METHOD_RETURN"
+    }
+}

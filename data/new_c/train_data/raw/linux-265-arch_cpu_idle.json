@@ -1,0 +1,76 @@
+{
+    "Function": "arch_cpu_idle",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "wait_for_interrupt",
+        "4": "local_irq_enable",
+        "5": "METHOD_RETURN"
+    }
+}

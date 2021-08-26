@@ -1,0 +1,286 @@
+{
+    "Function": "free_pio_map",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            34
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            19
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            24
+        ],
+        [
+            8,
+            29
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            0,
+            39
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12,
+        17,
+        21,
+        23,
+        27,
+        32,
+        36,
+        38
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "rcu_access_pointer",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dd",
+        "7": "FIELD_IDENTIFIER",
+        "8": "BLOCK",
+        "9": "spin_lock_irq",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "dd",
+        "13": "FIELD_IDENTIFIER",
+        "14": "pio_map_free",
+        "15": "rcu_access_pointer",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "dd",
+        "18": "FIELD_IDENTIFIER",
+        "19": "RCU_INIT_POINTER",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "dd",
+        "22": "FIELD_IDENTIFIER",
+        "23": "NULL",
+        "24": "spin_unlock_irq",
+        "25": "<operator>.addressOf",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "dd",
+        "28": "FIELD_IDENTIFIER",
+        "29": "synchronize_rcu",
+        "30": "kfree",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "dd",
+        "33": "FIELD_IDENTIFIER",
+        "34": "<operator>.assignment",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "dd",
+        "37": "FIELD_IDENTIFIER",
+        "38": "NULL",
+        "39": "METHOD_RETURN"
+    }
+}

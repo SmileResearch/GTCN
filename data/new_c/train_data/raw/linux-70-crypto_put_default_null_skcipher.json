@@ -1,0 +1,233 @@
+{
+    "Function": "crypto_put_default_null_skcipher",
+    "astEdges": [
+        [
+            16,
+            17
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12,
+        14,
+        15,
+        18
+    ],
+    "cfgEdges": [
+        [
+            16,
+            19
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            16,
+            19
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            8,
+            19
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            11,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_lock",
+        "4": "<operator>.addressOf",
+        "5": "crypto_default_null_skcipher_lock",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.logicalNot",
+        "8": "<operator>.preDecrement",
+        "9": "crypto_default_null_skcipher_refcnt",
+        "10": "BLOCK",
+        "11": "crypto_free_sync_skcipher",
+        "12": "crypto_default_null_skcipher",
+        "13": "<operator>.assignment",
+        "14": "crypto_default_null_skcipher",
+        "15": "NULL",
+        "16": "mutex_unlock",
+        "17": "<operator>.addressOf",
+        "18": "crypto_default_null_skcipher_lock",
+        "19": "METHOD_RETURN"
+    }
+}

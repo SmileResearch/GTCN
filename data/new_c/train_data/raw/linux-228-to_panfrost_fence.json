@@ -1,0 +1,96 @@
+{
+    "Function": "to_panfrost_fence",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.cast",
+        "5": "UNKNOWN",
+        "6": "fence",
+        "7": "METHOD_RETURN"
+    }
+}

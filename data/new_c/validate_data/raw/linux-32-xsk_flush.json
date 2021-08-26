@@ -1,0 +1,213 @@
+{
+    "Function": "xsk_flush",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        16
+    ],
+    "cfgEdges": [
+        [
+            17,
+            15
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            13,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            18
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            13,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "xskq_prod_submit",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "xs",
+        "6": "FIELD_IDENTIFIER",
+        "7": "__xskq_cons_release",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "xs",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "sock_def_readable",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "xs",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

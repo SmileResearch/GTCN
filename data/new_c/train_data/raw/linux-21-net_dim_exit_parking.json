@@ -1,0 +1,122 @@
+{
+    "Function": "net_dim_exit_parking",
+    "astEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        11,
+        12,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "dim",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.conditional",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dim",
+        "10": "FIELD_IDENTIFIER",
+        "11": "DIM_GOING_LEFT",
+        "12": "DIM_GOING_RIGHT",
+        "13": "net_dim_step",
+        "14": "dim",
+        "15": "METHOD_RETURN"
+    }
+}

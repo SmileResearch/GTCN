@@ -1,0 +1,37 @@
+{
+    "Function": "connector_to_tc",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "METHOD_RETURN"
+    }
+}

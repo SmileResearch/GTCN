@@ -1,0 +1,106 @@
+{
+    "Function": "devlink_sb_index_exists",
+    "astEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "devlink_sb_get_by_index",
+        "6": "devlink",
+        "7": "sb_index",
+        "8": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "Function": "mpi_alloc_set_ui",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            30
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            28
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11,
+        14,
+        17,
+        20,
+        25,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "w",
+        "6": "mpi_alloc",
+        "7": "LITERAL",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectIndexAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "w",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "u",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "w",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.conditional",
+        "20": "u",
+        "21": "LITERAL",
+        "22": "LITERAL",
+        "23": "<operator>.assignment",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "w",
+        "26": "FIELD_IDENTIFIER",
+        "27": "LITERAL",
+        "28": "RETURN",
+        "29": "w",
+        "30": "METHOD_RETURN"
+    }
+}

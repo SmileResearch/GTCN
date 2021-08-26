@@ -1,0 +1,134 @@
+{
+    "Function": "perf_thread_map__pid",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "map",
+        "9": "FIELD_IDENTIFIER",
+        "10": "thread",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

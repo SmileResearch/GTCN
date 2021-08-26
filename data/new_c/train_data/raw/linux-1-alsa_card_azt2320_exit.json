@@ -1,0 +1,71 @@
+{
+    "Function": "alsa_card_azt2320_exit",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pnp_unregister_card_driver",
+        "4": "<operator>.addressOf",
+        "5": "azt2320_pnpc_driver",
+        "6": "METHOD_RETURN"
+    }
+}

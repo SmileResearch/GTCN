@@ -1,0 +1,92 @@
+{
+    "Function": "xen_arm_callback",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "xen_hvm_evtchn_do_upcall",
+        "5": "RETURN",
+        "6": "IRQ_HANDLED",
+        "7": "METHOD_RETURN"
+    }
+}

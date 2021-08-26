@@ -1,0 +1,107 @@
+{
+    "Function": "print_usage",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "fprintf",
+        "4": "stderr",
+        "5": "LITERAL",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "argv",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

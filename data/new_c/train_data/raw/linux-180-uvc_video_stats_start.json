@@ -1,0 +1,253 @@
+{
+    "Function": "uvc_video_stats_start",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        17
+    ],
+    "cfgEdges": [
+        [
+            14,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            13,
+            22
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            20,
+            14
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            22
+        ],
+        [
+            13,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            22
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "memset",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "stream",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "<operator>.sizeOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "stream",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.assignment",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "stream",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "METHOD_RETURN"
+    }
+}

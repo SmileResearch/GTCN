@@ -1,0 +1,178 @@
+{
+    "Function": "hfi1_init_trdma_req",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        14,
+        17,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "qpriv",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "qp",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "req",
+        "13": "FIELD_IDENTIFIER",
+        "14": "qp",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "req",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "qpriv",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

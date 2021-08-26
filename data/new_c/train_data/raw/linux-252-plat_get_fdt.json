@@ -1,0 +1,181 @@
+{
+    "Function": "plat_get_fdt",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        12
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            9,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "octeon_bootinfo",
+        "5": "cvmx_phys_to_ptr",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "octeon_boot_desc_ptr",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RETURN",
+        "10": "phys_to_virt",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "octeon_bootinfo",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

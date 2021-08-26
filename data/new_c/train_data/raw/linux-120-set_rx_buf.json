@@ -1,0 +1,146 @@
+{
+    "Function": "set_rx_buf",
+    "astEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            9,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            4
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "desc",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "cpu_to_le32",
+        "11": "addr",
+        "12": "METHOD_RETURN"
+    }
+}

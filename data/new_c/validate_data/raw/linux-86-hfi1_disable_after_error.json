@@ -1,0 +1,530 @@
+{
+    "Function": "hfi1_disable_after_error",
+    "astEdges": [
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            40,
+            46
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            63,
+            69
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            29
+        ],
+        [
+            20,
+            31
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            2,
+            59
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            64,
+            68
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            31,
+            49
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            40
+        ],
+        [
+            53,
+            58
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            70
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            59,
+            63
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            62
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        13,
+        15,
+        18,
+        22,
+        25,
+        27,
+        30,
+        34,
+        37,
+        39,
+        43,
+        45,
+        47,
+        48,
+        51,
+        56,
+        58,
+        61,
+        66,
+        69
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            69
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.and",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dd",
+        "7": "FIELD_IDENTIFIER",
+        "8": "HFI1_INITTED",
+        "9": "BLOCK",
+        "10": "LOCAL",
+        "11": "<operators>.assignmentAnd",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "~HFI1_INITTED",
+        "16": "CONTROL_STRUCTURE",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "dd",
+        "19": "FIELD_IDENTIFIER",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.assignment",
+        "22": "pidx",
+        "23": "LITERAL",
+        "24": "<operator>.lessThan",
+        "25": "pidx",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "dd",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.preIncrement",
+        "30": "pidx",
+        "31": "BLOCK",
+        "32": "LOCAL",
+        "33": "<operator>.assignment",
+        "34": "ppd",
+        "35": "<operator>.addition",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "dd",
+        "38": "FIELD_IDENTIFIER",
+        "39": "pidx",
+        "40": "CONTROL_STRUCTURE",
+        "41": "<operator>.and",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "dd",
+        "44": "FIELD_IDENTIFIER",
+        "45": "HFI1_PRESENT",
+        "46": "set_link_state",
+        "47": "ppd",
+        "48": "HLS_DN_DISABLE",
+        "49": "CONTROL_STRUCTURE",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "ppd",
+        "52": "FIELD_IDENTIFIER",
+        "53": "<operators>.assignmentAnd",
+        "54": "<operator>.indirection",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "ppd",
+        "57": "FIELD_IDENTIFIER",
+        "58": "~HFI1_STATUS_IB_READY",
+        "59": "CONTROL_STRUCTURE",
+        "60": "<operator>.indirectFieldAccess",
+        "61": "dd",
+        "62": "FIELD_IDENTIFIER",
+        "63": "<operators>.assignmentOr",
+        "64": "<operator>.indirectFieldAccess",
+        "65": "<operator>.indirectFieldAccess",
+        "66": "dd",
+        "67": "FIELD_IDENTIFIER",
+        "68": "FIELD_IDENTIFIER",
+        "69": "HFI1_STATUS_HWERROR",
+        "70": "METHOD_RETURN"
+    }
+}

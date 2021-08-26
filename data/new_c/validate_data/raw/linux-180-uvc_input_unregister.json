@@ -1,0 +1,125 @@
+{
+    "Function": "uvc_input_unregister",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "dev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "input_unregister_device",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

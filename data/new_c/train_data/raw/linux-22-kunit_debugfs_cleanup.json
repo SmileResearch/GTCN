@@ -1,0 +1,66 @@
+{
+    "Function": "kunit_debugfs_cleanup",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "debugfs_remove_recursive",
+        "4": "debugfs_rootdir",
+        "5": "METHOD_RETURN"
+    }
+}

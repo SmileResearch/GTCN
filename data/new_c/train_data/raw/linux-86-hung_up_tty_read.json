@@ -1,0 +1,69 @@
+{
+    "Function": "hung_up_tty_read",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "RETURN",
+        "7": "LITERAL",
+        "8": "METHOD_RETURN"
+    }
+}

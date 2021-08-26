@@ -1,0 +1,215 @@
+{
+    "Function": "ext4_mb_unload_buddy",
+    "astEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        17
+    ],
+    "cfgEdges": [
+        [
+            7,
+            14
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            19
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "e4b",
+        "6": "FIELD_IDENTIFIER",
+        "7": "put_page",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "e4b",
+        "10": "FIELD_IDENTIFIER",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "e4b",
+        "14": "FIELD_IDENTIFIER",
+        "15": "put_page",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "e4b",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

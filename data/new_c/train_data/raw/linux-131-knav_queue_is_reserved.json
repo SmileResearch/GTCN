@@ -1,0 +1,141 @@
+{
+    "Function": "knav_queue_is_reserved",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.and",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "inst",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RANGE_RESERVED",
+        "11": "METHOD_RETURN"
+    }
+}

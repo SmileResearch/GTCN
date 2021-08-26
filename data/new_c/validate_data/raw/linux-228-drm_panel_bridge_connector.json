@@ -1,0 +1,164 @@
+{
+    "Function": "drm_panel_bridge_connector",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "panel_bridge",
+        "6": "drm_bridge_to_panel_bridge",
+        "7": "bridge",
+        "8": "RETURN",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "panel_bridge",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

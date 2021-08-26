@@ -1,0 +1,97 @@
+{
+    "Function": "p2m_init",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "rwlock_init",
+        "4": "<operator>.addressOf",
+        "5": "p2m_lock",
+        "6": "RETURN",
+        "7": "LITERAL",
+        "8": "METHOD_RETURN"
+    }
+}

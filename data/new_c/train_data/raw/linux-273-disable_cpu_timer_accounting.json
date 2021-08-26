@@ -1,0 +1,108 @@
+{
+    "Function": "disable_cpu_timer_accounting",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "preempt_disable",
+        "4": "__disable_cpu_timer_accounting",
+        "5": "vcpu",
+        "6": "preempt_enable",
+        "7": "METHOD_RETURN"
+    }
+}

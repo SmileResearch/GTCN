@@ -1,0 +1,128 @@
+{
+    "Function": "gss_svc_shutdown_net",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "destroy_use_gss_proxy_proc_entry",
+        "4": "net",
+        "5": "rsi_cache_destroy_net",
+        "6": "net",
+        "7": "rsc_cache_destroy_net",
+        "8": "net",
+        "9": "METHOD_RETURN"
+    }
+}

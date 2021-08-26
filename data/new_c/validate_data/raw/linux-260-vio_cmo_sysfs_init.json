@@ -1,0 +1,161 @@
+{
+    "Function": "vio_cmo_sysfs_init",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            11,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "vio_bus_type",
+        "6": "FIELD_IDENTIFIER",
+        "7": "vio_cmo_dev_groups",
+        "8": "<operator>.assignment",
+        "9": "<operator>.fieldAccess",
+        "10": "vio_bus_type",
+        "11": "FIELD_IDENTIFIER",
+        "12": "vio_bus_groups",
+        "13": "METHOD_RETURN"
+    }
+}

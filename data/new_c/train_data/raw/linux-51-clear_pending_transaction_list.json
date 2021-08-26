@@ -1,0 +1,184 @@
+{
+    "Function": "clear_pending_transaction_list",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            15,
+            7
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            14,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            17
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "list_empty",
+        "7": "<operator>.addressOf",
+        "8": "pending_transaction_list",
+        "9": "BLOCK",
+        "10": "list_remove",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "t",
+        "14": "FIELD_IDENTIFIER",
+        "15": "link_transaction_destroy",
+        "16": "t",
+        "17": "METHOD_RETURN"
+    }
+}

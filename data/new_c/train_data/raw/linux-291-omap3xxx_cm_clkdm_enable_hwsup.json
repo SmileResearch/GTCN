@@ -1,0 +1,103 @@
+{
+    "Function": "omap3xxx_cm_clkdm_enable_hwsup",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "_write_clktrctrl",
+        "5": "OMAP34XX_CLKSTCTRL_ENABLE_AUTO",
+        "6": "module",
+        "7": "mask",
+        "8": "METHOD_RETURN"
+    }
+}

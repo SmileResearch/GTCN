@@ -1,0 +1,143 @@
+{
+    "Function": "serial8250_shutdown",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "port",
+        "6": "FIELD_IDENTIFIER",
+        "7": "port->shutdown",
+        "8": "port",
+        "9": "CONTROL_STRUCTURE",
+        "10": "serial8250_do_shutdown",
+        "11": "port",
+        "12": "METHOD_RETURN"
+    }
+}

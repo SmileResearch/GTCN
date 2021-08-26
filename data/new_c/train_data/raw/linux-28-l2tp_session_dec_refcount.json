@@ -1,0 +1,133 @@
+{
+    "Function": "l2tp_session_dec_refcount",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "refcount_dec_and_test",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "session",
+        "8": "FIELD_IDENTIFIER",
+        "9": "l2tp_session_free",
+        "10": "session",
+        "11": "METHOD_RETURN"
+    }
+}

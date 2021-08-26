@@ -1,0 +1,477 @@
+{
+    "Function": "tid_rdma_opfn_init",
+    "astEdges": [
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            0,
+            62
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            3,
+            47
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            37
+        ],
+        [
+            3,
+            42
+        ],
+        [
+            3,
+            54
+        ],
+        [
+            3,
+            28
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        16,
+        20,
+        25,
+        27,
+        30,
+        34,
+        39,
+        41,
+        44,
+        46,
+        49,
+        52,
+        56,
+        60
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            60
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "priv",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "qp",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "p",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.or",
+        "15": "<operator>.shiftLeft",
+        "16": "RVT_KDETH_QP_PREFIX",
+        "17": "LITERAL",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "priv",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.assignment",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "p",
+        "26": "FIELD_IDENTIFIER",
+        "27": "TID_RDMA_MAX_SEGMENT_SIZE",
+        "28": "<operator>.assignment",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "p",
+        "31": "FIELD_IDENTIFIER",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "priv",
+        "35": "FIELD_IDENTIFIER",
+        "36": "FIELD_IDENTIFIER",
+        "37": "<operator>.assignment",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "p",
+        "40": "FIELD_IDENTIFIER",
+        "41": "TID_RDMA_MAX_READ_SEGS_PER_REQ",
+        "42": "<operator>.assignment",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "p",
+        "45": "FIELD_IDENTIFIER",
+        "46": "TID_RDMA_MAX_WRITE_SEGS_PER_REQ",
+        "47": "<operator>.assignment",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "p",
+        "50": "FIELD_IDENTIFIER",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "qp",
+        "53": "FIELD_IDENTIFIER",
+        "54": "<operator>.assignment",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "p",
+        "57": "FIELD_IDENTIFIER",
+        "58": "is_urg_masked",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "priv",
+        "61": "FIELD_IDENTIFIER",
+        "62": "METHOD_RETURN"
+    }
+}

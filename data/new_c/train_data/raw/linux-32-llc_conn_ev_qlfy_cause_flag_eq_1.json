@@ -1,0 +1,127 @@
+{
+    "Function": "llc_conn_ev_qlfy_cause_flag_eq_1",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            9,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "llc_sk",
+        "8": "sk",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

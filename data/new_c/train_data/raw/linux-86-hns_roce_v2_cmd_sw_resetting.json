@@ -1,0 +1,329 @@
+{
+    "Function": "hns_roce_v2_cmd_sw_resetting",
+    "astEdges": [
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            35
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            40
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            28
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        13,
+        17,
+        20,
+        25,
+        27,
+        31,
+        33,
+        37,
+        39,
+        41
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "priv",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hr_dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "handle",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "priv",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LOCAL",
+        "16": "<operator>.assignment",
+        "17": "ops",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "handle",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.assignment",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "hr_dev",
+        "26": "FIELD_IDENTIFIER",
+        "27": "true",
+        "28": "CONTROL_STRUCTURE",
+        "29": "<operator>.notEquals",
+        "30": "ops->ae_dev_reset_cnt",
+        "31": "handle",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "hr_dev",
+        "34": "FIELD_IDENTIFIER",
+        "35": "<operator>.assignment",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "hr_dev",
+        "38": "FIELD_IDENTIFIER",
+        "39": "true",
+        "40": "RETURN",
+        "41": "CMD_RST_PRC_EBUSY",
+        "42": "METHOD_RETURN"
+    }
+}

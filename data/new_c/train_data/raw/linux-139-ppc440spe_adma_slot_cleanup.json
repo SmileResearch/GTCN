@@ -1,0 +1,182 @@
+{
+    "Function": "ppc440spe_adma_slot_cleanup",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            14,
+            12
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock_bh",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "chan",
+        "7": "FIELD_IDENTIFIER",
+        "8": "__ppc440spe_adma_slot_cleanup",
+        "9": "chan",
+        "10": "spin_unlock_bh",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "chan",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

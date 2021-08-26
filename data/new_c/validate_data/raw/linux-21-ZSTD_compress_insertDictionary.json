@@ -1,0 +1,264 @@
+{
+    "Function": "ZSTD_compress_insertDictionary",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            34
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            29
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            15,
+            24
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        11,
+        19,
+        20,
+        22,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.logicalOr",
+        "7": "<operator>.equals",
+        "8": "dict",
+        "9": "NULL",
+        "10": "<operator>.lessEqualsThan",
+        "11": "dictSize",
+        "12": "LITERAL",
+        "13": "RETURN",
+        "14": "LITERAL",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.logicalOr",
+        "17": "<operator>.notEquals",
+        "18": "ZSTD_readLE32",
+        "19": "dict",
+        "20": "ZSTD_DICT_MAGIC",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "cctx",
+        "23": "FIELD_IDENTIFIER",
+        "24": "RETURN",
+        "25": "ZSTD_loadDictionaryContent",
+        "26": "cctx",
+        "27": "dict",
+        "28": "dictSize",
+        "29": "RETURN",
+        "30": "ZSTD_loadZstdDictionary",
+        "31": "cctx",
+        "32": "dict",
+        "33": "dictSize",
+        "34": "METHOD_RETURN"
+    }
+}

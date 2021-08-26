@@ -1,0 +1,124 @@
+{
+    "Function": "amdgpu_dm_crtc_copy_transient_flags",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "stream_state",
+        "7": "FIELD_IDENTIFIER",
+        "8": "drm_atomic_crtc_needs_modeset",
+        "9": "crtc_state",
+        "10": "METHOD_RETURN"
+    }
+}

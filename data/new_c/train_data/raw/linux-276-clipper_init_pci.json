@@ -1,0 +1,87 @@
+{
+    "Function": "clipper_init_pci",
+    "astEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "common_init_pci",
+        "4": "locate_and_init_vga",
+        "5": "NULL",
+        "6": "METHOD_RETURN"
+    }
+}

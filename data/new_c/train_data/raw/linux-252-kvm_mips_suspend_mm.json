@@ -1,0 +1,183 @@
+{
+    "Function": "kvm_mips_suspend_mm",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            13,
+            9
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            12,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cpumask_clear_cpu",
+        "4": "cpu",
+        "5": "mm_cpumask",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "current",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "current",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.addressOf",
+        "14": "init_mm",
+        "15": "METHOD_RETURN"
+    }
+}

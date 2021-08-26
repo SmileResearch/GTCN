@@ -1,0 +1,98 @@
+{
+    "Function": "kvm_arch_vcpu_block_finish",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "vcpu",
+        "6": "FIELD_IDENTIFIER",
+        "7": "false",
+        "8": "METHOD_RETURN"
+    }
+}

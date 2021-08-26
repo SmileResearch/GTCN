@@ -1,0 +1,151 @@
+{
+    "Function": "of_match_device",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        13,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalOr",
+        "6": "<operator>.logicalNot",
+        "7": "matches",
+        "8": "<operator>.logicalNot",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "dev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "RETURN",
+        "13": "NULL",
+        "14": "RETURN",
+        "15": "of_match_node",
+        "16": "matches",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "dev",
+        "19": "FIELD_IDENTIFIER",
+        "20": "METHOD_RETURN"
+    }
+}

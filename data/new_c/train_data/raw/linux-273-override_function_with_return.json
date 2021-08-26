@@ -1,0 +1,156 @@
+{
+    "Function": "override_function_with_return",
+    "astEdges": [
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "regs",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectIndexAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "regs",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "METHOD_RETURN"
+    }
+}

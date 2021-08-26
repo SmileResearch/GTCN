@@ -1,0 +1,84 @@
+{
+    "Function": "snd_gf1_default_interrupt_handler_dma_write",
+    "astEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "snd_gf1_i_write8",
+        "4": "gus",
+        "5": "LITERAL",
+        "6": "LITERAL",
+        "7": "METHOD_RETURN"
+    }
+}

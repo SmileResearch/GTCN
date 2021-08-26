@@ -1,0 +1,110 @@
+{
+    "Function": "cpu_activate_hint_list_show",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "get_best_energy_list",
+        "7": "page",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

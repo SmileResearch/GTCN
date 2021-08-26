@@ -1,0 +1,159 @@
+{
+    "Function": "cxl_pci_to_cfg_record",
+    "astEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            9,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "cxl_pcie_cfg_record",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "dev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

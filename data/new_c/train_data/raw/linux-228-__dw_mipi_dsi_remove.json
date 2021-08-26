@@ -1,0 +1,173 @@
+{
+    "Function": "__dw_mipi_dsi_remove",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        13
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mipi_dsi_host_unregister",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dsi",
+        "7": "FIELD_IDENTIFIER",
+        "8": "pm_runtime_disable",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "dsi",
+        "11": "FIELD_IDENTIFIER",
+        "12": "dw_mipi_dsi_debugfs_remove",
+        "13": "dsi",
+        "14": "METHOD_RETURN"
+    }
+}

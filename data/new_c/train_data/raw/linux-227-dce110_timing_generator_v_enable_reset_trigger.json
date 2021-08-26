@@ -1,0 +1,90 @@
+{
+    "Function": "dce110_timing_generator_v_enable_reset_trigger",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "DC_LOG_ERROR",
+        "5": "LITERAL",
+        "6": "RETURN",
+        "7": "METHOD_RETURN"
+    }
+}

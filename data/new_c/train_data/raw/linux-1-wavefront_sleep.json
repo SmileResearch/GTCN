@@ -1,0 +1,114 @@
+{
+    "Function": "wavefront_sleep",
+    "astEdges": [
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "schedule_timeout_interruptible",
+        "4": "limit",
+        "5": "RETURN",
+        "6": "signal_pending",
+        "7": "current",
+        "8": "METHOD_RETURN"
+    }
+}

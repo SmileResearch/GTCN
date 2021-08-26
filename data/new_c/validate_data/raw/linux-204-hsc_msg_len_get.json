@@ -1,0 +1,128 @@
+{
+    "Function": "hsc_msg_len_get",
+    "astEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "msg",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

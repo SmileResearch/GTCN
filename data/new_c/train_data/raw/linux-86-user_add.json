@@ -1,0 +1,386 @@
+{
+    "Function": "user_add",
+    "astEdges": [
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            35,
+            41
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            2,
+            48
+        ],
+        [
+            2,
+            44
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            16,
+            27
+        ],
+        [
+            16,
+            23
+        ],
+        [
+            16,
+            32
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            31
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            33,
+            43
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            50
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            34,
+            42
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            46,
+            47
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        15,
+        18,
+        20,
+        22,
+        25,
+        29,
+        31,
+        38,
+        45,
+        47,
+        49
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            47,
+            49
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "snprintf",
+        "6": "name",
+        "7": "<operator>.sizeOf",
+        "8": "name",
+        "9": "LITERAL",
+        "10": "class_name",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "dd",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.assignment",
+        "15": "ret",
+        "16": "hfi1_cdev_init",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "dd",
+        "19": "FIELD_IDENTIFIER",
+        "20": "name",
+        "21": "<operator>.addressOf",
+        "22": "hfi1_file_ops",
+        "23": "<operator>.addressOf",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "dd",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.addressOf",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "dd",
+        "30": "FIELD_IDENTIFIER",
+        "31": "true",
+        "32": "<operator>.addressOf",
+        "33": "<operator>.fieldAccess",
+        "34": "<operator>.fieldAccess",
+        "35": "<operator>.fieldAccess",
+        "36": "<operator>.fieldAccess",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "dd",
+        "39": "FIELD_IDENTIFIER",
+        "40": "FIELD_IDENTIFIER",
+        "41": "FIELD_IDENTIFIER",
+        "42": "FIELD_IDENTIFIER",
+        "43": "FIELD_IDENTIFIER",
+        "44": "CONTROL_STRUCTURE",
+        "45": "ret",
+        "46": "user_remove",
+        "47": "dd",
+        "48": "RETURN",
+        "49": "ret",
+        "50": "METHOD_RETURN"
+    }
+}

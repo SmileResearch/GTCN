@@ -1,0 +1,327 @@
+{
+    "Function": "hns_roce_raq_free",
+    "astEdges": [
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            33
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            38
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        14,
+        18,
+        22,
+        26,
+        27,
+        30,
+        35,
+        40
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "priv",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hr_dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "raq",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "priv",
+        "15": "FIELD_IDENTIFIER",
+        "16": "LOCAL",
+        "17": "<operator>.assignment",
+        "18": "dev",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "hr_dev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "dma_free_coherent",
+        "26": "dev",
+        "27": "HNS_ROCE_V1_RAQ_SIZE",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "raq",
+        "31": "FIELD_IDENTIFIER",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "raq",
+        "36": "FIELD_IDENTIFIER",
+        "37": "FIELD_IDENTIFIER",
+        "38": "kfree",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "raq",
+        "41": "FIELD_IDENTIFIER",
+        "42": "METHOD_RETURN"
+    }
+}

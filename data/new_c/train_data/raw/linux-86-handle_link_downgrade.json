@@ -1,0 +1,136 @@
+{
+    "Function": "handle_link_downgrade",
+    "astEdges": [
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        11,
+        13,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dd_dev_info",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ppd",
+        "6": "FIELD_IDENTIFIER",
+        "7": "LITERAL",
+        "8": "CONTROL_STRUCTURE",
+        "9": "apply_link_downgrade_policy",
+        "10": "ppd",
+        "11": "true",
+        "12": "update_xmit_counters",
+        "13": "ppd",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "ppd",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

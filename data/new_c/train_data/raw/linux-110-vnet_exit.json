@@ -1,0 +1,92 @@
+{
+    "Function": "vnet_exit",
+    "astEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "vio_unregister_driver",
+        "4": "<operator>.addressOf",
+        "5": "vnet_port_driver",
+        "6": "vnet_cleanup",
+        "7": "METHOD_RETURN"
+    }
+}

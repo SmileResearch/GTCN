@@ -1,0 +1,84 @@
+{
+    "Function": "sh_dmae_slave_addr",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "sh_chan",
+        "6": "FIELD_IDENTIFIER",
+        "7": "METHOD_RETURN"
+    }
+}

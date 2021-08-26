@@ -1,0 +1,215 @@
+{
+    "Function": "write_sensor_72a",
+    "astEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        14,
+        18,
+        21
+    ],
+    "cfgEdges": [
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            16,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            10,
+            20
+        ],
+        [
+            20,
+            6
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            12,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "<operator>.indirection",
+        "7": "sensor",
+        "8": "LITERAL",
+        "9": "BLOCK",
+        "10": "i2c_write",
+        "11": "gspca_dev",
+        "12": "<operator>.indirectIndexAccess",
+        "13": "<operator>.indirection",
+        "14": "sensor",
+        "15": "LITERAL",
+        "16": "<operator>.indirectIndexAccess",
+        "17": "<operator>.indirection",
+        "18": "sensor",
+        "19": "LITERAL",
+        "20": "<operator>.postIncrement",
+        "21": "sensor",
+        "22": "METHOD_RETURN"
+    }
+}

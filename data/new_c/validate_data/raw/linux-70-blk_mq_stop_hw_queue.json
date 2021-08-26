@@ -1,0 +1,169 @@
+{
+    "Function": "blk_mq_stop_hw_queue",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            13,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cancel_delayed_work",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "hctx",
+        "7": "FIELD_IDENTIFIER",
+        "8": "set_bit",
+        "9": "BLK_MQ_S_STOPPED",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "hctx",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

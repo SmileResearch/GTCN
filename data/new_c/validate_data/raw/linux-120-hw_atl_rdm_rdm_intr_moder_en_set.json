@@ -1,0 +1,131 @@
+{
+    "Function": "hw_atl_rdm_rdm_intr_moder_en_set",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "aq_hw_write_reg_bit",
+        "5": "aq_hw",
+        "6": "HW_ATL_RDM_INT_RIM_EN_ADR",
+        "7": "HW_ATL_RDM_INT_RIM_EN_MSK",
+        "8": "HW_ATL_RDM_INT_RIM_EN_SHIFT",
+        "9": "rdm_intr_moder_en",
+        "10": "METHOD_RETURN"
+    }
+}

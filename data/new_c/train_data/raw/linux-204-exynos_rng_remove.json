@@ -1,0 +1,138 @@
+{
+    "Function": "exynos_rng_remove",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "crypto_unregister_rng",
+        "4": "<operator>.addressOf",
+        "5": "exynos_rng_alg",
+        "6": "<operator>.assignment",
+        "7": "exynos_rng_dev",
+        "8": "NULL",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "Function": "o2nm_depend_item",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "configfs_depend_item",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "o2nm_cluster_group",
+        "8": "FIELD_IDENTIFIER",
+        "9": "item",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "Function": "sun4i_axi_clk_setup",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "sunxi_divider_clk_setup",
+        "4": "node",
+        "5": "<operator>.addressOf",
+        "6": "sun4i_axi_data",
+        "7": "METHOD_RETURN"
+    }
+}

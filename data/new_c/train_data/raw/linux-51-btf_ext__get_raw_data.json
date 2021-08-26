@@ -1,0 +1,161 @@
+{
+    "Function": "btf_ext__get_raw_data",
+    "astEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirection",
+        "6": "size",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "btf_ext",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "btf_ext",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

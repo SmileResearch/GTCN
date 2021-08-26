@@ -1,0 +1,188 @@
+{
+    "Function": "cros_usbpd_notify_acpi",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            9,
+            16
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            12,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "pdnotify",
+        "8": "data",
+        "9": "cros_usbpd_get_event_and_notify",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "pdnotify",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "pdnotify",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

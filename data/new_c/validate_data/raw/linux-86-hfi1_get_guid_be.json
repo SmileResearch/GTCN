@@ -1,0 +1,165 @@
+{
+    "Function": "hfi1_get_guid_be",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            19
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        12,
+        15,
+        17,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.greaterEqualsThan",
+        "8": "guid_index",
+        "9": "HFI1_GUIDS_PER_PORT",
+        "10": "RETURN",
+        "11": "<operator>.minus",
+        "12": "EINVAL",
+        "13": "<operator>.assignment",
+        "14": "<operator>.indirection",
+        "15": "guid",
+        "16": "get_sguid",
+        "17": "ibp",
+        "18": "guid_index",
+        "19": "RETURN",
+        "20": "LITERAL",
+        "21": "METHOD_RETURN"
+    }
+}

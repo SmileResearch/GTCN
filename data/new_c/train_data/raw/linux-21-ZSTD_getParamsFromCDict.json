@@ -1,0 +1,63 @@
+{
+    "Function": "ZSTD_getParamsFromCDict",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "ZSTD_getParamsFromCCtx",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "cdict",
+        "7": "FIELD_IDENTIFIER",
+        "8": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "Function": "omap_push_sram_idle",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "omap3_do_wfi_sram",
+        "5": "omap_sram_push",
+        "6": "omap3_do_wfi",
+        "7": "omap3_do_wfi_sz",
+        "8": "METHOD_RETURN"
+    }
+}

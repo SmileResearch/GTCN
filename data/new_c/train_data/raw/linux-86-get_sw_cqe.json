@@ -1,0 +1,406 @@
+{
+    "Function": "get_sw_cqe",
+    "astEdges": [
+        [
+            46,
+            50
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            41
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            45,
+            51
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            52
+        ],
+        [
+            32,
+            53
+        ],
+        [
+            19,
+            30
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            27
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            54
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            47,
+            48
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        13,
+        18,
+        23,
+        28,
+        30,
+        38,
+        40,
+        44,
+        48,
+        52,
+        53
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            53
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "cqe",
+        "7": "get_cqe",
+        "8": "cq",
+        "9": "<operator>.and",
+        "10": "n",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "cq",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "LOCAL",
+        "17": "<operator>.assignment",
+        "18": "tcqe",
+        "19": "<operator>.conditional",
+        "20": "<operator>.equals",
+        "21": "<operator>.fieldAccess",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "cq",
+        "24": "FIELD_IDENTIFIER",
+        "25": "FIELD_IDENTIFIER",
+        "26": "LITERAL",
+        "27": "<operator>.addition",
+        "28": "cqe",
+        "29": "LITERAL",
+        "30": "cqe",
+        "31": "RETURN",
+        "32": "<operator>.conditional",
+        "33": "<operator>.or",
+        "34": "<operator>.logicalNot",
+        "35": "<operator>.logicalNot",
+        "36": "<operator>.and",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "tcqe",
+        "39": "FIELD_IDENTIFIER",
+        "40": "MLX4_CQE_OWNER_MASK",
+        "41": "<operator>.logicalNot",
+        "42": "<operator>.logicalNot",
+        "43": "<operator>.and",
+        "44": "n",
+        "45": "<operator>.addition",
+        "46": "<operator>.fieldAccess",
+        "47": "<operator>.indirectFieldAccess",
+        "48": "cq",
+        "49": "FIELD_IDENTIFIER",
+        "50": "FIELD_IDENTIFIER",
+        "51": "LITERAL",
+        "52": "NULL",
+        "53": "cqe",
+        "54": "METHOD_RETURN"
+    }
+}

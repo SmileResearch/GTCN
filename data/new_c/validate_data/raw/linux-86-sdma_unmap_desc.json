@@ -1,0 +1,275 @@
+{
+    "Function": "sdma_unmap_desc",
+    "astEdges": [
+        [
+            23,
+            30
+        ],
+        [
+            23,
+            34
+        ],
+        [
+            23,
+            32
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            22
+        ],
+        [
+            7,
+            21
+        ],
+        [
+            7,
+            23
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            35
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        13,
+        17,
+        19,
+        20,
+        27,
+        31,
+        33,
+        34
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "sdma_mapping_type",
+        "6": "descp",
+        "7": "BLOCK",
+        "8": "JUMP_TARGET",
+        "9": "dma_unmap_single",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "sdma_mapping_addr",
+        "17": "descp",
+        "18": "sdma_mapping_len",
+        "19": "descp",
+        "20": "DMA_TO_DEVICE",
+        "21": "CONTROL_STRUCTURE",
+        "22": "JUMP_TARGET",
+        "23": "dma_unmap_page",
+        "24": "<operator>.addressOf",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "dd",
+        "28": "FIELD_IDENTIFIER",
+        "29": "FIELD_IDENTIFIER",
+        "30": "sdma_mapping_addr",
+        "31": "descp",
+        "32": "sdma_mapping_len",
+        "33": "descp",
+        "34": "DMA_TO_DEVICE",
+        "35": "CONTROL_STRUCTURE",
+        "36": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "Function": "rtw_init_cmd_priv",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        16,
+        19
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            18
+        ],
+        [
+            13,
+            20
+        ],
+        [
+            13,
+            20
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            8,
+            20
+        ],
+        [
+            8,
+            20
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "init_completion",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "pcmdpriv",
+        "7": "FIELD_IDENTIFIER",
+        "8": "init_completion",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "pcmdpriv",
+        "12": "FIELD_IDENTIFIER",
+        "13": "_rtw_init_queue",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "pcmdpriv",
+        "17": "FIELD_IDENTIFIER",
+        "18": "RETURN",
+        "19": "_SUCCESS",
+        "20": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "Function": "hfi1_get_header",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        14,
+        17,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "offset",
+        "7": "rhf_hdrq_offset",
+        "8": "rhf_to_cpu",
+        "9": "rhf_addr",
+        "10": "RETURN",
+        "11": "<operator>.cast",
+        "12": "UNKNOWN",
+        "13": "<operator>.subtraction",
+        "14": "rhf_addr",
+        "15": "<operator>.addition",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "rcd",
+        "18": "FIELD_IDENTIFIER",
+        "19": "offset",
+        "20": "METHOD_RETURN"
+    }
+}

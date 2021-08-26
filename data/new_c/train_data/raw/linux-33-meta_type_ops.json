@@ -1,0 +1,107 @@
+{
+    "Function": "meta_type_ops",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "__meta_type_ops",
+        "7": "meta_type",
+        "8": "v",
+        "9": "METHOD_RETURN"
+    }
+}

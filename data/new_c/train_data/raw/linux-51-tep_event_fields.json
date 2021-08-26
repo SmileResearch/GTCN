@@ -1,0 +1,230 @@
+{
+    "Function": "tep_event_fields",
+    "astEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        16
+    ],
+    "cfgEdges": [
+        [
+            18,
+            14
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            14,
+            4
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            12,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "get_event_fields",
+        "5": "LITERAL",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "event",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.fieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "event",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "event",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

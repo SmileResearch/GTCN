@@ -1,0 +1,100 @@
+{
+    "Function": "xp_cpu_to_nasid_uv",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "UV_PNODE_TO_NASID",
+        "5": "uv_cpu_to_pnode",
+        "6": "cpuid",
+        "7": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "Function": "vchiq_debugfs_remove_instance",
+    "astEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            11,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "node",
+        "6": "vchiq_instance_get_debugfs_node",
+        "7": "instance",
+        "8": "debugfs_remove_recursive",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "node",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

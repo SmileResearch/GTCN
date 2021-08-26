@@ -1,0 +1,77 @@
+{
+    "Function": "ksi8560_probe",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "of_machine_is_compatible",
+        "5": "LITERAL",
+        "6": "METHOD_RETURN"
+    }
+}

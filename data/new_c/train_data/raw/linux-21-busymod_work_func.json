@@ -1,0 +1,116 @@
+{
+    "Function": "busymod_work_func",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pr_info",
+        "4": "LITERAL",
+        "5": "__func__",
+        "6": "CONTROL_STRUCTURE",
+        "7": "READ_ONCE",
+        "8": "block_transition",
+        "9": "BLOCK",
+        "10": "msleep",
+        "11": "LITERAL",
+        "12": "pr_info",
+        "13": "LITERAL",
+        "14": "__func__",
+        "15": "METHOD_RETURN"
+    }
+}

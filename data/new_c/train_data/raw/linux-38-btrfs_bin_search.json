@@ -1,0 +1,128 @@
+{
+    "Function": "btrfs_bin_search",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.equals",
+        "7": "btrfs_header_level",
+        "8": "eb",
+        "9": "LITERAL",
+        "10": "CONTROL_STRUCTURE",
+        "11": "METHOD_RETURN"
+    }
+}

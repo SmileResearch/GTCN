@@ -1,0 +1,211 @@
+{
+    "Function": "hns_roce_free_cmq_desc",
+    "astEdges": [
+        [
+            23,
+            24
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13,
+        17,
+        20,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "dma_unmap_single",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "hr_dev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ring",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.multiplication",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ring",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.sizeOf",
+        "16": "UNKNOWN",
+        "17": "DMA_BIDIRECTIONAL",
+        "18": "<operator>.assignment",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "ring",
+        "21": "FIELD_IDENTIFIER",
+        "22": "LITERAL",
+        "23": "kfree",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "ring",
+        "26": "FIELD_IDENTIFIER",
+        "27": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "Function": "trust_init",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "isa_register_driver",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "trust_driver",
+        "8": "FIELD_IDENTIFIER",
+        "9": "TRUST_MAX",
+        "10": "METHOD_RETURN"
+    }
+}

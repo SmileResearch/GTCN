@@ -1,0 +1,186 @@
+{
+    "Function": "of_fdt_unflatten_tree",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        20,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "mutex_lock",
+        "7": "<operator>.addressOf",
+        "8": "of_fdt_unflatten_mutex",
+        "9": "<operator>.assignment",
+        "10": "mem",
+        "11": "__unflatten_device_tree",
+        "12": "blob",
+        "13": "dad",
+        "14": "mynodes",
+        "15": "<operator>.addressOf",
+        "16": "kernel_tree_alloc",
+        "17": "true",
+        "18": "mutex_unlock",
+        "19": "<operator>.addressOf",
+        "20": "of_fdt_unflatten_mutex",
+        "21": "RETURN",
+        "22": "mem",
+        "23": "METHOD_RETURN"
+    }
+}

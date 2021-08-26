@@ -1,0 +1,783 @@
+{
+    "Function": "hns_roce_v2_cmq_init",
+    "astEdges": [
+        [
+            29,
+            30
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            77,
+            82
+        ],
+        [
+            77,
+            81
+        ],
+        [
+            93,
+            95
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            66
+        ],
+        [
+            61,
+            65
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            103
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            2,
+            92
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            58
+        ],
+        [
+            2,
+            74
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            69
+        ],
+        [
+            2,
+            53
+        ],
+        [
+            2,
+            93
+        ],
+        [
+            2,
+            101
+        ],
+        [
+            2,
+            46
+        ],
+        [
+            2,
+            37
+        ],
+        [
+            2,
+            28
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            90
+        ],
+        [
+            2,
+            87
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            2,
+            84
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            27
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            84,
+            86
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            30,
+            36
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            76,
+            83
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            45
+        ],
+        [
+            87,
+            89
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            78,
+            80
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            67
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            71,
+            73
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            74,
+            76
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            97,
+            99
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            96,
+            100
+        ],
+        [
+            96,
+            97
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        14,
+        18,
+        23,
+        27,
+        33,
+        42,
+        49,
+        52,
+        54,
+        56,
+        57,
+        59,
+        63,
+        66,
+        68,
+        70,
+        72,
+        73,
+        75,
+        79,
+        82,
+        85,
+        86,
+        88,
+        89,
+        94,
+        98,
+        102
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            70,
+            72
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            75,
+            79
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            83,
+            85
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            86,
+            88
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            89,
+            91
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            92,
+            94
+        ],
+        [
+            94,
+            98
+        ],
+        [
+            98,
+            99
+        ],
+        [
+            99,
+            100
+        ],
+        [
+            100,
+            102
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "priv",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hr_dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.fieldAccess",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "priv",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "CMD_CSQ_DESC_NUM",
+        "19": "<operator>.assignment",
+        "20": "<operator>.fieldAccess",
+        "21": "<operator>.fieldAccess",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "priv",
+        "24": "FIELD_IDENTIFIER",
+        "25": "FIELD_IDENTIFIER",
+        "26": "FIELD_IDENTIFIER",
+        "27": "CMD_CRQ_DESC_NUM",
+        "28": "spin_lock_init",
+        "29": "<operator>.addressOf",
+        "30": "<operator>.fieldAccess",
+        "31": "<operator>.fieldAccess",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "priv",
+        "34": "FIELD_IDENTIFIER",
+        "35": "FIELD_IDENTIFIER",
+        "36": "FIELD_IDENTIFIER",
+        "37": "spin_lock_init",
+        "38": "<operator>.addressOf",
+        "39": "<operator>.fieldAccess",
+        "40": "<operator>.fieldAccess",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "priv",
+        "43": "FIELD_IDENTIFIER",
+        "44": "FIELD_IDENTIFIER",
+        "45": "FIELD_IDENTIFIER",
+        "46": "<operator>.assignment",
+        "47": "<operator>.fieldAccess",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "priv",
+        "50": "FIELD_IDENTIFIER",
+        "51": "FIELD_IDENTIFIER",
+        "52": "HNS_ROCE_CMQ_TX_TIMEOUT",
+        "53": "<operator>.assignment",
+        "54": "ret",
+        "55": "hns_roce_init_cmq_ring",
+        "56": "hr_dev",
+        "57": "TYPE_CSQ",
+        "58": "CONTROL_STRUCTURE",
+        "59": "ret",
+        "60": "BLOCK",
+        "61": "dev_err",
+        "62": "<operator>.indirectFieldAccess",
+        "63": "hr_dev",
+        "64": "FIELD_IDENTIFIER",
+        "65": "LITERAL",
+        "66": "ret",
+        "67": "RETURN",
+        "68": "ret",
+        "69": "<operator>.assignment",
+        "70": "ret",
+        "71": "hns_roce_init_cmq_ring",
+        "72": "hr_dev",
+        "73": "TYPE_CRQ",
+        "74": "CONTROL_STRUCTURE",
+        "75": "ret",
+        "76": "BLOCK",
+        "77": "dev_err",
+        "78": "<operator>.indirectFieldAccess",
+        "79": "hr_dev",
+        "80": "FIELD_IDENTIFIER",
+        "81": "LITERAL",
+        "82": "ret",
+        "83": "CONTROL_STRUCTURE",
+        "84": "hns_roce_cmq_init_regs",
+        "85": "hr_dev",
+        "86": "TYPE_CSQ",
+        "87": "hns_roce_cmq_init_regs",
+        "88": "hr_dev",
+        "89": "TYPE_CRQ",
+        "90": "RETURN",
+        "91": "LITERAL",
+        "92": "JUMP_TARGET",
+        "93": "hns_roce_free_cmq_desc",
+        "94": "hr_dev",
+        "95": "<operator>.addressOf",
+        "96": "<operator>.fieldAccess",
+        "97": "<operator>.indirectFieldAccess",
+        "98": "priv",
+        "99": "FIELD_IDENTIFIER",
+        "100": "FIELD_IDENTIFIER",
+        "101": "RETURN",
+        "102": "ret",
+        "103": "METHOD_RETURN"
+    }
+}

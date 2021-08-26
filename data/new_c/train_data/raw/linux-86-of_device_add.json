@@ -1,0 +1,305 @@
+{
+    "Function": "of_device_add",
+    "astEdges": [
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            36
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            25,
+            30
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        13,
+        18,
+        22,
+        24,
+        28,
+        33,
+        40
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            40
+        ],
+        [
+            40,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BUG_ON",
+        "4": "<operator>.equals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ofdev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "NULL",
+        "11": "<operator>.assignment",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ofdev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "dev_name",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ofdev",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.assignment",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "ofdev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "PLATFORM_DEVID_NONE",
+        "25": "set_dev_node",
+        "26": "<operator>.addressOf",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "ofdev",
+        "29": "FIELD_IDENTIFIER",
+        "30": "of_node_to_nid",
+        "31": "<operator>.fieldAccess",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "ofdev",
+        "34": "FIELD_IDENTIFIER",
+        "35": "FIELD_IDENTIFIER",
+        "36": "RETURN",
+        "37": "device_add",
+        "38": "<operator>.addressOf",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "ofdev",
+        "41": "FIELD_IDENTIFIER",
+        "42": "METHOD_RETURN"
+    }
+}

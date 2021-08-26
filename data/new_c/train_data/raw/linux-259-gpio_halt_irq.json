@@ -1,0 +1,107 @@
+{
+    "Function": "gpio_halt_irq",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "schedule_work",
+        "5": "<operator>.addressOf",
+        "6": "gpio_halt_wq",
+        "7": "RETURN",
+        "8": "IRQ_HANDLED",
+        "9": "METHOD_RETURN"
+    }
+}

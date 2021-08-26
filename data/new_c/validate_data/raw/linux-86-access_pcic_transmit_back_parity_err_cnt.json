@@ -1,0 +1,156 @@
+{
+    "Function": "access_pcic_transmit_back_parity_err_cnt",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "dd",
+        "10": "<operator>.cast",
+        "11": "UNKNOWN",
+        "12": "context",
+        "13": "RETURN",
+        "14": "<operator>.indirectIndexAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "dd",
+        "17": "FIELD_IDENTIFIER",
+        "18": "LITERAL",
+        "19": "METHOD_RETURN"
+    }
+}

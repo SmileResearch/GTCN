@@ -1,0 +1,106 @@
+{
+    "Function": "suniv_pinctrl_probe",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "sunxi_pinctrl_init",
+        "5": "pdev",
+        "6": "<operator>.addressOf",
+        "7": "suniv_f1c100s_pinctrl_data",
+        "8": "METHOD_RETURN"
+    }
+}

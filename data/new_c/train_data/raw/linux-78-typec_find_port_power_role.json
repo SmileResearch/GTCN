@@ -1,0 +1,128 @@
+{
+    "Function": "typec_find_port_power_role",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "match_string",
+        "5": "typec_port_power_roles",
+        "6": "ARRAY_SIZE",
+        "7": "typec_port_power_roles",
+        "8": "name",
+        "9": "METHOD_RETURN"
+    }
+}

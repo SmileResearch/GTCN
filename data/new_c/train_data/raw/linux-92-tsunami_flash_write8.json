@@ -1,0 +1,138 @@
+{
+    "Function": "tsunami_flash_write8",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "tsunami_tig_writeb",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "value",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "offset",
+        "12": "METHOD_RETURN"
+    }
+}

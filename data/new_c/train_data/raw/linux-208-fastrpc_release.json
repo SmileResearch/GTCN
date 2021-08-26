@@ -1,0 +1,138 @@
+{
+    "Function": "fastrpc_release",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "buffer",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dmabuf",
+        "8": "FIELD_IDENTIFIER",
+        "9": "fastrpc_buf_free",
+        "10": "buffer",
+        "11": "METHOD_RETURN"
+    }
+}

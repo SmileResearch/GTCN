@@ -1,0 +1,92 @@
+{
+    "Function": "node_affinity_add_tail",
+    "astEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "list_add_tail",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "entry",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.fieldAccess",
+        "10": "node_affinity",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

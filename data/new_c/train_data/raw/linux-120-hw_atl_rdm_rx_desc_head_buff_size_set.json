@@ -1,0 +1,161 @@
+{
+    "Function": "hw_atl_rdm_rx_desc_head_buff_size_set",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9,
+        10,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "aq_hw_write_reg_bit",
+        "6": "aq_hw",
+        "7": "HW_ATL_RDM_DESCDHDR_SIZE_ADR",
+        "8": "descriptor",
+        "9": "HW_ATL_RDM_DESCDHDR_SIZE_MSK",
+        "10": "HW_ATL_RDM_DESCDHDR_SIZE_SHIFT",
+        "11": "rx_desc_head_buff_size",
+        "12": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,205 @@
+{
+    "Function": "handle_link_bounce",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            23
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        11,
+        12,
+        14,
+        19,
+        22,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.and",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ppd",
+        "7": "FIELD_IDENTIFIER",
+        "8": "HLS_UP",
+        "9": "BLOCK",
+        "10": "set_link_state",
+        "11": "ppd",
+        "12": "HLS_DN_OFFLINE",
+        "13": "start_link",
+        "14": "ppd",
+        "15": "CONTROL_STRUCTURE",
+        "16": "BLOCK",
+        "17": "dd_dev_info",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "ppd",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "__func__",
+        "23": "link_state_name",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "ppd",
+        "26": "FIELD_IDENTIFIER",
+        "27": "METHOD_RETURN"
+    }
+}

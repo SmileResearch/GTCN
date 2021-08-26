@@ -1,0 +1,113 @@
+{
+    "Function": "is_sc_halted",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        10,
+        12,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.logicalNot",
+        "7": "<operator>.and",
+        "8": "read_kctxt_csr",
+        "9": "dd",
+        "10": "hw_context",
+        "11": "SC",
+        "12": "STATUS",
+        "13": "SC",
+        "14": "STATUS_CTXT_HALTED_SMASK",
+        "15": "METHOD_RETURN"
+    }
+}

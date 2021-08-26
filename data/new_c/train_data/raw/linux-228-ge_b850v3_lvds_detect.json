@@ -1,0 +1,119 @@
+{
+    "Function": "ge_b850v3_lvds_detect",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "ge_b850v3_lvds_bridge_detect",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ge_b850v3_lvds_ptr",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

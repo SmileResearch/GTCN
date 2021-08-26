@@ -1,0 +1,124 @@
+{
+    "Function": "sh_pfc_init",
+    "astEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "sh_pfc_check_driver",
+        "4": "<operator>.addressOf",
+        "5": "sh_pfc_driver",
+        "6": "RETURN",
+        "7": "platform_driver_register",
+        "8": "<operator>.addressOf",
+        "9": "sh_pfc_driver",
+        "10": "METHOD_RETURN"
+    }
+}

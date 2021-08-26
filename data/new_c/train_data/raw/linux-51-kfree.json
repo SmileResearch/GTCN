@@ -1,0 +1,81 @@
+{
+    "Function": "kfree",
+    "astEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "p",
+        "5": "free",
+        "6": "p",
+        "7": "METHOD_RETURN"
+    }
+}

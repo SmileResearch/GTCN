@@ -1,0 +1,44 @@
+{
+    "Function": "hfi1_free_ctxt",
+    "astEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hfi1_rcd_put",
+        "4": "rcd",
+        "5": "METHOD_RETURN"
+    }
+}

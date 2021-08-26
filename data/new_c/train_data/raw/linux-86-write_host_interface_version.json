@@ -1,0 +1,275 @@
+{
+    "Function": "write_host_interface_version",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            27
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        21,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "mask",
+        "8": "<operator>.shiftLeft",
+        "9": "HOST_INTERFACE_VERSION_MASK",
+        "10": "HOST_INTERFACE_VERSION_SHIFT",
+        "11": "read_8051_config",
+        "12": "dd",
+        "13": "RESERVED_REGISTERS",
+        "14": "GENERAL_CONFIG",
+        "15": "<operator>.addressOf",
+        "16": "frame",
+        "17": "<operators>.assignmentAnd",
+        "18": "frame",
+        "19": "~mask",
+        "20": "<operators>.assignmentOr",
+        "21": "frame",
+        "22": "<operator>.shiftLeft",
+        "23": "<operator>.cast",
+        "24": "UNKNOWN",
+        "25": "version",
+        "26": "HOST_INTERFACE_VERSION_SHIFT",
+        "27": "RETURN",
+        "28": "load_8051_config",
+        "29": "dd",
+        "30": "RESERVED_REGISTERS",
+        "31": "GENERAL_CONFIG",
+        "32": "frame",
+        "33": "METHOD_RETURN"
+    }
+}

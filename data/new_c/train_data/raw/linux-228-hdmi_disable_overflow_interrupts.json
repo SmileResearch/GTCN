@@ -1,0 +1,94 @@
+{
+    "Function": "hdmi_disable_overflow_interrupts",
+    "astEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hdmi_writeb",
+        "4": "hdmi",
+        "5": "HDMI_IH_MUTE_FC_STAT2_OVERFLOW_MASK",
+        "6": "HDMI_IH_MUTE_FC_STAT2",
+        "7": "METHOD_RETURN"
+    }
+}

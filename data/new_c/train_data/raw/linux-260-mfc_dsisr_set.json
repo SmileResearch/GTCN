@@ -1,0 +1,142 @@
+{
+    "Function": "mfc_dsisr_set",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "out_be64",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "spu",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "dsisr",
+        "12": "METHOD_RETURN"
+    }
+}

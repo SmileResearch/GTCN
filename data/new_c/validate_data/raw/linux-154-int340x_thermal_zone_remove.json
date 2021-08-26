@@ -1,0 +1,213 @@
+{
+    "Function": "int340x_thermal_zone_remove",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "thermal_zone_device_unregister",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "int34x_thermal_zone",
+        "6": "FIELD_IDENTIFIER",
+        "7": "acpi_lpat_free_conversion_table",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "int34x_thermal_zone",
+        "10": "FIELD_IDENTIFIER",
+        "11": "kfree",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "int34x_thermal_zone",
+        "14": "FIELD_IDENTIFIER",
+        "15": "kfree",
+        "16": "int34x_thermal_zone",
+        "17": "METHOD_RETURN"
+    }
+}

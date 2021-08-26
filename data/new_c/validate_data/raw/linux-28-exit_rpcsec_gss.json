@@ -1,0 +1,149 @@
+{
+    "Function": "exit_rpcsec_gss",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_pernet_subsys",
+        "4": "<operator>.addressOf",
+        "5": "rpcsec_gss_net_ops",
+        "6": "gss_svc_shutdown",
+        "7": "rpcauth_unregister",
+        "8": "<operator>.addressOf",
+        "9": "authgss_ops",
+        "10": "rcu_barrier",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "Function": "measure",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "res",
+        "6": "FIELD_IDENTIFIER",
+        "7": "atomic_swap",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.fieldAccess",
+        "10": "<operator>.fieldAccess",
+        "11": "ctx",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

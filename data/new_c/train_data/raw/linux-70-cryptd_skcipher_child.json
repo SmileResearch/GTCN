@@ -1,0 +1,213 @@
+{
+    "Function": "cryptd_skcipher_child",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        15
+    ],
+    "cfgEdges": [
+        [
+            17,
+            13
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            12,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            6,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "ctx",
+        "6": "crypto_skcipher_ctx",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "tfm",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "ctx",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

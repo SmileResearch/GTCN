@@ -1,0 +1,199 @@
+{
+    "Function": "idt_deinit_dbgfs",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        12
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            15,
+            9
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            17
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "debugfs_remove",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ndev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "dev_dbg",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ndev",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

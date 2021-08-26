@@ -1,0 +1,499 @@
+{
+    "Function": "ZSTD_loadEntropy_inDDict",
+    "astEdges": [
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            48,
+            56
+        ],
+        [
+            48,
+            53
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            67
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            29
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            47
+        ],
+        [
+            2,
+            60
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            59
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            46
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            64
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            63
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        16,
+        24,
+        27,
+        31,
+        32,
+        37,
+        44,
+        51,
+        54,
+        57,
+        59,
+        62
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            66
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ddict",
+        "6": "FIELD_IDENTIFIER",
+        "7": "LITERAL",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ddict",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.lessThan",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "ddict",
+        "17": "FIELD_IDENTIFIER",
+        "18": "LITERAL",
+        "19": "RETURN",
+        "20": "LITERAL",
+        "21": "BLOCK",
+        "22": "LOCAL",
+        "23": "<operator>.assignment",
+        "24": "magic",
+        "25": "ZSTD_readLE32",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "ddict",
+        "28": "FIELD_IDENTIFIER",
+        "29": "CONTROL_STRUCTURE",
+        "30": "<operator>.notEquals",
+        "31": "magic",
+        "32": "ZSTD_DICT_MAGIC",
+        "33": "RETURN",
+        "34": "LITERAL",
+        "35": "<operator>.assignment",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "ddict",
+        "38": "FIELD_IDENTIFIER",
+        "39": "ZSTD_readLE32",
+        "40": "<operator>.addition",
+        "41": "<operator>.cast",
+        "42": "UNKNOWN",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "ddict",
+        "45": "FIELD_IDENTIFIER",
+        "46": "LITERAL",
+        "47": "CHECK_E",
+        "48": "ZSTD_loadEntropy",
+        "49": "<operator>.addressOf",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "ddict",
+        "52": "FIELD_IDENTIFIER",
+        "53": "<operator>.indirectFieldAccess",
+        "54": "ddict",
+        "55": "FIELD_IDENTIFIER",
+        "56": "<operator>.indirectFieldAccess",
+        "57": "ddict",
+        "58": "FIELD_IDENTIFIER",
+        "59": "dictionary_corrupted",
+        "60": "<operator>.assignment",
+        "61": "<operator>.indirectFieldAccess",
+        "62": "ddict",
+        "63": "FIELD_IDENTIFIER",
+        "64": "LITERAL",
+        "65": "RETURN",
+        "66": "LITERAL",
+        "67": "METHOD_RETURN"
+    }
+}

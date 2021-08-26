@@ -1,0 +1,165 @@
+{
+    "Function": "n_tty_inherit_ops",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        9,
+        11,
+        14,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirection",
+        "5": "ops",
+        "6": "n_tty_ops",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ops",
+        "10": "FIELD_IDENTIFIER",
+        "11": "NULL",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "ops",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.assignment",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ops",
+        "19": "FIELD_IDENTIFIER",
+        "20": "LITERAL",
+        "21": "METHOD_RETURN"
+    }
+}

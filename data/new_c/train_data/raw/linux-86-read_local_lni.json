@@ -1,0 +1,157 @@
+{
+    "Function": "read_local_lni",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8,
+        10,
+        13,
+        16,
+        17,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "read_8051_config",
+        "6": "dd",
+        "7": "LOCAL_LNI_INFO",
+        "8": "GENERAL_CONFIG",
+        "9": "<operator>.addressOf",
+        "10": "frame",
+        "11": "<operator>.assignment",
+        "12": "<operator>.indirection",
+        "13": "enable_lane_rx",
+        "14": "<operator>.and",
+        "15": "<operator>.arithmeticShiftRight",
+        "16": "frame",
+        "17": "ENABLE_LANE_RX_SHIFT",
+        "18": "ENABLE_LANE_RX_MASK",
+        "19": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "Function": "kvm_arch_vcpu_runnable",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "vcpu",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

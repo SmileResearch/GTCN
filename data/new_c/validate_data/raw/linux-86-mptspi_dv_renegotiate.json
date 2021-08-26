@@ -1,0 +1,234 @@
+{
+    "Function": "mptspi_dv_renegotiate",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            31
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            26
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        10,
+        13,
+        18,
+        20,
+        23,
+        25,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "wqw",
+        "6": "kmalloc",
+        "7": "<operator>.sizeOf",
+        "8": "<operator>.indirection",
+        "9": "wqw",
+        "10": "GFP_ATOMIC",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.logicalNot",
+        "13": "wqw",
+        "14": "RETURN",
+        "15": "INIT_WORK",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "wqw",
+        "19": "FIELD_IDENTIFIER",
+        "20": "mptspi_dv_renegotiate_work",
+        "21": "<operator>.assignment",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "wqw",
+        "24": "FIELD_IDENTIFIER",
+        "25": "hd",
+        "26": "schedule_work",
+        "27": "<operator>.addressOf",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "wqw",
+        "30": "FIELD_IDENTIFIER",
+        "31": "METHOD_RETURN"
+    }
+}

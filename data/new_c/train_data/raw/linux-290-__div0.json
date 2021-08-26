@@ -1,0 +1,60 @@
+{
+    "Function": "__div0",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "error",
+        "4": "LITERAL",
+        "5": "METHOD_RETURN"
+    }
+}

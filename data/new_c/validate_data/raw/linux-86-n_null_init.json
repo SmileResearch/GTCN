@@ -1,0 +1,78 @@
+{
+    "Function": "n_null_init",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BUG_ON",
+        "4": "tty_register_ldisc",
+        "5": "N_NULL",
+        "6": "<operator>.addressOf",
+        "7": "null_ldisc",
+        "8": "RETURN",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

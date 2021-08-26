@@ -1,0 +1,183 @@
+{
+    "Function": "blk_ksm_hw_exit",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        14
+    ],
+    "cfgEdges": [
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            12,
+            16
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "up_write",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ksm",
+        "7": "FIELD_IDENTIFIER",
+        "8": "CONTROL_STRUCTURE",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ksm",
+        "11": "FIELD_IDENTIFIER",
+        "12": "pm_runtime_put_sync",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "ksm",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "Function": "gred_rio_mode",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "test_bit",
+        "5": "GRED_RIO_MODE",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "table",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

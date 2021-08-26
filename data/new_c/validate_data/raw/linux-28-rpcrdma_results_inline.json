@@ -1,0 +1,190 @@
+{
+    "Function": "rpcrdma_results_inline",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.lessEqualsThan",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "rqst",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "r_xprt",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

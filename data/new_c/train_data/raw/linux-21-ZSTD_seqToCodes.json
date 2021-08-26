@@ -1,0 +1,1089 @@
+{
+    "Function": "ZSTD_seqToCodes",
+    "astEdges": [
+        [
+            95,
+            97
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            108,
+            109
+        ],
+        [
+            108,
+            110
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            44,
+            53
+        ],
+        [
+            44,
+            51
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            71,
+            73
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            123,
+            124
+        ],
+        [
+            123,
+            125
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            136,
+            137
+        ],
+        [
+            136,
+            138
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            78,
+            83
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            135,
+            141
+        ],
+        [
+            135,
+            136
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            118,
+            120
+        ],
+        [
+            118,
+            119
+        ],
+        [
+            131,
+            132
+        ],
+        [
+            131,
+            133
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            87,
+            91
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            2,
+            32
+        ],
+        [
+            2,
+            116
+        ],
+        [
+            2,
+            43
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            31
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            26
+        ],
+        [
+            2,
+            44
+        ],
+        [
+            2,
+            129
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            53,
+            62
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            99
+        ],
+        [
+            53,
+            70
+        ],
+        [
+            53,
+            87
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            63
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            70,
+            74
+        ],
+        [
+            99,
+            100
+        ],
+        [
+            99,
+            103
+        ],
+        [
+            74,
+            78
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            74,
+            84
+        ],
+        [
+            103,
+            107
+        ],
+        [
+            103,
+            104
+        ],
+        [
+            103,
+            113
+        ],
+        [
+            84,
+            86
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            100,
+            102
+        ],
+        [
+            100,
+            101
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            61
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            65,
+            69
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            0,
+            142
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            94,
+            98
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            130,
+            131
+        ],
+        [
+            130,
+            134
+        ],
+        [
+            117,
+            118
+        ],
+        [
+            117,
+            121
+        ],
+        [
+            138,
+            139
+        ],
+        [
+            138,
+            140
+        ],
+        [
+            91,
+            93
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            113,
+            115
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            125,
+            127
+        ],
+        [
+            125,
+            126
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            75,
+            77
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            79,
+            81
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            88,
+            90
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            116,
+            122
+        ],
+        [
+            116,
+            117
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            110,
+            111
+        ],
+        [
+            104,
+            106
+        ],
+        [
+            104,
+            105
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            122,
+            128
+        ],
+        [
+            122,
+            123
+        ],
+        [
+            129,
+            130
+        ],
+        [
+            129,
+            135
+        ],
+        [
+            107,
+            112
+        ],
+        [
+            107,
+            108
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12,
+        14,
+        17,
+        19,
+        22,
+        24,
+        27,
+        29,
+        33,
+        38,
+        41,
+        46,
+        49,
+        50,
+        52,
+        56,
+        59,
+        60,
+        64,
+        67,
+        68,
+        72,
+        73,
+        76,
+        82,
+        83,
+        85,
+        86,
+        89,
+        90,
+        96,
+        97,
+        101,
+        102,
+        105,
+        111,
+        112,
+        114,
+        115,
+        119,
+        124,
+        126,
+        128,
+        132,
+        137,
+        139,
+        141
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            64,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            72
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            73,
+            76
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            77,
+            80
+        ],
+        [
+            80,
+            82
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            83,
+            85
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            86,
+            89
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            90,
+            92
+        ],
+        [
+            92,
+            96
+        ],
+        [
+            96,
+            97
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            98,
+            101
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            102,
+            105
+        ],
+        [
+            105,
+            106
+        ],
+        [
+            106,
+            109
+        ],
+        [
+            109,
+            111
+        ],
+        [
+            111,
+            112
+        ],
+        [
+            112,
+            114
+        ],
+        [
+            114,
+            115
+        ],
+        [
+            115,
+            119
+        ],
+        [
+            119,
+            120
+        ],
+        [
+            120,
+            121
+        ],
+        [
+            121,
+            124
+        ],
+        [
+            124,
+            126
+        ],
+        [
+            126,
+            127
+        ],
+        [
+            127,
+            128
+        ],
+        [
+            128,
+            132
+        ],
+        [
+            132,
+            133
+        ],
+        [
+            133,
+            134
+        ],
+        [
+            134,
+            137
+        ],
+        [
+            137,
+            139
+        ],
+        [
+            139,
+            140
+        ],
+        [
+            140,
+            141
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "LL_deltaCode",
+        "6": "LITERAL",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "ML_deltaCode",
+        "10": "LITERAL",
+        "11": "<operator>.assignment",
+        "12": "sequences",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "seqStorePtr",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.assignment",
+        "17": "llCodeTable",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "seqStorePtr",
+        "20": "FIELD_IDENTIFIER",
+        "21": "<operator>.assignment",
+        "22": "ofCodeTable",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "seqStorePtr",
+        "25": "FIELD_IDENTIFIER",
+        "26": "<operator>.assignment",
+        "27": "mlCodeTable",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "seqStorePtr",
+        "30": "FIELD_IDENTIFIER",
+        "31": "LOCAL",
+        "32": "<operator>.assignment",
+        "33": "nbSeq",
+        "34": "<operator>.cast",
+        "35": "UNKNOWN",
+        "36": "<operator>.subtraction",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "seqStorePtr",
+        "39": "FIELD_IDENTIFIER",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "seqStorePtr",
+        "42": "FIELD_IDENTIFIER",
+        "43": "LOCAL",
+        "44": "CONTROL_STRUCTURE",
+        "45": "<operator>.assignment",
+        "46": "u",
+        "47": "LITERAL",
+        "48": "<operator>.lessThan",
+        "49": "u",
+        "50": "nbSeq",
+        "51": "<operator>.postIncrement",
+        "52": "u",
+        "53": "BLOCK",
+        "54": "LOCAL",
+        "55": "<operator>.assignment",
+        "56": "llv",
+        "57": "<operator>.fieldAccess",
+        "58": "<operator>.indirectIndexAccess",
+        "59": "sequences",
+        "60": "u",
+        "61": "FIELD_IDENTIFIER",
+        "62": "LOCAL",
+        "63": "<operator>.assignment",
+        "64": "mlv",
+        "65": "<operator>.fieldAccess",
+        "66": "<operator>.indirectIndexAccess",
+        "67": "sequences",
+        "68": "u",
+        "69": "FIELD_IDENTIFIER",
+        "70": "<operator>.assignment",
+        "71": "<operator>.indirectIndexAccess",
+        "72": "llCodeTable",
+        "73": "u",
+        "74": "<operator>.conditional",
+        "75": "<operator>.greaterThan",
+        "76": "llv",
+        "77": "LITERAL",
+        "78": "<operator>.addition",
+        "79": "<operator>.cast",
+        "80": "UNKNOWN",
+        "81": "ZSTD_highbit32",
+        "82": "llv",
+        "83": "LL_deltaCode",
+        "84": "<operator>.indirectIndexAccess",
+        "85": "LL_Code",
+        "86": "llv",
+        "87": "<operator>.assignment",
+        "88": "<operator>.indirectIndexAccess",
+        "89": "ofCodeTable",
+        "90": "u",
+        "91": "<operator>.cast",
+        "92": "UNKNOWN",
+        "93": "ZSTD_highbit32",
+        "94": "<operator>.fieldAccess",
+        "95": "<operator>.indirectIndexAccess",
+        "96": "sequences",
+        "97": "u",
+        "98": "FIELD_IDENTIFIER",
+        "99": "<operator>.assignment",
+        "100": "<operator>.indirectIndexAccess",
+        "101": "mlCodeTable",
+        "102": "u",
+        "103": "<operator>.conditional",
+        "104": "<operator>.greaterThan",
+        "105": "mlv",
+        "106": "LITERAL",
+        "107": "<operator>.addition",
+        "108": "<operator>.cast",
+        "109": "UNKNOWN",
+        "110": "ZSTD_highbit32",
+        "111": "mlv",
+        "112": "ML_deltaCode",
+        "113": "<operator>.indirectIndexAccess",
+        "114": "ML_Code",
+        "115": "mlv",
+        "116": "CONTROL_STRUCTURE",
+        "117": "<operator>.equals",
+        "118": "<operator>.indirectFieldAccess",
+        "119": "seqStorePtr",
+        "120": "FIELD_IDENTIFIER",
+        "121": "LITERAL",
+        "122": "<operator>.assignment",
+        "123": "<operator>.indirectIndexAccess",
+        "124": "llCodeTable",
+        "125": "<operator>.indirectFieldAccess",
+        "126": "seqStorePtr",
+        "127": "FIELD_IDENTIFIER",
+        "128": "MaxLL",
+        "129": "CONTROL_STRUCTURE",
+        "130": "<operator>.equals",
+        "131": "<operator>.indirectFieldAccess",
+        "132": "seqStorePtr",
+        "133": "FIELD_IDENTIFIER",
+        "134": "LITERAL",
+        "135": "<operator>.assignment",
+        "136": "<operator>.indirectIndexAccess",
+        "137": "mlCodeTable",
+        "138": "<operator>.indirectFieldAccess",
+        "139": "seqStorePtr",
+        "140": "FIELD_IDENTIFIER",
+        "141": "MaxML",
+        "142": "METHOD_RETURN"
+    }
+}

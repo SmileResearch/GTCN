@@ -1,0 +1,85 @@
+{
+    "Function": "chipfree",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "aligned_chipptr",
+        "5": "amiga_chip_free",
+        "6": "aligned_chipptr",
+        "7": "METHOD_RETURN"
+    }
+}

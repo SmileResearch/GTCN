@@ -1,0 +1,111 @@
+{
+    "Function": "sw_cfg_chk_unk_def_deliver",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "sw_chk",
+        "5": "hw",
+        "6": "KS8842_SWITCH_CTRL_7_OFFSET",
+        "7": "SWITCH_UNK_DEF_PORT_ENABLE",
+        "8": "METHOD_RETURN"
+    }
+}

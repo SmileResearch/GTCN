@@ -1,0 +1,191 @@
+{
+    "Function": "__nvme_tcp_stop_queue",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            12,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "kernel_sock_shutdown",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "queue",
+        "6": "FIELD_IDENTIFIER",
+        "7": "SHUT_RDWR",
+        "8": "nvme_tcp_restore_sock_calls",
+        "9": "queue",
+        "10": "cancel_work_sync",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "queue",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

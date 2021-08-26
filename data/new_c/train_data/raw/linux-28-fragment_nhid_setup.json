@@ -1,0 +1,197 @@
+{
+    "Function": "fragment_nhid_setup",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            10,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            10,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectIndexAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "nhc",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "LOWPAN_NHC_FRAGMENT_ID_0",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectIndexAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "nhc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LITERAL",
+        "16": "LOWPAN_NHC_FRAGMENT_MASK_0",
+        "17": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "Function": "unittest_i2c_mux_select_chan",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "LITERAL",
+        "6": "METHOD_RETURN"
+    }
+}

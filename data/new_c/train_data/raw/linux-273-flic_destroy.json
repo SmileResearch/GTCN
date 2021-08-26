@@ -1,0 +1,173 @@
+{
+    "Function": "flic_destroy",
+    "astEdges": [
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        13
+    ],
+    "cfgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "NULL",
+        "12": "kfree",
+        "13": "dev",
+        "14": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "Function": "si_dpm_set_irq_funcs",
+    "astEdges": [
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            17,
+            27
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            30
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            28
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            18,
+            26
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        15,
+        22,
+        29
+    ],
+    "cfgEdges": [
+        [
+            26,
+            18
+        ],
+        [
+            14,
+            4
+        ],
+        [
+            20,
+            25
+        ],
+        [
+            17,
+            28
+        ],
+        [
+            23,
+            21
+        ],
+        [
+            27,
+            17
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            28,
+            16
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            16,
+            30
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            24,
+            20
+        ],
+        [
+            13,
+            5
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            25,
+            19
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            19,
+            26
+        ],
+        [
+            18,
+            27
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            16,
+            30
+        ],
+        [
+            16,
+            30
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            30
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "adev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "AMDGPU_THERMAL_IRQ_LAST",
+        "16": "<operator>.assignment",
+        "17": "<operator>.fieldAccess",
+        "18": "<operator>.fieldAccess",
+        "19": "<operator>.fieldAccess",
+        "20": "<operator>.fieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "adev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "FIELD_IDENTIFIER",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "<operator>.addressOf",
+        "29": "si_dpm_irq_funcs",
+        "30": "METHOD_RETURN"
+    }
+}

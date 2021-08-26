@@ -1,0 +1,157 @@
+{
+    "Function": "ingenic_early_console_write",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        11,
+        12
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "uart_console_write",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "early_device",
+        "9": "FIELD_IDENTIFIER",
+        "10": "s",
+        "11": "count",
+        "12": "ingenic_early_console_putc",
+        "13": "METHOD_RETURN"
+    }
+}

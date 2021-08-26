@@ -1,0 +1,203 @@
+{
+    "Function": "ssi_restore_divisor",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        13
+    ],
+    "cfgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "writel_relaxed",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "omap_port",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.addition",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "omap_port",
+        "12": "FIELD_IDENTIFIER",
+        "13": "SSI_SST_DIVISOR_REG",
+        "14": "RETURN",
+        "15": "LITERAL",
+        "16": "METHOD_RETURN"
+    }
+}

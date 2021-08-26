@@ -1,0 +1,192 @@
+{
+    "Function": "kunit_assert_print_msg",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        15
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            13,
+            10
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            10,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "assert",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "string_stream_add",
+        "11": "stream",
+        "12": "LITERAL",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "assert",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

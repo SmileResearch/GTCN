@@ -1,0 +1,114 @@
+{
+    "Function": "rng_init",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pr_info",
+        "4": "LITERAL",
+        "5": "RETURN",
+        "6": "vio_register_driver",
+        "7": "<operator>.addressOf",
+        "8": "pseries_rng_driver",
+        "9": "METHOD_RETURN"
+    }
+}

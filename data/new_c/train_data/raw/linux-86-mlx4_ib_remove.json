@@ -1,0 +1,879 @@
+{
+    "Function": "mlx4_ib_remove",
+    "astEdges": [
+        [
+            107,
+            109
+        ],
+        [
+            107,
+            108
+        ],
+        [
+            101,
+            103
+        ],
+        [
+            101,
+            102
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            40
+        ],
+        [
+            112,
+            113
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            98,
+            100
+        ],
+        [
+            98,
+            99
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            77,
+            79
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            80,
+            82
+        ],
+        [
+            82,
+            84
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            3,
+            95
+        ],
+        [
+            3,
+            76
+        ],
+        [
+            3,
+            60
+        ],
+        [
+            3,
+            98
+        ],
+        [
+            3,
+            49
+        ],
+        [
+            3,
+            107
+        ],
+        [
+            3,
+            112
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            68
+        ],
+        [
+            3,
+            51
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            101
+        ],
+        [
+            3,
+            53
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            58
+        ],
+        [
+            3,
+            72
+        ],
+        [
+            113,
+            114
+        ],
+        [
+            41,
+            47
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            29
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            0,
+            117
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            91,
+            93
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            103,
+            104
+        ],
+        [
+            30,
+            38
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            104,
+            105
+        ],
+        [
+            104,
+            106
+        ],
+        [
+            114,
+            116
+        ],
+        [
+            114,
+            115
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            76,
+            85
+        ],
+        [
+            76,
+            80
+        ],
+        [
+            76,
+            87
+        ],
+        [
+            109,
+            111
+        ],
+        [
+            109,
+            110
+        ],
+        [
+            90,
+            94
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            95,
+            97
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            48
+        ],
+        [
+            60,
+            65
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            22,
+            28
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            87,
+            89
+        ],
+        [
+            87,
+            88
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        12,
+        13,
+        16,
+        18,
+        20,
+        25,
+        35,
+        44,
+        48,
+        50,
+        52,
+        56,
+        59,
+        61,
+        63,
+        66,
+        70,
+        74,
+        78,
+        81,
+        83,
+        86,
+        88,
+        92,
+        94,
+        96,
+        97,
+        99,
+        100,
+        102,
+        105,
+        108,
+        110,
+        115
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            70
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            71,
+            74
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            75,
+            78
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            79,
+            81
+        ],
+        [
+            81,
+            83
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            84,
+            86
+        ],
+        [
+            86,
+            88
+        ],
+        [
+            88,
+            92
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            96,
+            97
+        ],
+        [
+            97,
+            99
+        ],
+        [
+            99,
+            100
+        ],
+        [
+            100,
+            102
+        ],
+        [
+            102,
+            105
+        ],
+        [
+            105,
+            106
+        ],
+        [
+            106,
+            108
+        ],
+        [
+            108,
+            110
+        ],
+        [
+            110,
+            111
+        ],
+        [
+            111,
+            115
+        ],
+        [
+            115,
+            116
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ibdev",
+        "7": "ibdev_ptr",
+        "8": "LOCAL",
+        "9": "LOCAL",
+        "10": "devlink_port_type_clear",
+        "11": "mlx4_get_devlink_port",
+        "12": "dev",
+        "13": "i",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "ibdev",
+        "17": "FIELD_IDENTIFIER",
+        "18": "false",
+        "19": "flush_workqueue",
+        "20": "wq",
+        "21": "CONTROL_STRUCTURE",
+        "22": "<operator>.fieldAccess",
+        "23": "<operator>.fieldAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "ibdev",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "FIELD_IDENTIFIER",
+        "29": "BLOCK",
+        "30": "CONTROL_STRUCTURE",
+        "31": "unregister_netdevice_notifier",
+        "32": "<operator>.addressOf",
+        "33": "<operator>.fieldAccess",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "ibdev",
+        "36": "FIELD_IDENTIFIER",
+        "37": "FIELD_IDENTIFIER",
+        "38": "pr_warn",
+        "39": "LITERAL",
+        "40": "<operator>.assignment",
+        "41": "<operator>.fieldAccess",
+        "42": "<operator>.fieldAccess",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "ibdev",
+        "45": "FIELD_IDENTIFIER",
+        "46": "FIELD_IDENTIFIER",
+        "47": "FIELD_IDENTIFIER",
+        "48": "NULL",
+        "49": "mlx4_ib_close_sriov",
+        "50": "ibdev",
+        "51": "mlx4_ib_mad_cleanup",
+        "52": "ibdev",
+        "53": "ib_unregister_device",
+        "54": "<operator>.addressOf",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "ibdev",
+        "57": "FIELD_IDENTIFIER",
+        "58": "mlx4_ib_diag_cleanup",
+        "59": "ibdev",
+        "60": "mlx4_qp_release_range",
+        "61": "dev",
+        "62": "<operator>.indirectFieldAccess",
+        "63": "ibdev",
+        "64": "FIELD_IDENTIFIER",
+        "65": "<operator>.indirectFieldAccess",
+        "66": "ibdev",
+        "67": "FIELD_IDENTIFIER",
+        "68": "kfree",
+        "69": "<operator>.indirectFieldAccess",
+        "70": "ibdev",
+        "71": "FIELD_IDENTIFIER",
+        "72": "iounmap",
+        "73": "<operator>.indirectFieldAccess",
+        "74": "ibdev",
+        "75": "FIELD_IDENTIFIER",
+        "76": "CONTROL_STRUCTURE",
+        "77": "<operator>.assignment",
+        "78": "p",
+        "79": "LITERAL",
+        "80": "<operator>.lessThan",
+        "81": "p",
+        "82": "<operator>.indirectFieldAccess",
+        "83": "ibdev",
+        "84": "FIELD_IDENTIFIER",
+        "85": "<operator>.preIncrement",
+        "86": "p",
+        "87": "mlx4_ib_delete_counters_table",
+        "88": "ibdev",
+        "89": "<operator>.addressOf",
+        "90": "<operator>.indirectIndexAccess",
+        "91": "<operator>.indirectFieldAccess",
+        "92": "ibdev",
+        "93": "FIELD_IDENTIFIER",
+        "94": "p",
+        "95": "mlx4_CLOSE_PORT",
+        "96": "dev",
+        "97": "p",
+        "98": "mlx4_ib_free_eqs",
+        "99": "dev",
+        "100": "ibdev",
+        "101": "mlx4_uar_free",
+        "102": "dev",
+        "103": "<operator>.addressOf",
+        "104": "<operator>.indirectFieldAccess",
+        "105": "ibdev",
+        "106": "FIELD_IDENTIFIER",
+        "107": "mlx4_pd_free",
+        "108": "dev",
+        "109": "<operator>.indirectFieldAccess",
+        "110": "ibdev",
+        "111": "FIELD_IDENTIFIER",
+        "112": "ib_dealloc_device",
+        "113": "<operator>.addressOf",
+        "114": "<operator>.indirectFieldAccess",
+        "115": "ibdev",
+        "116": "FIELD_IDENTIFIER",
+        "117": "METHOD_RETURN"
+    }
+}

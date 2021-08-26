@@ -1,0 +1,148 @@
+{
+    "Function": "ulite_exit",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "ulite_platform_driver",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.fieldAccess",
+        "8": "ulite_uart_driver",
+        "9": "FIELD_IDENTIFIER",
+        "10": "uart_unregister_driver",
+        "11": "<operator>.addressOf",
+        "12": "ulite_uart_driver",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "Function": "pop_kprobe",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        12,
+        16
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "__this_cpu_write",
+        "4": "current_kprobe",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "kcb",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "kcb",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "kcb",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

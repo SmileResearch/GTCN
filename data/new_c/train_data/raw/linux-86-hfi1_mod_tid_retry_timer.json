@@ -1,0 +1,358 @@
+{
+    "Function": "hfi1_mod_tid_retry_timer",
+    "astEdges": [
+        [
+            19,
+            20
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            33,
+            38
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            33
+        ],
+        [
+            2,
+            28
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            47
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        14,
+        18,
+        21,
+        26,
+        30,
+        32,
+        36,
+        39,
+        42,
+        45
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            46
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "priv",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "qp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "ibqp",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "qp",
+        "15": "FIELD_IDENTIFIER",
+        "16": "LOCAL",
+        "17": "<operator>.assignment",
+        "18": "rdi",
+        "19": "ib_to_rvt",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "ibqp",
+        "22": "FIELD_IDENTIFIER",
+        "23": "lockdep_assert_held",
+        "24": "<operator>.addressOf",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "qp",
+        "27": "FIELD_IDENTIFIER",
+        "28": "<operators>.assignmentOr",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "priv",
+        "31": "FIELD_IDENTIFIER",
+        "32": "HFI1_S_TID_RETRY_TIMER",
+        "33": "mod_timer",
+        "34": "<operator>.addressOf",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "priv",
+        "37": "FIELD_IDENTIFIER",
+        "38": "<operator>.addition",
+        "39": "jiffies",
+        "40": "<operator>.addition",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "priv",
+        "43": "FIELD_IDENTIFIER",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "rdi",
+        "46": "FIELD_IDENTIFIER",
+        "47": "METHOD_RETURN"
+    }
+}

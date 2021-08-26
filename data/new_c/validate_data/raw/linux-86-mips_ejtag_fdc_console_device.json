@@ -1,0 +1,111 @@
+{
+    "Function": "mips_ejtag_fdc_console_device",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirection",
+        "6": "index",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "c",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "cons",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

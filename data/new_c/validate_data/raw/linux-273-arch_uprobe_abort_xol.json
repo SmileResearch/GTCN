@@ -1,0 +1,424 @@
+{
+    "Function": "arch_uprobe_abort_xol",
+    "astEdges": [
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            24,
+            32
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            37
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11,
+        16,
+        21,
+        28,
+        34
+    ],
+    "cfgEdges": [
+        [
+            22,
+            20
+        ],
+        [
+            35,
+            33
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            6,
+            17
+        ],
+        [
+            36,
+            32
+        ],
+        [
+            13,
+            29
+        ],
+        [
+            30,
+            26
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            19,
+            13
+        ],
+        [
+            24,
+            37
+        ],
+        [
+            29,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            25,
+            35
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            32,
+            24
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            23,
+            19
+        ],
+        [
+            31,
+            25
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            26,
+            31
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            14,
+            22
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            37
+        ],
+        [
+            4,
+            37
+        ],
+        [
+            6,
+            37
+        ],
+        [
+            6,
+            37
+        ],
+        [
+            13,
+            37
+        ],
+        [
+            24,
+            37
+        ],
+        [
+            24,
+            37
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "clear_thread_flag",
+        "5": "TIF_UPROBE_SINGLESTEP",
+        "6": "<operator>.assignment",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "regs",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "auprobe",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.assignment",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "regs",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "current",
+        "22": "FIELD_IDENTIFIER",
+        "23": "FIELD_IDENTIFIER",
+        "24": "<operator>.assignment",
+        "25": "<operator>.fieldAccess",
+        "26": "<operator>.fieldAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "current",
+        "29": "FIELD_IDENTIFIER",
+        "30": "FIELD_IDENTIFIER",
+        "31": "FIELD_IDENTIFIER",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "current",
+        "35": "FIELD_IDENTIFIER",
+        "36": "FIELD_IDENTIFIER",
+        "37": "METHOD_RETURN"
+    }
+}

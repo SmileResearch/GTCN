@@ -1,0 +1,122 @@
+{
+    "Function": "wf_stop_thread",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "wf_thread",
+        "5": "kthread_stop",
+        "6": "wf_thread",
+        "7": "<operator>.assignment",
+        "8": "wf_thread",
+        "9": "NULL",
+        "10": "METHOD_RETURN"
+    }
+}

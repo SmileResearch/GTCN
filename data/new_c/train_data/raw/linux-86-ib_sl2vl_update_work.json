@@ -1,0 +1,165 @@
+{
+    "Function": "ib_sl2vl_update_work",
+    "astEdges": [
+        [
+            18,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        13,
+        16,
+        17,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "mdev",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ew",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "port",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ew",
+        "14": "FIELD_IDENTIFIER",
+        "15": "mlx4_ib_sl2vl_update",
+        "16": "mdev",
+        "17": "port",
+        "18": "kfree",
+        "19": "ew",
+        "20": "METHOD_RETURN"
+    }
+}

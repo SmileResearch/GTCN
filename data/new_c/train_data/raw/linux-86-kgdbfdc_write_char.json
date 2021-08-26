@@ -1,0 +1,142 @@
+{
+    "Function": "kgdbfdc_write_char",
+    "astEdges": [
+        [
+            15,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10,
+        11,
+        14,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pr_devel",
+        "4": "LITERAL",
+        "5": "chr",
+        "6": "<operator>.assignment",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "kgdbfdc_wbuf",
+        "9": "<operator>.postIncrement",
+        "10": "kgdbfdc_wbuflen",
+        "11": "chr",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.greaterEqualsThan",
+        "14": "kgdbfdc_wbuflen",
+        "15": "<operator>.sizeOf",
+        "16": "kgdbfdc_wbuf",
+        "17": "kgdbfdc_push_one",
+        "18": "METHOD_RETURN"
+    }
+}

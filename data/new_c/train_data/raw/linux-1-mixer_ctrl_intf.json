@@ -1,0 +1,119 @@
+{
+    "Function": "mixer_ctrl_intf",
+    "astEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "get_iface_desc",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "mixer",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

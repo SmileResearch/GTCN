@@ -1,0 +1,156 @@
+{
+    "Function": "wlc_phy_cal_perical_mphase_restart",
+    "astEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "pi",
+        "6": "FIELD_IDENTIFIER",
+        "7": "MPHASE_CAL_STATE_INIT",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "pi",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "Function": "hfi1_vnic_maybe_stop_tx",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        13,
+        17,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "netif_stop_subqueue",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "vinfo",
+        "7": "FIELD_IDENTIFIER",
+        "8": "q_idx",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.logicalNot",
+        "11": "hfi1_vnic_sdma_write_avail",
+        "12": "vinfo",
+        "13": "q_idx",
+        "14": "RETURN",
+        "15": "netif_start_subqueue",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "vinfo",
+        "18": "FIELD_IDENTIFIER",
+        "19": "q_idx",
+        "20": "METHOD_RETURN"
+    }
+}

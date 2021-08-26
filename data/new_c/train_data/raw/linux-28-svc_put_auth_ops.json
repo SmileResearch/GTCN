@@ -1,0 +1,84 @@
+{
+    "Function": "svc_put_auth_ops",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "module_put",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "aops",
+        "6": "FIELD_IDENTIFIER",
+        "7": "METHOD_RETURN"
+    }
+}

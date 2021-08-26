@@ -1,0 +1,139 @@
+{
+    "Function": "clear_pending_db",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "iowrite32",
+        "5": "clr",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "hw",
+        "10": "FIELD_IDENTIFIER",
+        "11": "DB_OUT",
+        "12": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "Function": "read_idle_sma",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        11,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "read_idle_message",
+        "6": "dd",
+        "7": "<operator>.shiftLeft",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "IDLE_SMA",
+        "11": "IDLE_MSG_TYPE_SHIFT",
+        "12": "data",
+        "13": "METHOD_RETURN"
+    }
+}

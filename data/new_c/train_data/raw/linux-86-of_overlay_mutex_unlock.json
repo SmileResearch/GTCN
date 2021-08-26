@@ -1,0 +1,49 @@
+{
+    "Function": "of_overlay_mutex_unlock",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_unlock",
+        "4": "<operator>.addressOf",
+        "5": "of_overlay_phandle_mutex",
+        "6": "METHOD_RETURN"
+    }
+}

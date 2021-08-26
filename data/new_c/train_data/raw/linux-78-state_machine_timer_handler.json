@@ -1,0 +1,156 @@
+{
+    "Function": "state_machine_timer_handler",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "kthread_queue_work",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "port",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "port",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "HRTIMER_NORESTART",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,349 @@
+{
+    "Function": "cpu_mask_set_get_first",
+    "astEdges": [
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            30,
+            38
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            0,
+            47
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            45
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            45,
+            46
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        13,
+        15,
+        17,
+        20,
+        24,
+        27,
+        29,
+        32,
+        33,
+        35,
+        37,
+        40,
+        43,
+        46
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.logicalOr",
+        "7": "<operator>.logicalNot",
+        "8": "diff",
+        "9": "<operator>.logicalNot",
+        "10": "set",
+        "11": "RETURN",
+        "12": "<operator>.minus",
+        "13": "EINVAL",
+        "14": "_cpu_mask_set_gen_inc",
+        "15": "set",
+        "16": "cpumask_andnot",
+        "17": "diff",
+        "18": "<operator>.addressOf",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "set",
+        "21": "FIELD_IDENTIFIER",
+        "22": "<operator>.addressOf",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "set",
+        "25": "FIELD_IDENTIFIER",
+        "26": "<operator>.assignment",
+        "27": "cpu",
+        "28": "cpumask_first",
+        "29": "diff",
+        "30": "CONTROL_STRUCTURE",
+        "31": "<operator>.greaterEqualsThan",
+        "32": "cpu",
+        "33": "nr_cpu_ids",
+        "34": "<operator>.assignment",
+        "35": "cpu",
+        "36": "<operator>.minus",
+        "37": "EINVAL",
+        "38": "CONTROL_STRUCTURE",
+        "39": "cpumask_set_cpu",
+        "40": "cpu",
+        "41": "<operator>.addressOf",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "set",
+        "44": "FIELD_IDENTIFIER",
+        "45": "RETURN",
+        "46": "cpu",
+        "47": "METHOD_RETURN"
+    }
+}

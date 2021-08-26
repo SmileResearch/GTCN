@@ -1,0 +1,128 @@
+{
+    "Function": "rtrack2_init",
+    "astEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "isa_register_driver",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "rtrack2_driver",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RTRACK2_MAX",
+        "10": "METHOD_RETURN"
+    }
+}

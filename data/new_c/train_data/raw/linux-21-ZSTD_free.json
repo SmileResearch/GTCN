@@ -1,0 +1,107 @@
+{
+    "Function": "ZSTD_free",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.notEquals",
+        "6": "ptr",
+        "7": "NULL",
+        "8": "customMem.customFree",
+        "9": "<operator>.fieldAccess",
+        "10": "customMem",
+        "11": "FIELD_IDENTIFIER",
+        "12": "ptr",
+        "13": "METHOD_RETURN"
+    }
+}

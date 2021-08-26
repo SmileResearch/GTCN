@@ -1,0 +1,118 @@
+{
+    "Function": "neigh_get_hash_rnd",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            3
+        ],
+        [
+            6,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirection",
+        "5": "x",
+        "6": "<operator>.or",
+        "7": "get_random_u32",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

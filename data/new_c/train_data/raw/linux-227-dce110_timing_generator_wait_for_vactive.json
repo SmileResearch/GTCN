@@ -1,0 +1,155 @@
+{
+    "Function": "dce110_timing_generator_wait_for_vactive",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "dce110_timing_generator_is_in_vertical_blank",
+        "5": "tg",
+        "6": "BLOCK",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.logicalNot",
+        "9": "dce110_timing_generator_is_counter_moving",
+        "10": "tg",
+        "11": "BLOCK",
+        "12": "CONTROL_STRUCTURE",
+        "13": "METHOD_RETURN"
+    }
+}

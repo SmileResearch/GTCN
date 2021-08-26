@@ -1,0 +1,178 @@
+{
+    "Function": "pmac_backlight_set_legacy_brightness_pmu",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        10,
+        13
+    ],
+    "cfgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "atomic_read",
+        "5": "<operator>.addressOf",
+        "6": "kernel_backlight_disabled",
+        "7": "RETURN",
+        "8": "<operator>.assignment",
+        "9": "pmac_backlight_set_legacy_queued",
+        "10": "brightness",
+        "11": "schedule_work",
+        "12": "<operator>.addressOf",
+        "13": "pmac_backlight_set_legacy_work",
+        "14": "METHOD_RETURN"
+    }
+}

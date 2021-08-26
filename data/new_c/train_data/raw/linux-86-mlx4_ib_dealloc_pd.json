@@ -1,0 +1,129 @@
+{
+    "Function": "mlx4_ib_dealloc_pd",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "mlx4_pd_free",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "to_mdev",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "pd",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "to_mpd",
+        "13": "pd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

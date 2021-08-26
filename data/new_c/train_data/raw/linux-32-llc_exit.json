@@ -1,0 +1,107 @@
+{
+    "Function": "llc_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dev_remove_pack",
+        "4": "<operator>.addressOf",
+        "5": "llc_packet_type",
+        "6": "dev_remove_pack",
+        "7": "<operator>.addressOf",
+        "8": "llc_tr_packet_type",
+        "9": "METHOD_RETURN"
+    }
+}

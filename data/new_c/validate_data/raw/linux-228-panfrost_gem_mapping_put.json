@@ -1,0 +1,172 @@
+{
+    "Function": "panfrost_gem_mapping_put",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            7,
+            13
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "mapping",
+        "6": "RETURN",
+        "7": "kref_put",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "mapping",
+        "11": "FIELD_IDENTIFIER",
+        "12": "panfrost_gem_mapping_release",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "Function": "perf_exit",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ntb_unregister_client",
+        "4": "<operator>.addressOf",
+        "5": "perf_client",
+        "6": "debugfs_remove_recursive",
+        "7": "perf_dbgfs_topdir",
+        "8": "destroy_workqueue",
+        "9": "perf_wq",
+        "10": "METHOD_RETURN"
+    }
+}

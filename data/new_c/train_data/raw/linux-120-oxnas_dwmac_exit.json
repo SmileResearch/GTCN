@@ -1,0 +1,143 @@
+{
+    "Function": "oxnas_dwmac_exit",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            11,
+            9
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "dwmac",
+        "7": "priv",
+        "8": "clk_disable_unprepare",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "dwmac",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

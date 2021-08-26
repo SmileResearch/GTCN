@@ -1,0 +1,204 @@
+{
+    "Function": "check_max_packet",
+    "astEdges": [
+        [
+            10,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            19
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        13,
+        16,
+        20,
+        22,
+        23,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ret",
+        "7": "RCV_PKT_OK",
+        "8": "CONTROL_STRUCTURE",
+        "9": "unlikely",
+        "10": "<operator>.equals",
+        "11": "<operator>.and",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "packet",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.subtraction",
+        "16": "MAX_PKT_RECV",
+        "17": "LITERAL",
+        "18": "LITERAL",
+        "19": "<operator>.assignment",
+        "20": "ret",
+        "21": "max_packet_exceeded",
+        "22": "packet",
+        "23": "thread",
+        "24": "RETURN",
+        "25": "ret",
+        "26": "METHOD_RETURN"
+    }
+}

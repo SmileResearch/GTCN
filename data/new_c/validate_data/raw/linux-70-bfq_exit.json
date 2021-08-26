@@ -1,0 +1,128 @@
+{
+    "Function": "bfq_exit",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "elv_unregister",
+        "4": "<operator>.addressOf",
+        "5": "iosched_bfq_mq",
+        "6": "blkcg_policy_unregister",
+        "7": "<operator>.addressOf",
+        "8": "blkcg_policy_bfq",
+        "9": "bfq_slab_kill",
+        "10": "METHOD_RETURN"
+    }
+}

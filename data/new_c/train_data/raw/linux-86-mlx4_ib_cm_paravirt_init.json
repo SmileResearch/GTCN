@@ -1,0 +1,284 @@
+{
+    "Function": "mlx4_ib_cm_paravirt_init",
+    "astEdges": [
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            39
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            32
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            23
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            31
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        14,
+        20,
+        23,
+        28,
+        31,
+        36
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock_init",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "INIT_LIST_HEAD",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.fieldAccess",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "dev",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "<operator>.assignment",
+        "18": "<operator>.fieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "dev",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RB_ROOT",
+        "24": "xa_init_flags",
+        "25": "<operator>.addressOf",
+        "26": "<operator>.fieldAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "dev",
+        "29": "FIELD_IDENTIFIER",
+        "30": "FIELD_IDENTIFIER",
+        "31": "XA_FLAGS_ALLOC",
+        "32": "xa_init",
+        "33": "<operator>.addressOf",
+        "34": "<operator>.fieldAccess",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "dev",
+        "37": "FIELD_IDENTIFIER",
+        "38": "FIELD_IDENTIFIER",
+        "39": "METHOD_RETURN"
+    }
+}

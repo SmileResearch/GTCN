@@ -1,0 +1,103 @@
+{
+    "Function": "mixer_disable_sync",
+    "astEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mixer_reg_writemask",
+        "4": "ctx",
+        "5": "MXR_STATUS",
+        "6": "LITERAL",
+        "7": "MXR_STATUS_SYNC_ENABLE",
+        "8": "METHOD_RETURN"
+    }
+}

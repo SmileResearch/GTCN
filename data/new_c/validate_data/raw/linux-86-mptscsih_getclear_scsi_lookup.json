@@ -1,0 +1,267 @@
+{
+    "Function": "mptscsih_getclear_scsi_lookup",
+    "astEdges": [
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            31
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            32
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            0,
+            34
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11,
+        13,
+        16,
+        18,
+        22,
+        24,
+        25,
+        29,
+        31,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "spin_lock_irqsave",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ioc",
+        "10": "FIELD_IDENTIFIER",
+        "11": "flags",
+        "12": "<operator>.assignment",
+        "13": "scmd",
+        "14": "<operator>.indirectIndexAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "ioc",
+        "17": "FIELD_IDENTIFIER",
+        "18": "i",
+        "19": "<operator>.assignment",
+        "20": "<operator>.indirectIndexAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "ioc",
+        "23": "FIELD_IDENTIFIER",
+        "24": "i",
+        "25": "NULL",
+        "26": "spin_unlock_irqrestore",
+        "27": "<operator>.addressOf",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "ioc",
+        "30": "FIELD_IDENTIFIER",
+        "31": "flags",
+        "32": "RETURN",
+        "33": "scmd",
+        "34": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "Function": "ntb_bus_init",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            3
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "list_add_tail",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "nt",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.addressOf",
+        "9": "ntb_transport_list",
+        "10": "RETURN",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

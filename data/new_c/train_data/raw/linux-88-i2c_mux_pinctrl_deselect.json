@@ -1,0 +1,128 @@
+{
+    "Function": "i2c_mux_pinctrl_deselect",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "i2c_mux_pinctrl_select",
+        "6": "muxc",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "muxc",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "Function": "vega10_notify_smc_display_change",
+    "astEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "smum_send_msg_to_smc_with_parameter",
+        "5": "hwmgr",
+        "6": "PPSMC_MSG_SetUclkFastSwitch",
+        "7": "<operator>.conditional",
+        "8": "has_disp",
+        "9": "LITERAL",
+        "10": "LITERAL",
+        "11": "NULL",
+        "12": "METHOD_RETURN"
+    }
+}

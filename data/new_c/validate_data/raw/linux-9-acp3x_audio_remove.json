@@ -1,0 +1,119 @@
+{
+    "Function": "acp3x_audio_remove",
+    "astEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pm_runtime_disable",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "pdev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "RETURN",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

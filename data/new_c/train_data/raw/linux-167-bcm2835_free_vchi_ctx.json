@@ -1,0 +1,160 @@
+{
+    "Function": "bcm2835_free_vchi_ctx",
+    "astEdges": [
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "WARN_ON",
+        "4": "vchiq_shutdown",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "vchi_ctx",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "vchi_ctx",
+        "11": "FIELD_IDENTIFIER",
+        "12": "NULL",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "Function": "do_freq_post_notify_handling",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "emif",
+        "7": "FIELD_IDENTIFIER",
+        "8": "EMIF_LP_MODE_SELF_REFRESH",
+        "9": "set_lpmode",
+        "10": "emif",
+        "11": "EMIF_LP_MODE_SELF_REFRESH",
+        "12": "METHOD_RETURN"
+    }
+}

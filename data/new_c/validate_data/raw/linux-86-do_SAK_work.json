@@ -1,0 +1,44 @@
+{
+    "Function": "do_SAK_work",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "__do_SAK",
+        "4": "tty",
+        "5": "METHOD_RETURN"
+    }
+}

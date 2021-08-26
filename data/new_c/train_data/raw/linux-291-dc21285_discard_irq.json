@@ -1,0 +1,116 @@
+{
+    "Function": "dc21285_discard_irq",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operators>.assignmentAnd",
+        "5": "<operator>.indirection",
+        "6": "CSR_SA110_CNTL",
+        "7": "LITERAL",
+        "8": "RETURN",
+        "9": "IRQ_HANDLED",
+        "10": "METHOD_RETURN"
+    }
+}

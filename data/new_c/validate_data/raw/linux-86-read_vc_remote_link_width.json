@@ -1,0 +1,226 @@
+{
+    "Function": "read_vc_remote_link_width",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            20
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            28
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9,
+        11,
+        14,
+        17,
+        18,
+        19,
+        22,
+        25,
+        26,
+        27
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "read_8051_config",
+        "7": "dd",
+        "8": "VERIFY_CAP_REMOTE_LINK_WIDTH",
+        "9": "GENERAL_CONFIG",
+        "10": "<operator>.addressOf",
+        "11": "frame",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirection",
+        "14": "remote_tx_rate",
+        "15": "<operator>.and",
+        "16": "<operator>.arithmeticShiftRight",
+        "17": "frame",
+        "18": "REMOTE_TX_RATE_SHIFT",
+        "19": "REMOTE_TX_RATE_MASK",
+        "20": "<operator>.assignment",
+        "21": "<operator>.indirection",
+        "22": "link_widths",
+        "23": "<operator>.and",
+        "24": "<operator>.arithmeticShiftRight",
+        "25": "frame",
+        "26": "LINK_WIDTH_SHIFT",
+        "27": "LINK_WIDTH_MASK",
+        "28": "METHOD_RETURN"
+    }
+}

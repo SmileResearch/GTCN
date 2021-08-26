@@ -1,0 +1,120 @@
+{
+    "Function": "hns_get_gid_index",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "<operator>.addition",
+        "7": "<operator>.multiplication",
+        "8": "gid_index",
+        "9": "<operator>.fieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "hr_dev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "port",
+        "15": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "Function": "tegra_i2c_release_clocks",
+    "astEdges": [
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            15,
+            11
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            12,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            18
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "i2c_dev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "clk_disable",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "i2c_dev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "clk_bulk_unprepare",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "i2c_dev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "i2c_dev",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

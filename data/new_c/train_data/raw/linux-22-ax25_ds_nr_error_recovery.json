@@ -1,0 +1,66 @@
+{
+    "Function": "ax25_ds_nr_error_recovery",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ax25_ds_establish_data_link",
+        "4": "ax25",
+        "5": "METHOD_RETURN"
+    }
+}

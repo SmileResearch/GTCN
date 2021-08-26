@@ -1,0 +1,151 @@
+{
+    "Function": "aiu_hdmi_ctrl_register_component",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            9,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "snd_soc_register_component",
+        "5": "dev",
+        "6": "<operator>.addressOf",
+        "7": "aiu_hdmi_ctrl_component",
+        "8": "aiu_hdmi_ctrl_dai_drv",
+        "9": "ARRAY_SIZE",
+        "10": "aiu_hdmi_ctrl_dai_drv",
+        "11": "METHOD_RETURN"
+    }
+}

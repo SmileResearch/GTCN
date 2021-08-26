@@ -1,0 +1,163 @@
+{
+    "Function": "hdmi_vendor_infoframe_check",
+    "astEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "frame",
+        "6": "FIELD_IDENTIFIER",
+        "7": "hdmi_vendor_infoframe_length",
+        "8": "frame",
+        "9": "RETURN",
+        "10": "hdmi_vendor_infoframe_check_only",
+        "11": "frame",
+        "12": "METHOD_RETURN"
+    }
+}

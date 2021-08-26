@@ -1,0 +1,119 @@
+{
+    "Function": "pseries_suspend_enable_irqs",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cacheinfo_cpu_offline",
+        "4": "smp_processor_id",
+        "5": "post_mobility_fixup",
+        "6": "cacheinfo_cpu_online",
+        "7": "smp_processor_id",
+        "8": "METHOD_RETURN"
+    }
+}

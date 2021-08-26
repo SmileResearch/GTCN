@@ -1,0 +1,97 @@
+{
+    "Function": "amdgpu_dm_encoder_destroy",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "drm_encoder_cleanup",
+        "4": "encoder",
+        "5": "kfree",
+        "6": "encoder",
+        "7": "METHOD_RETURN"
+    }
+}

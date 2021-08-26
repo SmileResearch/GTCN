@@ -1,0 +1,241 @@
+{
+    "Function": "register_pkey_tree",
+    "astEdges": [
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            32
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            18,
+            24
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            12,
+            27
+        ],
+        [
+            12,
+            25
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        14,
+        17,
+        21,
+        26,
+        28,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "mlx4_is_master",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "device",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "LITERAL",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.assignment",
+        "14": "i",
+        "15": "LITERAL",
+        "16": "<operator>.lessEqualsThan",
+        "17": "i",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "device",
+        "22": "FIELD_IDENTIFIER",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.preIncrement",
+        "26": "i",
+        "27": "register_one_pkey_tree",
+        "28": "device",
+        "29": "i",
+        "30": "RETURN",
+        "31": "LITERAL",
+        "32": "METHOD_RETURN"
+    }
+}

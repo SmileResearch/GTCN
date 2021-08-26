@@ -1,0 +1,432 @@
+{
+    "Function": "hns_roce_v1_query_qpc",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            19,
+            29
+        ],
+        [
+            19,
+            28
+        ],
+        [
+            19,
+            30
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            50
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            34,
+            39
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            42
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            31
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            54
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            51
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            56
+        ],
+        [
+            42,
+            43
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        13,
+        16,
+        18,
+        20,
+        23,
+        26,
+        29,
+        30,
+        33,
+        35,
+        37,
+        41,
+        47,
+        52,
+        53,
+        55
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            55
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "mailbox",
+        "9": "hns_roce_alloc_cmd_mailbox",
+        "10": "hr_dev",
+        "11": "CONTROL_STRUCTURE",
+        "12": "IS_ERR",
+        "13": "mailbox",
+        "14": "RETURN",
+        "15": "PTR_ERR",
+        "16": "mailbox",
+        "17": "<operator>.assignment",
+        "18": "ret",
+        "19": "hns_roce_cmd_mbox",
+        "20": "hr_dev",
+        "21": "LITERAL",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "mailbox",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "hr_qp",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "HNS_ROCE_CMD_QUERY_QP",
+        "30": "HNS_ROCE_CMD_TIMEOUT_MSECS",
+        "31": "CONTROL_STRUCTURE",
+        "32": "<operator>.logicalNot",
+        "33": "ret",
+        "34": "memcpy",
+        "35": "hr_context",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "mailbox",
+        "38": "FIELD_IDENTIFIER",
+        "39": "<operator>.sizeOf",
+        "40": "<operator>.indirection",
+        "41": "hr_context",
+        "42": "CONTROL_STRUCTURE",
+        "43": "dev_err",
+        "44": "<operator>.addressOf",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "hr_dev",
+        "48": "FIELD_IDENTIFIER",
+        "49": "FIELD_IDENTIFIER",
+        "50": "LITERAL",
+        "51": "hns_roce_free_cmd_mailbox",
+        "52": "hr_dev",
+        "53": "mailbox",
+        "54": "RETURN",
+        "55": "ret",
+        "56": "METHOD_RETURN"
+    }
+}

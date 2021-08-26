@@ -1,0 +1,69 @@
+{
+    "Function": "i2c_in_csr",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.conditional",
+        "5": "bus_num",
+        "6": "ASIC_QSFP2_IN",
+        "7": "ASIC_QSFP1_IN",
+        "8": "METHOD_RETURN"
+    }
+}

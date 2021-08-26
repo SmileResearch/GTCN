@@ -1,0 +1,120 @@
+{
+    "Function": "ec_invm",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        11
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.logicalNot",
+        "7": "mpi_invm",
+        "8": "x",
+        "9": "a",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "ctx",
+        "12": "FIELD_IDENTIFIER",
+        "13": "log_error",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

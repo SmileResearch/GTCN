@@ -1,0 +1,145 @@
+{
+    "Function": "ZSTD_cycleLog",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        13,
+        16,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "btScale",
+        "7": "<operator>.greaterEqualsThan",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "strat",
+        "11": "<operator>.cast",
+        "12": "UNKNOWN",
+        "13": "ZSTD_btlazy2",
+        "14": "RETURN",
+        "15": "<operator>.subtraction",
+        "16": "hashLog",
+        "17": "btScale",
+        "18": "METHOD_RETURN"
+    }
+}

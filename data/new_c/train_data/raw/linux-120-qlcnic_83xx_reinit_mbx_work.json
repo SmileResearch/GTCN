@@ -1,0 +1,169 @@
+{
+    "Function": "qlcnic_83xx_reinit_mbx_work",
+    "astEdges": [
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            11,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "reinit_completion",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "mbx",
+        "7": "FIELD_IDENTIFIER",
+        "8": "set_bit",
+        "9": "QLC_83XX_MBX_READY",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "mbx",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

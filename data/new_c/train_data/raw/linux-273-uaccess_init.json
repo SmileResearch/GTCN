@@ -1,0 +1,132 @@
+{
+    "Function": "uaccess_init",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "test_facility",
+        "5": "LITERAL",
+        "6": "static_branch_enable",
+        "7": "<operator>.addressOf",
+        "8": "have_mvcos",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

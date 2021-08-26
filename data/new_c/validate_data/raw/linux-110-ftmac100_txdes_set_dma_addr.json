@@ -1,0 +1,124 @@
+{
+    "Function": "ftmac100_txdes_set_dma_addr",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "txdes",
+        "7": "FIELD_IDENTIFIER",
+        "8": "cpu_to_le32",
+        "9": "addr",
+        "10": "METHOD_RETURN"
+    }
+}

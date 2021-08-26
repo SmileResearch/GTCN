@@ -1,0 +1,278 @@
+{
+    "Function": "hfi1_vnic_select_queue",
+    "astEdges": [
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            35
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            28
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            31
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        13,
+        17,
+        20,
+        23,
+        26,
+        29,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "vinfo",
+        "8": "opa_vnic_dev_priv",
+        "9": "netdev",
+        "10": "LOCAL",
+        "11": "LOCAL",
+        "12": "<operator>.assignment",
+        "13": "mdata",
+        "14": "<operator>.cast",
+        "15": "UNKNOWN",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "skb",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.assignment",
+        "20": "sde",
+        "21": "sdma_select_engine_vl",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "vinfo",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "mdata",
+        "27": "FIELD_IDENTIFIER",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "mdata",
+        "30": "FIELD_IDENTIFIER",
+        "31": "RETURN",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "sde",
+        "34": "FIELD_IDENTIFIER",
+        "35": "METHOD_RETURN"
+    }
+}

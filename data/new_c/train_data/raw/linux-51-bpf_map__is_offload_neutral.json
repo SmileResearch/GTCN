@@ -1,0 +1,141 @@
+{
+    "Function": "bpf_map__is_offload_neutral",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "map",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "BPF_MAP_TYPE_PERF_EVENT_ARRAY",
+        "11": "METHOD_RETURN"
+    }
+}

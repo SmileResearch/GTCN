@@ -1,0 +1,173 @@
+{
+    "Function": "alsa_card_es1688_exit",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "snd_es968_pnp_is_probed",
+        "6": "BLOCK",
+        "7": "isa_unregister_driver",
+        "8": "<operator>.addressOf",
+        "9": "snd_es1688_driver",
+        "10": "RETURN",
+        "11": "pnp_unregister_card_driver",
+        "12": "<operator>.addressOf",
+        "13": "es968_pnpc_driver",
+        "14": "METHOD_RETURN"
+    }
+}

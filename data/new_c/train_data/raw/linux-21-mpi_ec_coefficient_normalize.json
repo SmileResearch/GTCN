@@ -1,0 +1,303 @@
+{
+    "Function": "mpi_ec_coefficient_normalize",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            34
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            27
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            14,
+            24
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            0,
+            39
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        32,
+        36
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "a",
+        "7": "FIELD_IDENTIFIER",
+        "8": "BLOCK",
+        "9": "mpi_resize",
+        "10": "a",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "p",
+        "13": "FIELD_IDENTIFIER",
+        "14": "mpihelp_sub_n",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "a",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "p",
+        "20": "FIELD_IDENTIFIER",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "a",
+        "23": "FIELD_IDENTIFIER",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "p",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.assignment",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "a",
+        "30": "FIELD_IDENTIFIER",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "p",
+        "33": "FIELD_IDENTIFIER",
+        "34": "<operator>.assignment",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "a",
+        "37": "FIELD_IDENTIFIER",
+        "38": "LITERAL",
+        "39": "METHOD_RETURN"
+    }
+}

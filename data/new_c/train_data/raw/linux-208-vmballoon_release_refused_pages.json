@@ -1,0 +1,264 @@
+{
+    "Function": "vmballoon_release_refused_pages",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8,
+        13,
+        17,
+        20
+    ],
+    "cfgEdges": [
+        [
+            7,
+            4
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            19,
+            10
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            10,
+            22
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            21,
+            19
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            22
+        ],
+        [
+            10,
+            22
+        ],
+        [
+            10,
+            22
+        ],
+        [
+            10,
+            22
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            22
+        ],
+        [
+            4,
+            22
+        ],
+        [
+            4,
+            22
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "vmballoon_stats_page_inc",
+        "5": "b",
+        "6": "VMW_BALLOON_PAGE_STAT_REFUSED_FREE",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ctl",
+        "9": "FIELD_IDENTIFIER",
+        "10": "vmballoon_release_page_list",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ctl",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "ctl",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "ctl",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

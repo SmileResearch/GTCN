@@ -1,0 +1,566 @@
+{
+    "Function": "hns_roce_bitmap_free_range",
+    "astEdges": [
+        [
+            60,
+            64
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            67,
+            69
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            23
+        ],
+        [
+            5,
+            70
+        ],
+        [
+            5,
+            39
+        ],
+        [
+            5,
+            51
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            23,
+            30
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            32
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            75
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            46,
+            50
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            51,
+            55
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            64,
+            66
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            55,
+            67
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            70,
+            71
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        15,
+        21,
+        25,
+        28,
+        29,
+        31,
+        34,
+        35,
+        37,
+        41,
+        44,
+        48,
+        50,
+        53,
+        58,
+        62,
+        65,
+        68,
+        73
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            73
+        ],
+        [
+            73,
+            74
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "<operators>.assignmentAnd",
+        "8": "obj",
+        "9": "<operator>.addition",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "bitmap",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.subtraction",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "bitmap",
+        "16": "FIELD_IDENTIFIER",
+        "17": "LITERAL",
+        "18": "spin_lock",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "bitmap",
+        "22": "FIELD_IDENTIFIER",
+        "23": "CONTROL_STRUCTURE",
+        "24": "<operator>.assignment",
+        "25": "i",
+        "26": "LITERAL",
+        "27": "<operator>.lessThan",
+        "28": "i",
+        "29": "cnt",
+        "30": "<operator>.postIncrement",
+        "31": "i",
+        "32": "clear_bit",
+        "33": "<operator>.addition",
+        "34": "obj",
+        "35": "i",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "bitmap",
+        "38": "FIELD_IDENTIFIER",
+        "39": "CONTROL_STRUCTURE",
+        "40": "<operator>.logicalNot",
+        "41": "rr",
+        "42": "<operator>.assignment",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "bitmap",
+        "45": "FIELD_IDENTIFIER",
+        "46": "min",
+        "47": "<operator>.indirectFieldAccess",
+        "48": "bitmap",
+        "49": "FIELD_IDENTIFIER",
+        "50": "obj",
+        "51": "<operator>.assignment",
+        "52": "<operator>.indirectFieldAccess",
+        "53": "bitmap",
+        "54": "FIELD_IDENTIFIER",
+        "55": "<operator>.and",
+        "56": "<operator>.addition",
+        "57": "<operator>.indirectFieldAccess",
+        "58": "bitmap",
+        "59": "FIELD_IDENTIFIER",
+        "60": "<operator>.addition",
+        "61": "<operator>.indirectFieldAccess",
+        "62": "bitmap",
+        "63": "FIELD_IDENTIFIER",
+        "64": "<operator>.indirectFieldAccess",
+        "65": "bitmap",
+        "66": "FIELD_IDENTIFIER",
+        "67": "<operator>.indirectFieldAccess",
+        "68": "bitmap",
+        "69": "FIELD_IDENTIFIER",
+        "70": "spin_unlock",
+        "71": "<operator>.addressOf",
+        "72": "<operator>.indirectFieldAccess",
+        "73": "bitmap",
+        "74": "FIELD_IDENTIFIER",
+        "75": "METHOD_RETURN"
+    }
+}

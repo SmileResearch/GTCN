@@ -1,0 +1,160 @@
+{
+    "Function": "_opcode_stats_seq_next",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12,
+        15,
+        18,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.preIncrement",
+        "7": "<operator>.indirection",
+        "8": "pos",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.greaterEqualsThan",
+        "11": "<operator>.indirection",
+        "12": "pos",
+        "13": "ARRAY_SIZE",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "opstats",
+        "16": "FIELD_IDENTIFIER",
+        "17": "RETURN",
+        "18": "NULL",
+        "19": "RETURN",
+        "20": "pos",
+        "21": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,540 @@
+{
+    "Function": "mpt_lan_reset",
+    "astEdges": [
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            61
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            70
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            52
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            62
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            57
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            40
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            2,
+            68
+        ],
+        [
+            2,
+            45
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            62,
+            67
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            64,
+            66
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        19,
+        20,
+        26,
+        29,
+        32,
+        34,
+        37,
+        42,
+        47,
+        50,
+        54,
+        59,
+        63,
+        65,
+        67
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            69
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "priv",
+        "8": "netdev_priv",
+        "9": "dev",
+        "10": "<operator>.assignment",
+        "11": "mf",
+        "12": "mpt_get_msg_frame",
+        "13": "LanCtx",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "priv",
+        "16": "FIELD_IDENTIFIER",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.equals",
+        "19": "mf",
+        "20": "NULL",
+        "21": "BLOCK",
+        "22": "RETURN",
+        "23": "<operator>.minus",
+        "24": "LITERAL",
+        "25": "<operator>.assignment",
+        "26": "pResetReq",
+        "27": "<operator>.cast",
+        "28": "UNKNOWN",
+        "29": "mf",
+        "30": "<operator>.assignment",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "pResetReq",
+        "33": "FIELD_IDENTIFIER",
+        "34": "MPI_FUNCTION_LAN_RESET",
+        "35": "<operator>.assignment",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "pResetReq",
+        "38": "FIELD_IDENTIFIER",
+        "39": "LITERAL",
+        "40": "<operator>.assignment",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "pResetReq",
+        "43": "FIELD_IDENTIFIER",
+        "44": "LITERAL",
+        "45": "<operator>.assignment",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "pResetReq",
+        "48": "FIELD_IDENTIFIER",
+        "49": "<operator>.indirectFieldAccess",
+        "50": "priv",
+        "51": "FIELD_IDENTIFIER",
+        "52": "<operator>.assignment",
+        "53": "<operator>.indirectFieldAccess",
+        "54": "pResetReq",
+        "55": "FIELD_IDENTIFIER",
+        "56": "LITERAL",
+        "57": "<operator>.assignment",
+        "58": "<operator>.indirectFieldAccess",
+        "59": "pResetReq",
+        "60": "FIELD_IDENTIFIER",
+        "61": "LITERAL",
+        "62": "mpt_put_msg_frame",
+        "63": "LanCtx",
+        "64": "<operator>.indirectFieldAccess",
+        "65": "priv",
+        "66": "FIELD_IDENTIFIER",
+        "67": "mf",
+        "68": "RETURN",
+        "69": "LITERAL",
+        "70": "METHOD_RETURN"
+    }
+}

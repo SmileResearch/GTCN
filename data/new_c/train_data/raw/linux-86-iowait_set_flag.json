@@ -1,0 +1,107 @@
+{
+    "Function": "iowait_set_flag",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8,
+        11
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "trace_hfi1_iowait_set",
+        "5": "wait",
+        "6": "flag",
+        "7": "set_bit",
+        "8": "flag",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "wait",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

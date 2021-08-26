@@ -1,0 +1,219 @@
+{
+    "Function": "hns_roce_init_uar_table",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            23
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            28
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            29
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        19,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "hns_roce_bitmap_init",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "hr_dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "hr_dev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.subtraction",
+        "17": "<operator>.fieldAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "hr_dev",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "LITERAL",
+        "23": "<operator>.fieldAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "hr_dev",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "METHOD_RETURN"
+    }
+}

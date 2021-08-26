@@ -1,0 +1,138 @@
+{
+    "Function": "skb_flow_dissect_allowed",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.preIncrement",
+        "4": "<operator>.indirection",
+        "5": "num_hdrs",
+        "6": "RETURN",
+        "7": "<operator>.lessEqualsThan",
+        "8": "<operator>.indirection",
+        "9": "num_hdrs",
+        "10": "MAX_FLOW_DISSECT_HDRS",
+        "11": "METHOD_RETURN"
+    }
+}

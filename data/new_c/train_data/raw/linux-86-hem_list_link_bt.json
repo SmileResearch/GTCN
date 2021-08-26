@@ -1,0 +1,91 @@
+{
+    "Function": "hem_list_link_bt",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        10
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirection",
+        "7": "<operator>.cast",
+        "8": "UNKNOWN",
+        "9": "base_addr",
+        "10": "table_addr",
+        "11": "METHOD_RETURN"
+    }
+}

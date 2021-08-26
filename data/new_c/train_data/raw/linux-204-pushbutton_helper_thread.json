@@ -1,0 +1,107 @@
+{
+    "Function": "pushbutton_helper_thread",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "pushbutton_pending",
+        "5": "t",
+        "6": "wake_up_process",
+        "7": "cpqhp_event_thread",
+        "8": "METHOD_RETURN"
+    }
+}

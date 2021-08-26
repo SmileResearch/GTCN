@@ -1,0 +1,106 @@
+{
+    "Function": "nfc_llc_shdlc_register",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "nfc_llc_register",
+        "5": "LLC_SHDLC_NAME",
+        "6": "<operator>.addressOf",
+        "7": "llc_shdlc_ops",
+        "8": "METHOD_RETURN"
+    }
+}

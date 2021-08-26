@@ -1,0 +1,158 @@
+{
+    "Function": "nv40_gr_units",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            11,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "nvkm_rd32",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "gr",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,221 @@
+{
+    "Function": "neo_uart_off",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        16
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            11,
+            19
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            11,
+            19
+        ],
+        [
+            11,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "writeb",
+        "4": "LITERAL",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ch",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "writeb",
+        "12": "LITERAL",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "ch",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

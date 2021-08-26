@@ -1,0 +1,107 @@
+{
+    "Function": "nf_log_arp_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_pernet_subsys",
+        "4": "<operator>.addressOf",
+        "5": "nf_log_arp_net_ops",
+        "6": "nf_log_unregister",
+        "7": "<operator>.addressOf",
+        "8": "nf_arp_logger",
+        "9": "METHOD_RETURN"
+    }
+}

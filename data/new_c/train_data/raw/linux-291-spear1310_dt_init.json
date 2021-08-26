@@ -1,0 +1,114 @@
+{
+    "Function": "spear1310_dt_init",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_device_register_simple",
+        "4": "LITERAL",
+        "5": "<operator>.minus",
+        "6": "LITERAL",
+        "7": "NULL",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

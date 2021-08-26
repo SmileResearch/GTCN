@@ -1,0 +1,115 @@
+{
+    "Function": "throt_get_cdev_max_state",
+    "astEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirection",
+        "6": "max_state",
+        "7": "LITERAL",
+        "8": "RETURN",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

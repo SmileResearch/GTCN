@@ -1,0 +1,190 @@
+{
+    "Function": "__dlm_mle_detach_hb_events",
+    "astEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        14
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            11,
+            16
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "list_empty",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "mle",
+        "10": "FIELD_IDENTIFIER",
+        "11": "list_del_init",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "mle",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

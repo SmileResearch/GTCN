@@ -1,0 +1,514 @@
+{
+    "Function": "ZSTD_checkCParams",
+    "astEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            39,
+            44
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            61
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            66
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            52,
+            58
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            38
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            50
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            27,
+            32
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            2,
+            27
+        ],
+        [
+            2,
+            64
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            39
+        ],
+        [
+            2,
+            33
+        ],
+        [
+            2,
+            51
+        ],
+        [
+            2,
+            45
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        10,
+        11,
+        14,
+        17,
+        19,
+        20,
+        23,
+        25,
+        26,
+        29,
+        31,
+        32,
+        35,
+        37,
+        38,
+        41,
+        43,
+        44,
+        47,
+        49,
+        50,
+        56,
+        60,
+        63
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            63
+        ],
+        [
+            63,
+            65
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.or",
+        "6": "<operator>.lessThan",
+        "7": "val",
+        "8": "min",
+        "9": "<operator>.greaterThan",
+        "10": "val",
+        "11": "max",
+        "12": "RETURN",
+        "13": "ERROR",
+        "14": "compressionParameter_unsupported",
+        "15": "CLAMPCHECK",
+        "16": "<operator>.fieldAccess",
+        "17": "cParams",
+        "18": "FIELD_IDENTIFIER",
+        "19": "ZSTD_WINDOWLOG_MIN",
+        "20": "ZSTD_WINDOWLOG_MAX",
+        "21": "CLAMPCHECK",
+        "22": "<operator>.fieldAccess",
+        "23": "cParams",
+        "24": "FIELD_IDENTIFIER",
+        "25": "ZSTD_CHAINLOG_MIN",
+        "26": "ZSTD_CHAINLOG_MAX",
+        "27": "CLAMPCHECK",
+        "28": "<operator>.fieldAccess",
+        "29": "cParams",
+        "30": "FIELD_IDENTIFIER",
+        "31": "ZSTD_HASHLOG_MIN",
+        "32": "ZSTD_HASHLOG_MAX",
+        "33": "CLAMPCHECK",
+        "34": "<operator>.fieldAccess",
+        "35": "cParams",
+        "36": "FIELD_IDENTIFIER",
+        "37": "ZSTD_SEARCHLOG_MIN",
+        "38": "ZSTD_SEARCHLOG_MAX",
+        "39": "CLAMPCHECK",
+        "40": "<operator>.fieldAccess",
+        "41": "cParams",
+        "42": "FIELD_IDENTIFIER",
+        "43": "ZSTD_SEARCHLENGTH_MIN",
+        "44": "ZSTD_SEARCHLENGTH_MAX",
+        "45": "CLAMPCHECK",
+        "46": "<operator>.fieldAccess",
+        "47": "cParams",
+        "48": "FIELD_IDENTIFIER",
+        "49": "ZSTD_TARGETLENGTH_MIN",
+        "50": "ZSTD_TARGETLENGTH_MAX",
+        "51": "CONTROL_STRUCTURE",
+        "52": "<operator>.greaterThan",
+        "53": "<operator>.cast",
+        "54": "UNKNOWN",
+        "55": "<operator>.fieldAccess",
+        "56": "cParams",
+        "57": "FIELD_IDENTIFIER",
+        "58": "<operator>.cast",
+        "59": "UNKNOWN",
+        "60": "ZSTD_btopt2",
+        "61": "RETURN",
+        "62": "ERROR",
+        "63": "compressionParameter_unsupported",
+        "64": "RETURN",
+        "65": "LITERAL",
+        "66": "METHOD_RETURN"
+    }
+}

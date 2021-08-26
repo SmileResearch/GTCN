@@ -1,0 +1,222 @@
+{
+    "Function": "restore_mfc_rag",
+    "astEdges": [
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            11,
+            18
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            17,
+            13
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            13,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "spu_resource_allocation_groupID_set",
+        "5": "spu",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "csa",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "spu_resource_allocation_enable_set",
+        "12": "spu",
+        "13": "<operator>.fieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "csa",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

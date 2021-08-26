@@ -1,0 +1,144 @@
+{
+    "Function": "__i2c_debugfs_open",
+    "astEdges": [
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        13,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "ppd",
+        "8": "private2ppd",
+        "9": "fp",
+        "10": "RETURN",
+        "11": "acquire_chip_resource",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ppd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "i2c_target",
+        "16": "target",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

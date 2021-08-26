@@ -1,0 +1,205 @@
+{
+    "Function": "pinctrl_generic_free_groups",
+    "astEdges": [
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        15
+    ],
+    "cfgEdges": [
+        [
+            14,
+            13
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            13,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "radix_tree_delete",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "pctldev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.fieldAccess",
+        "11": "iter",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.assignment",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "pctldev",
+        "16": "FIELD_IDENTIFIER",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

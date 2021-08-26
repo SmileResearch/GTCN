@@ -1,0 +1,133 @@
+{
+    "Function": "uniphier_fi2c_reset",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "writel",
+        "4": "UNIPHIER_FI2C_RST_RST",
+        "5": "<operator>.addition",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "priv",
+        "8": "FIELD_IDENTIFIER",
+        "9": "UNIPHIER_FI2C_RST",
+        "10": "METHOD_RETURN"
+    }
+}

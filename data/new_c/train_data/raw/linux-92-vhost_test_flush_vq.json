@@ -1,0 +1,143 @@
+{
+    "Function": "vhost_test_flush_vq",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "vhost_poll_flush",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "n",
+        "10": "FIELD_IDENTIFIER",
+        "11": "index",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

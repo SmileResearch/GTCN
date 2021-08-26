@@ -1,0 +1,131 @@
+{
+    "Function": "lowpan_btle_dev",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.cast",
+        "5": "UNKNOWN",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "lowpan_dev",
+        "8": "netdev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

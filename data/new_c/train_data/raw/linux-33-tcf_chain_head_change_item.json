@@ -1,0 +1,152 @@
+{
+    "Function": "tcf_chain_head_change_item",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "item",
+        "7": "FIELD_IDENTIFIER",
+        "8": "item->chain_head_change",
+        "9": "tp_head",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "item",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

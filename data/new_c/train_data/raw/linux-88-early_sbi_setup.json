@@ -1,0 +1,155 @@
+{
+    "Function": "early_sbi_setup",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "device",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "sbi_console_write",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

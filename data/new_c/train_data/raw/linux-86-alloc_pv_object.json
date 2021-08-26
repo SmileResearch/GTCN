@@ -1,0 +1,359 @@
+{
+    "Function": "alloc_pv_object",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            0,
+            47
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            41
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            31
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            23
+        ],
+        [
+            5,
+            45
+        ],
+        [
+            5,
+            36
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            40
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        10,
+        12,
+        16,
+        19,
+        22,
+        25,
+        29,
+        33,
+        35,
+        38,
+        40,
+        43,
+        44
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirection",
+        "9": "ret_ctx",
+        "10": "NULL",
+        "11": "<operator>.assignment",
+        "12": "ctx",
+        "13": "kzalloc",
+        "14": "<operator>.sizeOf",
+        "15": "UNKNOWN",
+        "16": "GFP_KERNEL",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.logicalNot",
+        "19": "ctx",
+        "20": "RETURN",
+        "21": "<operator>.minus",
+        "22": "ENOMEM",
+        "23": "<operator>.assignment",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "ctx",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.addressOf",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "dev",
+        "30": "FIELD_IDENTIFIER",
+        "31": "<operator>.assignment",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "ctx",
+        "34": "FIELD_IDENTIFIER",
+        "35": "port",
+        "36": "<operator>.assignment",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "ctx",
+        "39": "FIELD_IDENTIFIER",
+        "40": "slave",
+        "41": "<operator>.assignment",
+        "42": "<operator>.indirection",
+        "43": "ret_ctx",
+        "44": "ctx",
+        "45": "RETURN",
+        "46": "LITERAL",
+        "47": "METHOD_RETURN"
+    }
+}

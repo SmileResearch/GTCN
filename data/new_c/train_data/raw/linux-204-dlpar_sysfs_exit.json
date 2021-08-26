@@ -1,0 +1,120 @@
+{
+    "Function": "dlpar_sysfs_exit",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "sysfs_remove_group",
+        "4": "dlpar_kobj",
+        "5": "<operator>.addressOf",
+        "6": "dlpar_attr_group",
+        "7": "kobject_put",
+        "8": "dlpar_kobj",
+        "9": "METHOD_RETURN"
+    }
+}

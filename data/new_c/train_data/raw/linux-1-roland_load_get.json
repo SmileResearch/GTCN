@@ -1,0 +1,213 @@
+{
+    "Function": "roland_load_get",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        15
+    ],
+    "cfgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            14,
+            4
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            17
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "value",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "kcontrol",
+        "16": "FIELD_IDENTIFIER",
+        "17": "RETURN",
+        "18": "LITERAL",
+        "19": "METHOD_RETURN"
+    }
+}

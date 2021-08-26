@@ -1,0 +1,175 @@
+{
+    "Function": "hfi1_init_aip_rsm",
+    "astEdges": [
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        14,
+        16,
+        19,
+        20,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "atomic_fetch_inc",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dd",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "BLOCK",
+        "12": "LOCAL",
+        "13": "<operator>.assignment",
+        "14": "rmt_start",
+        "15": "hfi1_netdev_get_free_rmt_idx",
+        "16": "dd",
+        "17": "BLOCK",
+        "18": "hfi1_enable_rsm_rule",
+        "19": "dd",
+        "20": "RSM_INS_AIP",
+        "21": "<operator>.addressOf",
+        "22": "rrd",
+        "23": "METHOD_RETURN"
+    }
+}

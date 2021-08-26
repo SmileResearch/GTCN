@@ -1,0 +1,223 @@
+{
+    "Function": "sunrpc_begin_cache_remove_entry",
+    "astEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        13,
+        17
+    ],
+    "cfgEdges": [
+        [
+            14,
+            12
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            16,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            19
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "hlist_del_init_rcu",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ch",
+        "8": "FIELD_IDENTIFIER",
+        "9": "set_bit",
+        "10": "CACHE_CLEANED",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ch",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.postDecrement",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "cd",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

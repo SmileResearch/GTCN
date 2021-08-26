@@ -1,0 +1,102 @@
+{
+    "Function": "hp680bl_exit",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_device_unregister",
+        "4": "hp680bl_device",
+        "5": "platform_driver_unregister",
+        "6": "<operator>.addressOf",
+        "7": "hp680bl_driver",
+        "8": "METHOD_RETURN"
+    }
+}

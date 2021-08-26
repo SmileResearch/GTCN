@@ -1,0 +1,97 @@
+{
+    "Function": "cell_init_irq",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "iic_init_IRQ",
+        "4": "spider_init_IRQ",
+        "5": "mpic_init_IRQ",
+        "6": "METHOD_RETURN"
+    }
+}

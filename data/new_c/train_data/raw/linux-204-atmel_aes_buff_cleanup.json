@@ -1,0 +1,114 @@
+{
+    "Function": "atmel_aes_buff_cleanup",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "free_page",
+        "4": "<operator>.cast",
+        "5": "UNKNOWN",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dd",
+        "8": "FIELD_IDENTIFIER",
+        "9": "METHOD_RETURN"
+    }
+}

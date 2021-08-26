@@ -1,0 +1,96 @@
+{
+    "Function": "b43_bluetooth_coext_disable",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "modparam_btcoex",
+        "6": "RETURN",
+        "7": "METHOD_RETURN"
+    }
+}

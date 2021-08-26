@@ -1,0 +1,167 @@
+{
+    "Function": "rphy_to_ioc",
+    "astEdges": [
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "shost",
+        "6": "dev_to_shost",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "rphy",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "RETURN",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "<operator>.cast",
+        "17": "UNKNOWN",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "shost",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,232 @@
+{
+    "Function": "musb_host_poke_root_hub",
+    "astEdges": [
+        [
+            16,
+            17
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        13,
+        18
+    ],
+    "cfgEdges": [
+        [
+            16,
+            20
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            6,
+            19
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "MUSB_HST_MODE",
+        "4": "musb",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "musb",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "usb_hcd_poll_rh_status",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "musb",
+        "14": "FIELD_IDENTIFIER",
+        "15": "CONTROL_STRUCTURE",
+        "16": "usb_hcd_resume_root_hub",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "musb",
+        "19": "FIELD_IDENTIFIER",
+        "20": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "Function": "__of_update_property_sysfs",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        12,
+        13,
+        15,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.logicalNot",
+        "7": "of_kset",
+        "8": "RETURN",
+        "9": "CONTROL_STRUCTURE",
+        "10": "oldprop",
+        "11": "__of_sysfs_remove_bin_file",
+        "12": "np",
+        "13": "oldprop",
+        "14": "__of_add_property_sysfs",
+        "15": "np",
+        "16": "newprop",
+        "17": "METHOD_RETURN"
+    }
+}

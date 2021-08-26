@@ -1,0 +1,212 @@
+{
+    "Function": "lockd_unregister_notifiers",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10,
+        14
+    ],
+    "cfgEdges": [
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_inetaddr_notifier",
+        "4": "<operator>.addressOf",
+        "5": "lockd_inetaddr_notifier",
+        "6": "unregister_inet6addr_notifier",
+        "7": "<operator>.addressOf",
+        "8": "lockd_inet6addr_notifier",
+        "9": "wait_event",
+        "10": "nlm_ntf_wq",
+        "11": "<operator>.equals",
+        "12": "atomic_read",
+        "13": "<operator>.addressOf",
+        "14": "nlm_ntf_refcnt",
+        "15": "LITERAL",
+        "16": "METHOD_RETURN"
+    }
+}

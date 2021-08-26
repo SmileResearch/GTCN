@@ -1,0 +1,158 @@
+{
+    "Function": "xilinx_dpdma_chan_ostand",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "FIELD_GET",
+        "5": "XILINX_DPDMA_CH_STATUS_OTRAN_CNT_MASK",
+        "6": "dpdma_read",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "chan",
+        "9": "FIELD_IDENTIFIER",
+        "10": "XILINX_DPDMA_CH_STATUS",
+        "11": "METHOD_RETURN"
+    }
+}

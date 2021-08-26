@@ -1,0 +1,160 @@
+{
+    "Function": "hfi1_ipoib_dev_get_stats64",
+    "astEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        13,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "priv",
+        "7": "hfi1_ipoib_priv",
+        "8": "dev",
+        "9": "netdev_stats_to_stats64",
+        "10": "storage",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "dev_fetch_sw_netstats",
+        "16": "storage",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "priv",
+        "19": "FIELD_IDENTIFIER",
+        "20": "METHOD_RETURN"
+    }
+}

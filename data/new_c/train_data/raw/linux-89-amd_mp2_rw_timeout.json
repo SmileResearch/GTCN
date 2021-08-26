@@ -1,0 +1,129 @@
+{
+    "Function": "amd_mp2_rw_timeout",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "i2c_common",
+        "6": "FIELD_IDENTIFIER",
+        "7": "i2c_none",
+        "8": "amd_mp2_c2p_mutex_unlock",
+        "9": "i2c_common",
+        "10": "METHOD_RETURN"
+    }
+}

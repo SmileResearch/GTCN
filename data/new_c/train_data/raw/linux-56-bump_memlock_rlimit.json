@@ -1,0 +1,115 @@
+{
+    "Function": "bump_memlock_rlimit",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "setrlimit",
+        "6": "RLIMIT_MEMLOCK",
+        "7": "<operator>.addressOf",
+        "8": "rlim_new",
+        "9": "METHOD_RETURN"
+    }
+}

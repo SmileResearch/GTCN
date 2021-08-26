@@ -1,0 +1,316 @@
+{
+    "Function": "hns_roce_modify_device",
+    "astEdges": [
+        [
+            36,
+            37
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            33
+        ],
+        [
+            17,
+            25
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            32
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            35,
+            38
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            18,
+            24
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            33,
+            39
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            40
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        12,
+        15,
+        16,
+        22,
+        24,
+        27,
+        30,
+        32,
+        37,
+        39
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.and",
+        "8": "mask",
+        "9": "~IB_DEVICE_MODIFY_NODE_DESC",
+        "10": "RETURN",
+        "11": "<operator>.minus",
+        "12": "EOPNOTSUPP",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.and",
+        "15": "mask",
+        "16": "IB_DEVICE_MODIFY_NODE_DESC",
+        "17": "BLOCK",
+        "18": "spin_lock_irqsave",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "to_hr_dev",
+        "22": "ib_dev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "flags",
+        "25": "memcpy",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "ib_dev",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "props",
+        "31": "FIELD_IDENTIFIER",
+        "32": "NODE_DESC_SIZE",
+        "33": "spin_unlock_irqrestore",
+        "34": "<operator>.addressOf",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "to_hr_dev",
+        "37": "ib_dev",
+        "38": "FIELD_IDENTIFIER",
+        "39": "flags",
+        "40": "RETURN",
+        "41": "LITERAL",
+        "42": "METHOD_RETURN"
+    }
+}

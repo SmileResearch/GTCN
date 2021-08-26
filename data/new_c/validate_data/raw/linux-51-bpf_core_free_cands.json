@@ -1,0 +1,107 @@
+{
+    "Function": "bpf_core_free_cands",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "free",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "cand_ids",
+        "6": "FIELD_IDENTIFIER",
+        "7": "free",
+        "8": "cand_ids",
+        "9": "METHOD_RETURN"
+    }
+}

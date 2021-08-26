@@ -1,0 +1,133 @@
+{
+    "Function": "brcms_c_scb_ampdu_update_config_all",
+    "astEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            10,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "brcms_c_scb_ampdu_update_config",
+        "4": "ampdu",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ampdu",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

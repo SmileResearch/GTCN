@@ -1,0 +1,257 @@
+{
+    "Function": "kvm_s390_vsie_init",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        17,
+        21
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            20,
+            14
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            12,
+            22
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            22
+        ],
+        [
+            12,
+            22
+        ],
+        [
+            12,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_init",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "kvm",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "INIT_RADIX_TREE",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "kvm",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "GFP_KERNEL",
+        "22": "METHOD_RETURN"
+    }
+}

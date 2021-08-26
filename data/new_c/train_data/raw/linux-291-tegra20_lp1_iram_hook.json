@@ -1,0 +1,171 @@
+{
+    "Function": "tegra20_lp1_iram_hook",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            9,
+            15
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "tegra_lp1_iram",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.addressOf",
+        "8": "tegra20_iram_start",
+        "9": "<operator>.assignment",
+        "10": "<operator>.fieldAccess",
+        "11": "tegra_lp1_iram",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.addressOf",
+        "14": "tegra20_iram_end",
+        "15": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "Function": "sem_rcu_free",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "security_sem_free",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "sma",
+        "7": "FIELD_IDENTIFIER",
+        "8": "kvfree",
+        "9": "sma",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,251 @@
+{
+    "Function": "aq_nic_get_regs_count",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        17
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            20,
+            14
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            11,
+            21
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            11,
+            21
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            4,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "unlikely",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "self",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "RETURN",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "self",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

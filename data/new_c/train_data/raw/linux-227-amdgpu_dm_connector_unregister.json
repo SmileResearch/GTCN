@@ -1,0 +1,186 @@
+{
+    "Function": "amdgpu_dm_connector_unregister",
+    "astEdges": [
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        12
+    ],
+    "cfgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "amdgpu_dm_connector",
+        "6": "to_amdgpu_dm_connector",
+        "7": "connector",
+        "8": "drm_dp_aux_unregister",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "amdgpu_dm_connector",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

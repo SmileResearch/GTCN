@@ -1,0 +1,266 @@
+{
+    "Function": "set_up_i2c",
+    "astEdges": [
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            35
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            30
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            33
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        10,
+        14,
+        17,
+        18,
+        24,
+        28,
+        32
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            34
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ad",
+        "7": "FIELD_IDENTIFIER",
+        "8": "init_i2c_bus",
+        "9": "dd",
+        "10": "ad",
+        "11": "LITERAL",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "ad",
+        "15": "FIELD_IDENTIFIER",
+        "16": "init_i2c_bus",
+        "17": "dd",
+        "18": "ad",
+        "19": "LITERAL",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.logicalOr",
+        "22": "<operator>.logicalNot",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "ad",
+        "25": "FIELD_IDENTIFIER",
+        "26": "<operator>.logicalNot",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "ad",
+        "29": "FIELD_IDENTIFIER",
+        "30": "RETURN",
+        "31": "<operator>.minus",
+        "32": "ENOMEM",
+        "33": "RETURN",
+        "34": "LITERAL",
+        "35": "METHOD_RETURN"
+    }
+}

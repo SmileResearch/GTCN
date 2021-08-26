@@ -1,0 +1,94 @@
+{
+    "Function": "ppc440spe_desc_set_rxor_block_size",
+    "astEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dcr_write",
+        "4": "ppc440spe_mq_dcr_host",
+        "5": "DCRN_MQ0_CF2H",
+        "6": "byte_count",
+        "7": "METHOD_RETURN"
+    }
+}

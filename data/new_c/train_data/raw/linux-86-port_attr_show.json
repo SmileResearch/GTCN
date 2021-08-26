@@ -1,0 +1,141 @@
+{
+    "Function": "port_attr_show",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12,
+        15,
+        16,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.logicalNot",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "port_attr",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "<operator>.minus",
+        "12": "EIO",
+        "13": "RETURN",
+        "14": "port_attr->show",
+        "15": "p",
+        "16": "port_attr",
+        "17": "buf",
+        "18": "METHOD_RETURN"
+    }
+}

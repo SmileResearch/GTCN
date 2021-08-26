@@ -1,0 +1,271 @@
+{
+    "Function": "dce60_program_nbp_watermark",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        13,
+        15,
+        18,
+        19,
+        20
+    ],
+    "cfgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            17,
+            21
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            21
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "REG_UPDATE",
+        "6": "DPG_PIPE_NB_PSTATE_CHANGE_CONTROL",
+        "7": "NB_PSTATE_CHANGE_WATERMARK_MASK",
+        "8": "wm_select",
+        "9": "REG_UPDATE_3",
+        "10": "DPG_PIPE_NB_PSTATE_CHANGE_CONTROL",
+        "11": "NB_PSTATE_CHANGE_ENABLE",
+        "12": "LITERAL",
+        "13": "NB_PSTATE_CHANGE_URGENT_DURING_REQUEST",
+        "14": "LITERAL",
+        "15": "NB_PSTATE_CHANGE_NOT_SELF_REFRESH_DURING_REQUEST",
+        "16": "LITERAL",
+        "17": "REG_UPDATE",
+        "18": "DPG_PIPE_NB_PSTATE_CHANGE_CONTROL",
+        "19": "NB_PSTATE_CHANGE_WATERMARK",
+        "20": "nbp_wm",
+        "21": "METHOD_RETURN"
+    }
+}

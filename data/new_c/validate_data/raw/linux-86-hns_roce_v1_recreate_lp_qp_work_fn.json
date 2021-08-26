@@ -1,0 +1,256 @@
+{
+    "Function": "hns_roce_v1_recreate_lp_qp_work_fn",
+    "astEdges": [
+        [
+            32,
+            33
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            2,
+            32
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            34
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            23
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        15,
+        20,
+        26,
+        30,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "hr_dev",
+        "7": "to_hr_dev",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "lp_qp_work",
+        "10": "FIELD_IDENTIFIER",
+        "11": "hns_roce_v1_release_lp_qp",
+        "12": "hr_dev",
+        "13": "CONTROL_STRUCTURE",
+        "14": "hns_roce_v1_rsv_lp_qp",
+        "15": "hr_dev",
+        "16": "dev_err",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "hr_dev",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "LITERAL",
+        "24": "CONTROL_STRUCTURE",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "lp_qp_work",
+        "27": "FIELD_IDENTIFIER",
+        "28": "complete",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "lp_qp_work",
+        "31": "FIELD_IDENTIFIER",
+        "32": "kfree",
+        "33": "lp_qp_work",
+        "34": "METHOD_RETURN"
+    }
+}

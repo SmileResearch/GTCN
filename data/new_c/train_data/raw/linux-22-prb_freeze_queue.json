@@ -1,0 +1,191 @@
+{
+    "Function": "prb_freeze_queue",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        13
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            16,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            9,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            9,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "pkc",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "<operator>.postIncrement",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "po",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "Function": "guarded_storage_release",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12
+    ],
+    "cfgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "kfree",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "tsk",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "kfree",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "tsk",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

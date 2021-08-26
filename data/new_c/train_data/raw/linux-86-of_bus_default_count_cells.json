@@ -1,0 +1,147 @@
+{
+    "Function": "of_bus_default_count_cells",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11,
+        13,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "addrc",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirection",
+        "9": "addrc",
+        "10": "of_n_addr_cells",
+        "11": "dev",
+        "12": "CONTROL_STRUCTURE",
+        "13": "sizec",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirection",
+        "16": "sizec",
+        "17": "of_n_size_cells",
+        "18": "dev",
+        "19": "METHOD_RETURN"
+    }
+}

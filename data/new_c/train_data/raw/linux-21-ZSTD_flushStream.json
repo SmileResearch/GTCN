@@ -1,0 +1,441 @@
+{
+    "Function": "ZSTD_flushStream",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            57
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            21,
+            34
+        ],
+        [
+            21,
+            38
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            36
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            32
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            44
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            39
+        ],
+        [
+            3,
+            49
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            56
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        13,
+        16,
+        20,
+        22,
+        27,
+        30,
+        33,
+        35,
+        37,
+        38,
+        41,
+        43,
+        46,
+        48,
+        52,
+        55
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            55,
+            56
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "srcSize",
+        "7": "LITERAL",
+        "8": "LOCAL",
+        "9": "<operator>.assignment",
+        "10": "sizeWritten",
+        "11": "<operator>.subtraction",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "output",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "output",
+        "17": "FIELD_IDENTIFIER",
+        "18": "LOCAL",
+        "19": "<operator>.assignment",
+        "20": "result",
+        "21": "ZSTD_compressStream_generic",
+        "22": "zcs",
+        "23": "<operator>.addition",
+        "24": "<operator>.cast",
+        "25": "UNKNOWN",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "output",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "output",
+        "31": "FIELD_IDENTIFIER",
+        "32": "<operator>.addressOf",
+        "33": "sizeWritten",
+        "34": "<operator>.addressOf",
+        "35": "srcSize",
+        "36": "<operator>.addressOf",
+        "37": "srcSize",
+        "38": "zsf_flush",
+        "39": "<operator>.assignmentPlus",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "output",
+        "42": "FIELD_IDENTIFIER",
+        "43": "sizeWritten",
+        "44": "CONTROL_STRUCTURE",
+        "45": "ZSTD_isError",
+        "46": "result",
+        "47": "RETURN",
+        "48": "result",
+        "49": "RETURN",
+        "50": "<operator>.subtraction",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "zcs",
+        "53": "FIELD_IDENTIFIER",
+        "54": "<operator>.indirectFieldAccess",
+        "55": "zcs",
+        "56": "FIELD_IDENTIFIER",
+        "57": "METHOD_RETURN"
+    }
+}

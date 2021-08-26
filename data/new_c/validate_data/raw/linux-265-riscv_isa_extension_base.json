@@ -1,0 +1,165 @@
+{
+    "Function": "riscv_isa_extension_base",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            14
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "isa_bitmap",
+        "6": "RETURN",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "riscv_isa",
+        "9": "LITERAL",
+        "10": "RETURN",
+        "11": "<operator>.indirectIndexAccess",
+        "12": "isa_bitmap",
+        "13": "LITERAL",
+        "14": "METHOD_RETURN"
+    }
+}

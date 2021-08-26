@@ -1,0 +1,286 @@
+{
+    "Function": "__hns_roce_hw_v2_uninit_instance",
+    "astEdges": [
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            37
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            28
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            32
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            3,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        16,
+        18,
+        21,
+        23,
+        25,
+        27,
+        30,
+        35
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            35,
+            36
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "hr_dev",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "handle",
+        "9": "FIELD_IDENTIFIER",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.logicalNot",
+        "12": "hr_dev",
+        "13": "RETURN",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "handle",
+        "17": "FIELD_IDENTIFIER",
+        "18": "NULL",
+        "19": "<operator>.assignment",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "hr_dev",
+        "22": "FIELD_IDENTIFIER",
+        "23": "HNS_ROCE_DEVICE_STATE_UNINIT",
+        "24": "hns_roce_handle_device_err",
+        "25": "hr_dev",
+        "26": "hns_roce_exit",
+        "27": "hr_dev",
+        "28": "kfree",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "hr_dev",
+        "31": "FIELD_IDENTIFIER",
+        "32": "ib_dealloc_device",
+        "33": "<operator>.addressOf",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "hr_dev",
+        "36": "FIELD_IDENTIFIER",
+        "37": "METHOD_RETURN"
+    }
+}

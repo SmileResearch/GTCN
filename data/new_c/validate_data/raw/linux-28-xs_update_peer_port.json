@@ -1,0 +1,202 @@
+{
+    "Function": "xs_update_peer_port",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        14,
+        16
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "kfree",
+        "4": "<operator>.indirectIndexAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "xprt",
+        "7": "FIELD_IDENTIFIER",
+        "8": "RPC_DISPLAY_HEX_PORT",
+        "9": "kfree",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "xprt",
+        "13": "FIELD_IDENTIFIER",
+        "14": "RPC_DISPLAY_PORT",
+        "15": "xs_format_common_peer_ports",
+        "16": "xprt",
+        "17": "METHOD_RETURN"
+    }
+}

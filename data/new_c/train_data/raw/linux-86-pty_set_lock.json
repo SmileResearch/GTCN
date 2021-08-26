@@ -1,0 +1,219 @@
+{
+    "Function": "pty_set_lock",
+    "astEdges": [
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            27
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            29
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            20
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        11,
+        13,
+        15,
+        18,
+        22,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "get_user",
+        "7": "val",
+        "8": "arg",
+        "9": "RETURN",
+        "10": "<operator>.minus",
+        "11": "EFAULT",
+        "12": "CONTROL_STRUCTURE",
+        "13": "val",
+        "14": "set_bit",
+        "15": "TTY_PTY_LOCK",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "tty",
+        "19": "FIELD_IDENTIFIER",
+        "20": "CONTROL_STRUCTURE",
+        "21": "clear_bit",
+        "22": "TTY_PTY_LOCK",
+        "23": "<operator>.addressOf",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "tty",
+        "26": "FIELD_IDENTIFIER",
+        "27": "RETURN",
+        "28": "LITERAL",
+        "29": "METHOD_RETURN"
+    }
+}

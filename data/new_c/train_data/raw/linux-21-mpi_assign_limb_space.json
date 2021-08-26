@@ -1,0 +1,154 @@
+{
+    "Function": "mpi_assign_limb_space",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        13,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "mpi_free_limb_space",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "a",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "a",
+        "12": "FIELD_IDENTIFIER",
+        "13": "ap",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "a",
+        "17": "FIELD_IDENTIFIER",
+        "18": "nlimbs",
+        "19": "METHOD_RETURN"
+    }
+}

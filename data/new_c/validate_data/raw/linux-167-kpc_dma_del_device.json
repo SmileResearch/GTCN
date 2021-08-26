@@ -1,0 +1,165 @@
+{
+    "Function": "kpc_dma_del_device",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_lock",
+        "4": "<operator>.addressOf",
+        "5": "kpc_dma_mtx",
+        "6": "list_del",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ldev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "mutex_unlock",
+        "12": "<operator>.addressOf",
+        "13": "kpc_dma_mtx",
+        "14": "METHOD_RETURN"
+    }
+}

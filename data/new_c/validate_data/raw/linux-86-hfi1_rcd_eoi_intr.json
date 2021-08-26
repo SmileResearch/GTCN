@@ -1,0 +1,83 @@
+{
+    "Function": "hfi1_rcd_eoi_intr",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "local_irq_save",
+        "5": "flags",
+        "6": "__hfi1_rcd_eoi_intr",
+        "7": "rcd",
+        "8": "local_irq_restore",
+        "9": "flags",
+        "10": "METHOD_RETURN"
+    }
+}

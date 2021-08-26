@@ -1,0 +1,158 @@
+{
+    "Function": "qpn_from_mac",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        15,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.or",
+        "5": "<operator>.shiftLeft",
+        "6": "<operator>.cast",
+        "7": "UNKNOWN",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "mac_arr",
+        "10": "LITERAL",
+        "11": "LITERAL",
+        "12": "<operator>.or",
+        "13": "<operator>.shiftLeft",
+        "14": "<operator>.indirectIndexAccess",
+        "15": "mac_arr",
+        "16": "LITERAL",
+        "17": "LITERAL",
+        "18": "<operator>.indirectIndexAccess",
+        "19": "mac_arr",
+        "20": "LITERAL",
+        "21": "METHOD_RETURN"
+    }
+}

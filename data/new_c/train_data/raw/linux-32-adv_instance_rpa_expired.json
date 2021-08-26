@@ -1,0 +1,124 @@
+{
+    "Function": "adv_instance_rpa_expired",
+    "astEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BT_DBG",
+        "4": "LITERAL",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "adv_instance",
+        "8": "FIELD_IDENTIFIER",
+        "9": "true",
+        "10": "METHOD_RETURN"
+    }
+}

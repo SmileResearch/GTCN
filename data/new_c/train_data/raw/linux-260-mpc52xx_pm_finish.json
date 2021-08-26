@@ -1,0 +1,138 @@
+{
+    "Function": "mpc52xx_pm_finish",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.fieldAccess",
+        "5": "mpc52xx_suspend",
+        "6": "FIELD_IDENTIFIER",
+        "7": "mpc52xx_suspend.board_resume_finish",
+        "8": "mbar",
+        "9": "iounmap",
+        "10": "mbar",
+        "11": "METHOD_RETURN"
+    }
+}

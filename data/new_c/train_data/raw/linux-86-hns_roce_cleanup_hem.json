@@ -1,0 +1,738 @@
+{
+    "Function": "hns_roce_cleanup_hem",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            101
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            96,
+            100
+        ],
+        [
+            96,
+            97
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            88,
+            92
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            64,
+            68
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            89,
+            91
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            62
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            55
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            85,
+            87
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            72,
+            76
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            85
+        ],
+        [
+            2,
+            93
+        ],
+        [
+            2,
+            77
+        ],
+        [
+            2,
+            49
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            63
+        ],
+        [
+            2,
+            37
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            63,
+            69
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            93,
+            95
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            97,
+            99
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            77,
+            79
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            80,
+            84
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            81,
+            83
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            65,
+            67
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        14,
+        18,
+        22,
+        28,
+        32,
+        35,
+        40,
+        44,
+        47,
+        52,
+        56,
+        60,
+        66,
+        70,
+        74,
+        78,
+        82,
+        86,
+        90,
+        94,
+        98
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            70,
+            74
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            76,
+            78
+        ],
+        [
+            78,
+            82
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            84,
+            86
+        ],
+        [
+            86,
+            90
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            92,
+            94
+        ],
+        [
+            94,
+            98
+        ],
+        [
+            98,
+            99
+        ],
+        [
+            99,
+            100
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "hr_dev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "hns_roce_cleanup_hem_table",
+        "10": "hr_dev",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.fieldAccess",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "hr_dev",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "hns_roce_cleanup_hem_table",
+        "18": "hr_dev",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.fieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "hr_dev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "CONTROL_STRUCTURE",
+        "26": "<operator>.fieldAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "hr_dev",
+        "29": "FIELD_IDENTIFIER",
+        "30": "FIELD_IDENTIFIER",
+        "31": "hns_roce_cleanup_hem_table",
+        "32": "hr_dev",
+        "33": "<operator>.addressOf",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "hr_dev",
+        "36": "FIELD_IDENTIFIER",
+        "37": "CONTROL_STRUCTURE",
+        "38": "<operator>.fieldAccess",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "hr_dev",
+        "41": "FIELD_IDENTIFIER",
+        "42": "FIELD_IDENTIFIER",
+        "43": "hns_roce_cleanup_hem_table",
+        "44": "hr_dev",
+        "45": "<operator>.addressOf",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "hr_dev",
+        "48": "FIELD_IDENTIFIER",
+        "49": "CONTROL_STRUCTURE",
+        "50": "<operator>.fieldAccess",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "hr_dev",
+        "53": "FIELD_IDENTIFIER",
+        "54": "FIELD_IDENTIFIER",
+        "55": "hns_roce_cleanup_hem_table",
+        "56": "hr_dev",
+        "57": "<operator>.addressOf",
+        "58": "<operator>.fieldAccess",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "hr_dev",
+        "61": "FIELD_IDENTIFIER",
+        "62": "FIELD_IDENTIFIER",
+        "63": "CONTROL_STRUCTURE",
+        "64": "<operator>.fieldAccess",
+        "65": "<operator>.indirectFieldAccess",
+        "66": "hr_dev",
+        "67": "FIELD_IDENTIFIER",
+        "68": "FIELD_IDENTIFIER",
+        "69": "hns_roce_cleanup_hem_table",
+        "70": "hr_dev",
+        "71": "<operator>.addressOf",
+        "72": "<operator>.fieldAccess",
+        "73": "<operator>.indirectFieldAccess",
+        "74": "hr_dev",
+        "75": "FIELD_IDENTIFIER",
+        "76": "FIELD_IDENTIFIER",
+        "77": "hns_roce_cleanup_hem_table",
+        "78": "hr_dev",
+        "79": "<operator>.addressOf",
+        "80": "<operator>.fieldAccess",
+        "81": "<operator>.indirectFieldAccess",
+        "82": "hr_dev",
+        "83": "FIELD_IDENTIFIER",
+        "84": "FIELD_IDENTIFIER",
+        "85": "hns_roce_cleanup_hem_table",
+        "86": "hr_dev",
+        "87": "<operator>.addressOf",
+        "88": "<operator>.fieldAccess",
+        "89": "<operator>.indirectFieldAccess",
+        "90": "hr_dev",
+        "91": "FIELD_IDENTIFIER",
+        "92": "FIELD_IDENTIFIER",
+        "93": "hns_roce_cleanup_hem_table",
+        "94": "hr_dev",
+        "95": "<operator>.addressOf",
+        "96": "<operator>.fieldAccess",
+        "97": "<operator>.indirectFieldAccess",
+        "98": "hr_dev",
+        "99": "FIELD_IDENTIFIER",
+        "100": "FIELD_IDENTIFIER",
+        "101": "METHOD_RETURN"
+    }
+}

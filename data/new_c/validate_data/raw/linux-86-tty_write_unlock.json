@@ -1,0 +1,107 @@
+{
+    "Function": "tty_write_unlock",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_unlock",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "tty",
+        "7": "FIELD_IDENTIFIER",
+        "8": "wake_up_interruptible_poll",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "tty",
+        "12": "FIELD_IDENTIFIER",
+        "13": "EPOLLOUT",
+        "14": "METHOD_RETURN"
+    }
+}

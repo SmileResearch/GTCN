@@ -1,0 +1,121 @@
+{
+    "Function": "mptsas_get_port",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "phy_info",
+        "6": "FIELD_IDENTIFIER",
+        "7": "RETURN",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "phy_info",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "CONTROL_STRUCTURE",
+        "14": "RETURN",
+        "15": "NULL",
+        "16": "METHOD_RETURN"
+    }
+}

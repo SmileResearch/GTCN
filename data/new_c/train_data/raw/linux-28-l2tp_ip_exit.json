@@ -1,0 +1,161 @@
+{
+    "Function": "l2tp_ip_exit",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "inet_unregister_protosw",
+        "4": "<operator>.addressOf",
+        "5": "l2tp_ip_protosw",
+        "6": "inet_del_protocol",
+        "7": "<operator>.addressOf",
+        "8": "l2tp_ip_protocol",
+        "9": "IPPROTO_L2TP",
+        "10": "proto_unregister",
+        "11": "<operator>.addressOf",
+        "12": "l2tp_ip_prot",
+        "13": "METHOD_RETURN"
+    }
+}

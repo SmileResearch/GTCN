@@ -1,0 +1,151 @@
+{
+    "Function": "lapb_clear_queues",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "skb_queue_purge",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "lapb",
+        "7": "FIELD_IDENTIFIER",
+        "8": "skb_queue_purge",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "lapb",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

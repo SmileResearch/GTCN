@@ -1,0 +1,132 @@
+{
+    "Function": "vega12_thermal_start_smc_fan_control",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "PP_CAP",
+        "5": "PHM_PlatformCaps_MicrocodeFanControl",
+        "6": "vega12_fan_ctrl_start_smc_fan_control",
+        "7": "hwmgr",
+        "8": "RETURN",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

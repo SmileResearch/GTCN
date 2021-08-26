@@ -1,0 +1,94 @@
+{
+    "Function": "shdma_chan_ld_cleanup",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "__ld_cleanup",
+        "6": "schan",
+        "7": "all",
+        "8": "METHOD_RETURN"
+    }
+}

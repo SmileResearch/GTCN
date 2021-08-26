@@ -1,0 +1,169 @@
+{
+    "Function": "crypto_null_mod_fini",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "crypto_unregister_algs",
+        "4": "null_algs",
+        "5": "ARRAY_SIZE",
+        "6": "null_algs",
+        "7": "crypto_unregister_shash",
+        "8": "<operator>.addressOf",
+        "9": "digest_null",
+        "10": "crypto_unregister_skcipher",
+        "11": "<operator>.addressOf",
+        "12": "skcipher_null",
+        "13": "METHOD_RETURN"
+    }
+}

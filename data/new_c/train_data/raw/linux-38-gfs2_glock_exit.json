@@ -1,0 +1,169 @@
+{
+    "Function": "gfs2_glock_exit",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_shrinker",
+        "4": "<operator>.addressOf",
+        "5": "glock_shrinker",
+        "6": "rhashtable_destroy",
+        "7": "<operator>.addressOf",
+        "8": "gl_hash_table",
+        "9": "destroy_workqueue",
+        "10": "glock_workqueue",
+        "11": "destroy_workqueue",
+        "12": "gfs2_delete_workqueue",
+        "13": "METHOD_RETURN"
+    }
+}

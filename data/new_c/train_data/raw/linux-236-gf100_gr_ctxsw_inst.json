@@ -1,0 +1,158 @@
+{
+    "Function": "gf100_gr_ctxsw_inst",
+    "astEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            11,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "nvkm_rd32",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "gr",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

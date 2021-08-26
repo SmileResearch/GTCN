@@ -1,0 +1,214 @@
+{
+    "Function": "hangup_device",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        16
+    ],
+    "cfgEdges": [
+        [
+            14,
+            13
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            18
+        ],
+        [
+            8,
+            18
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "dev_data",
+        "6": "FIELD_IDENTIFIER",
+        "7": "false",
+        "8": "wake_up_interruptible",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "dev_data",
+        "12": "FIELD_IDENTIFIER",
+        "13": "put_device",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "dev_data",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

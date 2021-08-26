@@ -1,0 +1,248 @@
+{
+    "Function": "rc_normalize",
+    "astEdges": [
+        [
+            29,
+            30
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        14,
+        17,
+        22,
+        24,
+        27,
+        31
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.lessThan",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "rc",
+        "7": "FIELD_IDENTIFIER",
+        "8": "RC_TOP_VALUE",
+        "9": "BLOCK",
+        "10": "<operators>.assignmentShiftLeft",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "rc",
+        "13": "FIELD_IDENTIFIER",
+        "14": "RC_SHIFT_BITS",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "rc",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.addition",
+        "20": "<operator>.shiftLeft",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "rc",
+        "23": "FIELD_IDENTIFIER",
+        "24": "RC_SHIFT_BITS",
+        "25": "<operator>.indirectIndexAccess",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "rc",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.postIncrement",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "rc",
+        "32": "FIELD_IDENTIFIER",
+        "33": "METHOD_RETURN"
+    }
+}

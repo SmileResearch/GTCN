@@ -1,0 +1,138 @@
+{
+    "Function": "tifm_exit",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "class_unregister",
+        "4": "<operator>.addressOf",
+        "5": "tifm_adapter_class",
+        "6": "bus_unregister",
+        "7": "<operator>.addressOf",
+        "8": "tifm_bus_type",
+        "9": "destroy_workqueue",
+        "10": "workqueue",
+        "11": "METHOD_RETURN"
+    }
+}

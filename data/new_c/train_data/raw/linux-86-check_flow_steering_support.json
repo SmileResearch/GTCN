@@ -1,0 +1,490 @@
+{
+    "Function": "check_flow_steering_support",
+    "astEdges": [
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            57,
+            60
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            63
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            23,
+            52
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            42
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            46,
+            50
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            57
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            35,
+            41
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            65
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            45,
+            51
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            55,
+            56
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        17,
+        20,
+        22,
+        26,
+        28,
+        30,
+        34,
+        38,
+        41,
+        44,
+        48,
+        51,
+        54,
+        56,
+        61,
+        64
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            64
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "eth_num_ports",
+        "6": "LITERAL",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "ib_num_ports",
+        "10": "LITERAL",
+        "11": "LOCAL",
+        "12": "<operator>.assignment",
+        "13": "dmfs",
+        "14": "<operator>.equals",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "dev",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "MLX4_STEERING_MODE_DEVICE_MANAGED",
+        "21": "CONTROL_STRUCTURE",
+        "22": "dmfs",
+        "23": "BLOCK",
+        "24": "LOCAL",
+        "25": "<operator>.postIncrement",
+        "26": "eth_num_ports",
+        "27": "<operator>.postIncrement",
+        "28": "ib_num_ports",
+        "29": "<operators>.assignmentAnd",
+        "30": "dmfs",
+        "31": "<operator>.logicalAnd",
+        "32": "<operator>.logicalOr",
+        "33": "<operator>.logicalNot",
+        "34": "ib_num_ports",
+        "35": "<operator>.and",
+        "36": "<operator>.fieldAccess",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "dev",
+        "39": "FIELD_IDENTIFIER",
+        "40": "FIELD_IDENTIFIER",
+        "41": "MLX4_DEV_CAP_FLAG2_DMFS_IPOIB",
+        "42": "<operator>.logicalOr",
+        "43": "<operator>.logicalNot",
+        "44": "eth_num_ports",
+        "45": "<operator>.and",
+        "46": "<operator>.fieldAccess",
+        "47": "<operator>.indirectFieldAccess",
+        "48": "dev",
+        "49": "FIELD_IDENTIFIER",
+        "50": "FIELD_IDENTIFIER",
+        "51": "MLX4_DEV_CAP_FLAG2_FS_EN",
+        "52": "CONTROL_STRUCTURE",
+        "53": "<operator>.logicalAnd",
+        "54": "ib_num_ports",
+        "55": "mlx4_is_mfunc",
+        "56": "dev",
+        "57": "BLOCK",
+        "58": "pr_warn",
+        "59": "LITERAL",
+        "60": "<operator>.assignment",
+        "61": "dmfs",
+        "62": "LITERAL",
+        "63": "RETURN",
+        "64": "dmfs",
+        "65": "METHOD_RETURN"
+    }
+}

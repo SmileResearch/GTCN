@@ -1,0 +1,124 @@
+{
+    "Function": "fq_flow_is_throttled",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "f",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.addressOf",
+        "9": "throttled",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "Function": "hostif_mic_failure_confirm",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11,
+        16,
+        17
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            8,
+            3
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            14,
+            8
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            13,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "netdev_dbg",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "priv",
+        "6": "FIELD_IDENTIFIER",
+        "7": "LITERAL",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.fieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "priv",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "hostif_sme_enqueue",
+        "16": "priv",
+        "17": "SME_MIC_FAILURE_CONFIRM",
+        "18": "METHOD_RETURN"
+    }
+}

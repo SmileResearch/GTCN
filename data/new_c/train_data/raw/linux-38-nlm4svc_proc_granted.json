@@ -1,0 +1,119 @@
+{
+    "Function": "nlm4svc_proc_granted",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "__nlm4svc_proc_granted",
+        "5": "rqstp",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "rqstp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "METHOD_RETURN"
+    }
+}

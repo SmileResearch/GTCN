@@ -1,0 +1,141 @@
+{
+    "Function": "snd_wavefront_synth_release",
+    "astEdges": [
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "module_put",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hw",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

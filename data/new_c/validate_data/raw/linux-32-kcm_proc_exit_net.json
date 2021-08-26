@@ -1,0 +1,159 @@
+{
+    "Function": "kcm_proc_exit_net",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "remove_proc_entry",
+        "4": "LITERAL",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "net",
+        "7": "FIELD_IDENTIFIER",
+        "8": "remove_proc_entry",
+        "9": "LITERAL",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "net",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

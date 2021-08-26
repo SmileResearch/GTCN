@@ -1,0 +1,156 @@
+{
+    "Function": "unix_gid_update",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "get_group_info",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "item",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.assignment",
+        "9": "gi",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "item",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

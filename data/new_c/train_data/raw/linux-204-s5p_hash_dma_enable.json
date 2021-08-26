@@ -1,0 +1,94 @@
+{
+    "Function": "s5p_hash_dma_enable",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "s5p_hash_write",
+        "4": "dev",
+        "5": "SSS_REG_HASH_CTRL_FIFO",
+        "6": "SSS_HASH_FIFO_MODE_DMA",
+        "7": "METHOD_RETURN"
+    }
+}

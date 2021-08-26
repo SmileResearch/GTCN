@@ -1,0 +1,132 @@
+{
+    "Function": "armadillo800eva_init",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "board_staging_gic_setup_xlate",
+        "4": "LITERAL",
+        "5": "LITERAL",
+        "6": "board_staging_register_devices",
+        "7": "armadillo800eva_devices",
+        "8": "ARRAY_SIZE",
+        "9": "armadillo800eva_devices",
+        "10": "METHOD_RETURN"
+    }
+}

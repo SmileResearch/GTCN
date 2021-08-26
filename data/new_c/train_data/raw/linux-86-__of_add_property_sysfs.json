@@ -1,0 +1,764 @@
+{
+    "Function": "__of_add_property_sysfs",
+    "astEdges": [
+        [
+            101,
+            102
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            77,
+            81
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            49
+        ],
+        [
+            64,
+            70
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            65,
+            69
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            29
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            83,
+            85
+        ],
+        [
+            78,
+            80
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            91,
+            93
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            97,
+            99
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            52,
+            60
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            70,
+            73
+        ],
+        [
+            70,
+            72
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            59
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            103
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            3,
+            101
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            94
+        ],
+        [
+            3,
+            36
+        ],
+        [
+            3,
+            52
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            83
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            76
+        ],
+        [
+            3,
+            64
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            63
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            87,
+            89
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            94,
+            97
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            94,
+            100
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            36,
+            44
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            76,
+            82
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            85,
+            90
+        ],
+        [
+            85,
+            86
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        19,
+        25,
+        28,
+        34,
+        40,
+        47,
+        50,
+        56,
+        61,
+        67,
+        71,
+        74,
+        79,
+        82,
+        84,
+        88,
+        92,
+        95,
+        98,
+        100,
+        102
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            75,
+            79
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            82,
+            84
+        ],
+        [
+            84,
+            88
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            89,
+            92
+        ],
+        [
+            92,
+            93
+        ],
+        [
+            93,
+            95
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            96,
+            98
+        ],
+        [
+            98,
+            99
+        ],
+        [
+            99,
+            100
+        ],
+        [
+            100,
+            102
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "secure",
+        "8": "<operator>.equals",
+        "9": "strncmp",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "pp",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "LITERAL",
+        "15": "LITERAL",
+        "16": "CONTROL_STRUCTURE",
+        "17": "<operator>.logicalNot",
+        "18": "IS_ENABLED",
+        "19": "CONFIG_SYSFS",
+        "20": "RETURN",
+        "21": "LITERAL",
+        "22": "CONTROL_STRUCTURE",
+        "23": "<operator>.logicalOr",
+        "24": "<operator>.logicalNot",
+        "25": "of_kset",
+        "26": "<operator>.logicalNot",
+        "27": "of_node_is_attached",
+        "28": "np",
+        "29": "RETURN",
+        "30": "LITERAL",
+        "31": "sysfs_bin_attr_init",
+        "32": "<operator>.addressOf",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "pp",
+        "35": "FIELD_IDENTIFIER",
+        "36": "<operator>.assignment",
+        "37": "<operator>.fieldAccess",
+        "38": "<operator>.fieldAccess",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "pp",
+        "41": "FIELD_IDENTIFIER",
+        "42": "FIELD_IDENTIFIER",
+        "43": "FIELD_IDENTIFIER",
+        "44": "safe_name",
+        "45": "<operator>.addressOf",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "np",
+        "48": "FIELD_IDENTIFIER",
+        "49": "<operator>.indirectFieldAccess",
+        "50": "pp",
+        "51": "FIELD_IDENTIFIER",
+        "52": "<operator>.assignment",
+        "53": "<operator>.fieldAccess",
+        "54": "<operator>.fieldAccess",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "pp",
+        "57": "FIELD_IDENTIFIER",
+        "58": "FIELD_IDENTIFIER",
+        "59": "FIELD_IDENTIFIER",
+        "60": "<operator>.conditional",
+        "61": "secure",
+        "62": "LITERAL",
+        "63": "LITERAL",
+        "64": "<operator>.assignment",
+        "65": "<operator>.fieldAccess",
+        "66": "<operator>.indirectFieldAccess",
+        "67": "pp",
+        "68": "FIELD_IDENTIFIER",
+        "69": "FIELD_IDENTIFIER",
+        "70": "<operator>.conditional",
+        "71": "secure",
+        "72": "LITERAL",
+        "73": "<operator>.indirectFieldAccess",
+        "74": "pp",
+        "75": "FIELD_IDENTIFIER",
+        "76": "<operator>.assignment",
+        "77": "<operator>.fieldAccess",
+        "78": "<operator>.indirectFieldAccess",
+        "79": "pp",
+        "80": "FIELD_IDENTIFIER",
+        "81": "FIELD_IDENTIFIER",
+        "82": "of_node_property_read",
+        "83": "<operator>.assignment",
+        "84": "rc",
+        "85": "sysfs_create_bin_file",
+        "86": "<operator>.addressOf",
+        "87": "<operator>.indirectFieldAccess",
+        "88": "np",
+        "89": "FIELD_IDENTIFIER",
+        "90": "<operator>.addressOf",
+        "91": "<operator>.indirectFieldAccess",
+        "92": "pp",
+        "93": "FIELD_IDENTIFIER",
+        "94": "WARN",
+        "95": "rc",
+        "96": "LITERAL",
+        "97": "<operator>.indirectFieldAccess",
+        "98": "pp",
+        "99": "FIELD_IDENTIFIER",
+        "100": "np",
+        "101": "RETURN",
+        "102": "rc",
+        "103": "METHOD_RETURN"
+    }
+}

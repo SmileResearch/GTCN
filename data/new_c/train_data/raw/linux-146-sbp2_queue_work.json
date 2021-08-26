@@ -1,0 +1,134 @@
+{
+    "Function": "sbp2_queue_work",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "queue_delayed_work",
+        "5": "fw_workqueue",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "lu",
+        "9": "FIELD_IDENTIFIER",
+        "10": "delay",
+        "11": "METHOD_RETURN"
+    }
+}

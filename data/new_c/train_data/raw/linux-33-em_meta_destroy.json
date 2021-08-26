@@ -1,0 +1,133 @@
+{
+    "Function": "em_meta_destroy",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "m",
+        "5": "meta_delete",
+        "6": "<operator>.cast",
+        "7": "UNKNOWN",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "m",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

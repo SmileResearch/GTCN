@@ -1,0 +1,230 @@
+{
+    "Function": "check_no_reauthentication_request_dp",
+    "astEdges": [
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        15,
+        16,
+        17
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            14,
+            6
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.conditional",
+        "5": "<operator>.and",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "hdcp",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "DP_BSTATUS_REAUTH_REQ",
+        "16": "MOD_HDCP_STATUS_HDCP1_REAUTH_REQUEST_ISSUED",
+        "17": "MOD_HDCP_STATUS_SUCCESS",
+        "18": "METHOD_RETURN"
+    }
+}

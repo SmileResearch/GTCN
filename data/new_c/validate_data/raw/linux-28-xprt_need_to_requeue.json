@@ -1,0 +1,137 @@
+{
+    "Function": "xprt_need_to_requeue",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.lessThan",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "xprt",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "xprt",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

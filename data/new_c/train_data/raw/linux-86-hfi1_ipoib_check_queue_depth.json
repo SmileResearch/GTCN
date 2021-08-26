@@ -1,0 +1,166 @@
+{
+    "Function": "hfi1_ipoib_check_queue_depth",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            21
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11,
+        13,
+        18,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.preIncrement",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "txq",
+        "6": "FIELD_IDENTIFIER",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.logicalAnd",
+        "9": "<operator>.greaterEqualsThan",
+        "10": "hfi1_ipoib_used",
+        "11": "txq",
+        "12": "hfi1_ipoib_ring_hwat",
+        "13": "txq",
+        "14": "<operator>.logicalNot",
+        "15": "atomic_xchg",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "txq",
+        "19": "FIELD_IDENTIFIER",
+        "20": "LITERAL",
+        "21": "hfi1_ipoib_stop_txq",
+        "22": "txq",
+        "23": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,221 @@
+{
+    "Function": "gid_ok",
+    "astEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            29
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            28
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        13,
+        18,
+        21,
+        25,
+        28
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "<operator>.logicalAnd",
+        "7": "<operator>.equals",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "gid",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "id",
+        "14": "<operator>.logicalOr",
+        "15": "<operator>.equals",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "gid",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "gid_prefix",
+        "22": "<operator>.equals",
+        "23": "<operator>.fieldAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "gid",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "IB_DEFAULT_GID_PREFIX",
+        "29": "METHOD_RETURN"
+    }
+}

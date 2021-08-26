@@ -1,0 +1,141 @@
+{
+    "Function": "ionic_get_regs_len",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.multiplication",
+        "5": "<operator>.addition",
+        "6": "IONIC_DEV_INFO_REG_COUNT",
+        "7": "IONIC_DEV_CMD_REG_COUNT",
+        "8": "<operator>.sizeOf",
+        "9": "u32",
+        "10": "METHOD_RETURN"
+    }
+}

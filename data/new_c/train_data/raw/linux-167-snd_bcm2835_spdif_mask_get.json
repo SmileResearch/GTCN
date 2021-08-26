@@ -1,0 +1,195 @@
+{
+    "Function": "snd_bcm2835_spdif_mask_get",
+    "astEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        14
+    ],
+    "cfgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ucontrol",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "IEC958_AES0_NONAUDIO",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

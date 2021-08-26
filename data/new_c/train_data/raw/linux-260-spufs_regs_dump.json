@@ -1,0 +1,257 @@
+{
+    "Function": "spufs_regs_dump",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        18
+    ],
+    "cfgEdges": [
+        [
+            20,
+            16
+        ],
+        [
+            14,
+            5
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            21,
+            15
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            4,
+            22
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            15,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            4,
+            22
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "spufs_dump_emit",
+        "6": "cprm",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ctx",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.sizeOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ctx",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

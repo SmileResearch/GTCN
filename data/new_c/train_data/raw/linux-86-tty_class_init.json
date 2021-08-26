@@ -1,0 +1,161 @@
+{
+    "Function": "tty_class_init",
+    "astEdges": [
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        10,
+        13,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "tty_class",
+        "5": "class_create",
+        "6": "THIS_MODULE",
+        "7": "LITERAL",
+        "8": "CONTROL_STRUCTURE",
+        "9": "IS_ERR",
+        "10": "tty_class",
+        "11": "RETURN",
+        "12": "PTR_ERR",
+        "13": "tty_class",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "tty_class",
+        "17": "FIELD_IDENTIFIER",
+        "18": "tty_devnode",
+        "19": "RETURN",
+        "20": "LITERAL",
+        "21": "METHOD_RETURN"
+    }
+}

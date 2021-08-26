@@ -1,0 +1,147 @@
+{
+    "Function": "s5p_unset_outdata",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            7,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dma_unmap_sg",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "dev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "DMA_FROM_DEVICE",
+        "12": "METHOD_RETURN"
+    }
+}

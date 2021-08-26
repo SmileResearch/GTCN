@@ -1,0 +1,112 @@
+{
+    "Function": "aq_ptp_hwtstamp_config_get",
+    "astEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirection",
+        "6": "config",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "aq_ptp",
+        "9": "FIELD_IDENTIFIER",
+        "10": "METHOD_RETURN"
+    }
+}

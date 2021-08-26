@@ -1,0 +1,163 @@
+{
+    "Function": "b43_is_40mhz",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            10,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "NL80211_CHAN_WIDTH_40",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,150 @@
+{
+    "Function": "pvpanic_mmio_init",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8
+    ],
+    "cfgEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "acpi_disabled",
+        "5": "RETURN",
+        "6": "platform_driver_register",
+        "7": "<operator>.addressOf",
+        "8": "pvpanic_mmio_driver",
+        "9": "CONTROL_STRUCTURE",
+        "10": "RETURN",
+        "11": "pvpanic_register_acpi_driver",
+        "12": "METHOD_RETURN"
+    }
+}

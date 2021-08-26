@@ -1,0 +1,109 @@
+{
+    "Function": "xsk_map_lookup_elem_sys_only",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "ERR_PTR",
+        "6": "<operator>.minus",
+        "7": "EOPNOTSUPP",
+        "8": "METHOD_RETURN"
+    }
+}

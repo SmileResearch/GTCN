@@ -1,0 +1,270 @@
+{
+    "Function": "hns_roce_hw_v2_reset_notify_uninit",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            29
+        ],
+        [
+            2,
+            34
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            31
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            28
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        17,
+        20,
+        25,
+        30,
+        32,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "test_bit",
+        "5": "HNS_ROCE_RST_DIRECT_RETURN",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "handle",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "RETURN",
+        "13": "LITERAL",
+        "14": "<operator>.assignment",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "handle",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "HNS_ROCE_STATE_RST_UNINIT",
+        "21": "dev_info",
+        "22": "<operator>.addressOf",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "handle",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "msleep",
+        "30": "HNS_ROCE_V2_HW_RST_UNINT_DELAY",
+        "31": "__hns_roce_hw_v2_uninit_instance",
+        "32": "handle",
+        "33": "false",
+        "34": "RETURN",
+        "35": "LITERAL",
+        "36": "METHOD_RETURN"
+    }
+}

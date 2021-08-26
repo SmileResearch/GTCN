@@ -1,0 +1,113 @@
+{
+    "Function": "unflatten_device_tree",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "__unflatten_device_tree",
+        "4": "initial_boot_params",
+        "5": "NULL",
+        "6": "<operator>.addressOf",
+        "7": "of_root",
+        "8": "early_init_dt_alloc_memory_arch",
+        "9": "false",
+        "10": "of_alias_scan",
+        "11": "early_init_dt_alloc_memory_arch",
+        "12": "unittest_unflatten_overlay_base",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "Function": "dma_mapped",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "flow",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LITERAL",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

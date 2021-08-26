@@ -1,0 +1,137 @@
+{
+    "Function": "wkup_m3_set_resume_address",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "m3_ipc",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "addr",
+        "11": "METHOD_RETURN"
+    }
+}

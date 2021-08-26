@@ -1,0 +1,155 @@
+{
+    "Function": "hfi1_vnic_sdma_write_avail",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        12,
+        17,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "vnic_sdma",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "vinfo",
+        "11": "FIELD_IDENTIFIER",
+        "12": "q_idx",
+        "13": "RETURN",
+        "14": "<operator>.equals",
+        "15": "READ_ONCE",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "vnic_sdma",
+        "18": "FIELD_IDENTIFIER",
+        "19": "HFI1_VNIC_SDMA_Q_ACTIVE",
+        "20": "METHOD_RETURN"
+    }
+}

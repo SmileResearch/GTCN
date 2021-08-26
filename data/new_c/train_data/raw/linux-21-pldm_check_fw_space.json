@@ -1,0 +1,327 @@
+{
+    "Function": "pldm_check_fw_space",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            40
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            36
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            19,
+            27
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            27,
+            37
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        10,
+        13,
+        16,
+        23,
+        26,
+        29,
+        33,
+        36,
+        39
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "expected_size",
+        "8": "<operator>.addition",
+        "9": "offset",
+        "10": "length",
+        "11": "LOCAL",
+        "12": "<operator>.assignment",
+        "13": "dev",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "data",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "CONTROL_STRUCTURE",
+        "20": "<operator>.lessThan",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "data",
+        "24": "FIELD_IDENTIFIER",
+        "25": "FIELD_IDENTIFIER",
+        "26": "expected_size",
+        "27": "BLOCK",
+        "28": "dev_dbg",
+        "29": "dev",
+        "30": "LITERAL",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "data",
+        "34": "FIELD_IDENTIFIER",
+        "35": "FIELD_IDENTIFIER",
+        "36": "expected_size",
+        "37": "RETURN",
+        "38": "<operator>.minus",
+        "39": "EFAULT",
+        "40": "RETURN",
+        "41": "LITERAL",
+        "42": "METHOD_RETURN"
+    }
+}

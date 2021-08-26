@@ -1,0 +1,133 @@
+{
+    "Function": "release_address_handler",
+    "astEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "fw_core_remove_address_handler",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "r",
+        "8": "FIELD_IDENTIFIER",
+        "9": "kfree",
+        "10": "r",
+        "11": "METHOD_RETURN"
+    }
+}

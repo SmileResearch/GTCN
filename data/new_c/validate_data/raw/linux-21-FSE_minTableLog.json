@@ -1,0 +1,261 @@
+{
+    "Function": "FSE_minTableLog",
+    "astEdges": [
+        [
+            19,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            25,
+            30
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12,
+        17,
+        20,
+        24,
+        27,
+        28,
+        29,
+        30,
+        32
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "minBitsSrc",
+        "7": "<operator>.addition",
+        "8": "BIT_highbit32",
+        "9": "<operator>.cast",
+        "10": "UNKNOWN",
+        "11": "<operator>.subtraction",
+        "12": "srcSize",
+        "13": "LITERAL",
+        "14": "LITERAL",
+        "15": "LOCAL",
+        "16": "<operator>.assignment",
+        "17": "minBitsSymbols",
+        "18": "<operator>.addition",
+        "19": "BIT_highbit32",
+        "20": "maxSymbolValue",
+        "21": "LITERAL",
+        "22": "LOCAL",
+        "23": "<operator>.assignment",
+        "24": "minBits",
+        "25": "<operator>.conditional",
+        "26": "<operator>.lessThan",
+        "27": "minBitsSrc",
+        "28": "minBitsSymbols",
+        "29": "minBitsSrc",
+        "30": "minBitsSymbols",
+        "31": "RETURN",
+        "32": "minBits",
+        "33": "METHOD_RETURN"
+    }
+}

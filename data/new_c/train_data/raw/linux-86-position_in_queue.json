@@ -1,0 +1,96 @@
+{
+    "Function": "position_in_queue",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.subtraction",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "qpriv",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "queue",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

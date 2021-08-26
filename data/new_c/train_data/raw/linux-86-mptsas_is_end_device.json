@@ -1,0 +1,267 @@
+{
+    "Function": "mptsas_is_end_device",
+    "astEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            3,
+            33
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        13,
+        17,
+        19,
+        23,
+        25,
+        28,
+        30
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalAnd",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "attached",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.logicalAnd",
+        "9": "<operator>.and",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "attached",
+        "12": "FIELD_IDENTIFIER",
+        "13": "MPI_SAS_DEVICE_INFO_END_DEVICE",
+        "14": "<operator>.or",
+        "15": "<operator>.and",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "attached",
+        "18": "FIELD_IDENTIFIER",
+        "19": "MPI_SAS_DEVICE_INFO_SSP_TARGET",
+        "20": "<operator>.or",
+        "21": "<operator>.and",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "attached",
+        "24": "FIELD_IDENTIFIER",
+        "25": "MPI_SAS_DEVICE_INFO_STP_TARGET",
+        "26": "<operator>.and",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "attached",
+        "29": "FIELD_IDENTIFIER",
+        "30": "MPI_SAS_DEVICE_INFO_SATA_DEVICE",
+        "31": "RETURN",
+        "32": "LITERAL",
+        "33": "CONTROL_STRUCTURE",
+        "34": "RETURN",
+        "35": "LITERAL",
+        "36": "METHOD_RETURN"
+    }
+}

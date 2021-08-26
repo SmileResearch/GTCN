@@ -1,0 +1,125 @@
+{
+    "Function": "finish_erasing",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ldata",
+        "6": "FIELD_IDENTIFIER",
+        "7": "BLOCK",
+        "8": "echo_char_raw",
+        "9": "LITERAL",
+        "10": "ldata",
+        "11": "<operator>.assignment",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ldata",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LITERAL",
+        "16": "METHOD_RETURN"
+    }
+}

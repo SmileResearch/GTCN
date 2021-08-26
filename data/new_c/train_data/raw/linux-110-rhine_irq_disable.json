@@ -1,0 +1,128 @@
+{
+    "Function": "rhine_irq_disable",
+    "astEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "iowrite16",
+        "4": "LITERAL",
+        "5": "<operator>.addition",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "rp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "IntrEnable",
+        "10": "METHOD_RETURN"
+    }
+}

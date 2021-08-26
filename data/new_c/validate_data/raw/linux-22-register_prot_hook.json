@@ -1,0 +1,141 @@
+{
+    "Function": "register_prot_hook",
+    "astEdges": [
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "lockdep_assert_held_once",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "pkt_sk",
+        "7": "sk",
+        "8": "FIELD_IDENTIFIER",
+        "9": "__register_prot_hook",
+        "10": "sk",
+        "11": "METHOD_RETURN"
+    }
+}

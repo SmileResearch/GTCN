@@ -1,0 +1,194 @@
+{
+    "Function": "usb_typec_power_ctrl",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        14
+    ],
+    "cfgEdges": [
+        [
+            13,
+            11
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hisi_hikey_usb",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RETURN",
+        "10": "gpiod_set_value_cansleep",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "hisi_hikey_usb",
+        "13": "FIELD_IDENTIFIER",
+        "14": "value",
+        "15": "METHOD_RETURN"
+    }
+}

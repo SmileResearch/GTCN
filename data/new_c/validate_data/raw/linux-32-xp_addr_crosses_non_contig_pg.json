@@ -1,0 +1,142 @@
+{
+    "Function": "xp_addr_crosses_non_contig_pg",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "xp_desc_crosses_non_contig_pg",
+        "6": "pool",
+        "7": "addr",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "pool",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

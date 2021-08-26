@@ -1,0 +1,120 @@
+{
+    "Function": "sienna_cichlid_enable_mgpu_fan_boost",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "smu_cmn_send_smc_msg_with_param",
+        "5": "smu",
+        "6": "SMU_MSG_SetMGpuFanBoostLimitRpm",
+        "7": "LITERAL",
+        "8": "NULL",
+        "9": "METHOD_RETURN"
+    }
+}

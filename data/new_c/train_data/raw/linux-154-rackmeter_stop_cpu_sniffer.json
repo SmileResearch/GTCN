@@ -1,0 +1,231 @@
+{
+    "Function": "rackmeter_stop_cpu_sniffer",
+    "astEdges": [
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        17
+    ],
+    "cfgEdges": [
+        [
+            14,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            20,
+            14
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            16,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            12,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cancel_delayed_work_sync",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "rm",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "FIELD_IDENTIFIER",
+        "12": "cancel_delayed_work_sync",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectIndexAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "rm",
+        "18": "FIELD_IDENTIFIER",
+        "19": "LITERAL",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "Function": "hw_dis_intr_bit",
+    "astEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operators>.assignmentAnd",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "hw",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.not",
+        "9": "bit",
+        "10": "METHOD_RETURN"
+    }
+}

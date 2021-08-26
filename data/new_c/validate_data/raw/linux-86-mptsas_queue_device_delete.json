@@ -1,0 +1,322 @@
+{
+    "Function": "mptsas_queue_device_delete",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            32
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            37
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            27
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            20,
+            25
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        13,
+        14,
+        17,
+        22,
+        24,
+        26,
+        29,
+        31,
+        34,
+        36,
+        38,
+        39
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "fw_event",
+        "7": "kzalloc",
+        "8": "<operator>.addition",
+        "9": "<operator>.sizeOf",
+        "10": "<operator>.indirection",
+        "11": "fw_event",
+        "12": "<operator>.sizeOf",
+        "13": "MpiEventDataSasDeviceStatusChange_t",
+        "14": "GFP_ATOMIC",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.logicalNot",
+        "17": "fw_event",
+        "18": "BLOCK",
+        "19": "RETURN",
+        "20": "memcpy",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "fw_event",
+        "23": "FIELD_IDENTIFIER",
+        "24": "sas_event_data",
+        "25": "<operator>.sizeOf",
+        "26": "MpiEventDataSasDeviceStatusChange_t",
+        "27": "<operator>.assignment",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "fw_event",
+        "30": "FIELD_IDENTIFIER",
+        "31": "MPI_EVENT_SAS_DEVICE_STATUS_CHANGE",
+        "32": "<operator>.assignment",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "fw_event",
+        "35": "FIELD_IDENTIFIER",
+        "36": "ioc",
+        "37": "mptsas_add_fw_event",
+        "38": "ioc",
+        "39": "fw_event",
+        "40": "msecs_to_jiffies",
+        "41": "LITERAL",
+        "42": "METHOD_RETURN"
+    }
+}

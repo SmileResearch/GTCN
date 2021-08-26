@@ -1,0 +1,128 @@
+{
+    "Function": "tls_unregister",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tcp_unregister_ulp",
+        "4": "<operator>.addressOf",
+        "5": "tcp_tls_ulp_ops",
+        "6": "tls_device_cleanup",
+        "7": "unregister_pernet_subsys",
+        "8": "<operator>.addressOf",
+        "9": "tls_proc_ops",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "Function": "node_affinity_lookup",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11,
+        13,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "BLOCK",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.equals",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "entry",
+        "10": "FIELD_IDENTIFIER",
+        "11": "node",
+        "12": "RETURN",
+        "13": "entry",
+        "14": "RETURN",
+        "15": "NULL",
+        "16": "METHOD_RETURN"
+    }
+}

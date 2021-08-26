@@ -1,0 +1,171 @@
+{
+    "Function": "kern_flow_generation_next",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        12,
+        13,
+        15,
+        18,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "generation",
+        "6": "mask_generation",
+        "7": "<operator>.addition",
+        "8": "gen",
+        "9": "LITERAL",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.equals",
+        "12": "generation",
+        "13": "KERN_GENERATION_RESERVED",
+        "14": "<operator>.assignment",
+        "15": "generation",
+        "16": "mask_generation",
+        "17": "<operator>.addition",
+        "18": "generation",
+        "19": "LITERAL",
+        "20": "RETURN",
+        "21": "generation",
+        "22": "METHOD_RETURN"
+    }
+}

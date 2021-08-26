@@ -1,0 +1,186 @@
+{
+    "Function": "am43xx_powerdomains_init",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "omap4_pwrdm_operations",
+        "6": "FIELD_IDENTIFIER",
+        "7": "am43xx_check_vcvp",
+        "8": "pwrdm_register_platform_funcs",
+        "9": "<operator>.addressOf",
+        "10": "omap4_pwrdm_operations",
+        "11": "pwrdm_register_pwrdms",
+        "12": "powerdomains_am43xx",
+        "13": "pwrdm_complete_init",
+        "14": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "Function": "raid6_have_avx512",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        15,
+        18,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalAnd",
+        "5": "boot_cpu_has",
+        "6": "X86_FEATURE_AVX2",
+        "7": "<operator>.logicalAnd",
+        "8": "boot_cpu_has",
+        "9": "X86_FEATURE_AVX",
+        "10": "<operator>.logicalAnd",
+        "11": "boot_cpu_has",
+        "12": "X86_FEATURE_AVX512F",
+        "13": "<operator>.logicalAnd",
+        "14": "boot_cpu_has",
+        "15": "X86_FEATURE_AVX512BW",
+        "16": "<operator>.logicalAnd",
+        "17": "boot_cpu_has",
+        "18": "X86_FEATURE_AVX512VL",
+        "19": "boot_cpu_has",
+        "20": "X86_FEATURE_AVX512DQ",
+        "21": "METHOD_RETURN"
+    }
+}

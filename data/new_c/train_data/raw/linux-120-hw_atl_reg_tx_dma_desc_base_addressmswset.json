@@ -1,0 +1,133 @@
+{
+    "Function": "hw_atl_reg_tx_dma_desc_base_addressmswset",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "aq_hw_write_reg",
+        "6": "aq_hw",
+        "7": "HW_ATL_TX_DMA_DESC_BASE_ADDRMSW_ADR",
+        "8": "descriptor",
+        "9": "tx_dma_desc_base_addrmsw",
+        "10": "METHOD_RETURN"
+    }
+}

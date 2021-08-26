@@ -1,0 +1,124 @@
+{
+    "Function": "llc_pdu_set_cmd_rsp",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operators>.assignmentOr",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "llc_pdu_un_hdr",
+        "7": "skb",
+        "8": "FIELD_IDENTIFIER",
+        "9": "pdu_type",
+        "10": "METHOD_RETURN"
+    }
+}

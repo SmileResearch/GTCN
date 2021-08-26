@@ -1,0 +1,169 @@
+{
+    "Function": "tid_rdma_conn_req",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        17,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "priv",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "qp",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirection",
+        "12": "data",
+        "13": "tid_rdma_opfn_encode",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "priv",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "RETURN",
+        "21": "true",
+        "22": "METHOD_RETURN"
+    }
+}

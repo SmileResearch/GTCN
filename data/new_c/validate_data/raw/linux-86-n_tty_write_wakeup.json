@@ -1,0 +1,127 @@
+{
+    "Function": "n_tty_write_wakeup",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        12,
+        14,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "clear_bit",
+        "4": "TTY_DO_WRITE_WAKEUP",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "tty",
+        "8": "FIELD_IDENTIFIER",
+        "9": "kill_fasync",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "tty",
+        "13": "FIELD_IDENTIFIER",
+        "14": "SIGIO",
+        "15": "POLL_OUT",
+        "16": "METHOD_RETURN"
+    }
+}

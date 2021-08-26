@@ -1,0 +1,212 @@
+{
+    "Function": "alsa_card_es18xx_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        9,
+        12,
+        14,
+        17
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "pnpc_registered",
+        "5": "pnp_unregister_card_driver",
+        "6": "<operator>.addressOf",
+        "7": "es18xx_pnpc_driver",
+        "8": "CONTROL_STRUCTURE",
+        "9": "pnp_registered",
+        "10": "pnp_unregister_driver",
+        "11": "<operator>.addressOf",
+        "12": "es18xx_pnp_driver",
+        "13": "CONTROL_STRUCTURE",
+        "14": "isa_registered",
+        "15": "isa_unregister_driver",
+        "16": "<operator>.addressOf",
+        "17": "snd_es18xx_isa_driver",
+        "18": "METHOD_RETURN"
+    }
+}

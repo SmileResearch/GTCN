@@ -1,0 +1,405 @@
+{
+    "Function": "of_core_init",
+    "astEdges": [
+        [
+            49,
+            51
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            2,
+            49
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            46
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            0,
+            55
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            38
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            45
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        11,
+        12,
+        15,
+        19,
+        25,
+        29,
+        33,
+        36,
+        40,
+        43,
+        45,
+        48,
+        50,
+        53
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "mutex_lock",
+        "5": "<operator>.addressOf",
+        "6": "of_mutex",
+        "7": "<operator>.assignment",
+        "8": "of_kset",
+        "9": "kset_create_and_add",
+        "10": "LITERAL",
+        "11": "NULL",
+        "12": "firmware_kobj",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.logicalNot",
+        "15": "of_kset",
+        "16": "BLOCK",
+        "17": "mutex_unlock",
+        "18": "<operator>.addressOf",
+        "19": "of_mutex",
+        "20": "pr_err",
+        "21": "LITERAL",
+        "22": "RETURN",
+        "23": "BLOCK",
+        "24": "__of_attach_node_sysfs",
+        "25": "np",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.logicalAnd",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "np",
+        "30": "FIELD_IDENTIFIER",
+        "31": "<operator>.logicalNot",
+        "32": "<operator>.indirectIndexAccess",
+        "33": "phandle_cache",
+        "34": "of_phandle_cache_hash",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "np",
+        "37": "FIELD_IDENTIFIER",
+        "38": "<operator>.assignment",
+        "39": "<operator>.indirectIndexAccess",
+        "40": "phandle_cache",
+        "41": "of_phandle_cache_hash",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "np",
+        "44": "FIELD_IDENTIFIER",
+        "45": "np",
+        "46": "mutex_unlock",
+        "47": "<operator>.addressOf",
+        "48": "of_mutex",
+        "49": "CONTROL_STRUCTURE",
+        "50": "of_root",
+        "51": "proc_symlink",
+        "52": "LITERAL",
+        "53": "NULL",
+        "54": "LITERAL",
+        "55": "METHOD_RETURN"
+    }
+}

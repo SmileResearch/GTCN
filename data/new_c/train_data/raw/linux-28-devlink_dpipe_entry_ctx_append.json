@@ -1,0 +1,128 @@
+{
+    "Function": "devlink_dpipe_entry_ctx_append",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "devlink_dpipe_entry_put",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dump_ctx",
+        "8": "FIELD_IDENTIFIER",
+        "9": "entry",
+        "10": "METHOD_RETURN"
+    }
+}

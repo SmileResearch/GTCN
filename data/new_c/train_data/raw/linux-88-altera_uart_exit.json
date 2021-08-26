@@ -1,0 +1,107 @@
+{
+    "Function": "altera_uart_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "altera_uart_platform_driver",
+        "6": "uart_unregister_driver",
+        "7": "<operator>.addressOf",
+        "8": "altera_uart_driver",
+        "9": "METHOD_RETURN"
+    }
+}

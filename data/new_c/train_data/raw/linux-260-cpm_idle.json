@@ -1,0 +1,142 @@
+{
+    "Function": "cpm_idle",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "idle_mode",
+        "7": "CPM_IDLE_DOZE",
+        "8": "FIELD_IDENTIFIER",
+        "9": "cpm_idle_doze",
+        "10": "CONTROL_STRUCTURE",
+        "11": "cpm_idle_wait",
+        "12": "METHOD_RETURN"
+    }
+}

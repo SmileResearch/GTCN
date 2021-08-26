@@ -1,0 +1,167 @@
+{
+    "Function": "ucsi_unregister_port_psy",
+    "astEdges": [
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "IS_ERR_OR_NULL",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "con",
+        "7": "FIELD_IDENTIFIER",
+        "8": "RETURN",
+        "9": "power_supply_unregister",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "con",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

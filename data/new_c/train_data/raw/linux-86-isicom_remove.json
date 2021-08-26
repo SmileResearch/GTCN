@@ -1,0 +1,427 @@
+{
+    "Function": "isicom_remove",
+    "astEdges": [
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            30
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            56
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            32,
+            38
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            2,
+            47
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            52
+        ],
+        [
+            2,
+            54
+        ],
+        [
+            2,
+            44
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            39
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        14,
+        16,
+        19,
+        22,
+        26,
+        29,
+        35,
+        37,
+        41,
+        43,
+        45,
+        49,
+        53,
+        55
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            53,
+            55
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "board",
+        "6": "pci_get_drvdata",
+        "7": "pdev",
+        "8": "LOCAL",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.assignment",
+        "11": "i",
+        "12": "LITERAL",
+        "13": "<operator>.lessThan",
+        "14": "i",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "board",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.postIncrement",
+        "19": "i",
+        "20": "BLOCK",
+        "21": "tty_unregister_device",
+        "22": "isicom_normal",
+        "23": "<operator>.addition",
+        "24": "<operator>.multiplication",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "board",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "i",
+        "30": "tty_port_destroy",
+        "31": "<operator>.addressOf",
+        "32": "<operator>.fieldAccess",
+        "33": "<operator>.indirectIndexAccess",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "board",
+        "36": "FIELD_IDENTIFIER",
+        "37": "i",
+        "38": "FIELD_IDENTIFIER",
+        "39": "free_irq",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "board",
+        "42": "FIELD_IDENTIFIER",
+        "43": "board",
+        "44": "pci_release_region",
+        "45": "pdev",
+        "46": "LITERAL",
+        "47": "<operator>.assignment",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "board",
+        "50": "FIELD_IDENTIFIER",
+        "51": "LITERAL",
+        "52": "<operator>.postDecrement",
+        "53": "card_count",
+        "54": "pci_disable_device",
+        "55": "pdev",
+        "56": "METHOD_RETURN"
+    }
+}

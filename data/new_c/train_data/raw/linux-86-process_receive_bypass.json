@@ -1,0 +1,798 @@
+{
+    "Function": "process_receive_bypass",
+    "astEdges": [
+        [
+            101,
+            102
+        ],
+        [
+            101,
+            107
+        ],
+        [
+            72,
+            82
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            55
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            89,
+            93
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            97,
+            99
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            27
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            63,
+            72
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            84,
+            86
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            73,
+            79
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            17,
+            23
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            103,
+            105
+        ],
+        [
+            103,
+            104
+        ],
+        [
+            88,
+            100
+        ],
+        [
+            88,
+            97
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            75,
+            77
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            37
+        ],
+        [
+            27,
+            34
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            107,
+            109
+        ],
+        [
+            107,
+            108
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            79,
+            81
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            74,
+            78
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            28,
+            33
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            90,
+            92
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            56,
+            101
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            63
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            56
+        ],
+        [
+            82,
+            88
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            83,
+            87
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            94,
+            95
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            67,
+            71
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            64,
+            66
+        ],
+        [
+            102,
+            106
+        ],
+        [
+            102,
+            103
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            110
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            38,
+            47
+        ],
+        [
+            38,
+            39
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        13,
+        16,
+        21,
+        25,
+        31,
+        36,
+        40,
+        45,
+        52,
+        55,
+        59,
+        61,
+        65,
+        69,
+        71,
+        76,
+        80,
+        85,
+        91,
+        95,
+        98,
+        104,
+        108,
+        109
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            65
+        ],
+        [
+            65,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            71,
+            76
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            78,
+            80
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            81,
+            85
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            87,
+            91
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            92,
+            95
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            96,
+            98
+        ],
+        [
+            98,
+            99
+        ],
+        [
+            99,
+            100
+        ],
+        [
+            100,
+            104
+        ],
+        [
+            104,
+            105
+        ],
+        [
+            105,
+            106
+        ],
+        [
+            106,
+            108
+        ],
+        [
+            108,
+            109
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "dd",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "packet",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "CONTROL_STRUCTURE",
+        "12": "hfi1_setup_bypass_packet",
+        "13": "packet",
+        "14": "RETURN",
+        "15": "trace_hfi1_rcvhdr",
+        "16": "packet",
+        "17": "CONTROL_STRUCTURE",
+        "18": "unlikely",
+        "19": "rhf_err_flags",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "packet",
+        "22": "FIELD_IDENTIFIER",
+        "23": "BLOCK",
+        "24": "handle_eflags",
+        "25": "packet",
+        "26": "RETURN",
+        "27": "CONTROL_STRUCTURE",
+        "28": "<operator>.equals",
+        "29": "hfi1_16B_get_l2",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "packet",
+        "32": "FIELD_IDENTIFIER",
+        "33": "LITERAL",
+        "34": "BLOCK",
+        "35": "hfi1_16B_rcv",
+        "36": "packet",
+        "37": "CONTROL_STRUCTURE",
+        "38": "BLOCK",
+        "39": "dd_dev_err",
+        "40": "dd",
+        "41": "LITERAL",
+        "42": "incr_cntr64",
+        "43": "<operator>.addressOf",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "dd",
+        "46": "FIELD_IDENTIFIER",
+        "47": "CONTROL_STRUCTURE",
+        "48": "<operator>.logicalNot",
+        "49": "<operator>.and",
+        "50": "<operator>.fieldAccess",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "dd",
+        "53": "FIELD_IDENTIFIER",
+        "54": "FIELD_IDENTIFIER",
+        "55": "OPA_EI_STATUS_SMASK",
+        "56": "BLOCK",
+        "57": "LOCAL",
+        "58": "<operator>.assignment",
+        "59": "flits",
+        "60": "<operator>.indirectFieldAccess",
+        "61": "packet",
+        "62": "FIELD_IDENTIFIER",
+        "63": "CONTROL_STRUCTURE",
+        "64": "<operator>.logicalAnd",
+        "65": "flits",
+        "66": "<operator>.logicalNot",
+        "67": "<operator>.and",
+        "68": "<operator>.indirectFieldAccess",
+        "69": "packet",
+        "70": "FIELD_IDENTIFIER",
+        "71": "RHF_LEN_ERR",
+        "72": "BLOCK",
+        "73": "<operator>.assignment",
+        "74": "<operator>.fieldAccess",
+        "75": "<operator>.indirectFieldAccess",
+        "76": "dd",
+        "77": "FIELD_IDENTIFIER",
+        "78": "FIELD_IDENTIFIER",
+        "79": "<operator>.indirectIndexAccess",
+        "80": "flits",
+        "81": "LITERAL",
+        "82": "<operator>.assignment",
+        "83": "<operator>.fieldAccess",
+        "84": "<operator>.indirectFieldAccess",
+        "85": "dd",
+        "86": "FIELD_IDENTIFIER",
+        "87": "FIELD_IDENTIFIER",
+        "88": "<operator>.conditional",
+        "89": "<operator>.greaterThan",
+        "90": "<operator>.indirectFieldAccess",
+        "91": "packet",
+        "92": "FIELD_IDENTIFIER",
+        "93": "<operator>.sizeOf",
+        "94": "<operator>.indirectIndexAccess",
+        "95": "flits",
+        "96": "LITERAL",
+        "97": "<operator>.indirectIndexAccess",
+        "98": "flits",
+        "99": "LITERAL",
+        "100": "LITERAL",
+        "101": "<operators>.assignmentOr",
+        "102": "<operator>.fieldAccess",
+        "103": "<operator>.indirectFieldAccess",
+        "104": "dd",
+        "105": "FIELD_IDENTIFIER",
+        "106": "FIELD_IDENTIFIER",
+        "107": "<operator>.or",
+        "108": "OPA_EI_STATUS_SMASK",
+        "109": "BAD_L2_ERR",
+        "110": "METHOD_RETURN"
+    }
+}

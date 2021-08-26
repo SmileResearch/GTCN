@@ -1,0 +1,164 @@
+{
+    "Function": "hal2_stop_adc",
+    "astEdges": [
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "hal2",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "HPC3_PDMACTRL_LD",
+        "14": "METHOD_RETURN"
+    }
+}

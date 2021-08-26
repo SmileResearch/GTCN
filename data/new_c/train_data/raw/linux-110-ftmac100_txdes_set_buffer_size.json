@@ -1,0 +1,141 @@
+{
+    "Function": "ftmac100_txdes_set_buffer_size",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operators>.assignmentOr",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "txdes",
+        "7": "FIELD_IDENTIFIER",
+        "8": "cpu_to_le32",
+        "9": "FTMAC100_TXDES1_TXBUF_SIZE",
+        "10": "len",
+        "11": "METHOD_RETURN"
+    }
+}

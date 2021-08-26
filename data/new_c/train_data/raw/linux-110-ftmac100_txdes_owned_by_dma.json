@@ -1,0 +1,136 @@
+{
+    "Function": "ftmac100_txdes_owned_by_dma",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.and",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "txdes",
+        "7": "FIELD_IDENTIFIER",
+        "8": "cpu_to_le32",
+        "9": "FTMAC100_TXDES0_TXDMA_OWN",
+        "10": "METHOD_RETURN"
+    }
+}

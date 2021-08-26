@@ -1,0 +1,97 @@
+{
+    "Function": "pciserial_remove_ports",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pciserial_detach_ports",
+        "4": "priv",
+        "5": "kfree",
+        "6": "priv",
+        "7": "METHOD_RETURN"
+    }
+}

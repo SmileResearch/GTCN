@@ -1,0 +1,87 @@
+{
+    "Function": "bufs_trigger_batch",
+    "astEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            1,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            4,
+            2
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            3,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "BLOCK",
+        "2": "<operator>.cast",
+        "3": "UNKNOWN",
+        "4": "syscall",
+        "5": "__NR_getpgid",
+        "6": "METHOD_RETURN"
+    }
+}

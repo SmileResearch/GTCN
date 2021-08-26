@@ -1,0 +1,129 @@
+{
+    "Function": "oprofilefs_init_fs_context",
+    "astEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "fc",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.addressOf",
+        "8": "oprofilefs_context_ops",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

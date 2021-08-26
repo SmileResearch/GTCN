@@ -1,0 +1,371 @@
+{
+    "Function": "hns_roce_init_cmq_ring",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            48
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            34
+        ],
+        [
+            3,
+            29
+        ],
+        [
+            3,
+            44
+        ],
+        [
+            3,
+            39
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            23
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            38
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        15,
+        16,
+        20,
+        26,
+        31,
+        33,
+        36,
+        41,
+        46,
+        47
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            47
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "priv",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "hr_dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LOCAL",
+        "11": "<operator>.assignment",
+        "12": "ring",
+        "13": "<operator>.conditional",
+        "14": "<operator>.equals",
+        "15": "ring_type",
+        "16": "TYPE_CSQ",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.fieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "priv",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.addressOf",
+        "24": "<operator>.fieldAccess",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "priv",
+        "27": "FIELD_IDENTIFIER",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.assignment",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "ring",
+        "32": "FIELD_IDENTIFIER",
+        "33": "ring_type",
+        "34": "<operator>.assignment",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "ring",
+        "37": "FIELD_IDENTIFIER",
+        "38": "LITERAL",
+        "39": "<operator>.assignment",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "ring",
+        "42": "FIELD_IDENTIFIER",
+        "43": "LITERAL",
+        "44": "RETURN",
+        "45": "hns_roce_alloc_cmq_desc",
+        "46": "hr_dev",
+        "47": "ring",
+        "48": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "Function": "imx_phycore_exit",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_device_unregister",
+        "4": "imx_phycore_snd_device",
+        "5": "platform_device_unregister",
+        "6": "imx_phycore_snd_ac97_device",
+        "7": "METHOD_RETURN"
+    }
+}

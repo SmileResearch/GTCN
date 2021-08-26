@@ -1,0 +1,181 @@
+{
+    "Function": "cdns_mhdp_max_link_rate",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12
+    ],
+    "cfgEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "min",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "mhdp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "mhdp",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

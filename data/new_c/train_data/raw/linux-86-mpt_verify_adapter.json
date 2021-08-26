@@ -1,0 +1,195 @@
+{
+    "Function": "mpt_verify_adapter",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11,
+        15,
+        16,
+        18,
+        21,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "BLOCK",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.equals",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ioc",
+        "10": "FIELD_IDENTIFIER",
+        "11": "iocid",
+        "12": "BLOCK",
+        "13": "<operator>.assignment",
+        "14": "<operator>.indirection",
+        "15": "iocpp",
+        "16": "ioc",
+        "17": "RETURN",
+        "18": "iocid",
+        "19": "<operator>.assignment",
+        "20": "<operator>.indirection",
+        "21": "iocpp",
+        "22": "NULL",
+        "23": "RETURN",
+        "24": "<operator>.minus",
+        "25": "LITERAL",
+        "26": "METHOD_RETURN"
+    }
+}

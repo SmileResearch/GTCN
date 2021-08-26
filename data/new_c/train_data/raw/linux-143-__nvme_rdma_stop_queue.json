@@ -1,0 +1,133 @@
+{
+    "Function": "__nvme_rdma_stop_queue",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "rdma_disconnect",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "queue",
+        "6": "FIELD_IDENTIFIER",
+        "7": "ib_drain_qp",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "queue",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

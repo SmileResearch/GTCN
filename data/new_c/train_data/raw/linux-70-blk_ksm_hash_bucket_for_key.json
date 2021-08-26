@@ -1,0 +1,174 @@
+{
+    "Function": "blk_ksm_hash_bucket_for_key",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        13
+    ],
+    "cfgEdges": [
+        [
+            7,
+            14
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            14,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ksm",
+        "9": "FIELD_IDENTIFIER",
+        "10": "hash_ptr",
+        "11": "key",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ksm",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

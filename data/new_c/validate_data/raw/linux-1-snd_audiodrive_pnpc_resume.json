@@ -1,0 +1,100 @@
+{
+    "Function": "snd_audiodrive_pnpc_resume",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "snd_es18xx_resume",
+        "5": "pnp_get_card_drvdata",
+        "6": "pcard",
+        "7": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,481 @@
+{
+    "Function": "handle_user_interrupt",
+    "astEdges": [
+        [
+            54,
+            55
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            65
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            53
+        ],
+        [
+            23,
+            40
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            30
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            36
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            59,
+            64
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            41,
+            48
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            58
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            59
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            39
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        13,
+        15,
+        19,
+        21,
+        25,
+        28,
+        34,
+        37,
+        38,
+        39,
+        43,
+        46,
+        51,
+        56,
+        62,
+        64
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            64
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "dd",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "rcd",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "spin_lock_irqsave",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "flags",
+        "16": "CONTROL_STRUCTURE",
+        "17": "bitmap_empty",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "rcd",
+        "20": "FIELD_IDENTIFIER",
+        "21": "HFI1_MAX_SHARED_CTXTS",
+        "22": "CONTROL_STRUCTURE",
+        "23": "CONTROL_STRUCTURE",
+        "24": "test_and_clear_bit",
+        "25": "HFI1_CTXT_WAITING_RCV",
+        "26": "<operator>.addressOf",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "rcd",
+        "29": "FIELD_IDENTIFIER",
+        "30": "BLOCK",
+        "31": "wake_up_interruptible",
+        "32": "<operator>.addressOf",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "rcd",
+        "35": "FIELD_IDENTIFIER",
+        "36": "hfi1_rcvctrl",
+        "37": "dd",
+        "38": "HFI1_RCVCTRL_INTRAVAIL_DIS",
+        "39": "rcd",
+        "40": "CONTROL_STRUCTURE",
+        "41": "CONTROL_STRUCTURE",
+        "42": "test_and_clear_bit",
+        "43": "HFI1_CTXT_WAITING_URG",
+        "44": "<operator>.addressOf",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "rcd",
+        "47": "FIELD_IDENTIFIER",
+        "48": "BLOCK",
+        "49": "<operator>.postIncrement",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "rcd",
+        "52": "FIELD_IDENTIFIER",
+        "53": "wake_up_interruptible",
+        "54": "<operator>.addressOf",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "rcd",
+        "57": "FIELD_IDENTIFIER",
+        "58": "JUMP_TARGET",
+        "59": "spin_unlock_irqrestore",
+        "60": "<operator>.addressOf",
+        "61": "<operator>.indirectFieldAccess",
+        "62": "dd",
+        "63": "FIELD_IDENTIFIER",
+        "64": "flags",
+        "65": "METHOD_RETURN"
+    }
+}

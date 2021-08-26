@@ -1,0 +1,174 @@
+{
+    "Function": "virtio_balloon_cmd_id_received",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            11,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "test_and_clear_bit",
+        "5": "VIRTIO_BALLOON_CONFIG_READ_CMD_ID",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "vb",
+        "9": "FIELD_IDENTIFIER",
+        "10": "BLOCK",
+        "11": "RETURN",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "vb",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

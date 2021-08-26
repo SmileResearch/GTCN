@@ -1,0 +1,144 @@
+{
+    "Function": "is_supported_hlbkrm",
+    "astEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        10,
+        11
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.equals",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "hblkrm_size",
+        "9": "bpsize",
+        "10": "psize",
+        "11": "HBLKRM_SUPPORTED_BLOCK_SIZE",
+        "12": "METHOD_RETURN"
+    }
+}

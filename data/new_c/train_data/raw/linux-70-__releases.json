@@ -1,0 +1,207 @@
+{
+    "Function": "__releases",
+    "astEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        15
+    ],
+    "cfgEdges": [
+        [
+            6,
+            11
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            12
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            12,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_unlock_irq",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ctx",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "rcu_read_unlock",
+        "13": "put_disk_and_module",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "ctx",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

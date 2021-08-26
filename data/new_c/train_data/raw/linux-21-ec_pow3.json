@@ -1,0 +1,111 @@
+{
+    "Function": "ec_pow3",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        9,
+        11
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "mpi_powm",
+        "6": "w",
+        "7": "b",
+        "8": "mpi_const",
+        "9": "MPI_C_THREE",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "ctx",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

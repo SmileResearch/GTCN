@@ -1,0 +1,115 @@
+{
+    "Function": "ZSTD_hash8",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        11,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.cast",
+        "6": "UNKNOWN",
+        "7": "<operator>.arithmeticShiftRight",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "<operator>.indirection",
+        "11": "prime8bytes",
+        "12": "<operator>.subtraction",
+        "13": "LITERAL",
+        "14": "h",
+        "15": "METHOD_RETURN"
+    }
+}

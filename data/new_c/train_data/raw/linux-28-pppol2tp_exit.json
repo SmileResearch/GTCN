@@ -1,0 +1,169 @@
+{
+    "Function": "pppol2tp_exit",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "l2tp_nl_unregister_ops",
+        "4": "L2TP_PWTYPE_PPP",
+        "5": "unregister_pppox_proto",
+        "6": "PX_PROTO_OL2TP",
+        "7": "proto_unregister",
+        "8": "<operator>.addressOf",
+        "9": "pppol2tp_sk_proto",
+        "10": "unregister_pernet_device",
+        "11": "<operator>.addressOf",
+        "12": "pppol2tp_net_ops",
+        "13": "METHOD_RETURN"
+    }
+}

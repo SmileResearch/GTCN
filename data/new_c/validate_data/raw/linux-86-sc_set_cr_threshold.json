@@ -1,0 +1,565 @@
+{
+    "Function": "sc_set_cr_threshold",
+    "astEdges": [
+        [
+            73,
+            74
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            43
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            65,
+            70
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            27
+        ],
+        [
+            3,
+            71
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            65
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            43,
+            48
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            71,
+            73
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            31,
+            50
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            62
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            18,
+            25
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            75
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            50,
+            57
+        ],
+        [
+            50,
+            59
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            67,
+            69
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        15,
+        17,
+        21,
+        24,
+        26,
+        29,
+        30,
+        34,
+        39,
+        42,
+        45,
+        47,
+        49,
+        52,
+        55,
+        58,
+        60,
+        63,
+        68,
+        70,
+        72,
+        74
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            72
+        ],
+        [
+            72,
+            74
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "force_return",
+        "9": "LITERAL",
+        "10": "spin_lock_irqsave",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "sc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "flags",
+        "16": "<operator>.assignment",
+        "17": "old_threshold",
+        "18": "<operator>.and",
+        "19": "<operator>.arithmeticShiftRight",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "sc",
+        "22": "FIELD_IDENTIFIER",
+        "23": "SC",
+        "24": "CREDIT_CTRL_THRESHOLD_SHIFT",
+        "25": "SC",
+        "26": "CREDIT_CTRL_THRESHOLD_MASK",
+        "27": "CONTROL_STRUCTURE",
+        "28": "<operator>.notEquals",
+        "29": "new_threshold",
+        "30": "old_threshold",
+        "31": "BLOCK",
+        "32": "<operator>.assignment",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "sc",
+        "35": "FIELD_IDENTIFIER",
+        "36": "<operator>.or",
+        "37": "<operator>.and",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "sc",
+        "40": "FIELD_IDENTIFIER",
+        "41": "~SC",
+        "42": "CREDIT_CTRL_THRESHOLD_SMASK",
+        "43": "<operator>.shiftLeft",
+        "44": "<operator>.and",
+        "45": "new_threshold",
+        "46": "SC",
+        "47": "CREDIT_CTRL_THRESHOLD_MASK",
+        "48": "SC",
+        "49": "CREDIT_CTRL_THRESHOLD_SHIFT",
+        "50": "write_kctxt_csr",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "sc",
+        "53": "FIELD_IDENTIFIER",
+        "54": "<operator>.indirectFieldAccess",
+        "55": "sc",
+        "56": "FIELD_IDENTIFIER",
+        "57": "SC",
+        "58": "CREDIT_CTRL",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "sc",
+        "61": "FIELD_IDENTIFIER",
+        "62": "<operator>.assignment",
+        "63": "force_return",
+        "64": "LITERAL",
+        "65": "spin_unlock_irqrestore",
+        "66": "<operator>.addressOf",
+        "67": "<operator>.indirectFieldAccess",
+        "68": "sc",
+        "69": "FIELD_IDENTIFIER",
+        "70": "flags",
+        "71": "CONTROL_STRUCTURE",
+        "72": "force_return",
+        "73": "sc_return_credits",
+        "74": "sc",
+        "75": "METHOD_RETURN"
+    }
+}

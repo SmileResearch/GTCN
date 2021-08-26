@@ -1,0 +1,307 @@
+{
+    "Function": "process_rcv_update",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            35
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            25
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            29
+        ],
+        [
+            15,
+            28
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            0,
+            40
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            14,
+            30
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        17,
+        20,
+        23,
+        26,
+        32,
+        37,
+        39
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalAnd",
+        "6": "<operator>.logicalNot",
+        "7": "last",
+        "8": "<operator>.logicalNot",
+        "9": "<operator>.and",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "packet",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "BLOCK",
+        "15": "update_usrhead",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "packet",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "packet",
+        "21": "FIELD_IDENTIFIER",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "packet",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "packet",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "LITERAL",
+        "30": "<operator>.assignment",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "packet",
+        "33": "FIELD_IDENTIFIER",
+        "34": "LITERAL",
+        "35": "<operator>.assignment",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "packet",
+        "38": "FIELD_IDENTIFIER",
+        "39": "NULL",
+        "40": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "Function": "vmballoon_stats_op_inc",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        13,
+        16,
+        17
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            18
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            18
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            6,
+            18
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "is_vmballoon_stats_on",
+        "7": "atomic64_inc",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectIndexAccess",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "b",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "op",
+        "17": "type",
+        "18": "METHOD_RETURN"
+    }
+}

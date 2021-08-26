@@ -1,0 +1,323 @@
+{
+    "Function": "tty_driver_lookup_tty",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            43
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            27
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            4,
+            35
+        ],
+        [
+            4,
+            41
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            20
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            39,
+            40
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        14,
+        16,
+        19,
+        22,
+        24,
+        25,
+        26,
+        29,
+        32,
+        34,
+        38,
+        40,
+        42
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            40,
+            42
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "driver",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.logicalNot",
+        "14": "file",
+        "15": "<operator>.assignment",
+        "16": "tty",
+        "17": "ERR_PTR",
+        "18": "<operator>.minus",
+        "19": "EIO",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.assignment",
+        "22": "tty",
+        "23": "driver->ops->lookup",
+        "24": "driver",
+        "25": "file",
+        "26": "idx",
+        "27": "CONTROL_STRUCTURE",
+        "28": "<operator>.assignment",
+        "29": "tty",
+        "30": "<operator>.indirectIndexAccess",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "driver",
+        "33": "FIELD_IDENTIFIER",
+        "34": "idx",
+        "35": "CONTROL_STRUCTURE",
+        "36": "<operator>.logicalNot",
+        "37": "IS_ERR",
+        "38": "tty",
+        "39": "tty_kref_get",
+        "40": "tty",
+        "41": "RETURN",
+        "42": "tty",
+        "43": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "Function": "arp_tables_fini",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "nf_unregister_sockopt",
+        "4": "<operator>.addressOf",
+        "5": "arpt_sockopts",
+        "6": "xt_unregister_targets",
+        "7": "arpt_builtin_tg",
+        "8": "ARRAY_SIZE",
+        "9": "arpt_builtin_tg",
+        "10": "unregister_pernet_subsys",
+        "11": "<operator>.addressOf",
+        "12": "arp_tables_net_ops",
+        "13": "METHOD_RETURN"
+    }
+}

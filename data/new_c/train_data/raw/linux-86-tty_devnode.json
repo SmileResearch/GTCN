@@ -1,0 +1,233 @@
+{
+    "Function": "tty_devnode",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            25
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            29
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            31
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        13,
+        16,
+        20,
+        23,
+        27,
+        30
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "mode",
+        "7": "RETURN",
+        "8": "NULL",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.logicalOr",
+        "11": "<operator>.equals",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "MKDEV",
+        "16": "TTYAUX_MAJOR",
+        "17": "LITERAL",
+        "18": "<operator>.equals",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "dev",
+        "21": "FIELD_IDENTIFIER",
+        "22": "MKDEV",
+        "23": "TTYAUX_MAJOR",
+        "24": "LITERAL",
+        "25": "<operator>.assignment",
+        "26": "<operator>.indirection",
+        "27": "mode",
+        "28": "LITERAL",
+        "29": "RETURN",
+        "30": "NULL",
+        "31": "METHOD_RETURN"
+    }
+}

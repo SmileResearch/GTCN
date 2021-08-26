@@ -1,0 +1,778 @@
+{
+    "Function": "handle_bonded_port_state_event",
+    "astEdges": [
+        [
+            59,
+            61
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            84,
+            86
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            100,
+            101
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            82,
+            88
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            79,
+            81
+        ],
+        [
+            33,
+            45
+        ],
+        [
+            33,
+            44
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            59
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            49
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            69,
+            73
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            48
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            2,
+            89
+        ],
+        [
+            2,
+            82
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            74
+        ],
+        [
+            2,
+            67
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            99
+        ],
+        [
+            74,
+            78
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            99,
+            100
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            70,
+            72
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            89,
+            93
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            75,
+            77
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            93,
+            98
+        ],
+        [
+            93,
+            94
+        ],
+        [
+            93,
+            97
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            83,
+            87
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            0,
+            102
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            61,
+            66
+        ],
+        [
+            61,
+            65
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            90,
+            92
+        ],
+        [
+            90,
+            91
+        ],
+        [
+            51,
+            58
+        ],
+        [
+            51,
+            57
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            24,
+            31
+        ],
+        [
+            24,
+            33
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            94,
+            96
+        ],
+        [
+            94,
+            95
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        12,
+        16,
+        21,
+        26,
+        29,
+        30,
+        32,
+        36,
+        40,
+        43,
+        47,
+        50,
+        54,
+        56,
+        57,
+        58,
+        60,
+        63,
+        64,
+        65,
+        66,
+        71,
+        76,
+        80,
+        85,
+        91,
+        95,
+        96,
+        97,
+        98,
+        101
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            60,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            66,
+            71
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            73,
+            76
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            77,
+            80
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            81,
+            85
+        ],
+        [
+            85,
+            86
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            88,
+            91
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            92,
+            95
+        ],
+        [
+            95,
+            96
+        ],
+        [
+            96,
+            97
+        ],
+        [
+            97,
+            98
+        ],
+        [
+            98,
+            101
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "ibdev",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ew",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "bonded_port_state",
+        "12": "IB_PORT_NOP",
+        "13": "LOCAL",
+        "14": "LOCAL",
+        "15": "kfree",
+        "16": "ew",
+        "17": "spin_lock_bh",
+        "18": "<operator>.addressOf",
+        "19": "<operator>.fieldAccess",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "ibdev",
+        "22": "FIELD_IDENTIFIER",
+        "23": "FIELD_IDENTIFIER",
+        "24": "CONTROL_STRUCTURE",
+        "25": "<operator>.assignment",
+        "26": "i",
+        "27": "LITERAL",
+        "28": "<operator>.lessThan",
+        "29": "i",
+        "30": "MLX4_MAX_PORTS",
+        "31": "<operator>.preIncrement",
+        "32": "i",
+        "33": "BLOCK",
+        "34": "LOCAL",
+        "35": "<operator>.assignment",
+        "36": "curr_netdev",
+        "37": "<operator>.indirectIndexAccess",
+        "38": "<operator>.fieldAccess",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "ibdev",
+        "41": "FIELD_IDENTIFIER",
+        "42": "FIELD_IDENTIFIER",
+        "43": "i",
+        "44": "LOCAL",
+        "45": "CONTROL_STRUCTURE",
+        "46": "<operator>.logicalNot",
+        "47": "curr_netdev",
+        "48": "CONTROL_STRUCTURE",
+        "49": "<operator>.assignment",
+        "50": "curr_port_state",
+        "51": "<operator>.conditional",
+        "52": "<operator>.logicalAnd",
+        "53": "netif_running",
+        "54": "curr_netdev",
+        "55": "netif_carrier_ok",
+        "56": "curr_netdev",
+        "57": "IB_PORT_ACTIVE",
+        "58": "IB_PORT_DOWN",
+        "59": "<operator>.assignment",
+        "60": "bonded_port_state",
+        "61": "<operator>.conditional",
+        "62": "<operator>.notEquals",
+        "63": "bonded_port_state",
+        "64": "IB_PORT_ACTIVE",
+        "65": "curr_port_state",
+        "66": "IB_PORT_ACTIVE",
+        "67": "spin_unlock_bh",
+        "68": "<operator>.addressOf",
+        "69": "<operator>.fieldAccess",
+        "70": "<operator>.indirectFieldAccess",
+        "71": "ibdev",
+        "72": "FIELD_IDENTIFIER",
+        "73": "FIELD_IDENTIFIER",
+        "74": "<operator>.assignment",
+        "75": "<operator>.fieldAccess",
+        "76": "ibev",
+        "77": "FIELD_IDENTIFIER",
+        "78": "<operator>.addressOf",
+        "79": "<operator>.indirectFieldAccess",
+        "80": "ibdev",
+        "81": "FIELD_IDENTIFIER",
+        "82": "<operator>.assignment",
+        "83": "<operator>.fieldAccess",
+        "84": "<operator>.fieldAccess",
+        "85": "ibev",
+        "86": "FIELD_IDENTIFIER",
+        "87": "FIELD_IDENTIFIER",
+        "88": "LITERAL",
+        "89": "<operator>.assignment",
+        "90": "<operator>.fieldAccess",
+        "91": "ibev",
+        "92": "FIELD_IDENTIFIER",
+        "93": "<operator>.conditional",
+        "94": "<operator>.equals",
+        "95": "bonded_port_state",
+        "96": "IB_PORT_ACTIVE",
+        "97": "IB_EVENT_PORT_ACTIVE",
+        "98": "IB_EVENT_PORT_ERR",
+        "99": "ib_dispatch_event",
+        "100": "<operator>.addressOf",
+        "101": "ibev",
+        "102": "METHOD_RETURN"
+    }
+}

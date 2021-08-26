@@ -1,0 +1,131 @@
+{
+    "Function": "hw_atl_glb_soft_res_set",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "aq_hw_write_reg_bit",
+        "5": "aq_hw",
+        "6": "HW_ATL_GLB_SOFT_RES_ADR",
+        "7": "HW_ATL_GLB_SOFT_RES_MSK",
+        "8": "HW_ATL_GLB_SOFT_RES_SHIFT",
+        "9": "soft_res",
+        "10": "METHOD_RETURN"
+    }
+}

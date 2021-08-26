@@ -1,0 +1,146 @@
+{
+    "Function": "hfi1_trace_opa_hdr_len",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "opa_hdr",
+        "7": "FIELD_IDENTIFIER",
+        "8": "RETURN",
+        "9": "__get_ib_hdr_len",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "opa_hdr",
+        "13": "FIELD_IDENTIFIER",
+        "14": "CONTROL_STRUCTURE",
+        "15": "RETURN",
+        "16": "__get_16b_hdr_len",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "opa_hdr",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

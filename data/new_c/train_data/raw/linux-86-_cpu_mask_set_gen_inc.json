@@ -1,0 +1,165 @@
+{
+    "Function": "_cpu_mask_set_gen_inc",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        16,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "cpumask_equal",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "set",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "set",
+        "12": "FIELD_IDENTIFIER",
+        "13": "BLOCK",
+        "14": "<operator>.postIncrement",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "set",
+        "17": "FIELD_IDENTIFIER",
+        "18": "cpumask_clear",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "set",
+        "22": "FIELD_IDENTIFIER",
+        "23": "METHOD_RETURN"
+    }
+}

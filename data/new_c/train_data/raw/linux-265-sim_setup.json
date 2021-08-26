@@ -1,0 +1,155 @@
+{
+    "Function": "sim_setup",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "device",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "sim_write",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

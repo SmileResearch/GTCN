@@ -1,0 +1,188 @@
+{
+    "Function": "tls_toe_register_device",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            13,
+            16
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            6
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock_bh",
+        "4": "<operator>.addressOf",
+        "5": "device_spinlock",
+        "6": "list_add_tail",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "device",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.addressOf",
+        "12": "device_list",
+        "13": "spin_unlock_bh",
+        "14": "<operator>.addressOf",
+        "15": "device_spinlock",
+        "16": "METHOD_RETURN"
+    }
+}

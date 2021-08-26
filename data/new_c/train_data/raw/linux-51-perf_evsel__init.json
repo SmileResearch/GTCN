@@ -1,0 +1,170 @@
+{
+    "Function": "perf_evsel__init",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            9,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "INIT_LIST_HEAD",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "evsel",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "evsel",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.indirection",
+        "14": "attr",
+        "15": "METHOD_RETURN"
+    }
+}

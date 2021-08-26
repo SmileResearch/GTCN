@@ -1,0 +1,155 @@
+{
+    "Function": "kunit_debugfs_init",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "debugfs_rootdir",
+        "6": "<operator>.assignment",
+        "7": "debugfs_rootdir",
+        "8": "debugfs_create_dir",
+        "9": "KUNIT_DEBUGFS_ROOT",
+        "10": "NULL",
+        "11": "METHOD_RETURN"
+    }
+}

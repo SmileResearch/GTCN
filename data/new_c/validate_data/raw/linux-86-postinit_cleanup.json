@@ -1,0 +1,148 @@
+{
+    "Function": "postinit_cleanup",
+    "astEdges": [
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        10,
+        13,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hfi1_start_cleanup",
+        "4": "dd",
+        "5": "hfi1_comp_vectors_clean_up",
+        "6": "dd",
+        "7": "hfi1_dev_affinity_clean_up",
+        "8": "dd",
+        "9": "hfi1_pcie_ddcleanup",
+        "10": "dd",
+        "11": "hfi1_pcie_cleanup",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "cleanup_device_data",
+        "16": "dd",
+        "17": "hfi1_free_devdata",
+        "18": "dd",
+        "19": "METHOD_RETURN"
+    }
+}

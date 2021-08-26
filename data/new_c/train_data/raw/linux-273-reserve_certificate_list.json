@@ -1,0 +1,99 @@
+{
+    "Function": "reserve_certificate_list",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "ipl_cert_list_addr",
+        "5": "memblock_reserve",
+        "6": "ipl_cert_list_addr",
+        "7": "ipl_cert_list_size",
+        "8": "METHOD_RETURN"
+    }
+}

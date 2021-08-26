@@ -1,0 +1,116 @@
+{
+    "Function": "echo_buf_addr",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ldata",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.and",
+        "11": "i",
+        "12": "<operator>.subtraction",
+        "13": "N_TTY_BUF_SIZE",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

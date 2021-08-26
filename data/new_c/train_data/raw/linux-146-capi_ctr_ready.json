@@ -1,0 +1,102 @@
+{
+    "Function": "capi_ctr_ready",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "notify_push",
+        "4": "CAPICTR_UP",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ctr",
+        "7": "FIELD_IDENTIFIER",
+        "8": "METHOD_RETURN"
+    }
+}

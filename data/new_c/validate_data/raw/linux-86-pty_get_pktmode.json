@@ -1,0 +1,116 @@
+{
+    "Function": "pty_get_pktmode",
+    "astEdges": [
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "pktmode",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "tty",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "put_user",
+        "12": "pktmode",
+        "13": "arg",
+        "14": "METHOD_RETURN"
+    }
+}

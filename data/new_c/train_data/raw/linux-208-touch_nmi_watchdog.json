@@ -1,0 +1,27 @@
+{
+    "Function": "touch_nmi_watchdog",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            2
+        ]
+    ],
+    "ddgEdges": [],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "BLOCK",
+        "2": "METHOD_RETURN"
+    }
+}

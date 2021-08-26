@@ -1,0 +1,231 @@
+{
+    "Function": "mtk_smi_clk_disable",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        17
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            11,
+            19
+        ],
+        [
+            11,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "clk_disable_unprepare",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "smi",
+        "6": "FIELD_IDENTIFIER",
+        "7": "clk_disable_unprepare",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "smi",
+        "10": "FIELD_IDENTIFIER",
+        "11": "clk_disable_unprepare",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "smi",
+        "14": "FIELD_IDENTIFIER",
+        "15": "clk_disable_unprepare",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "smi",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

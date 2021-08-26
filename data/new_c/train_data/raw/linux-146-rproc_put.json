@@ -1,0 +1,208 @@
+{
+    "Function": "rproc_put",
+    "astEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        16
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            3,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            13,
+            18
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "module_put",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "rproc",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "put_device",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "rproc",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

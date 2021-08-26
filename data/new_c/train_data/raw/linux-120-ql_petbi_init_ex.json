@@ -1,0 +1,97 @@
+{
+    "Function": "ql_petbi_init_ex",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ql_petbi_reset_ex",
+        "4": "qdev",
+        "5": "ql_petbi_start_neg_ex",
+        "6": "qdev",
+        "7": "METHOD_RETURN"
+    }
+}

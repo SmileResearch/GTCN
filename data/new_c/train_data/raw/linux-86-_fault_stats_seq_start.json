@@ -1,0 +1,131 @@
+{
+    "Function": "_fault_stats_seq_start",
+    "astEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        14,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.greaterEqualsThan",
+        "7": "<operator>.indirection",
+        "8": "pos",
+        "9": "ARRAY_SIZE",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "opstats",
+        "12": "FIELD_IDENTIFIER",
+        "13": "RETURN",
+        "14": "NULL",
+        "15": "RETURN",
+        "16": "pos",
+        "17": "METHOD_RETURN"
+    }
+}

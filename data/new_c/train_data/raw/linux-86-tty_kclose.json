@@ -1,0 +1,200 @@
+{
+    "Function": "tty_kclose",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        12,
+        15,
+        19,
+        21,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tty_ldisc_release",
+        "4": "tty",
+        "5": "tty_flush_works",
+        "6": "tty",
+        "7": "tty_debug_hangup",
+        "8": "tty",
+        "9": "LITERAL",
+        "10": "mutex_lock",
+        "11": "<operator>.addressOf",
+        "12": "tty_mutex",
+        "13": "tty_port_set_kopened",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "tty",
+        "16": "FIELD_IDENTIFIER",
+        "17": "LITERAL",
+        "18": "release_tty",
+        "19": "tty",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "tty",
+        "22": "FIELD_IDENTIFIER",
+        "23": "mutex_unlock",
+        "24": "<operator>.addressOf",
+        "25": "tty_mutex",
+        "26": "METHOD_RETURN"
+    }
+}

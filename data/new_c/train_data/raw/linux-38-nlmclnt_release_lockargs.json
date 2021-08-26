@@ -1,0 +1,189 @@
+{
+    "Function": "nlmclnt_release_lockargs",
+    "astEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        14
+    ],
+    "cfgEdges": [
+        [
+            11,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            13,
+            5
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "WARN_ON_ONCE",
+        "4": "<operator>.notEquals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "req",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "NULL",
+        "15": "METHOD_RETURN"
+    }
+}

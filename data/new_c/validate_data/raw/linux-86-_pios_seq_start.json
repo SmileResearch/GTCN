@@ -1,0 +1,252 @@
+{
+    "Function": "_pios_seq_start",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            17,
+            29
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        14,
+        16,
+        21,
+        25,
+        27,
+        30,
+        32
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "ibd",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "s",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.assignment",
+        "14": "dd",
+        "15": "dd_from_dev",
+        "16": "ibd",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.logicalOr",
+        "19": "<operator>.logicalNot",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "dd",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.greaterEqualsThan",
+        "24": "<operator>.indirection",
+        "25": "pos",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "dd",
+        "28": "FIELD_IDENTIFIER",
+        "29": "RETURN",
+        "30": "NULL",
+        "31": "RETURN",
+        "32": "pos",
+        "33": "METHOD_RETURN"
+    }
+}

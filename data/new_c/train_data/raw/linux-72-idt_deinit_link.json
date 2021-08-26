@@ -1,0 +1,181 @@
+{
+    "Function": "idt_deinit_link",
+    "astEdges": [
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "idt_ntb_local_link_disable",
+        "4": "ndev",
+        "5": "dev_dbg",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ndev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

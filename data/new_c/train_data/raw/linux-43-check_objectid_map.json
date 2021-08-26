@@ -1,0 +1,124 @@
+{
+    "Function": "check_objectid_map",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.notEquals",
+        "6": "le32_to_cpu",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "map",
+        "9": "LITERAL",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

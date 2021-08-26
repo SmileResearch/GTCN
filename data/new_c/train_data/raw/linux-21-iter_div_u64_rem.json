@@ -1,0 +1,87 @@
+{
+    "Function": "iter_div_u64_rem",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "__iter_div_u64_rem",
+        "7": "dividend",
+        "8": "divisor",
+        "9": "remainder",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Function": "aiu_fifo_hw_free",
+    "astEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "snd_pcm_lib_free_pages",
+        "6": "substream",
+        "7": "METHOD_RETURN"
+    }
+}

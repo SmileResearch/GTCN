@@ -1,0 +1,230 @@
+{
+    "Function": "check_hdcp_capable_dp",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        15,
+        16,
+        17
+    ],
+    "cfgEdges": [
+        [
+            3,
+            18
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            14,
+            6
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            5,
+            18
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.conditional",
+        "5": "<operator>.and",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "hdcp",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "DP_BCAPS_HDCP_CAPABLE",
+        "16": "MOD_HDCP_STATUS_SUCCESS",
+        "17": "MOD_HDCP_STATUS_HDCP1_NOT_CAPABLE",
+        "18": "METHOD_RETURN"
+    }
+}

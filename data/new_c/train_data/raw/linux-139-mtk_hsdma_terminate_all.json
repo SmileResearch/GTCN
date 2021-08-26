@@ -1,0 +1,123 @@
+{
+    "Function": "mtk_hsdma_terminate_all",
+    "astEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mtk_hsdma_free_inactive_desc",
+        "4": "c",
+        "5": "mtk_hsdma_free_active_desc",
+        "6": "c",
+        "7": "RETURN",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

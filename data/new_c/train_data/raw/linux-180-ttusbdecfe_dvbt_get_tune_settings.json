@@ -1,0 +1,244 @@
+{
+    "Function": "ttusbdecfe_dvbt_get_tune_settings",
+    "astEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        16
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            21
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "fesettings",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "fesettings",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "fesettings",
+        "17": "FIELD_IDENTIFIER",
+        "18": "LITERAL",
+        "19": "RETURN",
+        "20": "LITERAL",
+        "21": "METHOD_RETURN"
+    }
+}

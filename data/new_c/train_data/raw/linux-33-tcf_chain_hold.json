@@ -1,0 +1,129 @@
+{
+    "Function": "tcf_chain_hold",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ASSERT_BLOCK_LOCKED",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "chain",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.preIncrement",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "chain",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

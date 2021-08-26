@@ -1,0 +1,361 @@
+{
+    "Function": "kern_program_rcvarray",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            46
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            34
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            27
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            29
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            34,
+            45
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            40
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        15,
+        20,
+        23,
+        25,
+        28,
+        30,
+        31,
+        33,
+        37,
+        42,
+        45
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            45
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "pset_idx",
+        "6": "LITERAL",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "flow",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "<operator>.assignment",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "flow",
+        "16": "FIELD_IDENTIFIER",
+        "17": "LITERAL",
+        "18": "CONTROL_STRUCTURE",
+        "19": "<operator>.assignment",
+        "20": "i",
+        "21": "LITERAL",
+        "22": "<operator>.lessThan",
+        "23": "i",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "flow",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.postIncrement",
+        "28": "i",
+        "29": "kern_program_rcv_group",
+        "30": "flow",
+        "31": "i",
+        "32": "<operator>.addressOf",
+        "33": "pset_idx",
+        "34": "trace_hfi1_tid_flow_alloc",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "flow",
+        "38": "FIELD_IDENTIFIER",
+        "39": "FIELD_IDENTIFIER",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "flow",
+        "43": "FIELD_IDENTIFIER",
+        "44": "FIELD_IDENTIFIER",
+        "45": "flow",
+        "46": "METHOD_RETURN"
+    }
+}

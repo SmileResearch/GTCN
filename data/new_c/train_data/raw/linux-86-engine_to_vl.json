@@ -1,0 +1,265 @@
+{
+    "Function": "engine_to_vl",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            0,
+            34
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            32
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        13,
+        19,
+        22,
+        25,
+        28,
+        30,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.logicalOr",
+        "8": "<operator>.lessThan",
+        "9": "engine",
+        "10": "LITERAL",
+        "11": "<operator>.greaterEqualsThan",
+        "12": "engine",
+        "13": "TXE_NUM_SDMA_ENGINES",
+        "14": "RETURN",
+        "15": "<operator>.minus",
+        "16": "LITERAL",
+        "17": "rcu_read_lock",
+        "18": "<operator>.assignment",
+        "19": "m",
+        "20": "rcu_dereference",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "dd",
+        "23": "FIELD_IDENTIFIER",
+        "24": "<operator>.assignment",
+        "25": "vl",
+        "26": "<operator>.indirectIndexAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "m",
+        "29": "FIELD_IDENTIFIER",
+        "30": "engine",
+        "31": "rcu_read_unlock",
+        "32": "RETURN",
+        "33": "vl",
+        "34": "METHOD_RETURN"
+    }
+}

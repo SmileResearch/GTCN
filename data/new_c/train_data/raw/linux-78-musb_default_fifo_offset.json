@@ -1,0 +1,126 @@
+{
+    "Function": "musb_default_fifo_offset",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addition",
+        "5": "LITERAL",
+        "6": "<operator>.multiplication",
+        "7": "epnum",
+        "8": "LITERAL",
+        "9": "METHOD_RETURN"
+    }
+}

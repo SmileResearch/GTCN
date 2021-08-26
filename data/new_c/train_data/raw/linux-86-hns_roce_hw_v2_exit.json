@@ -1,0 +1,49 @@
+{
+    "Function": "hns_roce_hw_v2_exit",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hnae3_unregister_client",
+        "4": "<operator>.addressOf",
+        "5": "hns_roce_hw_v2_client",
+        "6": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,332 @@
+{
+    "Function": "hns_roce_exit",
+    "astEdges": [
+        [
+            36,
+            40
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            27
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            41
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            0,
+            44
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            33
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        12,
+        14,
+        16,
+        19,
+        22,
+        24,
+        26,
+        30,
+        34,
+        38,
+        42,
+        43
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            42,
+            43
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hns_roce_unregister_device",
+        "4": "hr_dev",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "hr_dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "hr_dev->hw->hw_exit",
+        "12": "hr_dev",
+        "13": "hns_roce_cleanup_bitmap",
+        "14": "hr_dev",
+        "15": "hns_roce_cleanup_hem",
+        "16": "hr_dev",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "hr_dev",
+        "20": "FIELD_IDENTIFIER",
+        "21": "hns_roce_cmd_use_polling",
+        "22": "hr_dev",
+        "23": "hr_dev->hw->cleanup_eq",
+        "24": "hr_dev",
+        "25": "hns_roce_cmd_cleanup",
+        "26": "hr_dev",
+        "27": "CONTROL_STRUCTURE",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "hr_dev",
+        "31": "FIELD_IDENTIFIER",
+        "32": "FIELD_IDENTIFIER",
+        "33": "hr_dev->hw->cmq_exit",
+        "34": "hr_dev",
+        "35": "CONTROL_STRUCTURE",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "hr_dev",
+        "39": "FIELD_IDENTIFIER",
+        "40": "FIELD_IDENTIFIER",
+        "41": "hr_dev->hw->reset",
+        "42": "hr_dev",
+        "43": "false",
+        "44": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "Function": "knav_queue_remove",
+    "astEdges": [
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pm_runtime_put_sync",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "pdev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "pm_runtime_disable",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "pdev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "RETURN",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

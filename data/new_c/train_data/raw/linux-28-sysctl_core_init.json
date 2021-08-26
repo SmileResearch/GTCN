@@ -1,0 +1,151 @@
+{
+    "Function": "sysctl_core_init",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "register_net_sysctl",
+        "4": "<operator>.addressOf",
+        "5": "init_net",
+        "6": "LITERAL",
+        "7": "net_core_table",
+        "8": "RETURN",
+        "9": "register_pernet_subsys",
+        "10": "<operator>.addressOf",
+        "11": "sysctl_core_ops",
+        "12": "METHOD_RETURN"
+    }
+}

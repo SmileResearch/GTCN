@@ -1,0 +1,125 @@
+{
+    "Function": "hw_atl_rdm_rx_dma_desc_cache_init_done_get",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "aq_hw_read_reg_bit",
+        "5": "aq_hw",
+        "6": "RDM_RX_DMA_DESC_CACHE_INIT_DONE_ADR",
+        "7": "RDM_RX_DMA_DESC_CACHE_INIT_DONE_MSK",
+        "8": "RDM_RX_DMA_DESC_CACHE_INIT_DONE_SHIFT",
+        "9": "METHOD_RETURN"
+    }
+}

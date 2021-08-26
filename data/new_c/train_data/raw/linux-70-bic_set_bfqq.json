@@ -1,0 +1,135 @@
+{
+    "Function": "bic_set_bfqq",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        11
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "bic",
+        "9": "FIELD_IDENTIFIER",
+        "10": "is_sync",
+        "11": "bfqq",
+        "12": "METHOD_RETURN"
+    }
+}

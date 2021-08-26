@@ -1,0 +1,156 @@
+{
+    "Function": "destroy_cpu_associativity",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "kfree",
+        "4": "vcpu_associativity",
+        "5": "kfree",
+        "6": "pcpu_associativity",
+        "7": "<operator>.assignment",
+        "8": "vcpu_associativity",
+        "9": "<operator>.assignment",
+        "10": "pcpu_associativity",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

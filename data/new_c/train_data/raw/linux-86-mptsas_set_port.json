@@ -1,0 +1,153 @@
+{
+    "Function": "mptsas_set_port",
+    "astEdges": [
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        15,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "phy_info",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "phy_info",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "port",
+        "16": "CONTROL_STRUCTURE",
+        "17": "port",
+        "18": "BLOCK",
+        "19": "METHOD_RETURN"
+    }
+}

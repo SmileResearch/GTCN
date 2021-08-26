@@ -1,0 +1,238 @@
+{
+    "Function": "hfi1_vnic_down",
+    "astEdges": [
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            2,
+            29
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            31
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        13,
+        17,
+        21,
+        24,
+        27,
+        30
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "dd",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "vinfo",
+        "8": "FIELD_IDENTIFIER",
+        "9": "clear_bit",
+        "10": "HFI1_VNIC_UP",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "vinfo",
+        "14": "FIELD_IDENTIFIER",
+        "15": "netif_carrier_off",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "vinfo",
+        "18": "FIELD_IDENTIFIER",
+        "19": "netif_tx_disable",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "vinfo",
+        "22": "FIELD_IDENTIFIER",
+        "23": "hfi1_netdev_remove_data",
+        "24": "dd",
+        "25": "VNIC_ID",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "vinfo",
+        "28": "FIELD_IDENTIFIER",
+        "29": "hfi1_netdev_rx_destroy",
+        "30": "dd",
+        "31": "METHOD_RETURN"
+    }
+}

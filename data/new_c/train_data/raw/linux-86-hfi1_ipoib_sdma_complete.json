@@ -1,0 +1,92 @@
+{
+    "Function": "hfi1_ipoib_sdma_complete",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "tx",
+        "7": "FIELD_IDENTIFIER",
+        "8": "status",
+        "9": "hfi1_ipoib_add_tx",
+        "10": "tx",
+        "11": "METHOD_RETURN"
+    }
+}

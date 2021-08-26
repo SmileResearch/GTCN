@@ -1,0 +1,124 @@
+{
+    "Function": "mptctl_exit",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "misc_deregister",
+        "4": "<operator>.addressOf",
+        "5": "mptctl_miscdev",
+        "6": "mpt_event_deregister",
+        "7": "mptctl_id",
+        "8": "mpt_reset_deregister",
+        "9": "mptctl_id",
+        "10": "mpt_deregister",
+        "11": "mptctl_taskmgmt_id",
+        "12": "mpt_deregister",
+        "13": "mptctl_id",
+        "14": "mpt_device_driver_deregister",
+        "15": "MPTCTL_DRIVER",
+        "16": "METHOD_RETURN"
+    }
+}

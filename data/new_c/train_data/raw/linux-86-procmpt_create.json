@@ -1,0 +1,221 @@
+{
+    "Function": "procmpt_create",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        7,
+        10,
+        11,
+        14,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "mpt_proc_root_dir",
+        "5": "proc_mkdir",
+        "6": "MPT_PROCFS_MPTBASEDIR",
+        "7": "NULL",
+        "8": "CONTROL_STRUCTURE",
+        "9": "<operator>.equals",
+        "10": "mpt_proc_root_dir",
+        "11": "NULL",
+        "12": "RETURN",
+        "13": "<operator>.minus",
+        "14": "ENOTDIR",
+        "15": "proc_create_single",
+        "16": "LITERAL",
+        "17": "S_IRUGO",
+        "18": "mpt_proc_root_dir",
+        "19": "mpt_summary_proc_show",
+        "20": "proc_create_single",
+        "21": "LITERAL",
+        "22": "S_IRUGO",
+        "23": "mpt_proc_root_dir",
+        "24": "mpt_version_proc_show",
+        "25": "RETURN",
+        "26": "LITERAL",
+        "27": "METHOD_RETURN"
+    }
+}

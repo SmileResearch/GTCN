@@ -1,0 +1,227 @@
+{
+    "Function": "ttusb_dec_init_tasklet",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        16,
+        18
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            14,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            8,
+            19
+        ],
+        [
+            8,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock_init",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dec",
+        "7": "FIELD_IDENTIFIER",
+        "8": "INIT_LIST_HEAD",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "dec",
+        "12": "FIELD_IDENTIFIER",
+        "13": "tasklet_setup",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "dec",
+        "17": "FIELD_IDENTIFIER",
+        "18": "ttusb_dec_process_urb_frame_list",
+        "19": "METHOD_RETURN"
+    }
+}

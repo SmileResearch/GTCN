@@ -1,0 +1,176 @@
+{
+    "Function": "rhine_tx_queue_full",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.greaterEqualsThan",
+        "5": "<operator>.subtraction",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "rp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "rp",
+        "11": "FIELD_IDENTIFIER",
+        "12": "TX_QUEUE_LEN",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "Function": "dw_hdmi_phy_enable_tmds",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "hdmi_mask_writeb",
+        "5": "hdmi",
+        "6": "enable",
+        "7": "HDMI_PHY_CONF0",
+        "8": "HDMI_PHY_CONF0_ENTMDS_OFFSET",
+        "9": "HDMI_PHY_CONF0_ENTMDS_MASK",
+        "10": "METHOD_RETURN"
+    }
+}

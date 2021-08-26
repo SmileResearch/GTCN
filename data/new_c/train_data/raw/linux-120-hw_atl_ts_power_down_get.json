@@ -1,0 +1,125 @@
+{
+    "Function": "hw_atl_ts_power_down_get",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "aq_hw_read_reg_bit",
+        "5": "aq_hw",
+        "6": "HW_ATL_TS_POWER_DOWN_ADR",
+        "7": "HW_ATL_TS_POWER_DOWN_MSK",
+        "8": "HW_ATL_TS_POWER_DOWN_SHIFT",
+        "9": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "Function": "access_sw_cce_err_status_aggregated_cnt",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "dd",
+        "10": "<operator>.cast",
+        "11": "UNKNOWN",
+        "12": "context",
+        "13": "RETURN",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "dd",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

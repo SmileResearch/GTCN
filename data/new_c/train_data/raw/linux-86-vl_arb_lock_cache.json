@@ -1,0 +1,225 @@
+{
+    "Function": "vl_arb_lock_cache",
+    "astEdges": [
+        [
+            15,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            30
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        10,
+        11,
+        13,
+        19,
+        21,
+        27,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalAnd",
+        "6": "<operator>.notEquals",
+        "7": "idx",
+        "8": "LO_PRIO_TABLE",
+        "9": "<operator>.notEquals",
+        "10": "idx",
+        "11": "HI_PRIO_TABLE",
+        "12": "RETURN",
+        "13": "NULL",
+        "14": "spin_lock",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectIndexAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "ppd",
+        "20": "FIELD_IDENTIFIER",
+        "21": "idx",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RETURN",
+        "24": "<operator>.addressOf",
+        "25": "<operator>.indirectIndexAccess",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "ppd",
+        "28": "FIELD_IDENTIFIER",
+        "29": "idx",
+        "30": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "Function": "is_capturing",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            19
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        15,
+        17,
+        19
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            18,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            20
+        ],
+        [
+            4,
+            20
+        ],
+        [
+            4,
+            20
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectIndexAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "<operator>.indirectIndexAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "dev",
+        "16": "FIELD_IDENTIFIER",
+        "17": "COMP_CAMERA",
+        "18": "FIELD_IDENTIFIER",
+        "19": "CAM_PORT_CAPTURE",
+        "20": "METHOD_RETURN"
+    }
+}

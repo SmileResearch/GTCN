@@ -1,0 +1,103 @@
+{
+    "Function": "wkup_m3_ipc_put",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "m3_ipc_state",
+        "5": "put_device",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "m3_ipc_state",
+        "8": "FIELD_IDENTIFIER",
+        "9": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,500 @@
+{
+    "Function": "__of_match_node",
+    "astEdges": [
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            18,
+            36
+        ],
+        [
+            18,
+            38
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            46
+        ],
+        [
+            41,
+            49
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            63
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            65
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            52
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        11,
+        15,
+        17,
+        22,
+        28,
+        33,
+        37,
+        40,
+        42,
+        44,
+        47,
+        50,
+        54,
+        55,
+        58,
+        59,
+        61,
+        62,
+        64
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            64
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "best_match",
+        "7": "NULL",
+        "8": "LOCAL",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "best_score",
+        "12": "LITERAL",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.logicalNot",
+        "15": "matches",
+        "16": "RETURN",
+        "17": "NULL",
+        "18": "CONTROL_STRUCTURE",
+        "19": "<operator>.logicalOr",
+        "20": "<operator>.indirectIndexAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "matches",
+        "23": "FIELD_IDENTIFIER",
+        "24": "LITERAL",
+        "25": "<operator>.logicalOr",
+        "26": "<operator>.indirectIndexAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "matches",
+        "29": "FIELD_IDENTIFIER",
+        "30": "LITERAL",
+        "31": "<operator>.indirectIndexAccess",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "matches",
+        "34": "FIELD_IDENTIFIER",
+        "35": "LITERAL",
+        "36": "<operator>.postIncrement",
+        "37": "matches",
+        "38": "BLOCK",
+        "39": "<operator>.assignment",
+        "40": "score",
+        "41": "__of_device_is_compatible",
+        "42": "node",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "matches",
+        "45": "FIELD_IDENTIFIER",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "matches",
+        "48": "FIELD_IDENTIFIER",
+        "49": "<operator>.indirectFieldAccess",
+        "50": "matches",
+        "51": "FIELD_IDENTIFIER",
+        "52": "CONTROL_STRUCTURE",
+        "53": "<operator>.greaterThan",
+        "54": "score",
+        "55": "best_score",
+        "56": "BLOCK",
+        "57": "<operator>.assignment",
+        "58": "best_match",
+        "59": "matches",
+        "60": "<operator>.assignment",
+        "61": "best_score",
+        "62": "score",
+        "63": "RETURN",
+        "64": "best_match",
+        "65": "METHOD_RETURN"
+    }
+}

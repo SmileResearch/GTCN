@@ -1,0 +1,111 @@
+{
+    "Function": "xpc_clear_interface",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            3
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "memset",
+        "4": "<operator>.addressOf",
+        "5": "xpc_interface",
+        "6": "LITERAL",
+        "7": "<operator>.sizeOf",
+        "8": "xpc_interface",
+        "9": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "Function": "snd_tea575x_exit",
+    "astEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "video_unregister_device",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "tea",
+        "7": "FIELD_IDENTIFIER",
+        "8": "v4l2_ctrl_handler_free",
+        "9": "<operator>.fieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "tea",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

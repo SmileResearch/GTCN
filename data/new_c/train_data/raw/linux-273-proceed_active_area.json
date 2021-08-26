@@ -1,0 +1,214 @@
+{
+    "Function": "proceed_active_area",
+    "astEdges": [
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            12,
+            17
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            15,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            18
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.postIncrement",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "id",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "id",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.modulo",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "id",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "id",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

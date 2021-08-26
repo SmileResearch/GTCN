@@ -1,0 +1,107 @@
+{
+    "Function": "hfi1_vnic_update_pad",
+    "astEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        11,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectIndexAccess",
+        "6": "pad",
+        "7": "<operator>.subtraction",
+        "8": "HFI1_VNIC_MAX_PAD",
+        "9": "LITERAL",
+        "10": "<operator>.subtraction",
+        "11": "plen",
+        "12": "OPA_VNIC_ICRC_TAIL_LEN",
+        "13": "METHOD_RETURN"
+    }
+}

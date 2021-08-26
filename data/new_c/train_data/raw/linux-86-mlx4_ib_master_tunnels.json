@@ -1,0 +1,293 @@
+{
+    "Function": "mlx4_ib_master_tunnels",
+    "astEdges": [
+        [
+            12,
+            27
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            25
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            38
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            33
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            36
+        ],
+        [
+            18,
+            24
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            37
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        14,
+        17,
+        21,
+        26,
+        28,
+        31,
+        34,
+        36
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.logicalNot",
+        "7": "mlx4_is_master",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.assignment",
+        "14": "i",
+        "15": "LITERAL",
+        "16": "<operator>.lessThan",
+        "17": "i",
+        "18": "<operator>.fieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "dev",
+        "22": "FIELD_IDENTIFIER",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.postIncrement",
+        "26": "i",
+        "27": "mlx4_ib_tunnels_update",
+        "28": "dev",
+        "29": "mlx4_master_func_num",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "dev",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.addition",
+        "34": "i",
+        "35": "LITERAL",
+        "36": "do_init",
+        "37": "RETURN",
+        "38": "METHOD_RETURN"
+    }
+}

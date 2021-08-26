@@ -1,0 +1,72 @@
+{
+    "Function": "devm_of_platform_populate_release",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "of_platform_depopulate",
+        "5": "<operator>.indirection",
+        "6": "<operator>.cast",
+        "7": "UNKNOWN",
+        "8": "res",
+        "9": "METHOD_RETURN"
+    }
+}

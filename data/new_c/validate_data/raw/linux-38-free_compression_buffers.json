@@ -1,0 +1,151 @@
+{
+    "Function": "free_compression_buffers",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BUG_ON",
+        "4": "<operator>.logicalNot",
+        "5": "ntfs_compression_buffer",
+        "6": "vfree",
+        "7": "ntfs_compression_buffer",
+        "8": "<operator>.assignment",
+        "9": "ntfs_compression_buffer",
+        "10": "NULL",
+        "11": "METHOD_RETURN"
+    }
+}

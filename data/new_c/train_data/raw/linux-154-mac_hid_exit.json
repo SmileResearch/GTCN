@@ -1,0 +1,106 @@
+{
+    "Function": "mac_hid_exit",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_sysctl_table",
+        "4": "mac_hid_sysctl_header",
+        "5": "CONTROL_STRUCTURE",
+        "6": "mouse_emulate_buttons",
+        "7": "mac_hid_stop_emulation",
+        "8": "METHOD_RETURN"
+    }
+}

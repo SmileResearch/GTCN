@@ -1,0 +1,178 @@
+{
+    "Function": "xs_wake_disconnect",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "test_and_clear_bit",
+        "5": "XPRT_SOCK_WAKE_DISCONNECT",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "transport",
+        "9": "FIELD_IDENTIFIER",
+        "10": "xs_tcp_force_close",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "transport",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

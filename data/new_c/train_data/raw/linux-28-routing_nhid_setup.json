@@ -1,0 +1,197 @@
+{
+    "Function": "routing_nhid_setup",
+    "astEdges": [
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            10,
+            17
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            12,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            17
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectIndexAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "nhc",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "LOWPAN_NHC_ROUTING_ID_0",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectIndexAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "nhc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LITERAL",
+        "16": "LOWPAN_NHC_ROUTING_MASK_0",
+        "17": "METHOD_RETURN"
+    }
+}

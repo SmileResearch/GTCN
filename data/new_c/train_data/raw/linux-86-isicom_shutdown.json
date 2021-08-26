@@ -1,0 +1,343 @@
+{
+    "Function": "isicom_shutdown",
+    "astEdges": [
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            37,
+            42
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            37
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            43
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            26
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            45
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        13,
+        15,
+        18,
+        24,
+        28,
+        32,
+        36,
+        40,
+        42,
+        44
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            44
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "card",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ip",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "spin_lock_irqsave",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "card",
+        "14": "FIELD_IDENTIFIER",
+        "15": "flags",
+        "16": "<operators>.assignmentAnd",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "card",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.not",
+        "21": "<operator>.shiftLeft",
+        "22": "LITERAL",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "ip",
+        "25": "FIELD_IDENTIFIER",
+        "26": "outw",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "card",
+        "29": "FIELD_IDENTIFIER",
+        "30": "<operator>.addition",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "card",
+        "33": "FIELD_IDENTIFIER",
+        "34": "LITERAL",
+        "35": "isicom_shutdown_port",
+        "36": "ip",
+        "37": "spin_unlock_irqrestore",
+        "38": "<operator>.addressOf",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "card",
+        "41": "FIELD_IDENTIFIER",
+        "42": "flags",
+        "43": "tty_port_free_xmit_buf",
+        "44": "port",
+        "45": "METHOD_RETURN"
+    }
+}

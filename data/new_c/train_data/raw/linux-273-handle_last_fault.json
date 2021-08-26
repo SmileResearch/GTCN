@@ -1,0 +1,242 @@
+{
+    "Function": "handle_last_fault",
+    "astEdges": [
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11,
+        14,
+        18
+    ],
+    "cfgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            5,
+            19
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            13,
+            8
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            8,
+            19
+        ]
+    ],
+    "ddgEdges": [
+        [
+            16,
+            21
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            21
+        ],
+        [
+            8,
+            21
+        ],
+        [
+            8,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "vsie_page",
+        "7": "FIELD_IDENTIFIER",
+        "8": "kvm_s390_shadow_fault",
+        "9": "vcpu",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "vsie_page",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "vsie_page",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.assignment",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "vsie_page",
+        "19": "FIELD_IDENTIFIER",
+        "20": "LITERAL",
+        "21": "METHOD_RETURN"
+    }
+}

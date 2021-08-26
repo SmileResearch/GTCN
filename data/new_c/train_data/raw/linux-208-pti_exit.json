@@ -1,0 +1,133 @@
+{
+    "Function": "pti_exit",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tty_unregister_driver",
+        "4": "pti_tty_driver",
+        "5": "pci_unregister_driver",
+        "6": "<operator>.addressOf",
+        "7": "pti_pci_driver",
+        "8": "put_tty_driver",
+        "9": "pti_tty_driver",
+        "10": "METHOD_RETURN"
+    }
+}

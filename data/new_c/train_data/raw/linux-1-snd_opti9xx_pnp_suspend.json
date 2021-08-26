@@ -1,0 +1,109 @@
+{
+    "Function": "snd_opti9xx_pnp_suspend",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "snd_opti9xx_suspend",
+        "6": "pnp_get_card_drvdata",
+        "7": "pcard",
+        "8": "METHOD_RETURN"
+    }
+}

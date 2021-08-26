@@ -1,0 +1,199 @@
+{
+    "Function": "check_packet_present",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            13,
+            20
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            22,
+            23
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        15,
+        18,
+        20,
+        24,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "CONTROL_STRUCTURE",
+        "5": "hfi1_packet_present",
+        "6": "rcd",
+        "7": "RETURN",
+        "8": "LITERAL",
+        "9": "<operator>.assignment",
+        "10": "tail",
+        "11": "<operator>.cast",
+        "12": "UNKNOWN",
+        "13": "read_uctxt_csr",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "rcd",
+        "16": "FIELD_IDENTIFIER",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "rcd",
+        "19": "FIELD_IDENTIFIER",
+        "20": "RCV_HDR_TAIL",
+        "21": "RETURN",
+        "22": "<operator>.notEquals",
+        "23": "hfi1_rcd_head",
+        "24": "rcd",
+        "25": "tail",
+        "26": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "Function": "mptctl_probe",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            25
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        13,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ioc",
+        "7": "pci_get_drvdata",
+        "8": "pdev",
+        "9": "mutex_init",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ioc",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "init_completion",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.fieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "ioc",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RETURN",
+        "24": "LITERAL",
+        "25": "METHOD_RETURN"
+    }
+}

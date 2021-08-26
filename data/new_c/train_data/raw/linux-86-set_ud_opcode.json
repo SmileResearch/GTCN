@@ -1,0 +1,288 @@
+{
+    "Function": "set_ud_opcode",
+    "astEdges": [
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            37
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            27,
+            32
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            33
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            27
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            35
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            35,
+            36
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        13,
+        14,
+        16,
+        17,
+        20,
+        23,
+        26,
+        29,
+        31,
+        32,
+        34
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            36
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ib_op",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "wr",
+        "9": "FIELD_IDENTIFIER",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.logicalAnd",
+        "12": "<operator>.notEquals",
+        "13": "ib_op",
+        "14": "IB_WR_SEND",
+        "15": "<operator>.notEquals",
+        "16": "ib_op",
+        "17": "IB_WR_SEND_WITH_IMM",
+        "18": "RETURN",
+        "19": "<operator>.minus",
+        "20": "EINVAL",
+        "21": "<operator>.assignment",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "ud_sq_wqe",
+        "24": "FIELD_IDENTIFIER",
+        "25": "get_immtdata",
+        "26": "wr",
+        "27": "roce_set_field",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "ud_sq_wqe",
+        "30": "FIELD_IDENTIFIER",
+        "31": "V2_UD_SEND_WQE_BYTE_4_OPCODE_M",
+        "32": "V2_UD_SEND_WQE_BYTE_4_OPCODE_S",
+        "33": "to_hr_opcode",
+        "34": "ib_op",
+        "35": "RETURN",
+        "36": "LITERAL",
+        "37": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "Function": "aztech_init",
+    "astEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "isa_register_driver",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "aztech_driver",
+        "8": "FIELD_IDENTIFIER",
+        "9": "AZTECH_MAX",
+        "10": "METHOD_RETURN"
+    }
+}

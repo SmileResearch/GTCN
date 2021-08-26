@@ -1,0 +1,124 @@
+{
+    "Function": "rtw_readtssi_cmdrsp_callback",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "kfree",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "pcmd",
+        "7": "FIELD_IDENTIFIER",
+        "8": "kfree",
+        "9": "pcmd",
+        "10": "METHOD_RETURN"
+    }
+}

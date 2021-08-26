@@ -1,0 +1,559 @@
+{
+    "Function": "process_rcv_qp_work",
+    "astEdges": [
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            11,
+            72
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            37
+        ],
+        [
+            0,
+            74
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            23
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            34
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            55
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            66
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            56
+        ],
+        [
+            43,
+            50
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            57,
+            63
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            56,
+            64
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            66,
+            71
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        15,
+        20,
+        22,
+        26,
+        28,
+        31,
+        33,
+        35,
+        40,
+        42,
+        47,
+        49,
+        53,
+        55,
+        59,
+        61,
+        63,
+        65,
+        69,
+        71,
+        73
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            65,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            71,
+            73
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "rcd",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "packet",
+        "10": "FIELD_IDENTIFIER",
+        "11": "BLOCK",
+        "12": "list_del_init",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "qp",
+        "16": "FIELD_IDENTIFIER",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.and",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "qp",
+        "21": "FIELD_IDENTIFIER",
+        "22": "RVT_R_RSP_NAK",
+        "23": "BLOCK",
+        "24": "<operators>.assignmentAnd",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "qp",
+        "27": "FIELD_IDENTIFIER",
+        "28": "~RVT_R_RSP_NAK",
+        "29": "<operator>.assignment",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "packet",
+        "32": "FIELD_IDENTIFIER",
+        "33": "qp",
+        "34": "hfi1_send_rc_ack",
+        "35": "packet",
+        "36": "LITERAL",
+        "37": "CONTROL_STRUCTURE",
+        "38": "<operator>.and",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "qp",
+        "41": "FIELD_IDENTIFIER",
+        "42": "RVT_R_RSP_SEND",
+        "43": "BLOCK",
+        "44": "LOCAL",
+        "45": "<operators>.assignmentAnd",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "qp",
+        "48": "FIELD_IDENTIFIER",
+        "49": "~RVT_R_RSP_SEND",
+        "50": "spin_lock_irqsave",
+        "51": "<operator>.addressOf",
+        "52": "<operator>.indirectFieldAccess",
+        "53": "qp",
+        "54": "FIELD_IDENTIFIER",
+        "55": "flags",
+        "56": "CONTROL_STRUCTURE",
+        "57": "<operator>.and",
+        "58": "<operator>.indirectIndexAccess",
+        "59": "ib_rvt_state_ops",
+        "60": "<operator>.indirectFieldAccess",
+        "61": "qp",
+        "62": "FIELD_IDENTIFIER",
+        "63": "RVT_PROCESS_OR_FLUSH_SEND",
+        "64": "hfi1_schedule_send",
+        "65": "qp",
+        "66": "spin_unlock_irqrestore",
+        "67": "<operator>.addressOf",
+        "68": "<operator>.indirectFieldAccess",
+        "69": "qp",
+        "70": "FIELD_IDENTIFIER",
+        "71": "flags",
+        "72": "rvt_put_qp",
+        "73": "qp",
+        "74": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "Function": "lz4hc_mod_fini",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "crypto_unregister_alg",
+        "4": "<operator>.addressOf",
+        "5": "alg_lz4hc",
+        "6": "crypto_unregister_scomp",
+        "7": "<operator>.addressOf",
+        "8": "scomp",
+        "9": "METHOD_RETURN"
+    }
+}

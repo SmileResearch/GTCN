@@ -1,0 +1,96 @@
+{
+    "Function": "of_fwnode_get_name_prefix",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "to_of_node",
+        "7": "fwnode",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

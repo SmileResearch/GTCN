@@ -1,0 +1,192 @@
+{
+    "Function": "__of_sysfs_remove_bin_file",
+    "astEdges": [
+        [
+            19,
+            25
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        16,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "IS_ENABLED",
+        "7": "CONFIG_SYSFS",
+        "8": "RETURN",
+        "9": "sysfs_remove_bin_file",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "np",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "prop",
+        "17": "FIELD_IDENTIFIER",
+        "18": "kfree",
+        "19": "<operator>.fieldAccess",
+        "20": "<operator>.fieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "prop",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "FIELD_IDENTIFIER",
+        "26": "METHOD_RETURN"
+    }
+}

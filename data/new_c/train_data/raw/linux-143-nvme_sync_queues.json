@@ -1,0 +1,156 @@
+{
+    "Function": "nvme_sync_queues",
+    "astEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "nvme_sync_io_queues",
+        "4": "ctrl",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ctrl",
+        "8": "FIELD_IDENTIFIER",
+        "9": "blk_sync_queue",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "ctrl",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

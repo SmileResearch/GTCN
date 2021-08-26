@@ -1,0 +1,129 @@
+{
+    "Function": "altera_uart_stop_rx",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operators>.assignmentAnd",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "pp",
+        "6": "FIELD_IDENTIFIER",
+        "7": "~ALTERA_UART_CONTROL_RRDY_MSK",
+        "8": "altera_uart_update_ctrl_reg",
+        "9": "pp",
+        "10": "METHOD_RETURN"
+    }
+}

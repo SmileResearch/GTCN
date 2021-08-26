@@ -1,0 +1,159 @@
+{
+    "Function": "smu_v11_0_interrupt_work",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            11
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "smu_v11_0_ack_ac_dc_interrupt",
+        "5": "smu",
+        "6": "dev_err",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "smu",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

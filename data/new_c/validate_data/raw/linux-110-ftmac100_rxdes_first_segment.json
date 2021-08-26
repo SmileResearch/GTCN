@@ -1,0 +1,136 @@
+{
+    "Function": "ftmac100_rxdes_first_segment",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.and",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "rxdes",
+        "7": "FIELD_IDENTIFIER",
+        "8": "cpu_to_le32",
+        "9": "FTMAC100_RXDES0_FRS",
+        "10": "METHOD_RETURN"
+    }
+}

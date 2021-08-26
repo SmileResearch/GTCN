@@ -1,0 +1,155 @@
+{
+    "Function": "hfi1_netdev_free",
+    "astEdges": [
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        17,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "dd",
+        "6": "FIELD_IDENTIFIER",
+        "7": "BLOCK",
+        "8": "dd_dev_info",
+        "9": "dd",
+        "10": "LITERAL",
+        "11": "kfree",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dd",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "dd",
+        "18": "FIELD_IDENTIFIER",
+        "19": "NULL",
+        "20": "METHOD_RETURN"
+    }
+}

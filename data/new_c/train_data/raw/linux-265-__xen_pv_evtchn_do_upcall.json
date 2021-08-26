@@ -1,0 +1,129 @@
+{
+    "Function": "__xen_pv_evtchn_do_upcall",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "irq_enter_rcu",
+        "4": "inc_irq_stat",
+        "5": "irq_hv_callback_count",
+        "6": "xen_hvm_evtchn_do_upcall",
+        "7": "irq_exit_rcu",
+        "8": "METHOD_RETURN"
+    }
+}

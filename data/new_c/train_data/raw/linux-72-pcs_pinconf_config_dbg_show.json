@@ -1,0 +1,112 @@
+{
+    "Function": "pcs_pinconf_config_dbg_show",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "pinconf_generic_dump_config",
+        "6": "pctldev",
+        "7": "s",
+        "8": "config",
+        "9": "METHOD_RETURN"
+    }
+}

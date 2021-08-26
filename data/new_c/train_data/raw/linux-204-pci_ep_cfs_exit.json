@@ -1,0 +1,133 @@
+{
+    "Function": "pci_ep_cfs_exit",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "configfs_unregister_default_group",
+        "4": "controllers_group",
+        "5": "configfs_unregister_default_group",
+        "6": "functions_group",
+        "7": "configfs_unregister_subsystem",
+        "8": "<operator>.addressOf",
+        "9": "pci_ep_cfs_subsys",
+        "10": "METHOD_RETURN"
+    }
+}

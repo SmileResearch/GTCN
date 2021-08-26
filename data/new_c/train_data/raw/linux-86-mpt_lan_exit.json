@@ -1,0 +1,119 @@
+{
+    "Function": "mpt_lan_exit",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        11,
+        13,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mpt_device_driver_deregister",
+        "4": "MPTLAN_DRIVER",
+        "5": "mpt_reset_deregister",
+        "6": "LanCtx",
+        "7": "CONTROL_STRUCTURE",
+        "8": "LanCtx",
+        "9": "BLOCK",
+        "10": "mpt_deregister",
+        "11": "LanCtx",
+        "12": "<operator>.assignment",
+        "13": "LanCtx",
+        "14": "MPT_MAX_PROTOCOL_DRIVERS",
+        "15": "METHOD_RETURN"
+    }
+}

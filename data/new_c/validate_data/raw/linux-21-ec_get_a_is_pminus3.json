@@ -1,0 +1,408 @@
+{
+    "Function": "ec_get_a_is_pminus3",
+    "astEdges": [
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            34
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            14,
+            22
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            13,
+            29
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            47
+        ],
+        [
+            13,
+            35
+        ],
+        [
+            13,
+            23
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            49
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            41
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            55
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        18,
+        24,
+        27,
+        30,
+        32,
+        38,
+        44,
+        46,
+        48,
+        52
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ec",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "BLOCK",
+        "14": "<operator>.assignment",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ec",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "LITERAL",
+        "23": "<operator>.assignment",
+        "24": "tmp",
+        "25": "mpi_alloc_like",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "ec",
+        "28": "FIELD_IDENTIFIER",
+        "29": "mpi_sub_ui",
+        "30": "tmp",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "ec",
+        "33": "FIELD_IDENTIFIER",
+        "34": "LITERAL",
+        "35": "<operator>.assignment",
+        "36": "<operator>.fieldAccess",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "ec",
+        "39": "FIELD_IDENTIFIER",
+        "40": "FIELD_IDENTIFIER",
+        "41": "<operator>.logicalNot",
+        "42": "mpi_cmp",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "ec",
+        "45": "FIELD_IDENTIFIER",
+        "46": "tmp",
+        "47": "mpi_free",
+        "48": "tmp",
+        "49": "RETURN",
+        "50": "<operator>.fieldAccess",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "ec",
+        "53": "FIELD_IDENTIFIER",
+        "54": "FIELD_IDENTIFIER",
+        "55": "METHOD_RETURN"
+    }
+}

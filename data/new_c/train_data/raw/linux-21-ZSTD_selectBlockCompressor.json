@@ -1,0 +1,120 @@
+{
+    "Function": "ZSTD_selectBlockCompressor",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        11,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "BLOCK",
+        "5": "BLOCK",
+        "6": "BLOCK",
+        "7": "RETURN",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "<operator>.indirectIndexAccess",
+        "10": "blockCompressor",
+        "11": "extDict",
+        "12": "<operator>.cast",
+        "13": "UNKNOWN",
+        "14": "strat",
+        "15": "METHOD_RETURN"
+    }
+}

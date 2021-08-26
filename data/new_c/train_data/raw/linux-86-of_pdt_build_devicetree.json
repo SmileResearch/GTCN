@@ -1,0 +1,249 @@
+{
+    "Function": "of_pdt_build_devicetree",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            32
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        22,
+        25,
+        28,
+        31
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "BUG_ON",
+        "5": "<operator>.logicalNot",
+        "6": "ops",
+        "7": "<operator>.assignment",
+        "8": "of_pdt_prom_ops",
+        "9": "ops",
+        "10": "<operator>.assignment",
+        "11": "of_root",
+        "12": "of_pdt_create_node",
+        "13": "root_node",
+        "14": "NULL",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "of_root",
+        "18": "FIELD_IDENTIFIER",
+        "19": "LITERAL",
+        "20": "<operator>.assignment",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "of_root",
+        "23": "FIELD_IDENTIFIER",
+        "24": "of_pdt_build_tree",
+        "25": "of_root",
+        "26": "of_pdt_prom_ops->getchild",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "of_root",
+        "29": "FIELD_IDENTIFIER",
+        "30": "of_alias_scan",
+        "31": "kernel_tree_alloc",
+        "32": "METHOD_RETURN"
+    }
+}

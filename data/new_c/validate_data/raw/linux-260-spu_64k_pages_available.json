@@ -1,0 +1,133 @@
+{
+    "Function": "spu_64k_pages_available",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.notEquals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "mmu_psize_defs",
+        "8": "MMU_PAGE_64K",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "Function": "__cs_hsi_error_read_bits",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        9,
+        12,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            7
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            11,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            10,
+            7
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            11,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operators>.assignmentOr",
+        "4": "<operator>.indirection",
+        "5": "state",
+        "6": "SSI_CHANNEL_STATE_ERROR",
+        "7": "<operators>.assignmentAnd",
+        "8": "<operator>.indirection",
+        "9": "state",
+        "10": "<operator>.not",
+        "11": "<operator>.or",
+        "12": "SSI_CHANNEL_STATE_READING",
+        "13": "SSI_CHANNEL_STATE_POLL",
+        "14": "METHOD_RETURN"
+    }
+}

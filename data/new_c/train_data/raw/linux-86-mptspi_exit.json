@@ -1,0 +1,139 @@
+{
+    "Function": "mptspi_exit",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pci_unregister_driver",
+        "4": "<operator>.addressOf",
+        "5": "mptspi_driver",
+        "6": "mpt_reset_deregister",
+        "7": "mptspiDoneCtx",
+        "8": "mpt_event_deregister",
+        "9": "mptspiDoneCtx",
+        "10": "mpt_deregister",
+        "11": "mptspiInternalCtx",
+        "12": "mpt_deregister",
+        "13": "mptspiTaskCtx",
+        "14": "mpt_deregister",
+        "15": "mptspiDoneCtx",
+        "16": "spi_release_transport",
+        "17": "mptspi_transport_template",
+        "18": "METHOD_RETURN"
+    }
+}

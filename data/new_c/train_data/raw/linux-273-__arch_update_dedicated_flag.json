@@ -1,0 +1,145 @@
+{
+    "Function": "__arch_update_dedicated_flag",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "topology_cpu_dedicated",
+        "5": "smp_processor_id",
+        "6": "set_cpu_flag",
+        "7": "CIF_DEDICATED_CPU",
+        "8": "CONTROL_STRUCTURE",
+        "9": "clear_cpu_flag",
+        "10": "CIF_DEDICATED_CPU",
+        "11": "METHOD_RETURN"
+    }
+}

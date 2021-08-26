@@ -1,0 +1,182 @@
+{
+    "Function": "cpia2_camera_release",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            13,
+            15
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "v4l2_ctrl_handler_free",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "cam",
+        "7": "FIELD_IDENTIFIER",
+        "8": "v4l2_device_unregister",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "cam",
+        "12": "FIELD_IDENTIFIER",
+        "13": "kfree",
+        "14": "cam",
+        "15": "METHOD_RETURN"
+    }
+}

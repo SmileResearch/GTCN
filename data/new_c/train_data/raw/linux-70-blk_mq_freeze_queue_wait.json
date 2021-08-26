@@ -1,0 +1,146 @@
+{
+    "Function": "blk_mq_freeze_queue_wait",
+    "astEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10
+    ],
+    "cfgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "wait_event",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "q",
+        "6": "FIELD_IDENTIFIER",
+        "7": "percpu_ref_is_zero",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "q",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,316 @@
+{
+    "Function": "init_default_flow_dissectors",
+    "astEdges": [
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8,
+        11,
+        12,
+        14,
+        17,
+        18,
+        20
+    ],
+    "cfgEdges": [
+        [
+            15,
+            21
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            13,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            15,
+            23
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            9,
+            23
+        ],
+        [
+            9,
+            23
+        ],
+        [
+            9,
+            23
+        ],
+        [
+            9,
+            23
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            13,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "skb_flow_dissector_init",
+        "4": "<operator>.addressOf",
+        "5": "flow_keys_dissector",
+        "6": "flow_keys_dissector_keys",
+        "7": "ARRAY_SIZE",
+        "8": "flow_keys_dissector_keys",
+        "9": "skb_flow_dissector_init",
+        "10": "<operator>.addressOf",
+        "11": "flow_keys_dissector_symmetric",
+        "12": "flow_keys_dissector_symmetric_keys",
+        "13": "ARRAY_SIZE",
+        "14": "flow_keys_dissector_symmetric_keys",
+        "15": "skb_flow_dissector_init",
+        "16": "<operator>.addressOf",
+        "17": "flow_keys_basic_dissector",
+        "18": "flow_keys_basic_dissector_keys",
+        "19": "ARRAY_SIZE",
+        "20": "flow_keys_basic_dissector_keys",
+        "21": "RETURN",
+        "22": "LITERAL",
+        "23": "METHOD_RETURN"
+    }
+}

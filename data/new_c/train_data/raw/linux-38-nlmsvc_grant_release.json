@@ -1,0 +1,134 @@
+{
+    "Function": "nlmsvc_grant_release",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "call",
+        "6": "data",
+        "7": "nlmsvc_release_block",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "call",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

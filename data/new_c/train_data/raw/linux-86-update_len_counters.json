@@ -1,0 +1,445 @@
+{
+    "Function": "update_len_counters",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            22,
+            30
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            62
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            49,
+            57
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            40,
+            48
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            31,
+            39
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            48,
+            49
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        15,
+        19,
+        24,
+        28,
+        33,
+        37,
+        42,
+        46,
+        51,
+        55,
+        60
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            60,
+            61
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.greaterEqualsThan",
+        "6": "len",
+        "7": "LITERAL",
+        "8": "<operator>.postIncrement",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "grp",
+        "11": "FIELD_IDENTIFIER",
+        "12": "CONTROL_STRUCTURE",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.greaterEqualsThan",
+        "15": "len",
+        "16": "LITERAL",
+        "17": "<operator>.postIncrement",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "grp",
+        "20": "FIELD_IDENTIFIER",
+        "21": "CONTROL_STRUCTURE",
+        "22": "CONTROL_STRUCTURE",
+        "23": "<operator>.greaterEqualsThan",
+        "24": "len",
+        "25": "LITERAL",
+        "26": "<operator>.postIncrement",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "grp",
+        "29": "FIELD_IDENTIFIER",
+        "30": "CONTROL_STRUCTURE",
+        "31": "CONTROL_STRUCTURE",
+        "32": "<operator>.greaterEqualsThan",
+        "33": "len",
+        "34": "LITERAL",
+        "35": "<operator>.postIncrement",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "grp",
+        "38": "FIELD_IDENTIFIER",
+        "39": "CONTROL_STRUCTURE",
+        "40": "CONTROL_STRUCTURE",
+        "41": "<operator>.greaterEqualsThan",
+        "42": "len",
+        "43": "LITERAL",
+        "44": "<operator>.postIncrement",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "grp",
+        "47": "FIELD_IDENTIFIER",
+        "48": "CONTROL_STRUCTURE",
+        "49": "CONTROL_STRUCTURE",
+        "50": "<operator>.greaterEqualsThan",
+        "51": "len",
+        "52": "LITERAL",
+        "53": "<operator>.postIncrement",
+        "54": "<operator>.indirectFieldAccess",
+        "55": "grp",
+        "56": "FIELD_IDENTIFIER",
+        "57": "CONTROL_STRUCTURE",
+        "58": "<operator>.postIncrement",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "grp",
+        "61": "FIELD_IDENTIFIER",
+        "62": "METHOD_RETURN"
+    }
+}

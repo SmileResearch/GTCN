@@ -1,0 +1,117 @@
+{
+    "Function": "of_n_addr_cells",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "np",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.assignment",
+        "8": "np",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "np",
+        "11": "FIELD_IDENTIFIER",
+        "12": "RETURN",
+        "13": "of_bus_n_addr_cells",
+        "14": "np",
+        "15": "METHOD_RETURN"
+    }
+}

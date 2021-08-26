@@ -1,0 +1,139 @@
+{
+    "Function": "hns_roce_hw_create_mpt",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        12,
+        14,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "hns_roce_cmd_mbox",
+        "7": "hr_dev",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "mailbox",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LITERAL",
+        "12": "mpt_index",
+        "13": "LITERAL",
+        "14": "HNS_ROCE_CMD_CREATE_MPT",
+        "15": "HNS_ROCE_CMD_TIMEOUT_MSECS",
+        "16": "METHOD_RETURN"
+    }
+}

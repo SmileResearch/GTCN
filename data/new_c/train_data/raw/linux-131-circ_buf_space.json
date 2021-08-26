@@ -1,0 +1,199 @@
+{
+    "Function": "circ_buf_space",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "CIRC_SPACE",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "drvdata",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "drvdata",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "CCTRNG_DATA_BUF_WORDS",
+        "16": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,479 @@
+{
+    "Function": "mptsas_port_delete",
+    "astEdges": [
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            30
+        ],
+        [
+            21,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            62
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            48
+        ],
+        [
+            43,
+            49
+        ],
+        [
+            36,
+            42
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            60
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            59
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            51
+        ],
+        [
+            35,
+            43
+        ],
+        [
+            35,
+            55
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        14,
+        17,
+        19,
+        23,
+        26,
+        28,
+        32,
+        34,
+        39,
+        41,
+        46,
+        52,
+        53,
+        54,
+        57,
+        59,
+        61
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            61
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.logicalNot",
+        "9": "port_details",
+        "10": "RETURN",
+        "11": "<operator>.assignment",
+        "12": "port_info",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "port_details",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.assignment",
+        "17": "phy_info",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "port_info",
+        "20": "FIELD_IDENTIFIER",
+        "21": "CONTROL_STRUCTURE",
+        "22": "<operator>.assignment",
+        "23": "i",
+        "24": "LITERAL",
+        "25": "<operator>.lessThan",
+        "26": "i",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "port_info",
+        "29": "FIELD_IDENTIFIER",
+        "30": "BLOCK",
+        "31": "<operator>.postIncrement",
+        "32": "i",
+        "33": "<operator>.postIncrement",
+        "34": "phy_info",
+        "35": "BLOCK",
+        "36": "CONTROL_STRUCTURE",
+        "37": "<operator>.notEquals",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "phy_info",
+        "40": "FIELD_IDENTIFIER",
+        "41": "port_details",
+        "42": "CONTROL_STRUCTURE",
+        "43": "memset",
+        "44": "<operator>.addressOf",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "phy_info",
+        "47": "FIELD_IDENTIFIER",
+        "48": "LITERAL",
+        "49": "<operator>.sizeOf",
+        "50": "UNKNOWN",
+        "51": "mptsas_set_rphy",
+        "52": "ioc",
+        "53": "phy_info",
+        "54": "NULL",
+        "55": "<operator>.assignment",
+        "56": "<operator>.indirectFieldAccess",
+        "57": "phy_info",
+        "58": "FIELD_IDENTIFIER",
+        "59": "NULL",
+        "60": "kfree",
+        "61": "port_details",
+        "62": "METHOD_RETURN"
+    }
+}

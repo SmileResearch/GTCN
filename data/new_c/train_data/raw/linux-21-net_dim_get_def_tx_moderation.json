@@ -1,0 +1,133 @@
+{
+    "Function": "net_dim_get_def_tx_moderation",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9,
+        10,
+        11,
+        14,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "profile_ix",
+        "6": "<operator>.conditional",
+        "7": "<operator>.equals",
+        "8": "cq_period_mode",
+        "9": "DIM_CQ_PERIOD_MODE_START_FROM_CQE",
+        "10": "NET_DIM_DEF_PROFILE_CQE",
+        "11": "NET_DIM_DEF_PROFILE_EQE",
+        "12": "RETURN",
+        "13": "net_dim_get_tx_moderation",
+        "14": "cq_period_mode",
+        "15": "profile_ix",
+        "16": "METHOD_RETURN"
+    }
+}

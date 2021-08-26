@@ -1,0 +1,111 @@
+{
+    "Function": "brcmf_pcie_exit",
+    "astEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "brcmf_dbg",
+        "4": "PCIE",
+        "5": "LITERAL",
+        "6": "pci_unregister_driver",
+        "7": "<operator>.addressOf",
+        "8": "brcmf_pciedrvr",
+        "9": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "Function": "iss4xx_smp_init",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "mmu_has_feature",
+        "5": "MMU_FTR_TYPE_47x",
+        "6": "<operator>.assignment",
+        "7": "smp_ops",
+        "8": "<operator>.addressOf",
+        "9": "iss_smp_ops",
+        "10": "METHOD_RETURN"
+    }
+}

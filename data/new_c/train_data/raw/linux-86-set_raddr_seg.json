@@ -1,0 +1,173 @@
+{
+    "Function": "set_raddr_seg",
+    "astEdges": [
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        13,
+        16,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "rseg",
+        "8": "FIELD_IDENTIFIER",
+        "9": "cpu_to_le64",
+        "10": "remote_addr",
+        "11": "<operator>.assignment",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "rseg",
+        "14": "FIELD_IDENTIFIER",
+        "15": "cpu_to_le32",
+        "16": "rkey",
+        "17": "<operator>.assignment",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "rseg",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "METHOD_RETURN"
+    }
+}

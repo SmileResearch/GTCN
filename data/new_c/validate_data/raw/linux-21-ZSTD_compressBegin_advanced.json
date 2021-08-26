@@ -1,0 +1,159 @@
+{
+    "Function": "ZSTD_compressBegin_advanced",
+    "astEdges": [
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        14,
+        15,
+        16,
+        17,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "CHECK_F",
+        "8": "ZSTD_checkCParams",
+        "9": "<operator>.fieldAccess",
+        "10": "params",
+        "11": "FIELD_IDENTIFIER",
+        "12": "RETURN",
+        "13": "ZSTD_compressBegin_internal",
+        "14": "cctx",
+        "15": "dict",
+        "16": "dictSize",
+        "17": "params",
+        "18": "pledgedSrcSize",
+        "19": "METHOD_RETURN"
+    }
+}

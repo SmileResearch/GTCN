@@ -1,0 +1,367 @@
+{
+    "Function": "get_local_comm_id",
+    "astEdges": [
+        [
+            35,
+            36
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            51
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            46
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            24,
+            38
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            32
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        14,
+        17,
+        21,
+        28,
+        31,
+        42,
+        45,
+        49
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            49,
+            50
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "mad",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "CM_SIDR_REQ_ATTR_ID",
+        "11": "BLOCK",
+        "12": "LOCAL",
+        "13": "<operator>.assignment",
+        "14": "msg",
+        "15": "<operator>.cast",
+        "16": "UNKNOWN",
+        "17": "mad",
+        "18": "RETURN",
+        "19": "be32_to_cpu",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "msg",
+        "22": "FIELD_IDENTIFIER",
+        "23": "CONTROL_STRUCTURE",
+        "24": "CONTROL_STRUCTURE",
+        "25": "<operator>.equals",
+        "26": "<operator>.fieldAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "mad",
+        "29": "FIELD_IDENTIFIER",
+        "30": "FIELD_IDENTIFIER",
+        "31": "CM_SIDR_REP_ATTR_ID",
+        "32": "BLOCK",
+        "33": "pr_err",
+        "34": "LITERAL",
+        "35": "RETURN",
+        "36": "<operator>.minus",
+        "37": "LITERAL",
+        "38": "CONTROL_STRUCTURE",
+        "39": "BLOCK",
+        "40": "LOCAL",
+        "41": "<operator>.assignment",
+        "42": "msg",
+        "43": "<operator>.cast",
+        "44": "UNKNOWN",
+        "45": "mad",
+        "46": "RETURN",
+        "47": "be32_to_cpu",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "msg",
+        "50": "FIELD_IDENTIFIER",
+        "51": "METHOD_RETURN"
+    }
+}

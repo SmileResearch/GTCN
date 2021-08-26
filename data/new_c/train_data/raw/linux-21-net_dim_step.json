@@ -1,0 +1,490 @@
+{
+    "Function": "net_dim_step",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            42,
+            48
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            22,
+            30
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            65
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            2,
+            63
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            59
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            17,
+            58
+        ],
+        [
+            17,
+            40
+        ],
+        [
+            17,
+            42
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            32
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            50
+        ],
+        [
+            17,
+            36
+        ],
+        [
+            17,
+            41
+        ],
+        [
+            17,
+            54
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        15,
+        25,
+        28,
+        31,
+        34,
+        38,
+        45,
+        49,
+        52,
+        56,
+        61,
+        64
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            64
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dim",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.multiplication",
+        "9": "NET_DIM_PARAMS_NUM_PROFILES",
+        "10": "LITERAL",
+        "11": "RETURN",
+        "12": "DIM_TOO_TIRED",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "dim",
+        "16": "FIELD_IDENTIFIER",
+        "17": "BLOCK",
+        "18": "JUMP_TARGET",
+        "19": "JUMP_TARGET",
+        "20": "CONTROL_STRUCTURE",
+        "21": "JUMP_TARGET",
+        "22": "CONTROL_STRUCTURE",
+        "23": "<operator>.equals",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "dim",
+        "26": "FIELD_IDENTIFIER",
+        "27": "<operator>.subtraction",
+        "28": "NET_DIM_PARAMS_NUM_PROFILES",
+        "29": "LITERAL",
+        "30": "RETURN",
+        "31": "DIM_ON_EDGE",
+        "32": "<operator>.postIncrement",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "dim",
+        "35": "FIELD_IDENTIFIER",
+        "36": "<operator>.postIncrement",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "dim",
+        "39": "FIELD_IDENTIFIER",
+        "40": "CONTROL_STRUCTURE",
+        "41": "JUMP_TARGET",
+        "42": "CONTROL_STRUCTURE",
+        "43": "<operator>.equals",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "dim",
+        "46": "FIELD_IDENTIFIER",
+        "47": "LITERAL",
+        "48": "RETURN",
+        "49": "DIM_ON_EDGE",
+        "50": "<operator>.postDecrement",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "dim",
+        "53": "FIELD_IDENTIFIER",
+        "54": "<operator>.postIncrement",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "dim",
+        "57": "FIELD_IDENTIFIER",
+        "58": "CONTROL_STRUCTURE",
+        "59": "<operator>.postIncrement",
+        "60": "<operator>.indirectFieldAccess",
+        "61": "dim",
+        "62": "FIELD_IDENTIFIER",
+        "63": "RETURN",
+        "64": "DIM_STEPPED",
+        "65": "METHOD_RETURN"
+    }
+}

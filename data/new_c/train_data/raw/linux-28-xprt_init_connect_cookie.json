@@ -1,0 +1,158 @@
+{
+    "Function": "xprt_init_connect_cookie",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "req",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.subtraction",
+        "9": "xprt_connect_cookie",
+        "10": "xprt",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

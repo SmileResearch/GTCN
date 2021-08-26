@@ -1,0 +1,174 @@
+{
+    "Function": "ionic_dev_cmd_comp",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        14
+    ],
+    "cfgEdges": [
+        [
+            6,
+            13
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            11,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "memcpy_fromio",
+        "5": "comp",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "idev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.sizeOf",
+        "13": "<operator>.indirection",
+        "14": "comp",
+        "15": "METHOD_RETURN"
+    }
+}

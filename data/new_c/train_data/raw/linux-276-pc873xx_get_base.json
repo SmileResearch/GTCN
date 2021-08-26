@@ -1,0 +1,52 @@
+{
+    "Function": "pc873xx_get_base",
+    "astEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        3
+    ],
+    "cfgEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "ddgEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "BLOCK",
+        "2": "RETURN",
+        "3": "base",
+        "4": "METHOD_RETURN"
+    }
+}

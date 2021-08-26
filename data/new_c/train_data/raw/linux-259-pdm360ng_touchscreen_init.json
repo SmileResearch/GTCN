@@ -1,0 +1,145 @@
+{
+    "Function": "pdm360ng_touchscreen_init",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            9,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "pdm360ng_penirq_init",
+        "5": "RETURN",
+        "6": "bus_register_notifier",
+        "7": "<operator>.addressOf",
+        "8": "spi_bus_type",
+        "9": "<operator>.addressOf",
+        "10": "pdm360ng_touchscreen_nb",
+        "11": "METHOD_RETURN"
+    }
+}

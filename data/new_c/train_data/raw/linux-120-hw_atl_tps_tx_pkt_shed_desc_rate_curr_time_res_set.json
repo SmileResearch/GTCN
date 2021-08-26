@@ -1,0 +1,131 @@
+{
+    "Function": "hw_atl_tps_tx_pkt_shed_desc_rate_curr_time_res_set",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        7,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "aq_hw_write_reg_bit",
+        "5": "aq_hw",
+        "6": "HW_ATL_TPS_DESC_RATE_TA_RST_ADR",
+        "7": "HW_ATL_TPS_DESC_RATE_TA_RST_MSK",
+        "8": "HW_ATL_TPS_DESC_RATE_TA_RST_SHIFT",
+        "9": "curr_time_res",
+        "10": "METHOD_RETURN"
+    }
+}

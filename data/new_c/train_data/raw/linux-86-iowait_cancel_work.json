@@ -1,0 +1,155 @@
+{
+    "Function": "iowait_cancel_work",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        13,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cancel_work_sync",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "iowait_get_ib_work",
+        "7": "w",
+        "8": "FIELD_IDENTIFIER",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "iowait_get_tid_work",
+        "13": "w",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "cancel_work_sync",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "iowait_get_tid_work",
+        "20": "w",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

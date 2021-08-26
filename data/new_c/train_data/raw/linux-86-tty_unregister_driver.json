@@ -1,0 +1,248 @@
+{
+    "Function": "tty_unregister_driver",
+    "astEdges": [
+        [
+            24,
+            25
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            32
+        ],
+        [
+            2,
+            29
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            34
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        16,
+        19,
+        23,
+        27,
+        31
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            33
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "driver",
+        "6": "FIELD_IDENTIFIER",
+        "7": "RETURN",
+        "8": "<operator>.minus",
+        "9": "EBUSY",
+        "10": "unregister_chrdev_region",
+        "11": "MKDEV",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "driver",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "driver",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "driver",
+        "20": "FIELD_IDENTIFIER",
+        "21": "mutex_lock",
+        "22": "<operator>.addressOf",
+        "23": "tty_mutex",
+        "24": "list_del",
+        "25": "<operator>.addressOf",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "driver",
+        "28": "FIELD_IDENTIFIER",
+        "29": "mutex_unlock",
+        "30": "<operator>.addressOf",
+        "31": "tty_mutex",
+        "32": "RETURN",
+        "33": "LITERAL",
+        "34": "METHOD_RETURN"
+    }
+}

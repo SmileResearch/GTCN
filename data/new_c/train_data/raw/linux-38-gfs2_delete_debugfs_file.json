@@ -1,0 +1,143 @@
+{
+    "Function": "gfs2_delete_debugfs_file",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "debugfs_remove_recursive",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "sdp",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "sdp",
+        "10": "FIELD_IDENTIFIER",
+        "11": "NULL",
+        "12": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,361 @@
+{
+    "Function": "hfi1_clear_ctxt_pkey",
+    "astEdges": [
+        [
+            15,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            33
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            38
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            43
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            45
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        16,
+        18,
+        21,
+        25,
+        27,
+        28,
+        29,
+        31,
+        32,
+        34,
+        35,
+        36,
+        37,
+        39,
+        40,
+        41
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            44
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.logicalOr",
+        "8": "<operator>.logicalNot",
+        "9": "ctxt",
+        "10": "<operator>.logicalNot",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ctxt",
+        "13": "FIELD_IDENTIFIER",
+        "14": "RETURN",
+        "15": "<operator>.minus",
+        "16": "EINVAL",
+        "17": "<operator>.assignment",
+        "18": "hw_ctxt",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "ctxt",
+        "22": "FIELD_IDENTIFIER",
+        "23": "FIELD_IDENTIFIER",
+        "24": "<operator>.assignment",
+        "25": "reg",
+        "26": "read_kctxt_csr",
+        "27": "dd",
+        "28": "hw_ctxt",
+        "29": "SEND_CTXT_CHECK_ENABLE",
+        "30": "<operators>.assignmentAnd",
+        "31": "reg",
+        "32": "~SEND_CTXT_CHECK_ENABLE_CHECK_PARTITION_KEY_SMASK",
+        "33": "write_kctxt_csr",
+        "34": "dd",
+        "35": "hw_ctxt",
+        "36": "SEND_CTXT_CHECK_ENABLE",
+        "37": "reg",
+        "38": "write_kctxt_csr",
+        "39": "dd",
+        "40": "hw_ctxt",
+        "41": "SEND_CTXT_CHECK_PARTITION_KEY",
+        "42": "LITERAL",
+        "43": "RETURN",
+        "44": "LITERAL",
+        "45": "METHOD_RETURN"
+    }
+}

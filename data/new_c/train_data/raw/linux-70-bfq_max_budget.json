@@ -1,0 +1,192 @@
+{
+    "Function": "bfq_max_budget",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        14
+    ],
+    "cfgEdges": [
+        [
+            15,
+            13
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            16
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.lessThan",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "bfqd",
+        "7": "FIELD_IDENTIFIER",
+        "8": "bfq_stats_min_budgets",
+        "9": "RETURN",
+        "10": "bfq_default_max_budget",
+        "11": "CONTROL_STRUCTURE",
+        "12": "RETURN",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "bfqd",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

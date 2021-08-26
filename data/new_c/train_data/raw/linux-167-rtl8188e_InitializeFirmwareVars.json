@@ -1,0 +1,200 @@
+{
+    "Function": "rtl8188e_InitializeFirmwareVars",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            15,
+            11
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "padapter",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "false",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "padapter",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "Function": "mpt_GetIocState",
+    "astEdges": [
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            30
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            25
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            25,
+            26
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        16,
+        18,
+        19,
+        22,
+        24,
+        27,
+        28,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "s",
+        "8": "CHIPREG_READ32",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ioc",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.assignment",
+        "16": "sc",
+        "17": "<operator>.and",
+        "18": "s",
+        "19": "MPI_IOC_STATE_MASK",
+        "20": "<operator>.assignment",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "ioc",
+        "23": "FIELD_IDENTIFIER",
+        "24": "sc",
+        "25": "RETURN",
+        "26": "<operator>.conditional",
+        "27": "cooked",
+        "28": "sc",
+        "29": "s",
+        "30": "METHOD_RETURN"
+    }
+}

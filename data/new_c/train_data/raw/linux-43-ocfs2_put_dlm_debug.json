@@ -1,0 +1,130 @@
+{
+    "Function": "ocfs2_put_dlm_debug",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "dlm_debug",
+        "5": "kref_put",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dlm_debug",
+        "9": "FIELD_IDENTIFIER",
+        "10": "ocfs2_dlm_debug_free",
+        "11": "METHOD_RETURN"
+    }
+}

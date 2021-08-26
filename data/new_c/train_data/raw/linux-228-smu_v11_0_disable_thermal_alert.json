@@ -1,0 +1,159 @@
+{
+    "Function": "smu_v11_0_disable_thermal_alert",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            11,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "amdgpu_irq_put",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "smu",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "smu",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

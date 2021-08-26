@@ -1,0 +1,200 @@
+{
+    "Function": "exynos_dsi_read",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            14,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            6,
+            17
+        ],
+        [
+            6,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "readl",
+        "6": "<operator>.addition",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dsi",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "dsi",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "idx",
+        "17": "METHOD_RETURN"
+    }
+}

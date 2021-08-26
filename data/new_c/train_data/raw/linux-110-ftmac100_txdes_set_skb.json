@@ -1,0 +1,137 @@
+{
+    "Function": "ftmac100_txdes_set_skb",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "txdes",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "skb",
+        "11": "METHOD_RETURN"
+    }
+}

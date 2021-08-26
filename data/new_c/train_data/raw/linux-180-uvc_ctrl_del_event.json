@@ -1,0 +1,253 @@
+{
+    "Function": "uvc_ctrl_del_event",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        13,
+        19
+    ],
+    "cfgEdges": [
+        [
+            12,
+            11
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            10,
+            20
+        ],
+        [
+            21,
+            17
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            10,
+            22
+        ],
+        [
+            10,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_lock",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "handle",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "list_del",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "sev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "mutex_unlock",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "handle",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

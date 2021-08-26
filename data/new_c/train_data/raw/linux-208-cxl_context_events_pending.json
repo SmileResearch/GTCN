@@ -1,0 +1,178 @@
+{
+    "Function": "cxl_context_events_pending",
+    "astEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            12,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "atomic_add",
+        "5": "new_events",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ctx",
+        "9": "FIELD_IDENTIFIER",
+        "10": "wake_up_all",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ctx",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

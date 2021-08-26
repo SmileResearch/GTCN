@@ -1,0 +1,146 @@
+{
+    "Function": "hfi1_ipoib_rxq_deinit",
+    "astEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12,
+        15,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "ipoib_priv",
+        "6": "hfi1_ipoib_priv",
+        "7": "netdev",
+        "8": "LOCAL",
+        "9": "<operator>.assignment",
+        "10": "dd",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ipoib_priv",
+        "13": "FIELD_IDENTIFIER",
+        "14": "hfi1_deinit_aip_rsm",
+        "15": "dd",
+        "16": "hfi1_netdev_rx_destroy",
+        "17": "dd",
+        "18": "METHOD_RETURN"
+    }
+}

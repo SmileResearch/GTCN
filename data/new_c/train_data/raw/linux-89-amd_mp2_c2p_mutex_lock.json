@@ -1,0 +1,246 @@
+{
+    "Function": "amd_mp2_c2p_mutex_lock",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        12,
+        16,
+        19
+    ],
+    "cfgEdges": [
+        [
+            9,
+            17
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            13,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "privdata",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "i2c_common",
+        "8": "FIELD_IDENTIFIER",
+        "9": "mutex_lock",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "privdata",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "privdata",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "i2c_common",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

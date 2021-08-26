@@ -1,0 +1,111 @@
+{
+    "Function": "ibft_cleanup",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8
+    ],
+    "cfgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "boot_kset",
+        "5": "BLOCK",
+        "6": "ibft_unregister",
+        "7": "iscsi_boot_destroy_kset",
+        "8": "boot_kset",
+        "9": "METHOD_RETURN"
+    }
+}

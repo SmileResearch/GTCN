@@ -1,0 +1,163 @@
+{
+    "Function": "buffer_is_rgrp",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            11,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            10,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "bd",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LM_TYPE_RGRP",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "Function": "of_path_i2c_client_exists",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        13,
+        17,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "client",
+        "6": "of_path_to_i2c_client",
+        "7": "path",
+        "8": "CONTROL_STRUCTURE",
+        "9": "client",
+        "10": "put_device",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "client",
+        "14": "FIELD_IDENTIFIER",
+        "15": "RETURN",
+        "16": "<operator>.notEquals",
+        "17": "client",
+        "18": "NULL",
+        "19": "METHOD_RETURN"
+    }
+}

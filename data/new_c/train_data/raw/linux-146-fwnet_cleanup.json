@@ -1,0 +1,196 @@
+{
+    "Function": "fwnet_cleanup",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            10,
+            14
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            8,
+            16
+        ],
+        [
+            8,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "fwnet_driver",
+        "7": "FIELD_IDENTIFIER",
+        "8": "kmem_cache_destroy",
+        "9": "fwnet_packet_task_cache",
+        "10": "fw_core_remove_descriptor",
+        "11": "<operator>.addressOf",
+        "12": "rfc3146_unit_directory",
+        "13": "fw_core_remove_descriptor",
+        "14": "<operator>.addressOf",
+        "15": "rfc2374_unit_directory",
+        "16": "METHOD_RETURN"
+    }
+}

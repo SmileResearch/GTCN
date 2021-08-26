@@ -1,0 +1,159 @@
+{
+    "Function": "devlink_reload_action_is_supported",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "test_bit",
+        "6": "action",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "devlink",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

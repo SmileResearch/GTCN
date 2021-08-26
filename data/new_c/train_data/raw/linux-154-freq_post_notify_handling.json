@@ -1,0 +1,129 @@
+{
+    "Function": "freq_post_notify_handling",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "do_freq_post_notify_handling",
+        "5": "emif",
+        "6": "spin_unlock_irqrestore",
+        "7": "<operator>.addressOf",
+        "8": "emif_lock",
+        "9": "irq_state",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "Function": "mptsas_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pci_unregister_driver",
+        "4": "<operator>.addressOf",
+        "5": "mptsas_driver",
+        "6": "sas_release_transport",
+        "7": "mptsas_transport_template",
+        "8": "mpt_reset_deregister",
+        "9": "mptsasDoneCtx",
+        "10": "mpt_event_deregister",
+        "11": "mptsasDoneCtx",
+        "12": "mpt_deregister",
+        "13": "mptsasMgmtCtx",
+        "14": "mpt_deregister",
+        "15": "mptsasInternalCtx",
+        "16": "mpt_deregister",
+        "17": "mptsasTaskCtx",
+        "18": "mpt_deregister",
+        "19": "mptsasDoneCtx",
+        "20": "mpt_deregister",
+        "21": "mptsasDeviceResetCtx",
+        "22": "METHOD_RETURN"
+    }
+}

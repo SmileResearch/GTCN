@@ -1,0 +1,111 @@
+{
+    "Function": "cxl_file_exit",
+    "astEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_chrdev_region",
+        "4": "cxl_dev",
+        "5": "CXL_NUM_MINORS",
+        "6": "class_destroy",
+        "7": "cxl_class",
+        "8": "METHOD_RETURN"
+    }
+}

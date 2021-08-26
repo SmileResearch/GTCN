@@ -1,0 +1,173 @@
+{
+    "Function": "alsa_card_miro_exit",
+    "astEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "snd_miro_pnp_is_probed",
+        "6": "BLOCK",
+        "7": "isa_unregister_driver",
+        "8": "<operator>.addressOf",
+        "9": "snd_miro_driver",
+        "10": "RETURN",
+        "11": "pnp_unregister_card_driver",
+        "12": "<operator>.addressOf",
+        "13": "miro_pnpc_driver",
+        "14": "METHOD_RETURN"
+    }
+}

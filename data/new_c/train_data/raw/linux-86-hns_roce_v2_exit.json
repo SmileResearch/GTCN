@@ -1,0 +1,180 @@
+{
+    "Function": "hns_roce_v2_exit",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12,
+        15,
+        18,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "priv",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hr_dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "hns_roce_function_clear",
+        "10": "hr_dev",
+        "11": "hns_roce_free_link_table",
+        "12": "hr_dev",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "priv",
+        "16": "FIELD_IDENTIFIER",
+        "17": "hns_roce_free_link_table",
+        "18": "hr_dev",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "priv",
+        "22": "FIELD_IDENTIFIER",
+        "23": "METHOD_RETURN"
+    }
+}

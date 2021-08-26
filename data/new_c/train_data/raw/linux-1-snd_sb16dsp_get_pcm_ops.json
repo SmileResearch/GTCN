@@ -1,0 +1,160 @@
+{
+    "Function": "snd_sb16dsp_get_pcm_ops",
+    "astEdges": [
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.conditional",
+        "5": "<operator>.equals",
+        "6": "direction",
+        "7": "SNDRV_PCM_STREAM_PLAYBACK",
+        "8": "<operator>.addressOf",
+        "9": "snd_sb16_playback_ops",
+        "10": "<operator>.addressOf",
+        "11": "snd_sb16_capture_ops",
+        "12": "METHOD_RETURN"
+    }
+}

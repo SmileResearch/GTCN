@@ -1,0 +1,671 @@
+{
+    "Function": "qede_set_udp_tunnels",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            27
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            0,
+            61
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            28,
+            36
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            59
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            53
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            42
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        15,
+        22,
+        26,
+        32,
+        39,
+        43,
+        49,
+        56,
+        60
+    ],
+    "cfgEdges": [
+        [
+            58,
+            54
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            37,
+            42
+        ],
+        [
+            55,
+            58
+        ],
+        [
+            20,
+            25
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            18,
+            12
+        ],
+        [
+            29,
+            40
+        ],
+        [
+            29,
+            50
+        ],
+        [
+            23,
+            21
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            34,
+            30
+        ],
+        [
+            40,
+            38
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            30,
+            35
+        ],
+        [
+            57,
+            55
+        ],
+        [
+            42,
+            36
+        ],
+        [
+            51,
+            47
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            20
+        ],
+        [
+            59,
+            53
+        ],
+        [
+            35,
+            29
+        ],
+        [
+            53,
+            61
+        ],
+        [
+            41,
+            37
+        ],
+        [
+            52,
+            46
+        ],
+        [
+            19,
+            61
+        ],
+        [
+            47,
+            52
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            33,
+            31
+        ],
+        [
+            46,
+            61
+        ],
+        [
+            46,
+            57
+        ],
+        [
+            54,
+            59
+        ],
+        [
+            4,
+            23
+        ],
+        [
+            4,
+            33
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            25,
+            19
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            50,
+            48
+        ],
+        [
+            17,
+            13
+        ],
+        [
+            36,
+            61
+        ]
+    ],
+    "ddgEdges": [
+        [
+            53,
+            61
+        ],
+        [
+            53,
+            61
+        ],
+        [
+            19,
+            61
+        ],
+        [
+            19,
+            61
+        ],
+        [
+            4,
+            61
+        ],
+        [
+            4,
+            61
+        ],
+        [
+            4,
+            61
+        ],
+        [
+            36,
+            61
+        ],
+        [
+            36,
+            61
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            60
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalAnd",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "edev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.fieldAccess",
+        "13": "<operator>.fieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "edev",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.assignment",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "edev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.addressOf",
+        "26": "qede_udp_tunnels_both",
+        "27": "CONTROL_STRUCTURE",
+        "28": "CONTROL_STRUCTURE",
+        "29": "<operator>.fieldAccess",
+        "30": "<operator>.fieldAccess",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "edev",
+        "33": "FIELD_IDENTIFIER",
+        "34": "FIELD_IDENTIFIER",
+        "35": "FIELD_IDENTIFIER",
+        "36": "<operator>.assignment",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "edev",
+        "40": "FIELD_IDENTIFIER",
+        "41": "FIELD_IDENTIFIER",
+        "42": "<operator>.addressOf",
+        "43": "qede_udp_tunnels_vxlan",
+        "44": "CONTROL_STRUCTURE",
+        "45": "CONTROL_STRUCTURE",
+        "46": "<operator>.fieldAccess",
+        "47": "<operator>.fieldAccess",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "edev",
+        "50": "FIELD_IDENTIFIER",
+        "51": "FIELD_IDENTIFIER",
+        "52": "FIELD_IDENTIFIER",
+        "53": "<operator>.assignment",
+        "54": "<operator>.indirectFieldAccess",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "edev",
+        "57": "FIELD_IDENTIFIER",
+        "58": "FIELD_IDENTIFIER",
+        "59": "<operator>.addressOf",
+        "60": "qede_udp_tunnels_geneve",
+        "61": "METHOD_RETURN"
+    }
+}

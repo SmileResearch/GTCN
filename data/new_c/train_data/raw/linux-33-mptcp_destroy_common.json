@@ -1,0 +1,155 @@
+{
+    "Function": "mptcp_destroy_common",
+    "astEdges": [
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "skb_rbtree_purge",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "msk",
+        "7": "FIELD_IDENTIFIER",
+        "8": "mptcp_token_destroy",
+        "9": "msk",
+        "10": "mptcp_pm_free_anno_list",
+        "11": "msk",
+        "12": "METHOD_RETURN"
+    }
+}

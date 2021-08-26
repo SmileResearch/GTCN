@@ -1,0 +1,235 @@
+{
+    "Function": "n_tty_receive_buf_closing",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            31
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        12,
+        15,
+        17,
+        20,
+        24,
+        25,
+        27,
+        30
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            30
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "flag",
+        "9": "TTY_NORMAL",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.postDecrement",
+        "12": "count",
+        "13": "BLOCK",
+        "14": "CONTROL_STRUCTURE",
+        "15": "fp",
+        "16": "<operator>.assignment",
+        "17": "flag",
+        "18": "<operator>.indirection",
+        "19": "<operator>.postIncrement",
+        "20": "fp",
+        "21": "CONTROL_STRUCTURE",
+        "22": "likely",
+        "23": "<operator>.equals",
+        "24": "flag",
+        "25": "TTY_NORMAL",
+        "26": "n_tty_receive_char_closing",
+        "27": "tty",
+        "28": "<operator>.indirection",
+        "29": "<operator>.postIncrement",
+        "30": "cp",
+        "31": "METHOD_RETURN"
+    }
+}

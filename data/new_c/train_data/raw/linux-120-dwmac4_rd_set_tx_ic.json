@@ -1,0 +1,115 @@
+{
+    "Function": "dwmac4_rd_set_tx_ic",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operators>.assignmentOr",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "p",
+        "6": "FIELD_IDENTIFIER",
+        "7": "cpu_to_le32",
+        "8": "TDES2_INTERRUPT_ON_COMPLETION",
+        "9": "METHOD_RETURN"
+    }
+}

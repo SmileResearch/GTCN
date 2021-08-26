@@ -1,0 +1,218 @@
+{
+    "Function": "qgroup_dirty",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        17
+    ],
+    "cfgEdges": [
+        [
+            12,
+            11
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            15,
+            10
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            19
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            19
+        ],
+        [
+            5,
+            19
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            10,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "list_empty",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "qgroup",
+        "9": "FIELD_IDENTIFIER",
+        "10": "list_add",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "qgroup",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "fs_info",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

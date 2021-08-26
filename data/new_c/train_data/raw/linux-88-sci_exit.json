@@ -1,0 +1,148 @@
+{
+    "Function": "sci_exit",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            11,
+            10
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "sci_driver",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.fieldAccess",
+        "8": "sci_uart_driver",
+        "9": "FIELD_IDENTIFIER",
+        "10": "uart_unregister_driver",
+        "11": "<operator>.addressOf",
+        "12": "sci_uart_driver",
+        "13": "METHOD_RETURN"
+    }
+}

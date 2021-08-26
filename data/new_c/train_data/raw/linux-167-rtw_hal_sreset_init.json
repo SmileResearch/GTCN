@@ -1,0 +1,201 @@
+{
+    "Function": "rtw_hal_sreset_init",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        14,
+        16
+    ],
+    "cfgEdges": [
+        [
+            13,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "psrtpriv",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "padapter",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "psrtpriv",
+        "15": "FIELD_IDENTIFIER",
+        "16": "WIFI_STATUS_SUCCESS",
+        "17": "METHOD_RETURN"
+    }
+}

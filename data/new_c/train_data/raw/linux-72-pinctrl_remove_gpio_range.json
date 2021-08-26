@@ -1,0 +1,218 @@
+{
+    "Function": "pinctrl_remove_gpio_range",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        17
+    ],
+    "cfgEdges": [
+        [
+            18,
+            16
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            9,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            9,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "mutex_lock",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "pctldev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "list_del",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "range",
+        "13": "FIELD_IDENTIFIER",
+        "14": "mutex_unlock",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "pctldev",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

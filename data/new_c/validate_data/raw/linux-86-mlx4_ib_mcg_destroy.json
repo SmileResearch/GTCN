@@ -1,0 +1,44 @@
+{
+    "Function": "mlx4_ib_mcg_destroy",
+    "astEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "destroy_workqueue",
+        "4": "clean_wq",
+        "5": "METHOD_RETURN"
+    }
+}

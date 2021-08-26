@@ -1,0 +1,143 @@
+{
+    "Function": "hackkit_init",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "sa11x0_register_mtd",
+        "4": "<operator>.addressOf",
+        "5": "hackkit_flash_data",
+        "6": "<operator>.addressOf",
+        "7": "hackkit_flash_resource",
+        "8": "LITERAL",
+        "9": "platform_device_register",
+        "10": "<operator>.addressOf",
+        "11": "hackkit_leds",
+        "12": "METHOD_RETURN"
+    }
+}

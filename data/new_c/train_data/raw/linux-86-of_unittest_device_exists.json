@@ -1,0 +1,179 @@
+{
+    "Function": "of_unittest_device_exists",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9,
+        11,
+        16,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "path",
+        "7": "unittest_path",
+        "8": "unittest_nr",
+        "9": "ovtype",
+        "10": "CONTROL_STRUCTURE",
+        "11": "ovtype",
+        "12": "BLOCK",
+        "13": "JUMP_TARGET",
+        "14": "RETURN",
+        "15": "of_path_platform_device_exists",
+        "16": "path",
+        "17": "JUMP_TARGET",
+        "18": "RETURN",
+        "19": "of_path_i2c_client_exists",
+        "20": "path",
+        "21": "RETURN",
+        "22": "LITERAL",
+        "23": "METHOD_RETURN"
+    }
+}

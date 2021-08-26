@@ -1,0 +1,142 @@
+{
+    "Function": "octeon_i2c_hlc_int_enable78",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "atomic_inc_return",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "i2c",
+        "7": "FIELD_IDENTIFIER",
+        "8": "enable_irq",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "i2c",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

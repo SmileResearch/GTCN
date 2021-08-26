@@ -1,0 +1,150 @@
+{
+    "Function": "hfi1_del_tid_reap_timer",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        12,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "qpriv",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "qp",
+        "8": "FIELD_IDENTIFIER",
+        "9": "del_timer_sync",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "qpriv",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operators>.assignmentAnd",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "qpriv",
+        "17": "FIELD_IDENTIFIER",
+        "18": "~HFI1_R_TID_RSC_TIMER",
+        "19": "METHOD_RETURN"
+    }
+}

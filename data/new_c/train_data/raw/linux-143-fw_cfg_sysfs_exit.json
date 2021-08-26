@@ -1,0 +1,133 @@
+{
+    "Function": "fw_cfg_sysfs_exit",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "fw_cfg_sysfs_driver",
+        "6": "platform_device_unregister",
+        "7": "fw_cfg_cmdline_dev",
+        "8": "fw_cfg_kobj_cleanup",
+        "9": "fw_cfg_top_ko",
+        "10": "METHOD_RETURN"
+    }
+}

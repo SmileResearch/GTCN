@@ -1,0 +1,197 @@
+{
+    "Function": "pciehp_free_irq",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            5,
+            17
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            10,
+            17
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "pciehp_poll_mode",
+        "5": "kthread_stop",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ctrl",
+        "8": "FIELD_IDENTIFIER",
+        "9": "CONTROL_STRUCTURE",
+        "10": "free_irq",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ctrl",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "ctrl",
+        "17": "METHOD_RETURN"
+    }
+}

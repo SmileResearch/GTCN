@@ -1,0 +1,204 @@
+{
+    "Function": "hdmi_infoframe_log_header",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            14,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "hdmi_log",
+        "6": "LITERAL",
+        "7": "hdmi_infoframe_type_get_name",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "frame",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "frame",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "frame",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

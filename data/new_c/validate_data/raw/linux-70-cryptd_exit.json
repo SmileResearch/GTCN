@@ -1,0 +1,138 @@
+{
+    "Function": "cryptd_exit",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "destroy_workqueue",
+        "4": "cryptd_wq",
+        "5": "cryptd_fini_queue",
+        "6": "<operator>.addressOf",
+        "7": "queue",
+        "8": "crypto_unregister_template",
+        "9": "<operator>.addressOf",
+        "10": "cryptd_tmpl",
+        "11": "METHOD_RETURN"
+    }
+}

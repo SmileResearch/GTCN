@@ -1,0 +1,232 @@
+{
+    "Function": "nvmet_add_passthru_group",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        14,
+        18
+    ],
+    "cfgEdges": [
+        [
+            12,
+            19
+        ],
+        [
+            17,
+            16
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            16,
+            11
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            11,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "config_group_init_type_name",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "subsys",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "<operator>.addressOf",
+        "10": "nvmet_passthru_type",
+        "11": "configfs_add_default_group",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "subsys",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "subsys",
+        "19": "FIELD_IDENTIFIER",
+        "20": "METHOD_RETURN"
+    }
+}

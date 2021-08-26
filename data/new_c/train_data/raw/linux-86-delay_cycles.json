@@ -1,0 +1,323 @@
+{
+    "Function": "delay_cycles",
+    "astEdges": [
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            0,
+            42
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            38
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            25
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            27,
+            33
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        14,
+        21,
+        22,
+        26,
+        30,
+        32,
+        35,
+        37,
+        41
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            41
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "current_egress_rate",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ppd",
+        "11": "FIELD_IDENTIFIER",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.equals",
+        "14": "desired_egress_rate",
+        "15": "<operator>.minus",
+        "16": "LITERAL",
+        "17": "RETURN",
+        "18": "LITERAL",
+        "19": "CONTROL_STRUCTURE",
+        "20": "<operator>.greaterEqualsThan",
+        "21": "desired_egress_rate",
+        "22": "current_egress_rate",
+        "23": "RETURN",
+        "24": "LITERAL",
+        "25": "<operator>.assignment",
+        "26": "delta_cycles",
+        "27": "<operator>.subtraction",
+        "28": "egress_cycles",
+        "29": "<operator>.multiplication",
+        "30": "dw_len",
+        "31": "LITERAL",
+        "32": "desired_egress_rate",
+        "33": "egress_cycles",
+        "34": "<operator>.multiplication",
+        "35": "dw_len",
+        "36": "LITERAL",
+        "37": "current_egress_rate",
+        "38": "RETURN",
+        "39": "<operator>.cast",
+        "40": "UNKNOWN",
+        "41": "delta_cycles",
+        "42": "METHOD_RETURN"
+    }
+}

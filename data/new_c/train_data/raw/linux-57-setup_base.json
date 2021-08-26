@@ -1,0 +1,45 @@
+{
+    "Function": "setup_base",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            1,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "ddgEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "BLOCK",
+        "2": "setup_ctx",
+        "3": "METHOD_RETURN"
+    }
+}

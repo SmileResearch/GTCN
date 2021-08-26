@@ -1,0 +1,139 @@
+{
+    "Function": "__limit_set_val",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.indirection",
+        "7": "ptr",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirection",
+        "10": "ptr",
+        "11": "val",
+        "12": "METHOD_RETURN"
+    }
+}

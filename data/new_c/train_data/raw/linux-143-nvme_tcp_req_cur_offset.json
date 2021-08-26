@@ -1,0 +1,203 @@
+{
+    "Function": "nvme_tcp_req_cur_offset",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        14
+    ],
+    "cfgEdges": [
+        [
+            10,
+            6
+        ],
+        [
+            16,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addition",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "req",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.fieldAccess",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "req",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

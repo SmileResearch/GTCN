@@ -1,0 +1,153 @@
+{
+    "Function": "ocfs2_xattr_buckets_per_cluster",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.division",
+        "5": "<operator>.shiftLeft",
+        "6": "LITERAL",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "osb",
+        "9": "FIELD_IDENTIFIER",
+        "10": "OCFS2_XATTR_BUCKET_SIZE",
+        "11": "METHOD_RETURN"
+    }
+}

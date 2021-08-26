@@ -1,0 +1,164 @@
+{
+    "Function": "ulite_config_port",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "ulite_request_port",
+        "7": "port",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "port",
+        "11": "FIELD_IDENTIFIER",
+        "12": "PORT_UARTLITE",
+        "13": "METHOD_RETURN"
+    }
+}

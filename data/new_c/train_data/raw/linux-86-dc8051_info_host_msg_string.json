@@ -1,0 +1,112 @@
+{
+    "Function": "dc8051_info_host_msg_string",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9,
+        10,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "flag_string",
+        "7": "buf",
+        "8": "buf_len",
+        "9": "flags",
+        "10": "dc8051_info_host_msg_flags",
+        "11": "ARRAY_SIZE",
+        "12": "dc8051_info_host_msg_flags",
+        "13": "METHOD_RETURN"
+    }
+}

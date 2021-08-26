@@ -1,0 +1,508 @@
+{
+    "Function": "mptsas_slave_configure",
+    "astEdges": [
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            50
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            2,
+            26
+        ],
+        [
+            2,
+            58
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            44
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            56
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            62
+        ],
+        [
+            2,
+            63
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            50,
+            55
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            0,
+            66
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            32
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            37
+        ],
+        [
+            56,
+            57
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        13,
+        16,
+        18,
+        22,
+        24,
+        29,
+        34,
+        35,
+        40,
+        47,
+        49,
+        52,
+        54,
+        57,
+        59,
+        61,
+        65
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            65
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "host",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "sdev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "hd",
+        "12": "shost_priv",
+        "13": "host",
+        "14": "LOCAL",
+        "15": "<operator>.assignment",
+        "16": "ioc",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "hd",
+        "19": "FIELD_IDENTIFIER",
+        "20": "LOCAL",
+        "21": "<operator>.assignment",
+        "22": "vdevice",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "sdev",
+        "25": "FIELD_IDENTIFIER",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "vdevice",
+        "30": "FIELD_IDENTIFIER",
+        "31": "FIELD_IDENTIFIER",
+        "32": "BLOCK",
+        "33": "sdev_printk",
+        "34": "KERN_INFO",
+        "35": "sdev",
+        "36": "LITERAL",
+        "37": "<operator>.assignment",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "vdevice",
+        "41": "FIELD_IDENTIFIER",
+        "42": "FIELD_IDENTIFIER",
+        "43": "LITERAL",
+        "44": "CONTROL_STRUCTURE",
+        "45": "<operator>.equals",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "sdev",
+        "48": "FIELD_IDENTIFIER",
+        "49": "MPTSAS_RAID_CHANNEL",
+        "50": "BLOCK",
+        "51": "mptsas_add_device_component_starget_ir",
+        "52": "ioc",
+        "53": "scsi_target",
+        "54": "sdev",
+        "55": "CONTROL_STRUCTURE",
+        "56": "sas_read_port_mode_page",
+        "57": "sdev",
+        "58": "mptsas_add_device_component_starget",
+        "59": "ioc",
+        "60": "scsi_target",
+        "61": "sdev",
+        "62": "JUMP_TARGET",
+        "63": "RETURN",
+        "64": "mptscsih_slave_configure",
+        "65": "sdev",
+        "66": "METHOD_RETURN"
+    }
+}

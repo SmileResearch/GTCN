@@ -1,0 +1,142 @@
+{
+    "Function": "antenna_select_wk_hdl",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "rtw_hal_set_hwreg",
+        "5": "padapter",
+        "6": "HW_VAR_ANTENNA_DIVERSITY_SELECT",
+        "7": "<operator>.cast",
+        "8": "UNKNOWN",
+        "9": "<operator>.addressOf",
+        "10": "antenna",
+        "11": "METHOD_RETURN"
+    }
+}

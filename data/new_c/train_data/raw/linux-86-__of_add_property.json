@@ -1,0 +1,345 @@
+{
+    "Function": "__of_add_property",
+    "astEdges": [
+        [
+            42,
+            43
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            21,
+            30
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            41
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            45
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            0,
+            47
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            20,
+            31
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            34
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        11,
+        14,
+        18,
+        24,
+        28,
+        33,
+        35,
+        39,
+        43,
+        44
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "prop",
+        "8": "FIELD_IDENTIFIER",
+        "9": "NULL",
+        "10": "<operator>.assignment",
+        "11": "next",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "np",
+        "15": "FIELD_IDENTIFIER",
+        "16": "CONTROL_STRUCTURE",
+        "17": "<operator>.indirection",
+        "18": "next",
+        "19": "BLOCK",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.equals",
+        "22": "strcmp",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "prop",
+        "25": "FIELD_IDENTIFIER",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "<operator>.indirection",
+        "28": "next",
+        "29": "FIELD_IDENTIFIER",
+        "30": "LITERAL",
+        "31": "RETURN",
+        "32": "<operator>.minus",
+        "33": "EEXIST",
+        "34": "<operator>.assignment",
+        "35": "next",
+        "36": "<operator>.addressOf",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "<operator>.indirection",
+        "39": "next",
+        "40": "FIELD_IDENTIFIER",
+        "41": "<operator>.assignment",
+        "42": "<operator>.indirection",
+        "43": "next",
+        "44": "prop",
+        "45": "RETURN",
+        "46": "LITERAL",
+        "47": "METHOD_RETURN"
+    }
+}

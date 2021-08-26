@@ -1,0 +1,342 @@
+{
+    "Function": "hns_roce_config_sccc_size",
+    "astEdges": [
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            0,
+            39
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            33
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            27,
+            28
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        14,
+        15,
+        16,
+        19,
+        22,
+        25,
+        30,
+        35,
+        37
+    ],
+    "cfgEdges": [
+        [
+            17,
+            39
+        ],
+        [
+            12,
+            39
+        ],
+        [
+            12,
+            39
+        ],
+        [
+            21,
+            39
+        ]
+    ],
+    "ddgEdges": [
+        [
+            17,
+            39
+        ],
+        [
+            17,
+            39
+        ],
+        [
+            12,
+            39
+        ],
+        [
+            12,
+            39
+        ],
+        [
+            12,
+            39
+        ],
+        [
+            21,
+            39
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "cfg_size",
+        "7": "<operator>.cast",
+        "8": "UNKNOWN",
+        "9": "<operator>.fieldAccess",
+        "10": "desc",
+        "11": "FIELD_IDENTIFIER",
+        "12": "hns_roce_cmq_setup_basic_desc",
+        "13": "<operator>.addressOf",
+        "14": "desc",
+        "15": "HNS_ROCE_OPC_CFG_ENTRY_SIZE",
+        "16": "false",
+        "17": "<operator>.assignment",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "cfg_size",
+        "20": "FIELD_IDENTIFIER",
+        "21": "cpu_to_le32",
+        "22": "HNS_ROCE_CFG_SCCC_SIZE",
+        "23": "<operator>.assignment",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "cfg_size",
+        "26": "FIELD_IDENTIFIER",
+        "27": "cpu_to_le32",
+        "28": "<operator>.fieldAccess",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "hr_dev",
+        "31": "FIELD_IDENTIFIER",
+        "32": "FIELD_IDENTIFIER",
+        "33": "RETURN",
+        "34": "hns_roce_cmq_send",
+        "35": "hr_dev",
+        "36": "<operator>.addressOf",
+        "37": "desc",
+        "38": "LITERAL",
+        "39": "METHOD_RETURN"
+    }
+}

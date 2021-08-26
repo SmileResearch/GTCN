@@ -1,0 +1,147 @@
+{
+    "Function": "ax25_dama_on",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ax25_dev_dama_on",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ax25",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operators>.assignmentOr",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ax25",
+        "10": "FIELD_IDENTIFIER",
+        "11": "AX25_COND_DAMA_MODE",
+        "12": "METHOD_RETURN"
+    }
+}

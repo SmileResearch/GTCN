@@ -1,0 +1,155 @@
+{
+    "Function": "snd_gf1_default_interrupt_handler_midi_in",
+    "astEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "snd_gf1_uart_cmd",
+        "4": "gus",
+        "5": "<operators>.assignmentAnd",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "gus",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "~0x80",
+        "12": "METHOD_RETURN"
+    }
+}

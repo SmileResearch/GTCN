@@ -1,0 +1,233 @@
+{
+    "Function": "deallocate_ctxt",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            11,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            2,
+            27
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        15,
+        20,
+        25,
+        29,
+        31
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            31
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_lock",
+        "4": "<operator>.addressOf",
+        "5": "hfi1_mutex",
+        "6": "<operator>.postDecrement",
+        "7": "<operator>.fieldAccess",
+        "8": "hfi1_stats",
+        "9": "FIELD_IDENTIFIER",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.equals",
+        "12": "<operator>.preIncrement",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "uctxt",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "uctxt",
+        "21": "FIELD_IDENTIFIER",
+        "22": "FIELD_IDENTIFIER",
+        "23": "aspm_enable_all",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "uctxt",
+        "26": "FIELD_IDENTIFIER",
+        "27": "mutex_unlock",
+        "28": "<operator>.addressOf",
+        "29": "hfi1_mutex",
+        "30": "hfi1_free_ctxt",
+        "31": "uctxt",
+        "32": "METHOD_RETURN"
+    }
+}

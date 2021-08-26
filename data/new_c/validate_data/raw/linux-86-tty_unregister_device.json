@@ -1,0 +1,273 @@
+{
+    "Function": "tty_unregister_device",
+    "astEdges": [
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            22,
+            29
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12,
+        14,
+        19,
+        21,
+        26,
+        28,
+        32,
+        34,
+        35
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "device_destroy",
+        "5": "tty_class",
+        "6": "<operator>.addition",
+        "7": "MKDEV",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "driver",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "driver",
+        "13": "FIELD_IDENTIFIER",
+        "14": "index",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.logicalNot",
+        "17": "<operator>.and",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "driver",
+        "20": "FIELD_IDENTIFIER",
+        "21": "TTY_DRIVER_DYNAMIC_ALLOC",
+        "22": "BLOCK",
+        "23": "cdev_del",
+        "24": "<operator>.indirectIndexAccess",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "driver",
+        "27": "FIELD_IDENTIFIER",
+        "28": "index",
+        "29": "<operator>.assignment",
+        "30": "<operator>.indirectIndexAccess",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "driver",
+        "33": "FIELD_IDENTIFIER",
+        "34": "index",
+        "35": "NULL",
+        "36": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "Function": "cbe_node_to_cpu",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "cpumask_first",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "cbe_local_mask",
+        "8": "node",
+        "9": "METHOD_RETURN"
+    }
+}

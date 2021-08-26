@@ -1,0 +1,171 @@
+{
+    "Function": "devlink_port_type_warn_cancel",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "devlink_port_type_should_warn",
+        "6": "devlink_port",
+        "7": "RETURN",
+        "8": "cancel_delayed_work_sync",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "devlink_port",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

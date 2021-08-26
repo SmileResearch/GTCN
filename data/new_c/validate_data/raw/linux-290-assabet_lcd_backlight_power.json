@@ -1,0 +1,121 @@
+{
+    "Function": "assabet_lcd_backlight_power",
+    "astEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "on",
+        "5": "ASSABET_BCR_set",
+        "6": "ASSABET_BCR_LIGHT_ON",
+        "7": "CONTROL_STRUCTURE",
+        "8": "ASSABET_BCR_clear",
+        "9": "ASSABET_BCR_LIGHT_ON",
+        "10": "METHOD_RETURN"
+    }
+}

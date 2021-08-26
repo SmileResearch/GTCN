@@ -1,0 +1,138 @@
+{
+    "Function": "sdei_event_destroy",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            11
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock",
+        "4": "<operator>.addressOf",
+        "5": "sdei_list_lock",
+        "6": "sdei_event_destroy_llocked",
+        "7": "event",
+        "8": "spin_unlock",
+        "9": "<operator>.addressOf",
+        "10": "sdei_list_lock",
+        "11": "METHOD_RETURN"
+    }
+}

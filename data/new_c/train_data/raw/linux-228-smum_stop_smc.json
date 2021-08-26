@@ -1,0 +1,172 @@
+{
+    "Function": "smum_stop_smc",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            14
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "hwmgr",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RETURN",
+        "10": "hwmgr->smumgr_funcs->stop_smc",
+        "11": "hwmgr",
+        "12": "RETURN",
+        "13": "LITERAL",
+        "14": "METHOD_RETURN"
+    }
+}

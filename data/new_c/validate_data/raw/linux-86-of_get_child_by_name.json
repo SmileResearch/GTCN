@@ -1,0 +1,101 @@
+{
+    "Function": "of_get_child_by_name",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        11
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "of_node_name_eq",
+        "7": "child",
+        "8": "name",
+        "9": "CONTROL_STRUCTURE",
+        "10": "RETURN",
+        "11": "child",
+        "12": "METHOD_RETURN"
+    }
+}

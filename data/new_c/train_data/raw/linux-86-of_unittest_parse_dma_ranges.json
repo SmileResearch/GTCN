@@ -1,0 +1,124 @@
+{
+    "Function": "of_unittest_parse_dma_ranges",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "of_unittest_dma_ranges_one",
+        "4": "LITERAL",
+        "5": "LITERAL",
+        "6": "LITERAL",
+        "7": "of_unittest_dma_ranges_one",
+        "8": "LITERAL",
+        "9": "LITERAL",
+        "10": "LITERAL",
+        "11": "of_unittest_dma_ranges_one",
+        "12": "LITERAL",
+        "13": "LITERAL",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

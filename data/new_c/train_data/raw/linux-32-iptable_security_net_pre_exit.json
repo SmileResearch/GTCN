@@ -1,0 +1,201 @@
+{
+    "Function": "iptable_security_net_pre_exit",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "net",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "ipt_unregister_table_pre_exit",
+        "10": "net",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "net",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "sectbl_ops",
+        "17": "METHOD_RETURN"
+    }
+}

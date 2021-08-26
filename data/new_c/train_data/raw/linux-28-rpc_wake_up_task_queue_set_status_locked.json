@@ -1,0 +1,149 @@
+{
+    "Function": "rpc_wake_up_task_queue_set_status_locked",
+    "astEdges": [
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        8,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            10,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "rpc_wake_up_task_on_wq_queue_action_locked",
+        "6": "rpciod_workqueue",
+        "7": "queue",
+        "8": "task",
+        "9": "rpc_task_action_set_status",
+        "10": "<operator>.addressOf",
+        "11": "status",
+        "12": "METHOD_RETURN"
+    }
+}

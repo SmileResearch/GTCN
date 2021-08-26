@@ -1,0 +1,209 @@
+{
+    "Function": "set_carrier_state",
+    "astEdges": [
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        16
+    ],
+    "cfgEdges": [
+        [
+            15,
+            14
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.greaterThan",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "dev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "netif_carrier_on",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "dev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "CONTROL_STRUCTURE",
+        "14": "netif_carrier_off",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "dev",
+        "17": "FIELD_IDENTIFIER",
+        "18": "METHOD_RETURN"
+    }
+}

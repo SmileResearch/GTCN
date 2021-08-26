@@ -1,0 +1,352 @@
+{
+    "Function": "btrfs_release_delayed_iref",
+    "astEdges": [
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            27
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            29
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        23,
+        28
+    ],
+    "cfgEdges": [
+        [
+            15,
+            14
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            25,
+            21
+        ],
+        [
+            14,
+            24
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            18,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            24,
+            22
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            26,
+            20
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            14,
+            29
+        ],
+        [
+            18,
+            29
+        ],
+        [
+            18,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            8,
+            29
+        ],
+        [
+            8,
+            29
+        ],
+        [
+            8,
+            29
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            4,
+            29
+        ],
+        [
+            4,
+            29
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "ASSERT",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "delayed_node",
+        "7": "FIELD_IDENTIFIER",
+        "8": "clear_bit",
+        "9": "BTRFS_DELAYED_NODE_DEL_IREF",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "delayed_node",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.postDecrement",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "delayed_node",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.assignment",
+        "19": "delayed_root",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "delayed_node",
+        "24": "FIELD_IDENTIFIER",
+        "25": "FIELD_IDENTIFIER",
+        "26": "FIELD_IDENTIFIER",
+        "27": "finish_one_item",
+        "28": "delayed_root",
+        "29": "METHOD_RETURN"
+    }
+}

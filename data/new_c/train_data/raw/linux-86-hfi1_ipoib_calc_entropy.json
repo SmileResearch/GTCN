@@ -1,0 +1,257 @@
+{
+    "Function": "hfi1_ipoib_calc_entropy",
+    "astEdges": [
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            35
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            30
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13,
+        17,
+        21,
+        25,
+        28,
+        34
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            34
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "skb_transport_header_was_set",
+        "5": "skb",
+        "6": "BLOCK",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "hdr",
+        "10": "<operator>.cast",
+        "11": "UNKNOWN",
+        "12": "skb_transport_header",
+        "13": "skb",
+        "14": "RETURN",
+        "15": "<operator>.or",
+        "16": "<operator>.indirectIndexAccess",
+        "17": "hdr",
+        "18": "LITERAL",
+        "19": "<operator>.or",
+        "20": "<operator>.indirectIndexAccess",
+        "21": "hdr",
+        "22": "LITERAL",
+        "23": "<operator>.or",
+        "24": "<operator>.indirectIndexAccess",
+        "25": "hdr",
+        "26": "LITERAL",
+        "27": "<operator>.indirectIndexAccess",
+        "28": "hdr",
+        "29": "LITERAL",
+        "30": "RETURN",
+        "31": "<operator>.cast",
+        "32": "UNKNOWN",
+        "33": "skb_get_queue_mapping",
+        "34": "skb",
+        "35": "METHOD_RETURN"
+    }
+}

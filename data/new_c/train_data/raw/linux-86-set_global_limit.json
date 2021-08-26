@@ -1,0 +1,201 @@
+{
+    "Function": "set_global_limit",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            24
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        18,
+        19,
+        21,
+        22,
+        23
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "reg",
+        "7": "read_csr",
+        "8": "dd",
+        "9": "SEND_CM_GLOBAL_CREDIT",
+        "10": "<operators>.assignmentAnd",
+        "11": "reg",
+        "12": "~SEND_CM_GLOBAL_CREDIT_TOTAL_CREDIT_LIMIT_SMASK",
+        "13": "<operators>.assignmentOr",
+        "14": "reg",
+        "15": "<operator>.shiftLeft",
+        "16": "<operator>.cast",
+        "17": "UNKNOWN",
+        "18": "limit",
+        "19": "SEND_CM_GLOBAL_CREDIT_TOTAL_CREDIT_LIMIT_SHIFT",
+        "20": "write_csr",
+        "21": "dd",
+        "22": "SEND_CM_GLOBAL_CREDIT",
+        "23": "reg",
+        "24": "METHOD_RETURN"
+    }
+}

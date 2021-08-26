@@ -1,0 +1,641 @@
+{
+    "Function": "hfi1_vnic_update_rx_counters",
+    "astEdges": [
+        [
+            68,
+            69
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            78,
+            80
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            53,
+            56
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            83,
+            85
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            86
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            57
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            48
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            37
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            31
+        ],
+        [
+            5,
+            71
+        ],
+        [
+            5,
+            24
+        ],
+        [
+            5,
+            53
+        ],
+        [
+            5,
+            23
+        ],
+        [
+            5,
+            30
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            71,
+            77
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            71,
+            81
+        ],
+        [
+            57,
+            66
+        ],
+        [
+            57,
+            62
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12,
+        16,
+        20,
+        22,
+        25,
+        28,
+        34,
+        40,
+        45,
+        47,
+        49,
+        51,
+        55,
+        60,
+        64,
+        69,
+        74,
+        76,
+        79,
+        84
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            64
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            65,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            74
+        ],
+        [
+            74,
+            76
+        ],
+        [
+            76,
+            79
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            80,
+            84
+        ],
+        [
+            84,
+            85
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "mac_hdr",
+        "9": "<operator>.cast",
+        "10": "UNKNOWN",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "skb",
+        "13": "FIELD_IDENTIFIER",
+        "14": "LOCAL",
+        "15": "<operator>.assignment",
+        "16": "stats",
+        "17": "<operator>.addressOf",
+        "18": "<operator>.indirectIndexAccess",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "vinfo",
+        "21": "FIELD_IDENTIFIER",
+        "22": "q_idx",
+        "23": "LOCAL",
+        "24": "<operator>.assignment",
+        "25": "rx_grp",
+        "26": "<operator>.addressOf",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "stats",
+        "29": "FIELD_IDENTIFIER",
+        "30": "LOCAL",
+        "31": "<operator>.postIncrement",
+        "32": "<operator>.fieldAccess",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "stats",
+        "35": "FIELD_IDENTIFIER",
+        "36": "FIELD_IDENTIFIER",
+        "37": "<operator>.assignmentPlus",
+        "38": "<operator>.fieldAccess",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "stats",
+        "41": "FIELD_IDENTIFIER",
+        "42": "FIELD_IDENTIFIER",
+        "43": "<operator>.addition",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "skb",
+        "46": "FIELD_IDENTIFIER",
+        "47": "ETH_FCS_LEN",
+        "48": "update_len_counters",
+        "49": "rx_grp",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "skb",
+        "52": "FIELD_IDENTIFIER",
+        "53": "CONTROL_STRUCTURE",
+        "54": "unlikely",
+        "55": "err",
+        "56": "RETURN",
+        "57": "CONTROL_STRUCTURE",
+        "58": "is_multicast_ether_addr",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "mac_hdr",
+        "61": "FIELD_IDENTIFIER",
+        "62": "<operator>.postIncrement",
+        "63": "<operator>.indirectFieldAccess",
+        "64": "rx_grp",
+        "65": "FIELD_IDENTIFIER",
+        "66": "CONTROL_STRUCTURE",
+        "67": "<operator>.postIncrement",
+        "68": "<operator>.indirectFieldAccess",
+        "69": "rx_grp",
+        "70": "FIELD_IDENTIFIER",
+        "71": "CONTROL_STRUCTURE",
+        "72": "<operator>.logicalNot",
+        "73": "__vlan_get_tag",
+        "74": "skb",
+        "75": "<operator>.addressOf",
+        "76": "vlan_tci",
+        "77": "<operator>.postIncrement",
+        "78": "<operator>.indirectFieldAccess",
+        "79": "rx_grp",
+        "80": "FIELD_IDENTIFIER",
+        "81": "CONTROL_STRUCTURE",
+        "82": "<operator>.postIncrement",
+        "83": "<operator>.indirectFieldAccess",
+        "84": "rx_grp",
+        "85": "FIELD_IDENTIFIER",
+        "86": "METHOD_RETURN"
+    }
+}

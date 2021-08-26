@@ -1,0 +1,165 @@
+{
+    "Function": "rpc_clnt_xprt_switch_put",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "rcu_read_lock",
+        "4": "xprt_switch_put",
+        "5": "rcu_dereference",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "clnt",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "rcu_read_unlock",
+        "12": "METHOD_RETURN"
+    }
+}

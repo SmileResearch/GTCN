@@ -1,0 +1,233 @@
+{
+    "Function": "wlc_phy_stf_chain_get",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        15,
+        18
+    ],
+    "cfgEdges": [
+        [
+            14,
+            19
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            16
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            16,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            21
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            13,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirection",
+        "7": "txchain",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "pi",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.assignment",
+        "14": "<operator>.indirection",
+        "15": "rxchain",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "pi",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "Function": "hfi1_ipoib_submit_tx",
+    "astEdges": [
+        [
+            37,
+            38
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            20
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            41
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            43
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            27,
+            33
+        ],
+        [
+            27,
+            28
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        14,
+        18,
+        21,
+        26,
+        30,
+        32,
+        35,
+        39,
+        42
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            42
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ret",
+        "7": "sdma_send_txreq",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "txq",
+        "10": "FIELD_IDENTIFIER",
+        "11": "iowait_get_ib_work",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "txq",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "tx",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "txq",
+        "22": "FIELD_IDENTIFIER",
+        "23": "CONTROL_STRUCTURE",
+        "24": "likely",
+        "25": "<operator>.logicalNot",
+        "26": "ret",
+        "27": "BLOCK",
+        "28": "<operator>.assignment",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "txq",
+        "31": "FIELD_IDENTIFIER",
+        "32": "true",
+        "33": "iowait_starve_clear",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "txq",
+        "36": "FIELD_IDENTIFIER",
+        "37": "<operator>.addressOf",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "txq",
+        "40": "FIELD_IDENTIFIER",
+        "41": "RETURN",
+        "42": "ret",
+        "43": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "Function": "nvidia_altmode_remove",
+    "astEdges": [
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "alt",
+        "7": "FIELD_IDENTIFIER",
+        "8": "USB_TYPEC_NVIDIA_VLINK_SID",
+        "9": "dp_altmode_remove",
+        "10": "alt",
+        "11": "METHOD_RETURN"
+    }
+}

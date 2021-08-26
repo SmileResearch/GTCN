@@ -1,0 +1,180 @@
+{
+    "Function": "ocfs2_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "unregister_quota_format",
+        "4": "<operator>.addressOf",
+        "5": "ocfs2_quota_format",
+        "6": "debugfs_remove",
+        "7": "ocfs2_debugfs_root",
+        "8": "ocfs2_free_mem_caches",
+        "9": "unregister_filesystem",
+        "10": "<operator>.addressOf",
+        "11": "ocfs2_fs_type",
+        "12": "exit_ocfs2_uptodate_cache",
+        "13": "METHOD_RETURN"
+    }
+}

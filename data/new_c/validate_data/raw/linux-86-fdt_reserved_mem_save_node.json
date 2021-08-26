@@ -1,0 +1,353 @@
+{
+    "Function": "fdt_reserved_mem_save_node",
+    "astEdges": [
+        [
+            5,
+            27
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            37
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            44
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            5,
+            42
+        ],
+        [
+            5,
+            32
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            45
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        12,
+        15,
+        17,
+        24,
+        26,
+        29,
+        31,
+        34,
+        36,
+        39,
+        41,
+        43
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            44
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "rmem",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "reserved_mem",
+        "12": "reserved_mem_count",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.equals",
+        "15": "reserved_mem_count",
+        "16": "ARRAY_SIZE",
+        "17": "reserved_mem",
+        "18": "BLOCK",
+        "19": "pr_err",
+        "20": "LITERAL",
+        "21": "RETURN",
+        "22": "<operator>.assignment",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "rmem",
+        "25": "FIELD_IDENTIFIER",
+        "26": "node",
+        "27": "<operator>.assignment",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "rmem",
+        "30": "FIELD_IDENTIFIER",
+        "31": "uname",
+        "32": "<operator>.assignment",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "rmem",
+        "35": "FIELD_IDENTIFIER",
+        "36": "base",
+        "37": "<operator>.assignment",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "rmem",
+        "40": "FIELD_IDENTIFIER",
+        "41": "size",
+        "42": "<operator>.postIncrement",
+        "43": "reserved_mem_count",
+        "44": "RETURN",
+        "45": "METHOD_RETURN"
+    }
+}

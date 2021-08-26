@@ -1,0 +1,138 @@
+{
+    "Function": "dw_hdmi_ahb_audio_enable",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            8,
+            3
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            7,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hdmi_set_cts_n",
+        "4": "hdmi",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "hdmi",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "hdmi",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

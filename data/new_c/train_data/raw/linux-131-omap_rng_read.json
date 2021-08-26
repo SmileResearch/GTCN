@@ -1,0 +1,200 @@
+{
+    "Function": "omap_rng_read",
+    "astEdges": [
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        16
+    ],
+    "cfgEdges": [
+        [
+            10,
+            6
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            17
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            6,
+            17
+        ],
+        [
+            6,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "__raw_readl",
+        "6": "<operator>.addition",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "priv",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "priv",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "reg",
+        "17": "METHOD_RETURN"
+    }
+}

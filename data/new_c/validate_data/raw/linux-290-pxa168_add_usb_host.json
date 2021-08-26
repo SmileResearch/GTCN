@@ -1,0 +1,173 @@
+{
+    "Function": "pxa168_add_usb_host",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.fieldAccess",
+        "6": "pxa168_device_usb_host",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "pdata",
+        "10": "RETURN",
+        "11": "platform_device_register",
+        "12": "<operator>.addressOf",
+        "13": "pxa168_device_usb_host",
+        "14": "METHOD_RETURN"
+    }
+}

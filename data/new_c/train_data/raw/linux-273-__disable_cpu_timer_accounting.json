@@ -1,0 +1,235 @@
+{
+    "Function": "__disable_cpu_timer_accounting",
+    "astEdges": [
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        15,
+        18
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            17,
+            13
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            12,
+            19
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            12,
+            19
+        ],
+        [
+            12,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "WARN_ON_ONCE",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "vcpu",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "__stop_cpu_timer_accounting",
+        "11": "vcpu",
+        "12": "<operator>.assignment",
+        "13": "<operator>.fieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "vcpu",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "false",
+        "19": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "Function": "b43_upload_card_macaddress",
+    "astEdges": [
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            8,
+            5
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "b43_write_mac_bssid_templates",
+        "4": "dev",
+        "5": "b43_macfilter_set",
+        "6": "dev",
+        "7": "B43_MACFILTER_SELF",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "dev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

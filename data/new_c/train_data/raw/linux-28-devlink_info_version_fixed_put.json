@@ -1,0 +1,143 @@
+{
+    "Function": "devlink_info_version_fixed_put",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "devlink_info_version_put",
+        "7": "req",
+        "8": "DEVLINK_ATTR_INFO_VERSION_FIXED",
+        "9": "version_name",
+        "10": "version_value",
+        "11": "METHOD_RETURN"
+    }
+}

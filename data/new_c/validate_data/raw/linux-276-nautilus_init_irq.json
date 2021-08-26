@@ -1,0 +1,164 @@
+{
+    "Function": "nautilus_init_irq",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "alpha_using_srm",
+        "5": "BLOCK",
+        "6": "<operator>.assignment",
+        "7": "<operator>.fieldAccess",
+        "8": "alpha_mv",
+        "9": "FIELD_IDENTIFIER",
+        "10": "srm_device_interrupt",
+        "11": "init_i8259a_irqs",
+        "12": "common_init_isa_dma",
+        "13": "METHOD_RETURN"
+    }
+}

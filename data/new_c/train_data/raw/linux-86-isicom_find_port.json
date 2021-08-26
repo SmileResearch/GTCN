@@ -1,0 +1,492 @@
+{
+    "Function": "isicom_find_port",
+    "astEdges": [
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            2,
+            60
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            31
+        ],
+        [
+            2,
+            51
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            45
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            22
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            51,
+            58
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            57
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            65
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            43
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            29
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        13,
+        15,
+        17,
+        20,
+        21,
+        26,
+        28,
+        30,
+        33,
+        36,
+        40,
+        44,
+        46,
+        49,
+        50,
+        53,
+        55,
+        59,
+        63
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            53
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            63
+        ],
+        [
+            63,
+            64
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "<operator>.assignment",
+        "8": "line",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "tty",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.assignment",
+        "13": "board",
+        "14": "BOARD",
+        "15": "line",
+        "16": "<operator>.assignment",
+        "17": "card",
+        "18": "<operator>.addressOf",
+        "19": "<operator>.indirectIndexAccess",
+        "20": "isi_card",
+        "21": "board",
+        "22": "CONTROL_STRUCTURE",
+        "23": "<operator>.logicalNot",
+        "24": "<operator>.and",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "card",
+        "27": "FIELD_IDENTIFIER",
+        "28": "FIRMWARE_LOADED",
+        "29": "RETURN",
+        "30": "NULL",
+        "31": "CONTROL_STRUCTURE",
+        "32": "<operator>.greaterThan",
+        "33": "line",
+        "34": "<operator>.addition",
+        "35": "<operator>.multiplication",
+        "36": "board",
+        "37": "LITERAL",
+        "38": "<operator>.subtraction",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "card",
+        "41": "FIELD_IDENTIFIER",
+        "42": "LITERAL",
+        "43": "RETURN",
+        "44": "NULL",
+        "45": "<operator>.assignment",
+        "46": "port",
+        "47": "<operator>.addressOf",
+        "48": "<operator>.indirectIndexAccess",
+        "49": "isi_ports",
+        "50": "line",
+        "51": "CONTROL_STRUCTURE",
+        "52": "isicom_paranoia_check",
+        "53": "port",
+        "54": "<operator>.indirectFieldAccess",
+        "55": "tty",
+        "56": "FIELD_IDENTIFIER",
+        "57": "LITERAL",
+        "58": "RETURN",
+        "59": "NULL",
+        "60": "RETURN",
+        "61": "<operator>.addressOf",
+        "62": "<operator>.indirectFieldAccess",
+        "63": "port",
+        "64": "FIELD_IDENTIFIER",
+        "65": "METHOD_RETURN"
+    }
+}

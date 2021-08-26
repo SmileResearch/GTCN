@@ -1,0 +1,103 @@
+{
+    "Function": "reset_input_mode",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tcsetattr",
+        "4": "STDIN_FILENO",
+        "5": "TCSANOW",
+        "6": "<operator>.addressOf",
+        "7": "saved_attributes",
+        "8": "METHOD_RETURN"
+    }
+}

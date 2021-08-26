@@ -1,0 +1,300 @@
+{
+    "Function": "check_skip",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            0,
+            40
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            33
+        ],
+        [
+            3,
+            38
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            14,
+            25
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            29
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        12,
+        18,
+        21,
+        24,
+        27,
+        31,
+        35,
+        39
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.lessThan",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "s",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectIndexAccess",
+        "10": "check_sizes",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "s",
+        "13": "FIELD_IDENTIFIER",
+        "14": "BLOCK",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.equals",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "b",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "b",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RETURN",
+        "24": "false",
+        "25": "<operator>.preIncrement",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "b",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.preIncrement",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "s",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.assignment",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "s",
+        "36": "FIELD_IDENTIFIER",
+        "37": "LITERAL",
+        "38": "RETURN",
+        "39": "true",
+        "40": "METHOD_RETURN"
+    }
+}

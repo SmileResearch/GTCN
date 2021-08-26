@@ -1,0 +1,199 @@
+{
+    "Function": "hns_roce_get_bt_num",
+    "astEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            18,
+            24
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        13,
+        14,
+        20,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "check_whether_bt_num_3",
+        "6": "table_type",
+        "7": "hop_num",
+        "8": "RETURN",
+        "9": "LITERAL",
+        "10": "CONTROL_STRUCTURE",
+        "11": "CONTROL_STRUCTURE",
+        "12": "check_whether_bt_num_2",
+        "13": "table_type",
+        "14": "hop_num",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "CONTROL_STRUCTURE",
+        "18": "CONTROL_STRUCTURE",
+        "19": "check_whether_bt_num_1",
+        "20": "table_type",
+        "21": "hop_num",
+        "22": "RETURN",
+        "23": "LITERAL",
+        "24": "CONTROL_STRUCTURE",
+        "25": "RETURN",
+        "26": "LITERAL",
+        "27": "METHOD_RETURN"
+    }
+}

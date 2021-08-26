@@ -1,0 +1,280 @@
+{
+    "Function": "check_leave",
+    "astEdges": [
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            6,
+            36
+        ],
+        [
+            6,
+            36
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            4,
+            34
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            29
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            26
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            17,
+            27
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        12,
+        14,
+        16,
+        22,
+        24,
+        26,
+        28,
+        31,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.notEquals",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "group",
+        "11": "FIELD_IDENTIFIER",
+        "12": "slave",
+        "13": "FIELD_IDENTIFIER",
+        "14": "MCAST_MEMBER",
+        "15": "RETURN",
+        "16": "MAD_STATUS_REQ_INVALID",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.and",
+        "19": "<operator>.fieldAccess",
+        "20": "<operator>.indirectIndexAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "~group",
+        "23": "FIELD_IDENTIFIER",
+        "24": "slave",
+        "25": "FIELD_IDENTIFIER",
+        "26": "leave_mask",
+        "27": "RETURN",
+        "28": "MAD_STATUS_REQ_INVALID",
+        "29": "CONTROL_STRUCTURE",
+        "30": "<operator>.logicalNot",
+        "31": "leave_mask",
+        "32": "RETURN",
+        "33": "MAD_STATUS_REQ_INVALID",
+        "34": "RETURN",
+        "35": "LITERAL",
+        "36": "METHOD_RETURN"
+    }
+}

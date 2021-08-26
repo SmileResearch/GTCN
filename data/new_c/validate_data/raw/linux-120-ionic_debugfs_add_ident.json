@@ -1,0 +1,143 @@
+{
+    "Function": "ionic_debugfs_add_ident",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            3
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "debugfs_create_file",
+        "4": "LITERAL",
+        "5": "LITERAL",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ionic",
+        "8": "FIELD_IDENTIFIER",
+        "9": "ionic",
+        "10": "<operator>.addressOf",
+        "11": "identity_fops",
+        "12": "METHOD_RETURN"
+    }
+}

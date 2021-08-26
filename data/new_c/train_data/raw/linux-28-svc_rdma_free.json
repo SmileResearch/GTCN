@@ -1,0 +1,169 @@
+{
+    "Function": "svc_rdma_free",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            13,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "INIT_WORK",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "rdma",
+        "7": "FIELD_IDENTIFIER",
+        "8": "__svc_rdma_free",
+        "9": "schedule_work",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "rdma",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

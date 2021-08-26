@@ -1,0 +1,206 @@
+{
+    "Function": "ks_wlan_do_power_save",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        10,
+        14,
+        16
+    ],
+    "cfgEdges": [
+        [
+            15,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            7,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "is_connect_status",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "priv",
+        "7": "FIELD_IDENTIFIER",
+        "8": "hostif_sme_enqueue",
+        "9": "priv",
+        "10": "SME_POW_MNGMT_REQUEST",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "priv",
+        "15": "FIELD_IDENTIFIER",
+        "16": "DEVICE_STATE_READY",
+        "17": "METHOD_RETURN"
+    }
+}

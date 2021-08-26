@@ -1,0 +1,649 @@
+{
+    "Function": "mptscsih_freeChainBuffers",
+    "astEdges": [
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            62,
+            70
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            77,
+            79
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            26,
+            81
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            75
+        ],
+        [
+            26,
+            60
+        ],
+        [
+            26,
+            41
+        ],
+        [
+            26,
+            54
+        ],
+        [
+            26,
+            34
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            40
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            85
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            84
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            81,
+            83
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            59
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            75,
+            80
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            71
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            64,
+            68
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            63,
+            69
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        14,
+        18,
+        20,
+        21,
+        24,
+        25,
+        28,
+        31,
+        33,
+        37,
+        39,
+        40,
+        42,
+        47,
+        50,
+        52,
+        57,
+        59,
+        66,
+        73,
+        78,
+        80,
+        82,
+        83
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            44,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            73
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            74,
+            78
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            80,
+            82
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            83,
+            84
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "chain_idx",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "ioc",
+        "13": "FIELD_IDENTIFIER",
+        "14": "req_idx",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectIndexAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ioc",
+        "19": "FIELD_IDENTIFIER",
+        "20": "req_idx",
+        "21": "MPT_HOST_NO_CHAIN",
+        "22": "CONTROL_STRUCTURE",
+        "23": "<operator>.notEquals",
+        "24": "chain_idx",
+        "25": "MPT_HOST_NO_CHAIN",
+        "26": "BLOCK",
+        "27": "<operator>.assignment",
+        "28": "next",
+        "29": "<operator>.indirectIndexAccess",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "ioc",
+        "32": "FIELD_IDENTIFIER",
+        "33": "chain_idx",
+        "34": "<operator>.assignment",
+        "35": "<operator>.indirectIndexAccess",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "ioc",
+        "38": "FIELD_IDENTIFIER",
+        "39": "chain_idx",
+        "40": "MPT_HOST_NO_CHAIN",
+        "41": "<operator>.assignment",
+        "42": "chain",
+        "43": "<operator>.cast",
+        "44": "UNKNOWN",
+        "45": "<operator>.addition",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "ioc",
+        "48": "FIELD_IDENTIFIER",
+        "49": "<operator>.multiplication",
+        "50": "chain_idx",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "ioc",
+        "53": "FIELD_IDENTIFIER",
+        "54": "spin_lock_irqsave",
+        "55": "<operator>.addressOf",
+        "56": "<operator>.indirectFieldAccess",
+        "57": "ioc",
+        "58": "FIELD_IDENTIFIER",
+        "59": "flags",
+        "60": "list_add_tail",
+        "61": "<operator>.addressOf",
+        "62": "<operator>.fieldAccess",
+        "63": "<operator>.fieldAccess",
+        "64": "<operator>.fieldAccess",
+        "65": "<operator>.indirectFieldAccess",
+        "66": "chain",
+        "67": "FIELD_IDENTIFIER",
+        "68": "FIELD_IDENTIFIER",
+        "69": "FIELD_IDENTIFIER",
+        "70": "FIELD_IDENTIFIER",
+        "71": "<operator>.addressOf",
+        "72": "<operator>.indirectFieldAccess",
+        "73": "ioc",
+        "74": "FIELD_IDENTIFIER",
+        "75": "spin_unlock_irqrestore",
+        "76": "<operator>.addressOf",
+        "77": "<operator>.indirectFieldAccess",
+        "78": "ioc",
+        "79": "FIELD_IDENTIFIER",
+        "80": "flags",
+        "81": "<operator>.assignment",
+        "82": "chain_idx",
+        "83": "next",
+        "84": "RETURN",
+        "85": "METHOD_RETURN"
+    }
+}

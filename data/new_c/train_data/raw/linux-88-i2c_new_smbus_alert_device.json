@@ -1,0 +1,124 @@
+{
+    "Function": "i2c_new_smbus_alert_device",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "i2c_new_client_device",
+        "7": "adapter",
+        "8": "<operator>.addressOf",
+        "9": "ara_board_info",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "Function": "rproc_char_device_remove",
+    "astEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            10,
+            3
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "__unregister_chrdev",
+        "4": "MAJOR",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "rproc",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "rproc",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

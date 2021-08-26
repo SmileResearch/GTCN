@@ -1,0 +1,215 @@
+{
+    "Function": "hns_roce_v2_cmd_hw_reseted",
+    "astEdges": [
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            25
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            15,
+            23
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        12,
+        14,
+        18,
+        19,
+        21,
+        22,
+        24,
+        26
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "<operator>.assignment",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "hr_dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "true",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "hr_dev",
+        "13": "FIELD_IDENTIFIER",
+        "14": "true",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.logicalOr",
+        "17": "<operator>.equals",
+        "18": "reset_stage",
+        "19": "HNS_ROCE_STATE_RST_INIT",
+        "20": "<operator>.equals",
+        "21": "instance_stage",
+        "22": "HNS_ROCE_STATE_INIT",
+        "23": "RETURN",
+        "24": "CMD_RST_PRC_EBUSY",
+        "25": "RETURN",
+        "26": "CMD_RST_PRC_SUCCESS",
+        "27": "METHOD_RETURN"
+    }
+}

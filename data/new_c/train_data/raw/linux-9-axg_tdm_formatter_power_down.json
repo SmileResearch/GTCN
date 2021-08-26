@@ -1,0 +1,178 @@
+{
+    "Function": "axg_tdm_formatter_power_down",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        11,
+        13
+    ],
+    "cfgEdges": [
+        [
+            5,
+            12
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            12,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "axg_tdm_formatter_dettach",
+        "4": "formatter",
+        "5": "clk_disable_unprepare",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "formatter",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "formatter",
+        "12": "FIELD_IDENTIFIER",
+        "13": "NULL",
+        "14": "METHOD_RETURN"
+    }
+}

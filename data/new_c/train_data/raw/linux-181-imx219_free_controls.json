@@ -1,0 +1,164 @@
+{
+    "Function": "imx219_free_controls",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12
+    ],
+    "cfgEdges": [
+        [
+            13,
+            11
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "v4l2_ctrl_handler_free",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "imx219",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "mutex_destroy",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "imx219",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

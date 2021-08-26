@@ -1,0 +1,153 @@
+{
+    "Function": "ipt_cleanup_module",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tcf_unregister_action",
+        "4": "<operator>.addressOf",
+        "5": "act_ipt_ops",
+        "6": "<operator>.addressOf",
+        "7": "ipt_net_ops",
+        "8": "tcf_unregister_action",
+        "9": "<operator>.addressOf",
+        "10": "act_xt_ops",
+        "11": "<operator>.addressOf",
+        "12": "xt_net_ops",
+        "13": "METHOD_RETURN"
+    }
+}

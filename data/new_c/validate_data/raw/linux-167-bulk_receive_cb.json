@@ -1,0 +1,248 @@
+{
+    "Function": "bulk_receive_cb",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        18
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            15
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            20,
+            16
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            13,
+            22
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            22
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            13,
+            22
+        ],
+        [
+            13,
+            22
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "msg_context",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "schedule_work",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "msg_context",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

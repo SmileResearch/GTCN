@@ -1,0 +1,147 @@
+{
+    "Function": "pcie_aspm_update_sysfs_visibility",
+    "astEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            11,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            10,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "sysfs_update_group",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "child",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.addressOf",
+        "12": "aspm_ctrl_attr_group",
+        "13": "METHOD_RETURN"
+    }
+}

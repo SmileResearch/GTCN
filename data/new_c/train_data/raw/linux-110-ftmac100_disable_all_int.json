@@ -1,0 +1,133 @@
+{
+    "Function": "ftmac100_disable_all_int",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "iowrite32",
+        "4": "INT_MASK_ALL_DISABLED",
+        "5": "<operator>.addition",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "priv",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FTMAC100_OFFSET_IMR",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "Function": "nul_refresh",
+    "astEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        9
+    ],
+    "cfgEdges": [
+        [
+            11,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            13,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "set_bit",
+        "4": "RPCAUTH_CRED_UPTODATE",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "task",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "RETURN",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

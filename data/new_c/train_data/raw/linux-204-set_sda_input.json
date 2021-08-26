@@ -1,0 +1,146 @@
+{
+    "Function": "set_sda_input",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "gpiod_direction_input",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "master",
+        "6": "FIELD_IDENTIFIER",
+        "7": "gpiod_set_value",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "master",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

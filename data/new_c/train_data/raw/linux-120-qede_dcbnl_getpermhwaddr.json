@@ -1,0 +1,147 @@
+{
+    "Function": "qede_dcbnl_getpermhwaddr",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            4
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "memcpy",
+        "5": "perm_addr",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "netdev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "netdev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

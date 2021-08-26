@@ -1,0 +1,125 @@
+{
+    "Function": "chacha_decrypt_done",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "async_done_continue",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "areq",
+        "7": "FIELD_IDENTIFIER",
+        "8": "err",
+        "9": "poly_verify_tag",
+        "10": "METHOD_RETURN"
+    }
+}

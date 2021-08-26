@@ -1,0 +1,27 @@
+{
+    "Function": "rcu_read_unlock",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            0,
+            2
+        ]
+    ],
+    "ddgEdges": [],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "BLOCK",
+        "2": "METHOD_RETURN"
+    }
+}

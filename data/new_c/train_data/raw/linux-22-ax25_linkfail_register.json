@@ -1,0 +1,188 @@
+{
+    "Function": "ax25_linkfail_register",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            11,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock_bh",
+        "4": "<operator>.addressOf",
+        "5": "linkfail_lock",
+        "6": "hlist_add_head",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "lf",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.addressOf",
+        "12": "ax25_linkfail_list",
+        "13": "spin_unlock_bh",
+        "14": "<operator>.addressOf",
+        "15": "linkfail_lock",
+        "16": "METHOD_RETURN"
+    }
+}

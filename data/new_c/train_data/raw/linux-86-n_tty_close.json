@@ -1,0 +1,175 @@
+{
+    "Function": "n_tty_close",
+    "astEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11,
+        14,
+        16,
+        19,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "ldata",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "tty",
+        "8": "FIELD_IDENTIFIER",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "tty",
+        "12": "FIELD_IDENTIFIER",
+        "13": "n_tty_packet_mode_flush",
+        "14": "tty",
+        "15": "vfree",
+        "16": "ldata",
+        "17": "<operator>.assignment",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "tty",
+        "20": "FIELD_IDENTIFIER",
+        "21": "NULL",
+        "22": "METHOD_RETURN"
+    }
+}

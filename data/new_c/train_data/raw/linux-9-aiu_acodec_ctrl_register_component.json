@@ -1,0 +1,151 @@
+{
+    "Function": "aiu_acodec_ctrl_register_component",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            11
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "snd_soc_register_component",
+        "5": "dev",
+        "6": "<operator>.addressOf",
+        "7": "aiu_acodec_ctrl_component",
+        "8": "aiu_acodec_ctrl_dai_drv",
+        "9": "ARRAY_SIZE",
+        "10": "aiu_acodec_ctrl_dai_drv",
+        "11": "METHOD_RETURN"
+    }
+}

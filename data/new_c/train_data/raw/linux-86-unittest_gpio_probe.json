@@ -1,0 +1,658 @@
+{
+    "Function": "unittest_gpio_probe",
+    "astEdges": [
+        [
+            2,
+            86
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            41
+        ],
+        [
+            2,
+            63
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            81
+        ],
+        [
+            2,
+            56
+        ],
+        [
+            2,
+            34
+        ],
+        [
+            2,
+            49
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            71
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            81,
+            84
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            88
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            34,
+            40
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            65,
+            70
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            55
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            67,
+            69
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            71,
+            80
+        ],
+        [
+            71,
+            74
+        ],
+        [
+            71,
+            75
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            47
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            75,
+            79
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            61
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            62
+        ],
+        [
+            76,
+            78
+        ],
+        [
+            76,
+            77
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        12,
+        13,
+        16,
+        19,
+        21,
+        22,
+        26,
+        31,
+        37,
+        44,
+        52,
+        59,
+        62,
+        64,
+        68,
+        70,
+        73,
+        77,
+        80,
+        83,
+        85,
+        87
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            64,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            73
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            74,
+            77
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            80,
+            83
+        ],
+        [
+            83,
+            85
+        ],
+        [
+            85,
+            87
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.postIncrement",
+        "6": "unittest_gpio_probe_count",
+        "7": "<operator>.assignment",
+        "8": "devptr",
+        "9": "kzalloc",
+        "10": "<operator>.sizeOf",
+        "11": "<operator>.indirection",
+        "12": "devptr",
+        "13": "GFP_KERNEL",
+        "14": "CONTROL_STRUCTURE",
+        "15": "<operator>.logicalNot",
+        "16": "devptr",
+        "17": "RETURN",
+        "18": "<operator>.minus",
+        "19": "ENOMEM",
+        "20": "platform_set_drvdata",
+        "21": "pdev",
+        "22": "devptr",
+        "23": "<operator>.assignment",
+        "24": "<operator>.fieldAccess",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "devptr",
+        "27": "FIELD_IDENTIFIER",
+        "28": "FIELD_IDENTIFIER",
+        "29": "<operator>.fieldAccess",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "pdev",
+        "32": "FIELD_IDENTIFIER",
+        "33": "FIELD_IDENTIFIER",
+        "34": "<operator>.assignment",
+        "35": "<operator>.fieldAccess",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "devptr",
+        "38": "FIELD_IDENTIFIER",
+        "39": "FIELD_IDENTIFIER",
+        "40": "LITERAL",
+        "41": "<operator>.assignment",
+        "42": "<operator>.fieldAccess",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "devptr",
+        "45": "FIELD_IDENTIFIER",
+        "46": "FIELD_IDENTIFIER",
+        "47": "<operator>.minus",
+        "48": "LITERAL",
+        "49": "<operator>.assignment",
+        "50": "<operator>.fieldAccess",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "devptr",
+        "53": "FIELD_IDENTIFIER",
+        "54": "FIELD_IDENTIFIER",
+        "55": "LITERAL",
+        "56": "<operator>.assignment",
+        "57": "<operator>.fieldAccess",
+        "58": "<operator>.indirectFieldAccess",
+        "59": "devptr",
+        "60": "FIELD_IDENTIFIER",
+        "61": "FIELD_IDENTIFIER",
+        "62": "unittest_gpio_chip_request",
+        "63": "<operator>.assignment",
+        "64": "ret",
+        "65": "gpiochip_add_data",
+        "66": "<operator>.addressOf",
+        "67": "<operator>.indirectFieldAccess",
+        "68": "devptr",
+        "69": "FIELD_IDENTIFIER",
+        "70": "NULL",
+        "71": "unittest",
+        "72": "<operator>.logicalNot",
+        "73": "ret",
+        "74": "LITERAL",
+        "75": "<operator>.fieldAccess",
+        "76": "<operator>.indirectFieldAccess",
+        "77": "devptr",
+        "78": "FIELD_IDENTIFIER",
+        "79": "FIELD_IDENTIFIER",
+        "80": "ret",
+        "81": "CONTROL_STRUCTURE",
+        "82": "<operator>.logicalNot",
+        "83": "ret",
+        "84": "<operator>.postIncrement",
+        "85": "unittest_gpio_probe_pass_count",
+        "86": "RETURN",
+        "87": "ret",
+        "88": "METHOD_RETURN"
+    }
+}

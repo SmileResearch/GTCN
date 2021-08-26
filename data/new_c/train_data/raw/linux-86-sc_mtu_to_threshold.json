@@ -1,0 +1,286 @@
+{
+    "Function": "sc_mtu_to_threshold",
+    "astEdges": [
+        [
+            17,
+            23
+        ],
+        [
+            17,
+            26
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            34
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            36
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10,
+        13,
+        15,
+        16,
+        20,
+        22,
+        24,
+        28,
+        31,
+        33,
+        35
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            35
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "<operator>.assignmentPlus",
+        "8": "mtu",
+        "9": "<operator>.shiftLeft",
+        "10": "hdrqentsize",
+        "11": "LITERAL",
+        "12": "<operator>.assignment",
+        "13": "release_credits",
+        "14": "DIV_ROUND_UP",
+        "15": "mtu",
+        "16": "PIO_BLOCK_SIZE",
+        "17": "CONTROL_STRUCTURE",
+        "18": "<operator>.lessEqualsThan",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "sc",
+        "21": "FIELD_IDENTIFIER",
+        "22": "release_credits",
+        "23": "<operator>.assignment",
+        "24": "threshold",
+        "25": "LITERAL",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.assignment",
+        "28": "threshold",
+        "29": "<operator>.subtraction",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "sc",
+        "32": "FIELD_IDENTIFIER",
+        "33": "release_credits",
+        "34": "RETURN",
+        "35": "threshold",
+        "36": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "Function": "iso_dma_direction",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            7,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "context",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FW_ISO_CONTEXT_TRANSMIT",
+        "9": "RETURN",
+        "10": "DMA_TO_DEVICE",
+        "11": "CONTROL_STRUCTURE",
+        "12": "RETURN",
+        "13": "DMA_FROM_DEVICE",
+        "14": "METHOD_RETURN"
+    }
+}

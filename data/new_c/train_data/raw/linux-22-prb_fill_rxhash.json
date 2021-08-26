@@ -1,0 +1,164 @@
+{
+    "Function": "prb_fill_rxhash",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12
+    ],
+    "cfgEdges": [
+        [
+            5,
+            13
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            13,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ppd",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "skb_get_hash",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "pkc",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

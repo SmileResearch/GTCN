@@ -1,0 +1,129 @@
+{
+    "Function": "unx_free_cred_callback",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "put_cred",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "rpc_cred",
+        "6": "FIELD_IDENTIFIER",
+        "7": "mempool_free",
+        "8": "rpc_cred",
+        "9": "unix_pool",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "Function": "htb_next_rb_node",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirection",
+        "5": "n",
+        "6": "rb_next",
+        "7": "<operator>.indirection",
+        "8": "n",
+        "9": "METHOD_RETURN"
+    }
+}

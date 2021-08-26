@@ -1,0 +1,202 @@
+{
+    "Function": "of_unittest_track_overlay",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            22,
+            23
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9,
+        11,
+        12,
+        16,
+        17,
+        21,
+        23,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.lessThan",
+        "5": "overlay_first_id",
+        "6": "LITERAL",
+        "7": "<operator>.assignment",
+        "8": "overlay_first_id",
+        "9": "id",
+        "10": "<operator>.assignmentMinus",
+        "11": "id",
+        "12": "overlay_first_id",
+        "13": "CONTROL_STRUCTURE",
+        "14": "WARN_ON",
+        "15": "<operator>.greaterEqualsThan",
+        "16": "id",
+        "17": "MAX_UNITTEST_OVERLAYS",
+        "18": "RETURN",
+        "19": "<operators>.assignmentOr",
+        "20": "<operator>.indirectIndexAccess",
+        "21": "overlay_id_bits",
+        "22": "BIT_WORD",
+        "23": "id",
+        "24": "BIT_MASK",
+        "25": "id",
+        "26": "METHOD_RETURN"
+    }
+}

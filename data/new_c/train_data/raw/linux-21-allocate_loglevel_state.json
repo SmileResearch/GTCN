@@ -1,0 +1,371 @@
+{
+    "Function": "allocate_loglevel_state",
+    "astEdges": [
+        [
+            37,
+            42
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            50
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            23
+        ],
+        [
+            2,
+            45
+        ],
+        [
+            2,
+            37
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            29
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            48
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        14,
+        18,
+        21,
+        22,
+        25,
+        28,
+        31,
+        35,
+        36,
+        40,
+        44,
+        47
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "prev_loglevel_state",
+        "7": "klp_get_prev_state",
+        "8": "CONSOLE_LOGLEVEL_STATE",
+        "9": "CONTROL_STRUCTURE",
+        "10": "prev_loglevel_state",
+        "11": "BLOCK",
+        "12": "pr_info",
+        "13": "LITERAL",
+        "14": "__func__",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "<operator>.assignment",
+        "18": "loglevel_state",
+        "19": "klp_get_state",
+        "20": "<operator>.addressOf",
+        "21": "patch",
+        "22": "CONSOLE_LOGLEVEL_STATE",
+        "23": "CONTROL_STRUCTURE",
+        "24": "<operator>.logicalNot",
+        "25": "loglevel_state",
+        "26": "RETURN",
+        "27": "<operator>.minus",
+        "28": "EINVAL",
+        "29": "<operator>.assignment",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "loglevel_state",
+        "32": "FIELD_IDENTIFIER",
+        "33": "kzalloc",
+        "34": "<operator>.sizeOf",
+        "35": "console_loglevel",
+        "36": "GFP_KERNEL",
+        "37": "CONTROL_STRUCTURE",
+        "38": "<operator>.logicalNot",
+        "39": "<operator>.indirectFieldAccess",
+        "40": "loglevel_state",
+        "41": "FIELD_IDENTIFIER",
+        "42": "RETURN",
+        "43": "<operator>.minus",
+        "44": "ENOMEM",
+        "45": "pr_info",
+        "46": "LITERAL",
+        "47": "__func__",
+        "48": "RETURN",
+        "49": "LITERAL",
+        "50": "METHOD_RETURN"
+    }
+}

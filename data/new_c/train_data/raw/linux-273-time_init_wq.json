@@ -1,0 +1,132 @@
+{
+    "Function": "time_init_wq",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            8,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "time_sync_wq",
+        "5": "RETURN",
+        "6": "<operator>.assignment",
+        "7": "time_sync_wq",
+        "8": "create_singlethread_workqueue",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

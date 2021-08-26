@@ -1,0 +1,554 @@
+{
+    "Function": "to_mlx4_access_flags",
+    "astEdges": [
+        [
+            69,
+            70
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            61,
+            65
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            11,
+            20
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            0,
+            71
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            35
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            4,
+            68
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            61
+        ],
+        [
+            4,
+            54
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            47
+        ],
+        [
+            4,
+            26
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            41
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        13,
+        14,
+        16,
+        18,
+        22,
+        24,
+        28,
+        29,
+        31,
+        33,
+        37,
+        39,
+        43,
+        45,
+        46,
+        49,
+        50,
+        52,
+        53,
+        56,
+        57,
+        59,
+        60,
+        63,
+        64,
+        66,
+        67,
+        70
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            70
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "hw_access_flags",
+        "10": "LITERAL",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.and",
+        "13": "attr_mask",
+        "14": "IB_QP_MAX_DEST_RD_ATOMIC",
+        "15": "<operator>.assignment",
+        "16": "dest_rd_atomic",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "attr",
+        "19": "FIELD_IDENTIFIER",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.assignment",
+        "22": "dest_rd_atomic",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "qp",
+        "25": "FIELD_IDENTIFIER",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.and",
+        "28": "attr_mask",
+        "29": "IB_QP_ACCESS_FLAGS",
+        "30": "<operator>.assignment",
+        "31": "access_flags",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "attr",
+        "34": "FIELD_IDENTIFIER",
+        "35": "CONTROL_STRUCTURE",
+        "36": "<operator>.assignment",
+        "37": "access_flags",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "qp",
+        "40": "FIELD_IDENTIFIER",
+        "41": "CONTROL_STRUCTURE",
+        "42": "<operator>.logicalNot",
+        "43": "dest_rd_atomic",
+        "44": "<operators>.assignmentAnd",
+        "45": "access_flags",
+        "46": "IB_ACCESS_REMOTE_WRITE",
+        "47": "CONTROL_STRUCTURE",
+        "48": "<operator>.and",
+        "49": "access_flags",
+        "50": "IB_ACCESS_REMOTE_READ",
+        "51": "<operators>.assignmentOr",
+        "52": "hw_access_flags",
+        "53": "MLX4_QP_BIT_RRE",
+        "54": "CONTROL_STRUCTURE",
+        "55": "<operator>.and",
+        "56": "access_flags",
+        "57": "IB_ACCESS_REMOTE_ATOMIC",
+        "58": "<operators>.assignmentOr",
+        "59": "hw_access_flags",
+        "60": "MLX4_QP_BIT_RAE",
+        "61": "CONTROL_STRUCTURE",
+        "62": "<operator>.and",
+        "63": "access_flags",
+        "64": "IB_ACCESS_REMOTE_WRITE",
+        "65": "<operators>.assignmentOr",
+        "66": "hw_access_flags",
+        "67": "MLX4_QP_BIT_RWE",
+        "68": "RETURN",
+        "69": "cpu_to_be32",
+        "70": "hw_access_flags",
+        "71": "METHOD_RETURN"
+    }
+}

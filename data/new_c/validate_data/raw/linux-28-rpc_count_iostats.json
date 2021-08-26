@@ -1,0 +1,183 @@
+{
+    "Function": "rpc_count_iostats",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            15,
+            9
+        ],
+        [
+            10,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "rpc_count_iostats_metrics",
+        "5": "task",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "stats",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "task",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

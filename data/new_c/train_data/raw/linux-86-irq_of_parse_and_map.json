@@ -1,0 +1,131 @@
+{
+    "Function": "irq_of_parse_and_map",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        10,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "CONTROL_STRUCTURE",
+        "6": "of_irq_parse_one",
+        "7": "dev",
+        "8": "index",
+        "9": "<operator>.addressOf",
+        "10": "oirq",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "RETURN",
+        "14": "irq_create_of_mapping",
+        "15": "<operator>.addressOf",
+        "16": "oirq",
+        "17": "METHOD_RETURN"
+    }
+}

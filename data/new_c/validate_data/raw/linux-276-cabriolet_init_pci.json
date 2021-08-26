@@ -1,0 +1,76 @@
+{
+    "Function": "cabriolet_init_pci",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "common_init_pci",
+        "4": "cabriolet_enable_ide",
+        "5": "METHOD_RETURN"
+    }
+}

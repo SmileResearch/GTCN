@@ -1,0 +1,167 @@
+{
+    "Function": "e100_write_flush",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            5,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.cast",
+        "4": "UNKNOWN",
+        "5": "ioread8",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "nic",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "METHOD_RETURN"
+    }
+}

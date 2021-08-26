@@ -1,0 +1,253 @@
+{
+    "Function": "get_sw_cqe_v2",
+    "astEdges": [
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            31
+        ],
+        [
+            17,
+            32
+        ],
+        [
+            18,
+            24
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10,
+        13,
+        21,
+        23,
+        27,
+        29,
+        31,
+        32
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "cqe",
+        "7": "get_cqe_v2",
+        "8": "hr_cq",
+        "9": "<operator>.and",
+        "10": "n",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "hr_cq",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "RETURN",
+        "17": "<operator>.conditional",
+        "18": "<operator>.or",
+        "19": "roce_get_bit",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "cqe",
+        "22": "FIELD_IDENTIFIER",
+        "23": "V2_CQE_BYTE_4_OWNER_S",
+        "24": "<operator>.logicalNot",
+        "25": "<operator>.logicalNot",
+        "26": "<operator>.and",
+        "27": "n",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "hr_cq",
+        "30": "FIELD_IDENTIFIER",
+        "31": "cqe",
+        "32": "NULL",
+        "33": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "Function": "hns_roce_hw_destroy_mpt",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            18
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            6,
+            19
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        12,
+        15,
+        17,
+        18,
+        19
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "hns_roce_cmd_mbox",
+        "7": "hr_dev",
+        "8": "LITERAL",
+        "9": "<operator>.conditional",
+        "10": "mailbox",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "mailbox",
+        "13": "FIELD_IDENTIFIER",
+        "14": "LITERAL",
+        "15": "mpt_index",
+        "16": "<operator>.logicalNot",
+        "17": "mailbox",
+        "18": "HNS_ROCE_CMD_DESTROY_MPT",
+        "19": "HNS_ROCE_CMD_TIMEOUT_MSECS",
+        "20": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "Function": "shpchp_create_ctrl_files",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        12
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            4
+        ],
+        [
+            10,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "device_create_file",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ctrl",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.addressOf",
+        "12": "dev_attr_ctrl",
+        "13": "METHOD_RETURN"
+    }
+}

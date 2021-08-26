@@ -1,0 +1,165 @@
+{
+    "Function": "kpc_dma_driver_exit",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "kpc_dma_plat_driver_i",
+        "6": "class_destroy",
+        "7": "kpc_dma_class",
+        "8": "__unregister_chrdev",
+        "9": "KPC_DMA_CHAR_MAJOR",
+        "10": "LITERAL",
+        "11": "KPC_DMA_NUM_MINORS",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

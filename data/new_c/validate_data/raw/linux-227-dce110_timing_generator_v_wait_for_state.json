@@ -1,0 +1,188 @@
+{
+    "Function": "dce110_timing_generator_v_wait_for_state",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            12,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "state",
+        "6": "BLOCK",
+        "7": "JUMP_TARGET",
+        "8": "dce110_timing_generator_v_wait_for_vblank",
+        "9": "tg",
+        "10": "CONTROL_STRUCTURE",
+        "11": "JUMP_TARGET",
+        "12": "dce110_timing_generator_v_wait_for_vactive",
+        "13": "tg",
+        "14": "CONTROL_STRUCTURE",
+        "15": "JUMP_TARGET",
+        "16": "CONTROL_STRUCTURE",
+        "17": "METHOD_RETURN"
+    }
+}

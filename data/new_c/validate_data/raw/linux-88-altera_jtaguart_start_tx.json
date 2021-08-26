@@ -1,0 +1,218 @@
+{
+    "Function": "altera_jtaguart_start_tx",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        14,
+        16
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operators>.assignmentOr",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "pp",
+        "6": "FIELD_IDENTIFIER",
+        "7": "ALTERA_JTAGUART_CONTROL_WE_MSK",
+        "8": "writel",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "pp",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.addition",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "port",
+        "15": "FIELD_IDENTIFIER",
+        "16": "ALTERA_JTAGUART_CONTROL_REG",
+        "17": "METHOD_RETURN"
+    }
+}

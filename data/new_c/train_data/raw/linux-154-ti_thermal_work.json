@@ -1,0 +1,253 @@
+{
+    "Function": "ti_thermal_work",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            8,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        12,
+        18
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            16,
+            8
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            20,
+            16
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            8,
+            21
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            21
+        ],
+        [
+            8,
+            21
+        ],
+        [
+            8,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "thermal_zone_device_update",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "data",
+        "6": "FIELD_IDENTIFIER",
+        "7": "THERMAL_EVENT_UNSPECIFIED",
+        "8": "dev_dbg",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "data",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LITERAL",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "data",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

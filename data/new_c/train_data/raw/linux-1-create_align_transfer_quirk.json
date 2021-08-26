@@ -1,0 +1,146 @@
+{
+    "Function": "create_align_transfer_quirk",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "<operator>.assignment",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "chip",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

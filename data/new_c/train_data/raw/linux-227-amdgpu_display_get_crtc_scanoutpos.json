@@ -1,0 +1,95 @@
+{
+    "Function": "amdgpu_display_get_crtc_scanoutpos",
+    "astEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "PARAM",
+        "7": "PARAM",
+        "8": "PARAM",
+        "9": "METHOD_RETURN",
+        "10": "BLOCK"
+    }
+}

@@ -1,0 +1,258 @@
+{
+    "Function": "access_sde_idle_int_cnt",
+    "astEdges": [
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            23
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            30
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            33
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            31
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        12,
+        16,
+        19,
+        21,
+        27,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "dd",
+        "10": "<operator>.cast",
+        "11": "UNKNOWN",
+        "12": "context",
+        "13": "CONTROL_STRUCTURE",
+        "14": "<operator>.logicalAnd",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "dd",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.lessThan",
+        "19": "idx",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "dd",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RETURN",
+        "24": "<operator>.fieldAccess",
+        "25": "<operator>.indirectIndexAccess",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "dd",
+        "28": "FIELD_IDENTIFIER",
+        "29": "idx",
+        "30": "FIELD_IDENTIFIER",
+        "31": "RETURN",
+        "32": "LITERAL",
+        "33": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "Function": "init_kdeth_qp",
+    "astEdges": [
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        12,
+        13,
+        16,
+        17,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "write_csr",
+        "4": "dd",
+        "5": "SEND_BTH_QP",
+        "6": "<operator>.shiftLeft",
+        "7": "<operator>.and",
+        "8": "RVT_KDETH_QP_PREFIX",
+        "9": "SEND_BTH_QP_KDETH_QP_MASK",
+        "10": "SEND_BTH_QP_KDETH_QP_SHIFT",
+        "11": "write_csr",
+        "12": "dd",
+        "13": "RCV_BTH_QP",
+        "14": "<operator>.shiftLeft",
+        "15": "<operator>.and",
+        "16": "RVT_KDETH_QP_PREFIX",
+        "17": "RCV_BTH_QP_KDETH_QP_MASK",
+        "18": "RCV_BTH_QP_KDETH_QP_SHIFT",
+        "19": "METHOD_RETURN"
+    }
+}

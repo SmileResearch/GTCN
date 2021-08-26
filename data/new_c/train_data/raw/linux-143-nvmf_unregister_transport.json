@@ -1,0 +1,165 @@
+{
+    "Function": "nvmf_unregister_transport",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            12,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "down_write",
+        "4": "<operator>.addressOf",
+        "5": "nvmf_transports_rwsem",
+        "6": "list_del",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ops",
+        "10": "FIELD_IDENTIFIER",
+        "11": "up_write",
+        "12": "<operator>.addressOf",
+        "13": "nvmf_transports_rwsem",
+        "14": "METHOD_RETURN"
+    }
+}

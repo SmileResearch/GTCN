@@ -1,0 +1,200 @@
+{
+    "Function": "ecard_register_driver",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        15
+    ],
+    "cfgEdges": [
+        [
+            13,
+            12
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            4,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "drv",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.addressOf",
+        "10": "ecard_bus_type",
+        "11": "RETURN",
+        "12": "driver_register",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "drv",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

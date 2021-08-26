@@ -1,0 +1,22 @@
+{
+    "Function": "ieee754di_indef",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "METHOD_RETURN",
+        "2": "BLOCK"
+    }
+}

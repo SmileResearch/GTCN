@@ -1,0 +1,143 @@
+{
+    "Function": "o2net_unregister_hb_callbacks",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "o2hb_unregister_callback",
+        "4": "NULL",
+        "5": "<operator>.addressOf",
+        "6": "o2net_hb_up",
+        "7": "o2hb_unregister_callback",
+        "8": "NULL",
+        "9": "<operator>.addressOf",
+        "10": "o2net_hb_down",
+        "11": "METHOD_RETURN"
+    }
+}

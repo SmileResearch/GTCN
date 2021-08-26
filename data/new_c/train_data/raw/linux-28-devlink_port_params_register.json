@@ -1,0 +1,260 @@
+{
+    "Function": "devlink_port_params_register",
+    "astEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            20
+        ],
+        [
+            6,
+            19
+        ],
+        [
+            6,
+            17
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            18
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        15,
+        17,
+        18,
+        19,
+        20
+    ],
+    "cfgEdges": [
+        [
+            10,
+            16
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            13,
+            6
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            14,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            21
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "__devlink_params_register",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "devlink_port",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "devlink_port",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "devlink_port",
+        "16": "FIELD_IDENTIFIER",
+        "17": "params",
+        "18": "params_count",
+        "19": "DEVLINK_CMD_PORT_PARAM_NEW",
+        "20": "DEVLINK_CMD_PORT_PARAM_DEL",
+        "21": "METHOD_RETURN"
+    }
+}

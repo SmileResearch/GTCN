@@ -1,0 +1,88 @@
+{
+    "Function": "of_msi_configure",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8,
+        9
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "dev_set_msi_domain",
+        "5": "dev",
+        "6": "of_msi_get_domain",
+        "7": "dev",
+        "8": "np",
+        "9": "DOMAIN_BUS_PLATFORM_MSI",
+        "10": "METHOD_RETURN"
+    }
+}

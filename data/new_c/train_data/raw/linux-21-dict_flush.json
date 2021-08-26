@@ -1,0 +1,478 @@
+{
+    "Function": "dict_flush",
+    "astEdges": [
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            63
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            3,
+            56
+        ],
+        [
+            3,
+            61
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            49
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            20,
+            28
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            41
+        ],
+        [
+            33,
+            48
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            33
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        17,
+        23,
+        26,
+        30,
+        36,
+        39,
+        43,
+        46,
+        48,
+        51,
+        54,
+        58,
+        60,
+        62
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            62
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "copy_size",
+        "7": "<operator>.subtraction",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dict",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "dict",
+        "13": "FIELD_IDENTIFIER",
+        "14": "CONTROL_STRUCTURE",
+        "15": "DEC_IS_MULTI",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "dict",
+        "18": "FIELD_IDENTIFIER",
+        "19": "BLOCK",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.equals",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "dict",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "dict",
+        "27": "FIELD_IDENTIFIER",
+        "28": "<operator>.assignment",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "dict",
+        "31": "FIELD_IDENTIFIER",
+        "32": "LITERAL",
+        "33": "memcpy",
+        "34": "<operator>.addition",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "b",
+        "37": "FIELD_IDENTIFIER",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "b",
+        "40": "FIELD_IDENTIFIER",
+        "41": "<operator>.addition",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "dict",
+        "44": "FIELD_IDENTIFIER",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "dict",
+        "47": "FIELD_IDENTIFIER",
+        "48": "copy_size",
+        "49": "<operator>.assignment",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "dict",
+        "52": "FIELD_IDENTIFIER",
+        "53": "<operator>.indirectFieldAccess",
+        "54": "dict",
+        "55": "FIELD_IDENTIFIER",
+        "56": "<operator>.assignmentPlus",
+        "57": "<operator>.indirectFieldAccess",
+        "58": "b",
+        "59": "FIELD_IDENTIFIER",
+        "60": "copy_size",
+        "61": "RETURN",
+        "62": "copy_size",
+        "63": "METHOD_RETURN"
+    }
+}

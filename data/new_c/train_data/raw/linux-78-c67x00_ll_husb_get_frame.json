@@ -1,0 +1,154 @@
+{
+    "Function": "c67x00_ll_husb_get_frame",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "hpi_read_word",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "sie",
+        "7": "FIELD_IDENTIFIER",
+        "8": "HOST_FRAME_REG",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "sie",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

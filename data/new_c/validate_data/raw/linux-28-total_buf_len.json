@@ -1,0 +1,266 @@
+{
+    "Function": "total_buf_len",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        14,
+        19
+    ],
+    "cfgEdges": [
+        [
+            3,
+            23
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            13,
+            20
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            18,
+            17
+        ],
+        [
+            16,
+            12
+        ],
+        [
+            22,
+            16
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            11,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            23
+        ],
+        [
+            12,
+            23
+        ],
+        [
+            12,
+            23
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            23
+        ],
+        [
+            4,
+            23
+        ],
+        [
+            4,
+            23
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addition",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectIndexAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "buf",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.addition",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "buf",
+        "15": "FIELD_IDENTIFIER",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectIndexAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "buf",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "FIELD_IDENTIFIER",
+        "23": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "Function": "tep_set_file_bigendian",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "tep",
+        "6": "<operator>.assignment",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "tep",
+        "9": "FIELD_IDENTIFIER",
+        "10": "endian",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "Function": "pciehp_disable_interrupt",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "pme_is_native",
+        "5": "dev",
+        "6": "pcie_disable_interrupt",
+        "7": "get_service_data",
+        "8": "dev",
+        "9": "METHOD_RETURN"
+    }
+}

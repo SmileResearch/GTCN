@@ -1,0 +1,177 @@
+{
+    "Function": "snd_gf1_default_interrupt_handler_timer2",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            11,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "snd_gf1_i_write8",
+        "4": "gus",
+        "5": "SNDRV_GF1_GB_SOUND_BLASTER_CONTROL",
+        "6": "<operators>.assignmentAnd",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "gus",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "~8",
+        "13": "METHOD_RETURN"
+    }
+}

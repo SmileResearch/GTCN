@@ -1,0 +1,116 @@
+{
+    "Function": "hns_roce_pd_alloc",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.conditional",
+        "6": "hns_roce_bitmap_alloc",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "hr_dev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "pdn",
+        "12": "<operator>.minus",
+        "13": "ENOMEM",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

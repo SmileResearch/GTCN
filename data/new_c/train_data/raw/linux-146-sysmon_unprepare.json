@@ -1,0 +1,146 @@
+{
+    "Function": "sysmon_unprepare",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "BLOCK",
+        "4": "blocking_notifier_call_chain",
+        "5": "<operator>.addressOf",
+        "6": "sysmon_notifiers",
+        "7": "LITERAL",
+        "8": "<operator>.cast",
+        "9": "UNKNOWN",
+        "10": "<operator>.addressOf",
+        "11": "event",
+        "12": "METHOD_RETURN"
+    }
+}

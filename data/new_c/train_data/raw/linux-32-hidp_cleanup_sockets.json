@@ -1,0 +1,151 @@
+{
+    "Function": "hidp_cleanup_sockets",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "bt_procfs_cleanup",
+        "4": "<operator>.addressOf",
+        "5": "init_net",
+        "6": "LITERAL",
+        "7": "bt_sock_unregister",
+        "8": "BTPROTO_HIDP",
+        "9": "proto_unregister",
+        "10": "<operator>.addressOf",
+        "11": "hidp_proto",
+        "12": "METHOD_RETURN"
+    }
+}

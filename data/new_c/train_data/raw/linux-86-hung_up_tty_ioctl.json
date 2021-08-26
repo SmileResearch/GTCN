@@ -1,0 +1,112 @@
+{
+    "Function": "hung_up_tty_ioctl",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        11,
+        13
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "<operator>.conditional",
+        "7": "<operator>.equals",
+        "8": "cmd",
+        "9": "TIOCSPGRP",
+        "10": "<operator>.minus",
+        "11": "ENOTTY",
+        "12": "<operator>.minus",
+        "13": "EIO",
+        "14": "METHOD_RETURN"
+    }
+}

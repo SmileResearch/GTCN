@@ -1,0 +1,125 @@
+{
+    "Function": "smu8_clear_voting_clients",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "cgs_write_ind_register",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "hwmgr",
+        "6": "FIELD_IDENTIFIER",
+        "7": "CGS_IND_REG__SMC",
+        "8": "ixCG_FREQ_TRAN_VOTING_0",
+        "9": "LITERAL",
+        "10": "METHOD_RETURN"
+    }
+}

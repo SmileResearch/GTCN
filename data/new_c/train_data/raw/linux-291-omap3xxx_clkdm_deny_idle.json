@@ -1,0 +1,266 @@
+{
+    "Function": "omap3xxx_clkdm_deny_idle",
+    "astEdges": [
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        17,
+        21
+    ],
+    "cfgEdges": [
+        [
+            10,
+            4
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            11,
+            3
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            5,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            22
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "omap3xxx_cm_clkdm_disable_hwsup",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "clkdm",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "clkdm",
+        "13": "FIELD_IDENTIFIER",
+        "14": "CONTROL_STRUCTURE",
+        "15": "<operator>.greaterThan",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "clkdm",
+        "18": "FIELD_IDENTIFIER",
+        "19": "LITERAL",
+        "20": "clkdm_del_autodeps",
+        "21": "clkdm",
+        "22": "METHOD_RETURN"
+    }
+}

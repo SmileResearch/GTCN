@@ -1,0 +1,195 @@
+{
+    "Function": "qcom_adsp_pil_handover",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        14
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            16
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "clk_disable_unprepare",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "adsp",
+        "6": "FIELD_IDENTIFIER",
+        "7": "dev_pm_genpd_set_performance_state",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "adsp",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LITERAL",
+        "12": "pm_runtime_put",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "adsp",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

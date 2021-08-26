@@ -1,0 +1,522 @@
+{
+    "Function": "sdma_cleanup_sde_map",
+    "astEdges": [
+        [
+            56,
+            57
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            26,
+            69
+        ],
+        [
+            26,
+            56
+        ],
+        [
+            26,
+            60
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            17
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            55
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            64
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            26
+        ],
+        [
+            64,
+            66
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            70
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            34
+        ],
+        [
+            27,
+            42
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            50
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        13,
+        16,
+        22,
+        24,
+        25,
+        31,
+        33,
+        37,
+        40,
+        45,
+        48,
+        53,
+        58,
+        62,
+        65,
+        68
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            68,
+            69
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.assignment",
+        "8": "i",
+        "9": "LITERAL",
+        "10": "<operator>.lessThan",
+        "11": "i",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "map",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.postIncrement",
+        "16": "i",
+        "17": "BLOCK",
+        "18": "CONTROL_STRUCTURE",
+        "19": "<operator>.equals",
+        "20": "<operator>.indirectIndexAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "map",
+        "23": "FIELD_IDENTIFIER",
+        "24": "i",
+        "25": "sde",
+        "26": "BLOCK",
+        "27": "memmove",
+        "28": "<operator>.addressOf",
+        "29": "<operator>.indirectIndexAccess",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "map",
+        "32": "FIELD_IDENTIFIER",
+        "33": "i",
+        "34": "<operator>.addressOf",
+        "35": "<operator>.indirectIndexAccess",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "map",
+        "38": "FIELD_IDENTIFIER",
+        "39": "<operator>.addition",
+        "40": "i",
+        "41": "LITERAL",
+        "42": "<operator>.multiplication",
+        "43": "<operator>.subtraction",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "map",
+        "46": "FIELD_IDENTIFIER",
+        "47": "<operator>.subtraction",
+        "48": "i",
+        "49": "LITERAL",
+        "50": "<operator>.sizeOf",
+        "51": "<operator>.indirectIndexAccess",
+        "52": "<operator>.indirectFieldAccess",
+        "53": "map",
+        "54": "FIELD_IDENTIFIER",
+        "55": "LITERAL",
+        "56": "<operator>.postDecrement",
+        "57": "<operator>.indirectFieldAccess",
+        "58": "map",
+        "59": "FIELD_IDENTIFIER",
+        "60": "<operator>.assignment",
+        "61": "<operator>.indirectFieldAccess",
+        "62": "map",
+        "63": "FIELD_IDENTIFIER",
+        "64": "<operator>.subtraction",
+        "65": "pow",
+        "66": "LITERAL",
+        "67": "sdma_populate_sde_map",
+        "68": "map",
+        "69": "CONTROL_STRUCTURE",
+        "70": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "Function": "xs_wake_write",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            14,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "test_and_clear_bit",
+        "5": "XPRT_SOCK_WAKE_WRITE",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "transport",
+        "9": "FIELD_IDENTIFIER",
+        "10": "xprt_write_space",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "transport",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

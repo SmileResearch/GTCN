@@ -1,0 +1,171 @@
+{
+    "Function": "nvme_max_io_queues",
+    "astEdges": [
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            6
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.addition",
+        "5": "num_possible_cpus",
+        "6": "<operator>.addition",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "dev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

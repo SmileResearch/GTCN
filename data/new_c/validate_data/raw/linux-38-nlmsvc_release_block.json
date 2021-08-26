@@ -1,0 +1,232 @@
+{
+    "Function": "nlmsvc_release_block",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        10,
+        12,
+        16
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            15,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            7,
+            19
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.notEquals",
+        "5": "block",
+        "6": "NULL",
+        "7": "kref_put_mutex",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "block",
+        "11": "FIELD_IDENTIFIER",
+        "12": "nlmsvc_free_block",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "block",
+        "17": "FIELD_IDENTIFIER",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

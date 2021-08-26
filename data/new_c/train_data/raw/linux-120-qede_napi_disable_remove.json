@@ -1,0 +1,247 @@
+{
+    "Function": "qede_napi_disable_remove",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        12,
+        19,
+        21
+    ],
+    "cfgEdges": [
+        [
+            14,
+            23
+        ],
+        [
+            5,
+            20
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            18,
+            17
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            22,
+            16
+        ]
+    ],
+    "ddgEdges": [
+        [
+            14,
+            23
+        ],
+        [
+            14,
+            23
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            23
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "BLOCK",
+        "5": "napi_disable",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "edev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "i",
+        "13": "FIELD_IDENTIFIER",
+        "14": "netif_napi_del",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectIndexAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "edev",
+        "20": "FIELD_IDENTIFIER",
+        "21": "i",
+        "22": "FIELD_IDENTIFIER",
+        "23": "METHOD_RETURN"
+    }
+}

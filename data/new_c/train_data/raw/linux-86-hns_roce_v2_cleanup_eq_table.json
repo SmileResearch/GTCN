@@ -1,0 +1,491 @@
+{
+    "Function": "hns_roce_v2_cleanup_eq_table",
+    "astEdges": [
+        [
+            57,
+            59
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            40,
+            44
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            0,
+            64
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            31,
+            40
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            38
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            2,
+            31
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            29
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            52
+        ],
+        [
+            2,
+            60
+        ],
+        [
+            2,
+            56
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        13,
+        17,
+        22,
+        26,
+        27,
+        28,
+        30,
+        33,
+        36,
+        37,
+        39,
+        42,
+        43,
+        45,
+        49,
+        51,
+        54,
+        58,
+        62
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            62
+        ],
+        [
+            62,
+            63
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "eq_table",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "hr_dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LOCAL",
+        "11": "LOCAL",
+        "12": "<operator>.assignment",
+        "13": "eq_num",
+        "14": "<operator>.addition",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "hr_dev",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.fieldAccess",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "hr_dev",
+        "23": "FIELD_IDENTIFIER",
+        "24": "FIELD_IDENTIFIER",
+        "25": "hns_roce_v2_int_mask_enable",
+        "26": "hr_dev",
+        "27": "eq_num",
+        "28": "EQ_DISABLE",
+        "29": "__hns_roce_free_irq",
+        "30": "hr_dev",
+        "31": "CONTROL_STRUCTURE",
+        "32": "<operator>.assignment",
+        "33": "i",
+        "34": "LITERAL",
+        "35": "<operator>.lessThan",
+        "36": "i",
+        "37": "eq_num",
+        "38": "<operator>.postIncrement",
+        "39": "i",
+        "40": "BLOCK",
+        "41": "hns_roce_v2_destroy_eqc",
+        "42": "hr_dev",
+        "43": "i",
+        "44": "free_eq_buf",
+        "45": "hr_dev",
+        "46": "<operator>.addressOf",
+        "47": "<operator>.indirectIndexAccess",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "eq_table",
+        "50": "FIELD_IDENTIFIER",
+        "51": "i",
+        "52": "kfree",
+        "53": "<operator>.indirectFieldAccess",
+        "54": "eq_table",
+        "55": "FIELD_IDENTIFIER",
+        "56": "flush_workqueue",
+        "57": "<operator>.indirectFieldAccess",
+        "58": "hr_dev",
+        "59": "FIELD_IDENTIFIER",
+        "60": "destroy_workqueue",
+        "61": "<operator>.indirectFieldAccess",
+        "62": "hr_dev",
+        "63": "FIELD_IDENTIFIER",
+        "64": "METHOD_RETURN"
+    }
+}

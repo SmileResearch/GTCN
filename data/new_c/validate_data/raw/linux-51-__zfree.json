@@ -1,0 +1,113 @@
+{
+    "Function": "__zfree",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "free",
+        "4": "<operator>.indirection",
+        "5": "ptr",
+        "6": "<operator>.assignment",
+        "7": "<operator>.indirection",
+        "8": "ptr",
+        "9": "NULL",
+        "10": "METHOD_RETURN"
+    }
+}

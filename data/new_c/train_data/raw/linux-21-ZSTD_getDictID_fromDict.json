@@ -1,0 +1,178 @@
+{
+    "Function": "ZSTD_getDictID_fromDict",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            24
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        13,
+        14,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.lessThan",
+        "6": "dictSize",
+        "7": "LITERAL",
+        "8": "RETURN",
+        "9": "LITERAL",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.notEquals",
+        "12": "ZSTD_readLE32",
+        "13": "dict",
+        "14": "ZSTD_DICT_MAGIC",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "RETURN",
+        "18": "ZSTD_readLE32",
+        "19": "<operator>.addition",
+        "20": "<operator>.cast",
+        "21": "UNKNOWN",
+        "22": "dict",
+        "23": "LITERAL",
+        "24": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "Function": "kbuffer_subbuf_timestamp",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "kbuf->read_8",
+        "6": "subbuf",
+        "7": "METHOD_RETURN"
+    }
+}

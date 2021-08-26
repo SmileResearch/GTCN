@@ -1,0 +1,139 @@
+{
+    "Function": "mptfc_exit",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pci_unregister_driver",
+        "4": "<operator>.addressOf",
+        "5": "mptfc_driver",
+        "6": "fc_release_transport",
+        "7": "mptfc_transport_template",
+        "8": "mpt_reset_deregister",
+        "9": "mptfcDoneCtx",
+        "10": "mpt_event_deregister",
+        "11": "mptfcDoneCtx",
+        "12": "mpt_deregister",
+        "13": "mptfcInternalCtx",
+        "14": "mpt_deregister",
+        "15": "mptfcTaskCtx",
+        "16": "mpt_deregister",
+        "17": "mptfcDoneCtx",
+        "18": "METHOD_RETURN"
+    }
+}

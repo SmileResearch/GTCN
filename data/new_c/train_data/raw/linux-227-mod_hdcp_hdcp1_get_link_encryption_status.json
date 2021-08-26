@@ -1,0 +1,273 @@
+{
+    "Function": "mod_hdcp_hdcp1_get_link_encryption_status",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        11,
+        12,
+        14,
+        17,
+        18,
+        20
+    ],
+    "cfgEdges": [
+        [
+            13,
+            21
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "ddgEdges": [
+        [
+            13,
+            21
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            10,
+            21
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            21
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            4,
+            21
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            19,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirection",
+        "6": "encryption_status",
+        "7": "MOD_HDCP_ENCRYPTION_STATUS_HDCP_OFF",
+        "8": "CONTROL_STRUCTURE",
+        "9": "<operator>.notEquals",
+        "10": "mod_hdcp_hdcp1_link_maintenance",
+        "11": "hdcp",
+        "12": "MOD_HDCP_STATUS_SUCCESS",
+        "13": "RETURN",
+        "14": "MOD_HDCP_STATUS_FAILURE",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirection",
+        "17": "encryption_status",
+        "18": "MOD_HDCP_ENCRYPTION_STATUS_HDCP1_ON",
+        "19": "RETURN",
+        "20": "MOD_HDCP_STATUS_SUCCESS",
+        "21": "METHOD_RETURN"
+    }
+}

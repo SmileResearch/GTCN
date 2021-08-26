@@ -1,0 +1,180 @@
+{
+    "Function": "pio_txqueue_offset",
+    "astEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.greaterEqualsThan",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dev",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LITERAL",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "RETURN",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

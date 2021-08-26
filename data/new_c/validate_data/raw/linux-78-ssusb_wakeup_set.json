@@ -1,0 +1,130 @@
+{
+    "Function": "ssusb_wakeup_set",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ssusb",
+        "7": "FIELD_IDENTIFIER",
+        "8": "ssusb_wakeup_ip_sleep_set",
+        "9": "ssusb",
+        "10": "enable",
+        "11": "METHOD_RETURN"
+    }
+}

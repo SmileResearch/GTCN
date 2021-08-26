@@ -1,0 +1,152 @@
+{
+    "Function": "of_device_is_available",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        10,
+        12,
+        15,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "raw_spin_lock_irqsave",
+        "6": "<operator>.addressOf",
+        "7": "devtree_lock",
+        "8": "flags",
+        "9": "<operator>.assignment",
+        "10": "res",
+        "11": "__of_device_is_available",
+        "12": "device",
+        "13": "raw_spin_unlock_irqrestore",
+        "14": "<operator>.addressOf",
+        "15": "devtree_lock",
+        "16": "flags",
+        "17": "RETURN",
+        "18": "res",
+        "19": "METHOD_RETURN"
+    }
+}

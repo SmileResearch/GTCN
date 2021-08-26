@@ -1,0 +1,285 @@
+{
+    "Function": "convert_access",
+    "astEdges": [
+        [
+            0,
+            38
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            28,
+            36
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            12,
+            20
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            28
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            29,
+            35
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            21,
+            27
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        10,
+        15,
+        16,
+        18,
+        23,
+        24,
+        26,
+        31,
+        32,
+        34,
+        37
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.or",
+        "5": "<operator>.conditional",
+        "6": "<operator>.and",
+        "7": "acc",
+        "8": "IB_ACCESS_REMOTE_ATOMIC",
+        "9": "cpu_to_be32",
+        "10": "MLX4_WQE_FMR_AND_BIND_PERM_ATOMIC",
+        "11": "LITERAL",
+        "12": "<operator>.or",
+        "13": "<operator>.conditional",
+        "14": "<operator>.and",
+        "15": "acc",
+        "16": "IB_ACCESS_REMOTE_WRITE",
+        "17": "cpu_to_be32",
+        "18": "MLX4_WQE_FMR_AND_BIND_PERM_REMOTE_WRITE",
+        "19": "LITERAL",
+        "20": "<operator>.or",
+        "21": "<operator>.conditional",
+        "22": "<operator>.and",
+        "23": "acc",
+        "24": "IB_ACCESS_REMOTE_READ",
+        "25": "cpu_to_be32",
+        "26": "MLX4_WQE_FMR_AND_BIND_PERM_REMOTE_READ",
+        "27": "LITERAL",
+        "28": "<operator>.or",
+        "29": "<operator>.conditional",
+        "30": "<operator>.and",
+        "31": "acc",
+        "32": "IB_ACCESS_LOCAL_WRITE",
+        "33": "cpu_to_be32",
+        "34": "MLX4_WQE_FMR_PERM_LOCAL_WRITE",
+        "35": "LITERAL",
+        "36": "cpu_to_be32",
+        "37": "MLX4_WQE_FMR_PERM_LOCAL_READ",
+        "38": "METHOD_RETURN"
+    }
+}

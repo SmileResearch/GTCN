@@ -1,0 +1,120 @@
+{
+    "Function": "rockchip_pcm_platform_register",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "devm_snd_dmaengine_pcm_register",
+        "5": "dev",
+        "6": "<operator>.addressOf",
+        "7": "rk_dmaengine_pcm_config",
+        "8": "SND_DMAENGINE_PCM_FLAG_COMPAT",
+        "9": "METHOD_RETURN"
+    }
+}

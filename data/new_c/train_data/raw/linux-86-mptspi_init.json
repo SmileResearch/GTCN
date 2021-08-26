@@ -1,0 +1,415 @@
+{
+    "Function": "mptspi_init",
+    "astEdges": [
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            2,
+            30
+        ],
+        [
+            2,
+            47
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            39
+        ],
+        [
+            2,
+            42
+        ],
+        [
+            2,
+            36
+        ],
+        [
+            2,
+            51
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            53
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        8,
+        11,
+        14,
+        17,
+        19,
+        21,
+        22,
+        25,
+        27,
+        28,
+        31,
+        33,
+        34,
+        37,
+        38,
+        40,
+        41,
+        43,
+        46,
+        48,
+        50,
+        52
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            50,
+            52
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "show_mptmod_ver",
+        "5": "my_NAME",
+        "6": "my_VERSION",
+        "7": "<operator>.assignment",
+        "8": "mptspi_transport_template",
+        "9": "spi_attach_transport",
+        "10": "<operator>.addressOf",
+        "11": "mptspi_transport_functions",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.logicalNot",
+        "14": "mptspi_transport_template",
+        "15": "RETURN",
+        "16": "<operator>.minus",
+        "17": "ENODEV",
+        "18": "<operator>.assignment",
+        "19": "mptspiDoneCtx",
+        "20": "mpt_register",
+        "21": "mptscsih_io_done",
+        "22": "MPTSPI_DRIVER",
+        "23": "LITERAL",
+        "24": "<operator>.assignment",
+        "25": "mptspiTaskCtx",
+        "26": "mpt_register",
+        "27": "mptscsih_taskmgmt_complete",
+        "28": "MPTSPI_DRIVER",
+        "29": "LITERAL",
+        "30": "<operator>.assignment",
+        "31": "mptspiInternalCtx",
+        "32": "mpt_register",
+        "33": "mptscsih_scandv_complete",
+        "34": "MPTSPI_DRIVER",
+        "35": "LITERAL",
+        "36": "mpt_event_register",
+        "37": "mptspiDoneCtx",
+        "38": "mptspi_event_process",
+        "39": "mpt_reset_register",
+        "40": "mptspiDoneCtx",
+        "41": "mptspi_ioc_reset",
+        "42": "<operator>.assignment",
+        "43": "error",
+        "44": "pci_register_driver",
+        "45": "<operator>.addressOf",
+        "46": "mptspi_driver",
+        "47": "CONTROL_STRUCTURE",
+        "48": "error",
+        "49": "spi_release_transport",
+        "50": "mptspi_transport_template",
+        "51": "RETURN",
+        "52": "error",
+        "53": "METHOD_RETURN"
+    }
+}

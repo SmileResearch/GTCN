@@ -1,0 +1,111 @@
+{
+    "Function": "vlan_init_module",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8
+    ],
+    "cfgEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            7,
+            4
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "tcf_register_action",
+        "5": "<operator>.addressOf",
+        "6": "act_vlan_ops",
+        "7": "<operator>.addressOf",
+        "8": "vlan_net_ops",
+        "9": "METHOD_RETURN"
+    }
+}

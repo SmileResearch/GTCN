@@ -1,0 +1,150 @@
+{
+    "Function": "typec_unregister_cable",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "IS_ERR_OR_NULL",
+        "6": "cable",
+        "7": "device_unregister",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "cable",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

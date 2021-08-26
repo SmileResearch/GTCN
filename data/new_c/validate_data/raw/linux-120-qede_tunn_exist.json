@@ -1,0 +1,174 @@
+{
+    "Function": "qede_tunn_exist",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.and",
+        "7": "flag",
+        "8": "<operator>.shiftLeft",
+        "9": "PARSING_AND_ERR_FLAGS_TUNNELEXIST_MASK",
+        "10": "PARSING_AND_ERR_FLAGS_TUNNELEXIST_SHIFT",
+        "11": "METHOD_RETURN"
+    }
+}

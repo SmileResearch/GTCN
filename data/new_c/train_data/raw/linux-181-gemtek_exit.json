@@ -1,0 +1,192 @@
+{
+    "Function": "gemtek_exit",
+    "astEdges": [
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        9,
+        14
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            13,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "hardmute",
+        "5": "true",
+        "6": "pnp_unregister_driver",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.fieldAccess",
+        "9": "gemtek_driver",
+        "10": "FIELD_IDENTIFIER",
+        "11": "isa_unregister_driver",
+        "12": "<operator>.addressOf",
+        "13": "<operator>.fieldAccess",
+        "14": "gemtek_driver",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

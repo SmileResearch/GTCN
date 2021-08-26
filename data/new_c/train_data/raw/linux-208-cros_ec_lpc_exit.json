@@ -1,0 +1,168 @@
+{
+    "Function": "cros_ec_lpc_exit",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            7,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "cros_ec_lpc_acpi_device_found",
+        "6": "platform_device_unregister",
+        "7": "<operator>.addressOf",
+        "8": "cros_ec_lpc_device",
+        "9": "platform_driver_unregister",
+        "10": "<operator>.addressOf",
+        "11": "cros_ec_lpc_driver",
+        "12": "cros_ec_lpc_mec_destroy",
+        "13": "METHOD_RETURN"
+    }
+}

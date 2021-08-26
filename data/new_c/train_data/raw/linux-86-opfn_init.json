@@ -1,0 +1,177 @@
+{
+    "Function": "opfn_init",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        10,
+        12,
+        13,
+        14,
+        17,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "opfn_wq",
+        "5": "alloc_workqueue",
+        "6": "LITERAL",
+        "7": "<operator>.or",
+        "8": "WQ_SYSFS",
+        "9": "<operator>.or",
+        "10": "WQ_HIGHPRI",
+        "11": "<operator>.or",
+        "12": "WQ_CPU_INTENSIVE",
+        "13": "WQ_MEM_RECLAIM",
+        "14": "HFI1_MAX_ACTIVE_WORKQUEUE_ENTRIES",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.logicalNot",
+        "17": "opfn_wq",
+        "18": "RETURN",
+        "19": "<operator>.minus",
+        "20": "ENOMEM",
+        "21": "RETURN",
+        "22": "LITERAL",
+        "23": "METHOD_RETURN"
+    }
+}

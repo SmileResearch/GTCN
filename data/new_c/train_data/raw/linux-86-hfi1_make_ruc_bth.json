@@ -1,0 +1,239 @@
+{
+    "Function": "hfi1_make_ruc_bth",
+    "astEdges": [
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            6,
+            23
+        ],
+        [
+            6,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            0,
+            31
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        14,
+        18,
+        22,
+        26,
+        30
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ohdr",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "cpu_to_be32",
+        "14": "bth0",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectIndexAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ohdr",
+        "19": "FIELD_IDENTIFIER",
+        "20": "LITERAL",
+        "21": "cpu_to_be32",
+        "22": "bth1",
+        "23": "<operator>.assignment",
+        "24": "<operator>.indirectIndexAccess",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "ohdr",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "cpu_to_be32",
+        "30": "bth2",
+        "31": "METHOD_RETURN"
+    }
+}

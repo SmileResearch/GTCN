@@ -1,0 +1,169 @@
+{
+    "Function": "free_gid_entry",
+    "astEdges": [
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        15,
+        19,
+        21
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "memset",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "entry",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "<operator>.sizeOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "entry",
+        "12": "FIELD_IDENTIFIER",
+        "13": "kfree",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "entry",
+        "16": "FIELD_IDENTIFIER",
+        "17": "<operator>.assignment",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "entry",
+        "20": "FIELD_IDENTIFIER",
+        "21": "NULL",
+        "22": "METHOD_RETURN"
+    }
+}

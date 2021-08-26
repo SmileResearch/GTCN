@@ -1,0 +1,130 @@
+{
+    "Function": "hfi1_deinit_aip_rsm",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        15,
+        16
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.equals",
+        "5": "atomic_fetch_add_unless",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dd",
+        "9": "FIELD_IDENTIFIER",
+        "10": "<operator>.minus",
+        "11": "LITERAL",
+        "12": "LITERAL",
+        "13": "LITERAL",
+        "14": "clear_rsm_rule",
+        "15": "dd",
+        "16": "RSM_INS_AIP",
+        "17": "METHOD_RETURN"
+    }
+}

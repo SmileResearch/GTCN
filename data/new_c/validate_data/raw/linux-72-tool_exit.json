@@ -1,0 +1,102 @@
+{
+    "Function": "tool_exit",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ntb_unregister_client",
+        "4": "<operator>.addressOf",
+        "5": "tool_client",
+        "6": "debugfs_remove_recursive",
+        "7": "tool_dbgfs_topdir",
+        "8": "METHOD_RETURN"
+    }
+}

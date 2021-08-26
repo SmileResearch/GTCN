@@ -1,0 +1,161 @@
+{
+    "Function": "tegra_paz00_wifikill_init",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "platform_device_add_properties",
+        "4": "<operator>.addressOf",
+        "5": "wifi_rfkill_device",
+        "6": "wifi_rfkill_prop",
+        "7": "gpiod_add_lookup_table",
+        "8": "<operator>.addressOf",
+        "9": "wifi_gpio_lookup",
+        "10": "platform_device_register",
+        "11": "<operator>.addressOf",
+        "12": "wifi_rfkill_device",
+        "13": "METHOD_RETURN"
+    }
+}

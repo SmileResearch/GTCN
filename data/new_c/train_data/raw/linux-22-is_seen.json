@@ -1,0 +1,172 @@
+{
+    "Function": "is_seen",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            11,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            6
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.equals",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "current",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "set",
+        "14": "METHOD_RETURN"
+    }
+}

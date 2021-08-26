@@ -1,0 +1,54 @@
+{
+    "Function": "of_platform_register_reconfig_notifier",
+    "astEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "WARN_ON",
+        "4": "of_reconfig_notifier_register",
+        "5": "<operator>.addressOf",
+        "6": "platform_of_notifier",
+        "7": "METHOD_RETURN"
+    }
+}

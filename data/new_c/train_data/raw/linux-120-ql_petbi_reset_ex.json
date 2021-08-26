@@ -1,0 +1,149 @@
+{
+    "Function": "ql_petbi_reset_ex",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        5,
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            11,
+            9
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ql_mii_write_reg_ex",
+        "4": "qdev",
+        "5": "PETBI_CONTROL_REG",
+        "6": "PETBI_CTRL_SOFT_RESET",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "PHYAddr",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "qdev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

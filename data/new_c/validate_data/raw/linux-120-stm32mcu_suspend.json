@@ -1,0 +1,159 @@
+{
+    "Function": "stm32mcu_suspend",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "clk_disable_unprepare",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "dwmac",
+        "6": "FIELD_IDENTIFIER",
+        "7": "clk_disable_unprepare",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dwmac",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

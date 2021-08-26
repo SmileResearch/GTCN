@@ -1,0 +1,173 @@
+{
+    "Function": "rpcrdma_force_disconnect",
+    "astEdges": [
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "atomic_add_unless",
+        "5": "<operator>.addressOf",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ep",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LITERAL",
+        "10": "LITERAL",
+        "11": "xprt_force_disconnect",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ep",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

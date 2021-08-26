@@ -1,0 +1,366 @@
+{
+    "Function": "leave_group",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            34,
+            40
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            47
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            41
+        ],
+        [
+            33,
+            47
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            22
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            32
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            42
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            4,
+            23
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            45
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        11,
+        18,
+        20,
+        22,
+        28,
+        30,
+        37,
+        39,
+        41,
+        43,
+        46
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "ret",
+        "8": "LITERAL",
+        "9": "adjust_membership",
+        "10": "group",
+        "11": "leave_state",
+        "12": "<operator>.minus",
+        "13": "LITERAL",
+        "14": "<operators>.assignmentAnd",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectIndexAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "group",
+        "19": "FIELD_IDENTIFIER",
+        "20": "slave",
+        "21": "FIELD_IDENTIFIER",
+        "22": "~leave_state",
+        "23": "CONTROL_STRUCTURE",
+        "24": "<operator>.logicalNot",
+        "25": "<operator>.fieldAccess",
+        "26": "<operator>.indirectIndexAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "group",
+        "29": "FIELD_IDENTIFIER",
+        "30": "slave",
+        "31": "FIELD_IDENTIFIER",
+        "32": "BLOCK",
+        "33": "<operator>.assignment",
+        "34": "<operator>.fieldAccess",
+        "35": "<operator>.indirectIndexAccess",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "group",
+        "38": "FIELD_IDENTIFIER",
+        "39": "slave",
+        "40": "FIELD_IDENTIFIER",
+        "41": "MCAST_NOT_MEMBER",
+        "42": "<operator>.assignment",
+        "43": "ret",
+        "44": "LITERAL",
+        "45": "RETURN",
+        "46": "ret",
+        "47": "METHOD_RETURN"
+    }
+}

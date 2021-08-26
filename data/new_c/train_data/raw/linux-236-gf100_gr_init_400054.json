@@ -1,0 +1,172 @@
+{
+    "Function": "gf100_gr_init_400054",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            12,
+            4
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            11,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "nvkm_wr32",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "gr",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "LITERAL",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

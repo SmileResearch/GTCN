@@ -1,0 +1,141 @@
+{
+    "Function": "mtr_kmem_direct_size",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        16,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "is_direct",
+        "7": "RETURN",
+        "8": "ALIGN",
+        "9": "alloc_size",
+        "10": "<operator>.shiftLeft",
+        "11": "LITERAL",
+        "12": "page_shift",
+        "13": "CONTROL_STRUCTURE",
+        "14": "RETURN",
+        "15": "<operator>.shiftLeft",
+        "16": "HNS_HW_DIRECT_PAGE_COUNT",
+        "17": "page_shift",
+        "18": "METHOD_RETURN"
+    }
+}

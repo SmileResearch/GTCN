@@ -1,0 +1,187 @@
+{
+    "Function": "irongate_setup_agp",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        11,
+        13
+    ],
+    "cfgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "IRONGATE0",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.and",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "IRONGATE0",
+        "10": "FIELD_IDENTIFIER",
+        "11": "~0xf",
+        "12": "<operator>.assignment",
+        "13": "alpha_agpgart_size",
+        "14": "LITERAL",
+        "15": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "Function": "sun4i_cpu_clk_setup",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        7
+    ],
+    "cfgEdges": [
+        [
+            5,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "sunxi_mux_clk_setup",
+        "4": "node",
+        "5": "<operator>.addressOf",
+        "6": "sun4i_cpu_mux_data",
+        "7": "CLK_IS_CRITICAL",
+        "8": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "Function": "tty_write_lock",
+    "astEdges": [
+        [
+            18,
+            19
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            28
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            23
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        13,
+        16,
+        21,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            27
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "mutex_trylock",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "tty",
+        "10": "FIELD_IDENTIFIER",
+        "11": "BLOCK",
+        "12": "CONTROL_STRUCTURE",
+        "13": "ndelay",
+        "14": "RETURN",
+        "15": "<operator>.minus",
+        "16": "EAGAIN",
+        "17": "CONTROL_STRUCTURE",
+        "18": "mutex_lock_interruptible",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "tty",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RETURN",
+        "24": "<operator>.minus",
+        "25": "ERESTARTSYS",
+        "26": "RETURN",
+        "27": "LITERAL",
+        "28": "METHOD_RETURN"
+    }
+}

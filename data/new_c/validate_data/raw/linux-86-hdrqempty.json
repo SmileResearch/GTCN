@@ -1,0 +1,318 @@
+{
+    "Function": "hdrqempty",
+    "astEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            36
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            37
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            7,
+            18
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            19,
+            26
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            41
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        14,
+        16,
+        17,
+        18,
+        21,
+        23,
+        25,
+        28,
+        31,
+        34,
+        36,
+        39,
+        40
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            40
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "head",
+        "7": "<operator>.arithmeticShiftRight",
+        "8": "<operator>.and",
+        "9": "read_uctxt_csr",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "rcd",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "rcd",
+        "15": "FIELD_IDENTIFIER",
+        "16": "RCV_HDR_HEAD",
+        "17": "RCV_HDR_HEAD_HEAD_SMASK",
+        "18": "RCV_HDR_HEAD_HEAD_SHIFT",
+        "19": "CONTROL_STRUCTURE",
+        "20": "hfi1_rcvhdrtail_kvaddr",
+        "21": "rcd",
+        "22": "<operator>.assignment",
+        "23": "tail",
+        "24": "get_rcvhdrtail",
+        "25": "rcd",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.assignment",
+        "28": "tail",
+        "29": "read_uctxt_csr",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "rcd",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "rcd",
+        "35": "FIELD_IDENTIFIER",
+        "36": "RCV_HDR_TAIL",
+        "37": "RETURN",
+        "38": "<operator>.equals",
+        "39": "head",
+        "40": "tail",
+        "41": "METHOD_RETURN"
+    }
+}

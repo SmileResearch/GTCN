@@ -1,0 +1,128 @@
+{
+    "Function": "Isdnl2_cleanup",
+    "astEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mISDN_unregister_Bprotocol",
+        "4": "<operator>.addressOf",
+        "5": "X75SLP",
+        "6": "TEIFree",
+        "7": "mISDN_FsmFree",
+        "8": "<operator>.addressOf",
+        "9": "l2fsm",
+        "10": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "Function": "isicom_exit",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "del_timer_sync",
+        "4": "<operator>.addressOf",
+        "5": "tx",
+        "6": "pci_unregister_driver",
+        "7": "<operator>.addressOf",
+        "8": "isicom_driver",
+        "9": "tty_unregister_driver",
+        "10": "isicom_normal",
+        "11": "put_tty_driver",
+        "12": "isicom_normal",
+        "13": "METHOD_RETURN"
+    }
+}

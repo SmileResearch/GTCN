@@ -1,0 +1,146 @@
+{
+    "Function": "hci_leds_init",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "hdev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "led_allocate_basic",
+        "8": "hdev",
+        "9": "power_activate",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "Function": "stmmac_global_err",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "netif_carrier_off",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "priv",
+        "6": "FIELD_IDENTIFIER",
+        "7": "set_bit",
+        "8": "STMMAC_RESET_REQUESTED",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "priv",
+        "12": "FIELD_IDENTIFIER",
+        "13": "stmmac_service_event_schedule",
+        "14": "priv",
+        "15": "METHOD_RETURN"
+    }
+}

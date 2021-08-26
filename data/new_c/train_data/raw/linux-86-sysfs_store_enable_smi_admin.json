@@ -1,0 +1,342 @@
+{
+    "Function": "sysfs_store_enable_smi_admin",
+    "astEdges": [
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            23
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            40
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            27,
+            36
+        ],
+        [
+            27,
+            33
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            39
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            45
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            5,
+            26
+        ],
+        [
+            5,
+            43
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ]
+    ],
+    "candidateNodeList": [
+        11,
+        14,
+        18,
+        21,
+        25,
+        30,
+        34,
+        37,
+        39,
+        42,
+        44
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            42,
+            44
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.logicalOr",
+        "9": "<operator>.notEquals",
+        "10": "sscanf",
+        "11": "buf",
+        "12": "LITERAL",
+        "13": "<operator>.addressOf",
+        "14": "enable",
+        "15": "LITERAL",
+        "16": "<operator>.logicalOr",
+        "17": "<operator>.lessThan",
+        "18": "enable",
+        "19": "LITERAL",
+        "20": "<operator>.greaterThan",
+        "21": "enable",
+        "22": "LITERAL",
+        "23": "RETURN",
+        "24": "<operator>.minus",
+        "25": "EINVAL",
+        "26": "CONTROL_STRUCTURE",
+        "27": "mlx4_vf_set_enable_smi_admin",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "p",
+        "31": "FIELD_IDENTIFIER",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "p",
+        "35": "FIELD_IDENTIFIER",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "p",
+        "38": "FIELD_IDENTIFIER",
+        "39": "enable",
+        "40": "RETURN",
+        "41": "<operator>.minus",
+        "42": "EINVAL",
+        "43": "RETURN",
+        "44": "count",
+        "45": "METHOD_RETURN"
+    }
+}

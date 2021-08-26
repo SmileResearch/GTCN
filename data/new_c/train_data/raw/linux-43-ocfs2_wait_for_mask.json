@@ -1,0 +1,200 @@
+{
+    "Function": "ocfs2_wait_for_mask",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        15
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            16
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "wait_for_completion",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "mw",
+        "7": "FIELD_IDENTIFIER",
+        "8": "reinit_completion",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "mw",
+        "12": "FIELD_IDENTIFIER",
+        "13": "RETURN",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "mw",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

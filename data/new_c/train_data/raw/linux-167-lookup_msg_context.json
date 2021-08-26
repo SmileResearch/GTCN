@@ -1,0 +1,137 @@
+{
+    "Function": "lookup_msg_context",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            5,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "idr_find",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "instance",
+        "9": "FIELD_IDENTIFIER",
+        "10": "handle",
+        "11": "METHOD_RETURN"
+    }
+}

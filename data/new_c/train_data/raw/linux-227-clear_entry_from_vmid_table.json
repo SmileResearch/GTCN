@@ -1,0 +1,225 @@
+{
+    "Function": "clear_entry_from_vmid_table",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            16
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        12,
+        14,
+        18
+    ],
+    "cfgEdges": [
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            19
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            5,
+            20
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            17,
+            16
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            5,
+            20
+        ],
+        [
+            5,
+            20
+        ],
+        [
+            5,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.lessThan",
+        "6": "vmid",
+        "7": "MAX_VMID",
+        "8": "BLOCK",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectIndexAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "core_vmid",
+        "13": "FIELD_IDENTIFIER",
+        "14": "vmid",
+        "15": "LITERAL",
+        "16": "<operator>.postIncrement",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "core_vmid",
+        "19": "FIELD_IDENTIFIER",
+        "20": "METHOD_RETURN"
+    }
+}

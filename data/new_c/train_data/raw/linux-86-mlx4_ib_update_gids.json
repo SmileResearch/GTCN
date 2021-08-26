@@ -1,0 +1,199 @@
+{
+    "Function": "mlx4_ib_update_gids",
+    "astEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            25
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        14,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.and",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ibdev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "MLX4_DEV_CAP_FLAG2_ROCE_V1_V2",
+        "15": "RETURN",
+        "16": "mlx4_ib_update_gids_v1_v2",
+        "17": "gids",
+        "18": "ibdev",
+        "19": "port_num",
+        "20": "RETURN",
+        "21": "mlx4_ib_update_gids_v1",
+        "22": "gids",
+        "23": "ibdev",
+        "24": "port_num",
+        "25": "METHOD_RETURN"
+    }
+}

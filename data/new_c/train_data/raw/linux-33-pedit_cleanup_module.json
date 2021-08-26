@@ -1,0 +1,94 @@
+{
+    "Function": "pedit_cleanup_module",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7
+    ],
+    "cfgEdges": [
+        [
+            6,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "tcf_unregister_action",
+        "4": "<operator>.addressOf",
+        "5": "act_pedit_ops",
+        "6": "<operator>.addressOf",
+        "7": "pedit_net_ops",
+        "8": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "Function": "get_all_cpu_total",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        14,
+        15,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "counter",
+        "7": "LITERAL",
+        "8": "<operator>.assignmentPlus",
+        "9": "<operator>.cast",
+        "10": "UNKNOWN",
+        "11": "counter",
+        "12": "<operator>.indirection",
+        "13": "per_cpu_ptr",
+        "14": "cntr",
+        "15": "cpu",
+        "16": "RETURN",
+        "17": "counter",
+        "18": "METHOD_RETURN"
+    }
+}

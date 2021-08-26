@@ -1,0 +1,150 @@
+{
+    "Function": "coherency_late_init",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9
+    ],
+    "cfgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            8,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "coherency_available",
+        "5": "bus_register_notifier",
+        "6": "<operator>.addressOf",
+        "7": "platform_bus_type",
+        "8": "<operator>.addressOf",
+        "9": "mvebu_hwcc_nb",
+        "10": "RETURN",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

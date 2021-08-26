@@ -1,0 +1,183 @@
+{
+    "Function": "switchtec_ntb_deinit_crosslink",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        14
+    ],
+    "cfgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            16
+        ],
+        [
+            7,
+            16
+        ],
+        [
+            7,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "sndev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "pci_iounmap",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "sndev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "sndev",
+        "15": "FIELD_IDENTIFIER",
+        "16": "METHOD_RETURN"
+    }
+}

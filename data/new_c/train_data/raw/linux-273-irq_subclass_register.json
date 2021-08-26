@@ -1,0 +1,244 @@
+{
+    "Function": "irq_subclass_register",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            2,
+            18
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        10,
+        13,
+        16,
+        17,
+        20
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            19,
+            18
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            7,
+            21
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            11,
+            21
+        ],
+        [
+            11,
+            21
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock",
+        "4": "<operator>.addressOf",
+        "5": "irq_subclass_lock",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.logicalNot",
+        "8": "<operator>.indirectIndexAccess",
+        "9": "irq_subclass_refcount",
+        "10": "subclass",
+        "11": "ctl_set_bit",
+        "12": "LITERAL",
+        "13": "subclass",
+        "14": "<operator>.postIncrement",
+        "15": "<operator>.indirectIndexAccess",
+        "16": "irq_subclass_refcount",
+        "17": "subclass",
+        "18": "spin_unlock",
+        "19": "<operator>.addressOf",
+        "20": "irq_subclass_lock",
+        "21": "METHOD_RETURN"
+    }
+}

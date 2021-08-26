@@ -1,0 +1,611 @@
+{
+    "Function": "mptsas_remove",
+    "astEdges": [
+        [
+            29,
+            30
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            62
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            75,
+            79
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            82
+        ],
+        [
+            2,
+            29
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            80
+        ],
+        [
+            2,
+            70
+        ],
+        [
+            2,
+            75
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            22
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            24
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            38
+        ],
+        [
+            2,
+            33
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            63
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            48
+        ],
+        [
+            44,
+            55
+        ],
+        [
+            44,
+            53
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            38,
+            64
+        ],
+        [
+            38,
+            68
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            44
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            76,
+            78
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            53,
+            54
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        14,
+        18,
+        21,
+        23,
+        26,
+        31,
+        36,
+        42,
+        46,
+        49,
+        51,
+        54,
+        56,
+        60,
+        62,
+        66,
+        69,
+        73,
+        77,
+        79,
+        81
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            66
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            67,
+            69
+        ],
+        [
+            69,
+            73
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            74,
+            77
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            79,
+            81
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "ioc",
+        "6": "pci_get_drvdata",
+        "7": "pdev",
+        "8": "LOCAL",
+        "9": "LOCAL",
+        "10": "LOCAL",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.logicalNot",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "ioc",
+        "15": "FIELD_IDENTIFIER",
+        "16": "BLOCK",
+        "17": "mpt_detach",
+        "18": "pdev",
+        "19": "RETURN",
+        "20": "mptsas_shutdown",
+        "21": "pdev",
+        "22": "mptsas_del_device_components",
+        "23": "ioc",
+        "24": "<operator>.assignment",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "ioc",
+        "27": "FIELD_IDENTIFIER",
+        "28": "LITERAL",
+        "29": "sas_remove_host",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "ioc",
+        "32": "FIELD_IDENTIFIER",
+        "33": "mutex_lock",
+        "34": "<operator>.addressOf",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "ioc",
+        "37": "FIELD_IDENTIFIER",
+        "38": "BLOCK",
+        "39": "list_del",
+        "40": "<operator>.addressOf",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "p",
+        "43": "FIELD_IDENTIFIER",
+        "44": "CONTROL_STRUCTURE",
+        "45": "<operator>.assignment",
+        "46": "i",
+        "47": "LITERAL",
+        "48": "<operator>.lessThan",
+        "49": "i",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "p",
+        "52": "FIELD_IDENTIFIER",
+        "53": "<operator>.postIncrement",
+        "54": "i",
+        "55": "mptsas_port_delete",
+        "56": "ioc",
+        "57": "<operator>.fieldAccess",
+        "58": "<operator>.indirectIndexAccess",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "p",
+        "61": "FIELD_IDENTIFIER",
+        "62": "i",
+        "63": "FIELD_IDENTIFIER",
+        "64": "kfree",
+        "65": "<operator>.indirectFieldAccess",
+        "66": "p",
+        "67": "FIELD_IDENTIFIER",
+        "68": "kfree",
+        "69": "p",
+        "70": "mutex_unlock",
+        "71": "<operator>.addressOf",
+        "72": "<operator>.indirectFieldAccess",
+        "73": "ioc",
+        "74": "FIELD_IDENTIFIER",
+        "75": "<operator>.assignment",
+        "76": "<operator>.indirectFieldAccess",
+        "77": "ioc",
+        "78": "FIELD_IDENTIFIER",
+        "79": "NULL",
+        "80": "mptscsih_remove",
+        "81": "pdev",
+        "82": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,420 @@
+{
+    "Function": "pty_write",
+    "astEdges": [
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            38
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            30
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            22,
+            47
+        ],
+        [
+            22,
+            39
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            39,
+            46
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            53
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            55
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        14,
+        20,
+        27,
+        30,
+        32,
+        35,
+        37,
+        38,
+        43,
+        46,
+        48,
+        51,
+        54
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "to",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "tty",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LOCAL",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "tty",
+        "15": "FIELD_IDENTIFIER",
+        "16": "RETURN",
+        "17": "LITERAL",
+        "18": "CONTROL_STRUCTURE",
+        "19": "<operator>.greaterThan",
+        "20": "c",
+        "21": "LITERAL",
+        "22": "BLOCK",
+        "23": "spin_lock_irqsave",
+        "24": "<operator>.addressOf",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "to",
+        "28": "FIELD_IDENTIFIER",
+        "29": "FIELD_IDENTIFIER",
+        "30": "flags",
+        "31": "<operator>.assignment",
+        "32": "c",
+        "33": "tty_insert_flip_string",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "to",
+        "36": "FIELD_IDENTIFIER",
+        "37": "buf",
+        "38": "c",
+        "39": "spin_unlock_irqrestore",
+        "40": "<operator>.addressOf",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "to",
+        "44": "FIELD_IDENTIFIER",
+        "45": "FIELD_IDENTIFIER",
+        "46": "flags",
+        "47": "CONTROL_STRUCTURE",
+        "48": "c",
+        "49": "tty_flip_buffer_push",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "to",
+        "52": "FIELD_IDENTIFIER",
+        "53": "RETURN",
+        "54": "c",
+        "55": "METHOD_RETURN"
+    }
+}

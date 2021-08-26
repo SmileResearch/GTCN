@@ -1,0 +1,142 @@
+{
+    "Function": "bcm2835_audio_unlock",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "vchiq_release_service",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "instance",
+        "6": "FIELD_IDENTIFIER",
+        "7": "mutex_unlock",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "instance",
+        "11": "FIELD_IDENTIFIER",
+        "12": "METHOD_RETURN"
+    }
+}

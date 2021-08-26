@@ -1,0 +1,139 @@
+{
+    "Function": "ZSTD_hash5",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        14,
+        17
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "RETURN",
+        "5": "<operator>.cast",
+        "6": "UNKNOWN",
+        "7": "<operator>.arithmeticShiftRight",
+        "8": "<operator>.multiplication",
+        "9": "<operator>.shiftLeft",
+        "10": "u",
+        "11": "<operator>.subtraction",
+        "12": "LITERAL",
+        "13": "LITERAL",
+        "14": "prime5bytes",
+        "15": "<operator>.subtraction",
+        "16": "LITERAL",
+        "17": "h",
+        "18": "METHOD_RETURN"
+    }
+}

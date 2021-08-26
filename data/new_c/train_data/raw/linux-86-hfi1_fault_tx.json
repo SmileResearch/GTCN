@@ -1,0 +1,226 @@
+{
+    "Function": "hfi1_fault_tx",
+    "astEdges": [
+        [
+            22,
+            23
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            29
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            4,
+            27
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        10,
+        13,
+        14,
+        16,
+        20,
+        21,
+        25,
+        26,
+        28
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            28
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.equals",
+        "7": "<operator>.and",
+        "8": "opcode",
+        "9": "IB_OPCODE_MSP",
+        "10": "IB_OPCODE_MSP",
+        "11": "BLOCK",
+        "12": "<operators>.assignmentAnd",
+        "13": "pbc",
+        "14": "~PBC_INSERT_HCRC_SMASK",
+        "15": "<operators>.assignmentOr",
+        "16": "pbc",
+        "17": "<operator>.shiftLeft",
+        "18": "<operator>.cast",
+        "19": "UNKNOWN",
+        "20": "PBC_IHCRC_NONE",
+        "21": "PBC_INSERT_HCRC_SHIFT",
+        "22": "CONTROL_STRUCTURE",
+        "23": "BLOCK",
+        "24": "<operators>.assignmentOr",
+        "25": "pbc",
+        "26": "PBC_TEST_EBP",
+        "27": "RETURN",
+        "28": "pbc",
+        "29": "METHOD_RETURN"
+    }
+}

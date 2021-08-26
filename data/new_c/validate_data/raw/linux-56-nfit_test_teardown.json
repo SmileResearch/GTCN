@@ -1,0 +1,114 @@
+{
+    "Function": "nfit_test_teardown",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "list_del_rcu",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "iomap_ops",
+        "7": "FIELD_IDENTIFIER",
+        "8": "synchronize_rcu",
+        "9": "METHOD_RETURN"
+    }
+}

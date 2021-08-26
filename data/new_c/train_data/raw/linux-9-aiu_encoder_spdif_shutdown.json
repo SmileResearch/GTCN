@@ -1,0 +1,262 @@
+{
+    "Function": "aiu_encoder_spdif_shutdown",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            21
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        14,
+        19
+    ],
+    "cfgEdges": [
+        [
+            16,
+            12
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            11,
+            22
+        ],
+        [
+            12,
+            20
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            17,
+            11
+        ],
+        [
+            21,
+            17
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            22
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            11,
+            22
+        ],
+        [
+            11,
+            22
+        ],
+        [
+            11,
+            22
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "aiu",
+        "7": "snd_soc_component_get_drvdata",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dai",
+        "10": "FIELD_IDENTIFIER",
+        "11": "clk_bulk_disable_unprepare",
+        "12": "<operator>.fieldAccess",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "aiu",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "<operator>.fieldAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "aiu",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

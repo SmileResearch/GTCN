@@ -1,0 +1,701 @@
+{
+    "Function": "mptspi_slave_alloc",
+    "astEdges": [
+        [
+            58,
+            60
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            20,
+            26
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            86,
+            87
+        ],
+        [
+            86,
+            90
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            71,
+            75
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            33
+        ],
+        [
+            43,
+            46
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            81,
+            85
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            80,
+            86
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            82,
+            84
+        ],
+        [
+            82,
+            83
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            2,
+            43
+        ],
+        [
+            2,
+            76
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            19
+        ],
+        [
+            2,
+            66
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            37
+        ],
+        [
+            2,
+            50
+        ],
+        [
+            2,
+            91
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            80
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            71
+        ],
+        [
+            2,
+            62
+        ],
+        [
+            2,
+            57
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            39,
+            42
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            77,
+            79
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            62,
+            64
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            19,
+            34
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            57,
+            61
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            54,
+            56
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            93
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            91,
+            92
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            87,
+            88
+        ],
+        [
+            87,
+            89
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        15,
+        17,
+        23,
+        28,
+        31,
+        36,
+        38,
+        41,
+        42,
+        45,
+        49,
+        52,
+        55,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        73,
+        75,
+        78,
+        83,
+        88
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            45,
+            49
+        ],
+        [
+            49,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            63
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            67,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            73
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            75,
+            78
+        ],
+        [
+            78,
+            79
+        ],
+        [
+            79,
+            83
+        ],
+        [
+            83,
+            84
+        ],
+        [
+            84,
+            85
+        ],
+        [
+            85,
+            88
+        ],
+        [
+            88,
+            89
+        ],
+        [
+            89,
+            90
+        ],
+        [
+            90,
+            92
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "hd",
+        "6": "shost_priv",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "sdev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "LOCAL",
+        "11": "LOCAL",
+        "12": "LOCAL",
+        "13": "LOCAL",
+        "14": "<operator>.assignment",
+        "15": "ioc",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "hd",
+        "18": "FIELD_IDENTIFIER",
+        "19": "CONTROL_STRUCTURE",
+        "20": "<operator>.logicalAnd",
+        "21": "<operator>.equals",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "sdev",
+        "24": "FIELD_IDENTIFIER",
+        "25": "LITERAL",
+        "26": "<operator>.equals",
+        "27": "mptscsih_is_phys_disk",
+        "28": "ioc",
+        "29": "LITERAL",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "sdev",
+        "32": "FIELD_IDENTIFIER",
+        "33": "LITERAL",
+        "34": "RETURN",
+        "35": "<operator>.minus",
+        "36": "ENXIO",
+        "37": "<operator>.assignment",
+        "38": "vdevice",
+        "39": "kzalloc",
+        "40": "<operator>.sizeOf",
+        "41": "VirtDevice",
+        "42": "GFP_KERNEL",
+        "43": "CONTROL_STRUCTURE",
+        "44": "<operator>.logicalNot",
+        "45": "vdevice",
+        "46": "BLOCK",
+        "47": "RETURN",
+        "48": "<operator>.minus",
+        "49": "ENOMEM",
+        "50": "<operator>.assignment",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "vdevice",
+        "53": "FIELD_IDENTIFIER",
+        "54": "<operator>.indirectFieldAccess",
+        "55": "sdev",
+        "56": "FIELD_IDENTIFIER",
+        "57": "<operator>.assignment",
+        "58": "<operator>.indirectFieldAccess",
+        "59": "sdev",
+        "60": "FIELD_IDENTIFIER",
+        "61": "vdevice",
+        "62": "<operator>.assignment",
+        "63": "starget",
+        "64": "scsi_target",
+        "65": "sdev",
+        "66": "<operator>.assignment",
+        "67": "vtarget",
+        "68": "<operator>.indirectFieldAccess",
+        "69": "starget",
+        "70": "FIELD_IDENTIFIER",
+        "71": "<operator>.assignment",
+        "72": "<operator>.indirectFieldAccess",
+        "73": "vdevice",
+        "74": "FIELD_IDENTIFIER",
+        "75": "vtarget",
+        "76": "<operator>.postIncrement",
+        "77": "<operator>.indirectFieldAccess",
+        "78": "vtarget",
+        "79": "FIELD_IDENTIFIER",
+        "80": "CONTROL_STRUCTURE",
+        "81": "<operator>.equals",
+        "82": "<operator>.indirectFieldAccess",
+        "83": "sdev",
+        "84": "FIELD_IDENTIFIER",
+        "85": "LITERAL",
+        "86": "<operator>.assignment",
+        "87": "<operator>.indirectFieldAccess",
+        "88": "sdev",
+        "89": "FIELD_IDENTIFIER",
+        "90": "LITERAL",
+        "91": "RETURN",
+        "92": "LITERAL",
+        "93": "METHOD_RETURN"
+    }
+}

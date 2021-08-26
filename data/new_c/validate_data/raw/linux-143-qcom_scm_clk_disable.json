@@ -1,0 +1,182 @@
+{
+    "Function": "qcom_scm_clk_disable",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            11,
+            15
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            7,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "clk_disable_unprepare",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "__scm",
+        "6": "FIELD_IDENTIFIER",
+        "7": "clk_disable_unprepare",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "__scm",
+        "10": "FIELD_IDENTIFIER",
+        "11": "clk_disable_unprepare",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "__scm",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

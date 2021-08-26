@@ -1,0 +1,358 @@
+{
+    "Function": "hns_roce_add_gid",
+    "astEdges": [
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            44
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            20,
+            28
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            43
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            33,
+            39
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            46
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13,
+        16,
+        22,
+        25,
+        30,
+        32,
+        34,
+        35,
+        37,
+        41,
+        43,
+        45
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "hr_dev",
+        "7": "to_hr_dev",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "attr",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LOCAL",
+        "12": "<operator>.assignment",
+        "13": "port",
+        "14": "<operator>.subtraction",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "attr",
+        "17": "FIELD_IDENTIFIER",
+        "18": "LITERAL",
+        "19": "LOCAL",
+        "20": "CONTROL_STRUCTURE",
+        "21": "<operator>.greaterEqualsThan",
+        "22": "port",
+        "23": "<operator>.fieldAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "hr_dev",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "RETURN",
+        "29": "<operator>.minus",
+        "30": "EINVAL",
+        "31": "<operator>.assignment",
+        "32": "ret",
+        "33": "hr_dev->hw->set_gid",
+        "34": "hr_dev",
+        "35": "port",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "attr",
+        "38": "FIELD_IDENTIFIER",
+        "39": "<operator>.addressOf",
+        "40": "<operator>.indirectFieldAccess",
+        "41": "attr",
+        "42": "FIELD_IDENTIFIER",
+        "43": "attr",
+        "44": "RETURN",
+        "45": "ret",
+        "46": "METHOD_RETURN"
+    }
+}

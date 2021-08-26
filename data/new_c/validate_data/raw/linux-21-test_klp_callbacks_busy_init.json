@@ -1,0 +1,132 @@
+{
+    "Function": "test_klp_callbacks_busy_init",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pr_info",
+        "4": "LITERAL",
+        "5": "__func__",
+        "6": "schedule_work",
+        "7": "<operator>.addressOf",
+        "8": "work",
+        "9": "CONTROL_STRUCTURE",
+        "10": "<operator>.logicalNot",
+        "11": "block_transition",
+        "12": "BLOCK",
+        "13": "flush_work",
+        "14": "<operator>.addressOf",
+        "15": "work",
+        "16": "RETURN",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

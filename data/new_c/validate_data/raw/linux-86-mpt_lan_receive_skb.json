@@ -1,0 +1,401 @@
+{
+    "Function": "mpt_lan_receive_skb",
+    "astEdges": [
+        [
+            25,
+            26
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            51
+        ],
+        [
+            3,
+            38
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            31
+        ],
+        [
+            3,
+            25
+        ],
+        [
+            3,
+            36
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            48
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            0,
+            53
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            39,
+            45
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        11,
+        14,
+        15,
+        19,
+        23,
+        28,
+        33,
+        35,
+        37,
+        43,
+        46,
+        49
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            52
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "priv",
+        "7": "netdev_priv",
+        "8": "dev",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "skb",
+        "12": "FIELD_IDENTIFIER",
+        "13": "mpt_lan_type_trans",
+        "14": "skb",
+        "15": "dev",
+        "16": "<operator>.assignmentPlus",
+        "17": "<operator>.fieldAccess",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "dev",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "skb",
+        "24": "FIELD_IDENTIFIER",
+        "25": "<operator>.postIncrement",
+        "26": "<operator>.fieldAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "dev",
+        "29": "FIELD_IDENTIFIER",
+        "30": "FIELD_IDENTIFIER",
+        "31": "<operator>.assignment",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "skb",
+        "34": "FIELD_IDENTIFIER",
+        "35": "dev",
+        "36": "netif_rx",
+        "37": "skb",
+        "38": "CONTROL_STRUCTURE",
+        "39": "<operator>.lessThan",
+        "40": "atomic_read",
+        "41": "<operator>.addressOf",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "priv",
+        "44": "FIELD_IDENTIFIER",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "priv",
+        "47": "FIELD_IDENTIFIER",
+        "48": "mpt_lan_wake_post_buckets_task",
+        "49": "dev",
+        "50": "LITERAL",
+        "51": "RETURN",
+        "52": "LITERAL",
+        "53": "METHOD_RETURN"
+    }
+}

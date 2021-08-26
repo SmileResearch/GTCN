@@ -1,0 +1,116 @@
+{
+    "Function": "kgdbts_put_char",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.fieldAccess",
+        "5": "ts",
+        "6": "FIELD_IDENTIFIER",
+        "7": "ts.run_test",
+        "8": "LITERAL",
+        "9": "chr",
+        "10": "METHOD_RETURN"
+    }
+}

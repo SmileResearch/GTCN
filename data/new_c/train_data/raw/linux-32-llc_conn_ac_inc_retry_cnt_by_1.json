@@ -1,0 +1,132 @@
+{
+    "Function": "llc_conn_ac_inc_retry_cnt_by_1",
+    "astEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        7
+    ],
+    "cfgEdges": [
+        [
+            8,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.postIncrement",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "llc_sk",
+        "7": "sk",
+        "8": "FIELD_IDENTIFIER",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "Function": "modereset_required",
+    "astEdges": [
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalAnd",
+        "5": "<operator>.logicalNot",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "crtc_state",
+        "8": "FIELD_IDENTIFIER",
+        "9": "drm_atomic_crtc_needs_modeset",
+        "10": "crtc_state",
+        "11": "METHOD_RETURN"
+    }
+}

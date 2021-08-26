@@ -1,0 +1,114 @@
+{
+    "Function": "rackmeter_init",
+    "astEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            5,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pr_debug",
+        "4": "LITERAL",
+        "5": "RETURN",
+        "6": "macio_register_driver",
+        "7": "<operator>.addressOf",
+        "8": "rackmeter_driver",
+        "9": "METHOD_RETURN"
+    }
+}

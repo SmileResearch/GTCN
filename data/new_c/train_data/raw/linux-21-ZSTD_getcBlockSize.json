@@ -1,0 +1,499 @@
+{
+    "Function": "ZSTD_getcBlockSize",
+    "astEdges": [
+        [
+            61,
+            62
+        ],
+        [
+            56,
+            60
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            52
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            55,
+            61
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            0,
+            66
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            57,
+            59
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            53
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            12,
+            31
+        ],
+        [
+            12,
+            19
+        ],
+        [
+            12,
+            55
+        ],
+        [
+            12,
+            47
+        ],
+        [
+            12,
+            42
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            24
+        ],
+        [
+            12,
+            64
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            42,
+            43
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        11,
+        15,
+        17,
+        20,
+        22,
+        26,
+        29,
+        33,
+        39,
+        44,
+        46,
+        50,
+        52,
+        58,
+        60,
+        63,
+        65
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            60,
+            63
+        ],
+        [
+            63,
+            65
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "CONTROL_STRUCTURE",
+        "6": "<operator>.lessThan",
+        "7": "srcSize",
+        "8": "ZSTD_blockHeaderSize",
+        "9": "RETURN",
+        "10": "ERROR",
+        "11": "srcSize_wrong",
+        "12": "BLOCK",
+        "13": "LOCAL",
+        "14": "<operator>.assignment",
+        "15": "cBlockHeader",
+        "16": "ZSTD_readLE24",
+        "17": "src",
+        "18": "LOCAL",
+        "19": "<operator>.assignment",
+        "20": "cSize",
+        "21": "<operator>.arithmeticShiftRight",
+        "22": "cBlockHeader",
+        "23": "LITERAL",
+        "24": "<operator>.assignment",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "bpPtr",
+        "27": "FIELD_IDENTIFIER",
+        "28": "<operator>.and",
+        "29": "cBlockHeader",
+        "30": "LITERAL",
+        "31": "<operator>.assignment",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "bpPtr",
+        "34": "FIELD_IDENTIFIER",
+        "35": "<operator>.cast",
+        "36": "UNKNOWN",
+        "37": "<operator>.and",
+        "38": "<operator>.arithmeticShiftRight",
+        "39": "cBlockHeader",
+        "40": "LITERAL",
+        "41": "LITERAL",
+        "42": "<operator>.assignment",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "bpPtr",
+        "45": "FIELD_IDENTIFIER",
+        "46": "cSize",
+        "47": "CONTROL_STRUCTURE",
+        "48": "<operator>.equals",
+        "49": "<operator>.indirectFieldAccess",
+        "50": "bpPtr",
+        "51": "FIELD_IDENTIFIER",
+        "52": "bt_rle",
+        "53": "RETURN",
+        "54": "LITERAL",
+        "55": "CONTROL_STRUCTURE",
+        "56": "<operator>.equals",
+        "57": "<operator>.indirectFieldAccess",
+        "58": "bpPtr",
+        "59": "FIELD_IDENTIFIER",
+        "60": "bt_reserved",
+        "61": "RETURN",
+        "62": "ERROR",
+        "63": "corruption_detected",
+        "64": "RETURN",
+        "65": "cSize",
+        "66": "METHOD_RETURN"
+    }
+}

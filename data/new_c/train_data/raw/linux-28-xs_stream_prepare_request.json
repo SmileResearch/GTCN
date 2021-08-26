@@ -1,0 +1,244 @@
+{
+    "Function": "xs_stream_prepare_request",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            19
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        17,
+        19
+    ],
+    "cfgEdges": [
+        [
+            18,
+            16
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            20
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            14,
+            8
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            18
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            20
+        ],
+        [
+            8,
+            20
+        ],
+        [
+            3,
+            20
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            8
+        ],
+        [
+            14,
+            8
+        ],
+        [
+            0,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "xdr_free_bvec",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "req",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "req",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "xdr_alloc_bvec",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "req",
+        "18": "FIELD_IDENTIFIER",
+        "19": "GFP_KERNEL",
+        "20": "METHOD_RETURN"
+    }
+}

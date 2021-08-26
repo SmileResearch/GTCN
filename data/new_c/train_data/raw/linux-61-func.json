@@ -1,0 +1,50 @@
+{
+    "Function": "func",
+    "astEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "ddgEdges": [
+        [
+            2,
+            4
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "BLOCK",
+        "2": "RETURN",
+        "3": "LITERAL",
+        "4": "METHOD_RETURN"
+    }
+}

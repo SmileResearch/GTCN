@@ -1,0 +1,181 @@
+{
+    "Function": "__ordered_del_inode",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13
+    ],
+    "cfgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "list_empty",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ip",
+        "9": "FIELD_IDENTIFIER",
+        "10": "list_del_init",
+        "11": "<operator>.addressOf",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ip",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "Function": "arch_spin_lock_wait",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            11
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "test_cpu_flag",
+        "5": "CIF_DEDICATED_CPU",
+        "6": "arch_spin_lock_queued",
+        "7": "lp",
+        "8": "CONTROL_STRUCTURE",
+        "9": "arch_spin_lock_classic",
+        "10": "lp",
+        "11": "METHOD_RETURN"
+    }
+}

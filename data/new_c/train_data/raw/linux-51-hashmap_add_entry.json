@@ -1,0 +1,158 @@
+{
+    "Function": "hashmap_add_entry",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        12,
+        13
+    ],
+    "cfgEdges": [
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            14
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "entry",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.indirection",
+        "9": "pprev",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirection",
+        "12": "pprev",
+        "13": "entry",
+        "14": "METHOD_RETURN"
+    }
+}

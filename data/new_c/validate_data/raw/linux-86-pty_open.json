@@ -1,0 +1,599 @@
+{
+    "Function": "pty_open",
+    "astEdges": [
+        [
+            13,
+            14
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            64
+        ],
+        [
+            3,
+            50
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            79
+        ],
+        [
+            3,
+            33
+        ],
+        [
+            3,
+            72
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            70
+        ],
+        [
+            3,
+            56
+        ],
+        [
+            3,
+            73
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            49
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            67,
+            69
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            64,
+            66
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            76,
+            78
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            32
+        ],
+        [
+            42,
+            48
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            82
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            41
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            59,
+            63
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            42
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            60,
+            62
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        14,
+        17,
+        20,
+        25,
+        29,
+        38,
+        41,
+        45,
+        51,
+        54,
+        57,
+        61,
+        65,
+        68,
+        74,
+        77,
+        81
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            51,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            57,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            65,
+            68
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            69,
+            71
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            72,
+            74
+        ],
+        [
+            74,
+            77
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            78,
+            81
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalOr",
+        "6": "<operator>.logicalNot",
+        "7": "tty",
+        "8": "<operator>.logicalNot",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "tty",
+        "11": "FIELD_IDENTIFIER",
+        "12": "RETURN",
+        "13": "<operator>.minus",
+        "14": "ENODEV",
+        "15": "CONTROL_STRUCTURE",
+        "16": "test_bit",
+        "17": "TTY_OTHER_CLOSED",
+        "18": "<operator>.addressOf",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "tty",
+        "21": "FIELD_IDENTIFIER",
+        "22": "CONTROL_STRUCTURE",
+        "23": "CONTROL_STRUCTURE",
+        "24": "test_bit",
+        "25": "TTY_PTY_LOCK",
+        "26": "<operator>.addressOf",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "tty",
+        "30": "FIELD_IDENTIFIER",
+        "31": "FIELD_IDENTIFIER",
+        "32": "CONTROL_STRUCTURE",
+        "33": "CONTROL_STRUCTURE",
+        "34": "<operator>.logicalAnd",
+        "35": "<operator>.equals",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "tty",
+        "39": "FIELD_IDENTIFIER",
+        "40": "FIELD_IDENTIFIER",
+        "41": "PTY_TYPE_SLAVE",
+        "42": "<operator>.notEquals",
+        "43": "<operator>.indirectFieldAccess",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "tty",
+        "46": "FIELD_IDENTIFIER",
+        "47": "FIELD_IDENTIFIER",
+        "48": "LITERAL",
+        "49": "CONTROL_STRUCTURE",
+        "50": "clear_bit",
+        "51": "TTY_IO_ERROR",
+        "52": "<operator>.addressOf",
+        "53": "<operator>.indirectFieldAccess",
+        "54": "tty",
+        "55": "FIELD_IDENTIFIER",
+        "56": "clear_bit",
+        "57": "TTY_OTHER_CLOSED",
+        "58": "<operator>.addressOf",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "<operator>.indirectFieldAccess",
+        "61": "tty",
+        "62": "FIELD_IDENTIFIER",
+        "63": "FIELD_IDENTIFIER",
+        "64": "set_bit",
+        "65": "TTY_THROTTLED",
+        "66": "<operator>.addressOf",
+        "67": "<operator>.indirectFieldAccess",
+        "68": "tty",
+        "69": "FIELD_IDENTIFIER",
+        "70": "RETURN",
+        "71": "LITERAL",
+        "72": "JUMP_TARGET",
+        "73": "set_bit",
+        "74": "TTY_IO_ERROR",
+        "75": "<operator>.addressOf",
+        "76": "<operator>.indirectFieldAccess",
+        "77": "tty",
+        "78": "FIELD_IDENTIFIER",
+        "79": "RETURN",
+        "80": "<operator>.minus",
+        "81": "EIO",
+        "82": "METHOD_RETURN"
+    }
+}

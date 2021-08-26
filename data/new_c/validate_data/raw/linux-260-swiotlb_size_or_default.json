@@ -1,0 +1,22 @@
+{
+    "Function": "swiotlb_size_or_default",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "METHOD_RETURN",
+        "2": "BLOCK"
+    }
+}

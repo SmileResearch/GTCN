@@ -1,0 +1,568 @@
+{
+    "Function": "__mlx4_ib_alloc_diag_counters",
+    "astEdges": [
+        [
+            72,
+            73
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            42
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            78
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            53
+        ],
+        [
+            53,
+            59
+        ],
+        [
+            53,
+            55
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            6,
+            72
+        ],
+        [
+            6,
+            69
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            71
+        ],
+        [
+            6,
+            43
+        ],
+        [
+            6,
+            60
+        ],
+        [
+            6,
+            26
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            65
+        ],
+        [
+            6,
+            33
+        ],
+        [
+            6,
+            50
+        ],
+        [
+            6,
+            75
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            12,
+            22
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            60,
+            64
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            65,
+            66
+        ],
+        [
+            65,
+            68
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            66,
+            67
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11,
+        17,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        35,
+        37,
+        41,
+        42,
+        46,
+        49,
+        52,
+        54,
+        58,
+        59,
+        63,
+        67,
+        68,
+        74,
+        77
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            52
+        ],
+        [
+            52,
+            54
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            59,
+            63
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            64,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            71,
+            74
+        ],
+        [
+            74,
+            77
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "LOCAL",
+        "8": "<operator>.assignment",
+        "9": "num_counters",
+        "10": "ARRAY_SIZE",
+        "11": "diag_basic",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.and",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "ibdev",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "MLX4_DEV_CAP_FLAG2_DIAG_PER_PORT",
+        "22": "<operator>.assignmentPlus",
+        "23": "num_counters",
+        "24": "ARRAY_SIZE",
+        "25": "diag_ext",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.logicalNot",
+        "28": "port",
+        "29": "<operator>.assignmentPlus",
+        "30": "num_counters",
+        "31": "ARRAY_SIZE",
+        "32": "diag_device_only",
+        "33": "<operator>.assignment",
+        "34": "<operator>.indirection",
+        "35": "name",
+        "36": "kcalloc",
+        "37": "num_counters",
+        "38": "<operator>.sizeOf",
+        "39": "<operator>.indirection",
+        "40": "<operator>.indirection",
+        "41": "name",
+        "42": "GFP_KERNEL",
+        "43": "CONTROL_STRUCTURE",
+        "44": "<operator>.logicalNot",
+        "45": "<operator>.indirection",
+        "46": "name",
+        "47": "RETURN",
+        "48": "<operator>.minus",
+        "49": "ENOMEM",
+        "50": "<operator>.assignment",
+        "51": "<operator>.indirection",
+        "52": "offset",
+        "53": "kcalloc",
+        "54": "num_counters",
+        "55": "<operator>.sizeOf",
+        "56": "<operator>.indirection",
+        "57": "<operator>.indirection",
+        "58": "offset",
+        "59": "GFP_KERNEL",
+        "60": "CONTROL_STRUCTURE",
+        "61": "<operator>.logicalNot",
+        "62": "<operator>.indirection",
+        "63": "offset",
+        "64": "CONTROL_STRUCTURE",
+        "65": "<operator>.assignment",
+        "66": "<operator>.indirection",
+        "67": "num",
+        "68": "num_counters",
+        "69": "RETURN",
+        "70": "LITERAL",
+        "71": "JUMP_TARGET",
+        "72": "kfree",
+        "73": "<operator>.indirection",
+        "74": "name",
+        "75": "RETURN",
+        "76": "<operator>.minus",
+        "77": "ENOMEM",
+        "78": "METHOD_RETURN"
+    }
+}

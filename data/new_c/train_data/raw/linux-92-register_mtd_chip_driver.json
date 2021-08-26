@@ -1,0 +1,188 @@
+{
+    "Function": "register_mtd_chip_driver",
+    "astEdges": [
+        [
+            6,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            16
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            6,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            6
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            6,
+            16
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            16
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "spin_lock",
+        "4": "<operator>.addressOf",
+        "5": "chip_drvs_lock",
+        "6": "list_add",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "drv",
+        "10": "FIELD_IDENTIFIER",
+        "11": "<operator>.addressOf",
+        "12": "chip_drvs_list",
+        "13": "spin_unlock",
+        "14": "<operator>.addressOf",
+        "15": "chip_drvs_lock",
+        "16": "METHOD_RETURN"
+    }
+}

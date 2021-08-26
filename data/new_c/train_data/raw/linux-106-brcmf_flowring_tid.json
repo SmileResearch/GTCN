@@ -1,0 +1,247 @@
+{
+    "Function": "brcmf_flowring_tid",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            13,
+            21
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            18
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11,
+        16,
+        19
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            17
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            20,
+            18
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            21,
+            13
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            12,
+            22
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            17,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            5,
+            22
+        ],
+        [
+            5,
+            22
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            12,
+            22
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ring",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "flow",
+        "10": "FIELD_IDENTIFIER",
+        "11": "flowid",
+        "12": "RETURN",
+        "13": "<operator>.fieldAccess",
+        "14": "<operator>.indirectIndexAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "flow",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "ring",
+        "20": "FIELD_IDENTIFIER",
+        "21": "FIELD_IDENTIFIER",
+        "22": "METHOD_RETURN"
+    }
+}

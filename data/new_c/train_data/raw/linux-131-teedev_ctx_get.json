@@ -1,0 +1,155 @@
+{
+    "Function": "teedev_ctx_get",
+    "astEdges": [
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            7,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "ctx",
+        "6": "FIELD_IDENTIFIER",
+        "7": "RETURN",
+        "8": "kref_get",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "ctx",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

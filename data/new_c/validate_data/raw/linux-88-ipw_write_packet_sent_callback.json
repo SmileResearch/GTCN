@@ -1,0 +1,157 @@
+{
+    "Function": "ipw_write_packet_sent_callback",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "tty",
+        "7": "callback_data",
+        "8": "<operator>.assignmentMinus",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "tty",
+        "11": "FIELD_IDENTIFIER",
+        "12": "packet_length",
+        "13": "METHOD_RETURN"
+    }
+}

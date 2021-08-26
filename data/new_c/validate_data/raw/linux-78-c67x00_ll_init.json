@@ -1,0 +1,239 @@
+{
+    "Function": "c67x00_ll_init",
+    "astEdges": [
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        17
+    ],
+    "cfgEdges": [
+        [
+            18,
+            16
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            20,
+            14
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            13,
+            12
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            16,
+            19
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            21
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_init",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "dev",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "init_completion",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.fieldAccess",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "dev",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "METHOD_RETURN"
+    }
+}

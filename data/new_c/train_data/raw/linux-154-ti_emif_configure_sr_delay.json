@@ -1,0 +1,271 @@
+{
+    "Function": "ti_emif_configure_sr_delay",
+    "astEdges": [
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            20
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        11,
+        13,
+        17,
+        20
+    ],
+    "cfgEdges": [
+        [
+            18,
+            16
+        ],
+        [
+            19,
+            15
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            3
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            12,
+            21
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            12,
+            21
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            14,
+            21
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "writel",
+        "4": "EMIF_POWER_MGMT_WAIT_SELF_REFRESH_8192_CYCLES",
+        "5": "<operator>.addition",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "emif_data",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "EMIF_POWER_MANAGEMENT_CONTROL",
+        "12": "writel",
+        "13": "EMIF_POWER_MGMT_WAIT_SELF_REFRESH_8192_CYCLES",
+        "14": "<operator>.addition",
+        "15": "<operator>.fieldAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "emif_data",
+        "18": "FIELD_IDENTIFIER",
+        "19": "FIELD_IDENTIFIER",
+        "20": "EMIF_POWER_MANAGEMENT_CTRL_SHDW",
+        "21": "METHOD_RETURN"
+    }
+}

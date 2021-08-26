@@ -1,0 +1,209 @@
+{
+    "Function": "int_pow",
+    "astEdges": [
+        [
+            10,
+            21
+        ],
+        [
+            10,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            24,
+            25
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13,
+        16,
+        17,
+        19,
+        22,
+        23,
+        25
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "result",
+        "7": "LITERAL",
+        "8": "CONTROL_STRUCTURE",
+        "9": "exp",
+        "10": "BLOCK",
+        "11": "CONTROL_STRUCTURE",
+        "12": "<operator>.and",
+        "13": "exp",
+        "14": "LITERAL",
+        "15": "<operator>.assignmentMultiplication",
+        "16": "result",
+        "17": "base",
+        "18": "<operators>.assignmentArithmeticShiftRight",
+        "19": "exp",
+        "20": "LITERAL",
+        "21": "<operator>.assignmentMultiplication",
+        "22": "base",
+        "23": "base",
+        "24": "RETURN",
+        "25": "result",
+        "26": "METHOD_RETURN"
+    }
+}

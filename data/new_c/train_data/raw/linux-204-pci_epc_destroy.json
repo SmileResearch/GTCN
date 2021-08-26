@@ -1,0 +1,173 @@
+{
+    "Function": "pci_epc_destroy",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        13
+    ],
+    "cfgEdges": [
+        [
+            8,
+            7
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "pci_ep_cfs_remove_epc_group",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "epc",
+        "6": "FIELD_IDENTIFIER",
+        "7": "device_unregister",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "epc",
+        "11": "FIELD_IDENTIFIER",
+        "12": "kfree",
+        "13": "epc",
+        "14": "METHOD_RETURN"
+    }
+}

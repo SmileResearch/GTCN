@@ -1,0 +1,130 @@
+{
+    "Function": "start_switch_worker",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        10
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.fieldAccess",
+        "5": "oprofile_ops",
+        "6": "FIELD_IDENTIFIER",
+        "7": "schedule_delayed_work",
+        "8": "<operator>.addressOf",
+        "9": "switch_work",
+        "10": "oprofile_time_slice",
+        "11": "METHOD_RETURN"
+    }
+}

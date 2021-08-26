@@ -1,0 +1,145 @@
+{
+    "Function": "qcom_scm_restore_sec_cfg_available",
+    "astEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "__qcom_scm_is_call_available",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "__scm",
+        "7": "FIELD_IDENTIFIER",
+        "8": "QCOM_SCM_SVC_MP",
+        "9": "QCOM_SCM_MP_RESTORE_SEC_CFG",
+        "10": "METHOD_RETURN"
+    }
+}

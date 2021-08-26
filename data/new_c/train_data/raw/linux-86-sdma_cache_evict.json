@@ -1,0 +1,197 @@
+{
+    "Function": "sdma_cache_evict",
+    "astEdges": [
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        12,
+        14,
+        17,
+        20,
+        23
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "<operator>.fieldAccess",
+        "7": "evict_data",
+        "8": "FIELD_IDENTIFIER",
+        "9": "LITERAL",
+        "10": "<operator>.assignment",
+        "11": "<operator>.fieldAccess",
+        "12": "evict_data",
+        "13": "FIELD_IDENTIFIER",
+        "14": "npages",
+        "15": "hfi1_mmu_rb_evict",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "pq",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.addressOf",
+        "20": "evict_data",
+        "21": "RETURN",
+        "22": "<operator>.fieldAccess",
+        "23": "evict_data",
+        "24": "FIELD_IDENTIFIER",
+        "25": "METHOD_RETURN"
+    }
+}

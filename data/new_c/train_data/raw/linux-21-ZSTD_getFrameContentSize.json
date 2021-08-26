@@ -1,0 +1,295 @@
+{
+    "Function": "ZSTD_getFrameContentSize",
+    "astEdges": [
+        [
+            22,
+            23
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            26,
+            32
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            37
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            16,
+            22
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            25
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            41
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        11,
+        12,
+        15,
+        19,
+        29,
+        35,
+        40
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            24,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            40
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.notEquals",
+        "8": "ZSTD_getFrameParams",
+        "9": "<operator>.addressOf",
+        "10": "fParams",
+        "11": "src",
+        "12": "srcSize",
+        "13": "LITERAL",
+        "14": "RETURN",
+        "15": "ZSTD_CONTENTSIZE_ERROR",
+        "16": "CONTROL_STRUCTURE",
+        "17": "<operator>.equals",
+        "18": "<operator>.fieldAccess",
+        "19": "fParams",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "BLOCK",
+        "23": "RETURN",
+        "24": "LITERAL",
+        "25": "CONTROL_STRUCTURE",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.notEquals",
+        "28": "<operator>.fieldAccess",
+        "29": "fParams",
+        "30": "FIELD_IDENTIFIER",
+        "31": "LITERAL",
+        "32": "BLOCK",
+        "33": "RETURN",
+        "34": "<operator>.fieldAccess",
+        "35": "fParams",
+        "36": "FIELD_IDENTIFIER",
+        "37": "CONTROL_STRUCTURE",
+        "38": "BLOCK",
+        "39": "RETURN",
+        "40": "ZSTD_CONTENTSIZE_UNKNOWN",
+        "41": "METHOD_RETURN"
+    }
+}

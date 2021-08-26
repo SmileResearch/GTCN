@@ -1,0 +1,156 @@
+{
+    "Function": "snd_card_cs4236_free",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        11
+    ],
+    "cfgEdges": [
+        [
+            4,
+            12
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "<operator>.assignment",
+        "5": "acard",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "card",
+        "8": "FIELD_IDENTIFIER",
+        "9": "release_and_free_resource",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "acard",
+        "12": "FIELD_IDENTIFIER",
+        "13": "METHOD_RETURN"
+    }
+}

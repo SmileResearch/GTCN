@@ -1,0 +1,187 @@
+{
+    "Function": "omap243x_clockdomains_init",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalNot",
+        "5": "cpu_is_omap243x",
+        "6": "RETURN",
+        "7": "clkdm_register_platform_funcs",
+        "8": "<operator>.addressOf",
+        "9": "omap2_clkdm_operations",
+        "10": "clkdm_register_clkdms",
+        "11": "clockdomains_omap243x",
+        "12": "clkdm_complete_init",
+        "13": "METHOD_RETURN"
+    }
+}

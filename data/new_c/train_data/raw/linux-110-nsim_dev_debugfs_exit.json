@@ -1,0 +1,133 @@
+{
+    "Function": "nsim_dev_debugfs_exit",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "debugfs_remove_recursive",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "nsim_dev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "debugfs_remove_recursive",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "nsim_dev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "METHOD_RETURN"
+    }
+}

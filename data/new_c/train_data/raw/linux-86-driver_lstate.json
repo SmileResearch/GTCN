@@ -1,0 +1,328 @@
+{
+    "Function": "driver_lstate",
+    "astEdges": [
+        [
+            29,
+            30
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            43
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            21,
+            32
+        ],
+        [
+            21,
+            29
+        ],
+        [
+            21,
+            28
+        ],
+        [
+            21,
+            26
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            40
+        ],
+        [
+            21,
+            31
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            37
+        ],
+        [
+            32,
+            36
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        12,
+        14,
+        18,
+        20,
+        24,
+        27,
+        30,
+        34,
+        38
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            42
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalAnd",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ppd",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.and",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ppd",
+        "11": "FIELD_IDENTIFIER",
+        "12": "HLS_DOWN",
+        "13": "RETURN",
+        "14": "IB_PORT_DOWN",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.and",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ppd",
+        "19": "FIELD_IDENTIFIER",
+        "20": "HLS_UP",
+        "21": "BLOCK",
+        "22": "JUMP_TARGET",
+        "23": "RETURN",
+        "24": "IB_PORT_INIT",
+        "25": "JUMP_TARGET",
+        "26": "RETURN",
+        "27": "IB_PORT_ARMED",
+        "28": "JUMP_TARGET",
+        "29": "RETURN",
+        "30": "IB_PORT_ACTIVE",
+        "31": "JUMP_TARGET",
+        "32": "dd_dev_err",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "ppd",
+        "35": "FIELD_IDENTIFIER",
+        "36": "LITERAL",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "ppd",
+        "39": "FIELD_IDENTIFIER",
+        "40": "RETURN",
+        "41": "<operator>.minus",
+        "42": "LITERAL",
+        "43": "METHOD_RETURN"
+    }
+}

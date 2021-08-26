@@ -1,0 +1,236 @@
+{
+    "Function": "adjust_membership",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            30
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            6,
+            19
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        15,
+        17,
+        21,
+        26,
+        28,
+        29
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.assignment",
+        "8": "i",
+        "9": "LITERAL",
+        "10": "<operator>.lessThan",
+        "11": "i",
+        "12": "LITERAL",
+        "13": "BLOCK",
+        "14": "<operator>.postIncrement",
+        "15": "i",
+        "16": "<operators>.assignmentArithmeticShiftRight",
+        "17": "join_state",
+        "18": "LITERAL",
+        "19": "CONTROL_STRUCTURE",
+        "20": "<operator>.and",
+        "21": "join_state",
+        "22": "LITERAL",
+        "23": "<operator>.assignmentPlus",
+        "24": "<operator>.indirectIndexAccess",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "group",
+        "27": "FIELD_IDENTIFIER",
+        "28": "i",
+        "29": "inc",
+        "30": "METHOD_RETURN"
+    }
+}

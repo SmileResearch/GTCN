@@ -1,0 +1,278 @@
+{
+    "Function": "kdeth_process_eager",
+    "astEdges": [
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            0,
+            37
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            27
+        ],
+        [
+            18,
+            25
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            27,
+            34
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            12
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            35
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            33
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8,
+        11,
+        16,
+        21,
+        23,
+        26,
+        29,
+        31,
+        33,
+        36
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            36
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "hfi1_setup_9B_packet",
+        "4": "packet",
+        "5": "CONTROL_STRUCTURE",
+        "6": "unlikely",
+        "7": "hfi1_dbg_should_fault_rx",
+        "8": "packet",
+        "9": "RETURN",
+        "10": "trace_hfi1_rcvhdr",
+        "11": "packet",
+        "12": "CONTROL_STRUCTURE",
+        "13": "unlikely",
+        "14": "rhf_err_flags",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "packet",
+        "17": "FIELD_IDENTIFIER",
+        "18": "BLOCK",
+        "19": "LOCAL",
+        "20": "<operator>.assignment",
+        "21": "rcd",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "packet",
+        "24": "FIELD_IDENTIFIER",
+        "25": "show_eflags_errs",
+        "26": "packet",
+        "27": "CONTROL_STRUCTURE",
+        "28": "hfi1_handle_kdeth_eflags",
+        "29": "rcd",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "rcd",
+        "32": "FIELD_IDENTIFIER",
+        "33": "packet",
+        "34": "RETURN",
+        "35": "hfi1_kdeth_eager_rcv",
+        "36": "packet",
+        "37": "METHOD_RETURN"
+    }
+}

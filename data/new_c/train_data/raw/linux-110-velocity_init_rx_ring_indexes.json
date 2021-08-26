@@ -1,0 +1,261 @@
+{
+    "Function": "velocity_init_rx_ring_indexes",
+    "astEdges": [
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        12,
+        18
+    ],
+    "cfgEdges": [
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            20,
+            16
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            14,
+            10
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            15,
+            9
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            4,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            22
+        ],
+        [
+            9,
+            3
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "vptr",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.assignment",
+        "10": "<operator>.fieldAccess",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "vptr",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.assignment",
+        "16": "<operator>.fieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "vptr",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "METHOD_RETURN"
+    }
+}

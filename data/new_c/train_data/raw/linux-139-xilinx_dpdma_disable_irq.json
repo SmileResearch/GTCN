@@ -1,0 +1,197 @@
+{
+    "Function": "xilinx_dpdma_disable_irq",
+    "astEdges": [
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8,
+        11,
+        13,
+        14
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dpdma_write",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "xdev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "XILINX_DPDMA_IDS",
+        "8": "XILINX_DPDMA_INTR_ERR_ALL",
+        "9": "dpdma_write",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "xdev",
+        "12": "FIELD_IDENTIFIER",
+        "13": "XILINX_DPDMA_EIDS",
+        "14": "XILINX_DPDMA_EINTR_ALL",
+        "15": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "Function": "test_klp_callbacks_demo_init",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        6
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "klp_enable_patch",
+        "5": "<operator>.addressOf",
+        "6": "patch",
+        "7": "METHOD_RETURN"
+    }
+}

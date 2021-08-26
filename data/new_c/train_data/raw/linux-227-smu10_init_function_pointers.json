@@ -1,0 +1,197 @@
+{
+    "Function": "smu10_init_function_pointers",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            2,
+            9
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11,
+        14
+    ],
+    "cfgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            7,
+            3
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            15
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            9,
+            17
+        ],
+        [
+            3,
+            17
+        ],
+        [
+            3,
+            17
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "hwmgr",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.addressOf",
+        "8": "smu10_hwmgr_funcs",
+        "9": "<operator>.assignment",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "hwmgr",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.addressOf",
+        "14": "pptable_funcs",
+        "15": "RETURN",
+        "16": "LITERAL",
+        "17": "METHOD_RETURN"
+    }
+}

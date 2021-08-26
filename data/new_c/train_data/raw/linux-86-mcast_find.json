@@ -1,0 +1,416 @@
+{
+    "Function": "mcast_find",
+    "astEdges": [
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            23,
+            29
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            55
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            53
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            36
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            38,
+            47
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            30
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            16,
+            33
+        ],
+        [
+            16,
+            38
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        15,
+        18,
+        21,
+        26,
+        32,
+        35,
+        37,
+        40,
+        43,
+        45,
+        49,
+        51,
+        54
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            54
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "node",
+        "7": "<operator>.fieldAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ctx",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LOCAL",
+        "13": "LOCAL",
+        "14": "CONTROL_STRUCTURE",
+        "15": "node",
+        "16": "BLOCK",
+        "17": "<operator>.assignment",
+        "18": "ret",
+        "19": "memcmp",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "mgid",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.fieldAccess",
+        "24": "<operator>.fieldAccess",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "group",
+        "27": "FIELD_IDENTIFIER",
+        "28": "FIELD_IDENTIFIER",
+        "29": "FIELD_IDENTIFIER",
+        "30": "<operator>.sizeOf",
+        "31": "<operator>.indirection",
+        "32": "mgid",
+        "33": "CONTROL_STRUCTURE",
+        "34": "<operator>.logicalNot",
+        "35": "ret",
+        "36": "RETURN",
+        "37": "group",
+        "38": "CONTROL_STRUCTURE",
+        "39": "<operator>.lessThan",
+        "40": "ret",
+        "41": "LITERAL",
+        "42": "<operator>.assignment",
+        "43": "node",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "node",
+        "46": "FIELD_IDENTIFIER",
+        "47": "CONTROL_STRUCTURE",
+        "48": "<operator>.assignment",
+        "49": "node",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "node",
+        "52": "FIELD_IDENTIFIER",
+        "53": "RETURN",
+        "54": "NULL",
+        "55": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "Function": "audit_classify_arch",
+    "astEdges": [
+        [
+            3,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "audit_is_compat",
+        "5": "arch",
+        "6": "RETURN",
+        "7": "LITERAL",
+        "8": "CONTROL_STRUCTURE",
+        "9": "RETURN",
+        "10": "LITERAL",
+        "11": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "Function": "read_csr",
+    "astEdges": [
+        [
+            15,
+            16
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        13,
+        14
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.and",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "dd",
+        "8": "FIELD_IDENTIFIER",
+        "9": "HFI1_PRESENT",
+        "10": "RETURN",
+        "11": "readq",
+        "12": "hfi1_addr_from_offset",
+        "13": "dd",
+        "14": "offset",
+        "15": "RETURN",
+        "16": "<operator>.minus",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,461 @@
+{
+    "Function": "switchtec_ntb_deinit_shared_mw",
+    "astEdges": [
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            33
+        ],
+        [
+            20,
+            30
+        ],
+        [
+            20,
+            29
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            40
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            16
+        ],
+        [
+            2,
+            36
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            37,
+            39
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            22,
+            28
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10,
+        14,
+        18,
+        25,
+        29,
+        31,
+        34,
+        38
+    ],
+    "cfgEdges": [
+        [
+            7,
+            19
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            20,
+            39
+        ],
+        [
+            28,
+            22
+        ],
+        [
+            19,
+            17
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            21,
+            32
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            37,
+            36
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            23,
+            28
+        ],
+        [
+            27,
+            23
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            33,
+            20
+        ],
+        [
+            30,
+            35
+        ],
+        [
+            39,
+            37
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            32,
+            30
+        ],
+        [
+            26,
+            24
+        ],
+        [
+            35,
+            33
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            17,
+            26
+        ],
+        [
+            17,
+            39
+        ],
+        [
+            22,
+            21
+        ],
+        [
+            15,
+            13
+        ],
+        [
+            8,
+            15
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            40
+        ],
+        [
+            7,
+            40
+        ],
+        [
+            7,
+            40
+        ],
+        [
+            36,
+            40
+        ],
+        [
+            20,
+            40
+        ],
+        [
+            20,
+            40
+        ],
+        [
+            20,
+            40
+        ],
+        [
+            20,
+            40
+        ],
+        [
+            20,
+            40
+        ],
+        [
+            0,
+            20
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            35,
+            38
+        ],
+        [
+            38,
+            39
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "sndev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "pci_iounmap",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "sndev",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "sndev",
+        "15": "FIELD_IDENTIFIER",
+        "16": "CONTROL_STRUCTURE",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "sndev",
+        "19": "FIELD_IDENTIFIER",
+        "20": "dma_free_coherent",
+        "21": "<operator>.addressOf",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "sndev",
+        "26": "FIELD_IDENTIFIER",
+        "27": "FIELD_IDENTIFIER",
+        "28": "FIELD_IDENTIFIER",
+        "29": "LUT_SIZE",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "sndev",
+        "32": "FIELD_IDENTIFIER",
+        "33": "<operator>.indirectFieldAccess",
+        "34": "sndev",
+        "35": "FIELD_IDENTIFIER",
+        "36": "<operator>.postDecrement",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "sndev",
+        "39": "FIELD_IDENTIFIER",
+        "40": "METHOD_RETURN"
+    }
+}

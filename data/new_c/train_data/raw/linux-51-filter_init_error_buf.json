@@ -1,0 +1,146 @@
+{
+    "Function": "filter_init_error_buf",
+    "astEdges": [
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        9
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            8,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            6,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "init_input_buf",
+        "4": "LITERAL",
+        "5": "LITERAL",
+        "6": "<operator>.assignment",
+        "7": "<operator>.indirectIndexAccess",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "filter",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LITERAL",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

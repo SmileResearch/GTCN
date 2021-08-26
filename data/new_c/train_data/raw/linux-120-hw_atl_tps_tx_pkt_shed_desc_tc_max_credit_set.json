@@ -1,0 +1,161 @@
+{
+    "Function": "hw_atl_tps_tx_pkt_shed_desc_tc_max_credit_set",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9,
+        10,
+        11
+    ],
+    "cfgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "aq_hw_write_reg_bit",
+        "6": "aq_hw",
+        "7": "HW_ATL_TPS_DESC_TCTCREDIT_MAX_ADR",
+        "8": "tc",
+        "9": "HW_ATL_TPS_DESC_TCTCREDIT_MAX_MSK",
+        "10": "HW_ATL_TPS_DESC_TCTCREDIT_MAX_SHIFT",
+        "11": "max_credit",
+        "12": "METHOD_RETURN"
+    }
+}

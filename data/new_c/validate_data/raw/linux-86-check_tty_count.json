@@ -1,0 +1,639 @@
+{
+    "Function": "check_tty_count",
+    "astEdges": [
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            27,
+            35
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            52
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            34
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            69,
+            79
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            61
+        ],
+        [
+            3,
+            54
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            26
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            83
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            61,
+            69
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            43
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            43,
+            47
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            79,
+            80
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            56,
+            58
+        ],
+        [
+            54,
+            59
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            80,
+            82
+        ],
+        [
+            80,
+            81
+        ],
+        [
+            0,
+            85
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            37,
+            41
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            47,
+            51
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            70,
+            73
+        ],
+        [
+            70,
+            77
+        ],
+        [
+            70,
+            72
+        ],
+        [
+            70,
+            78
+        ],
+        [
+            70,
+            74
+        ],
+        [
+            74,
+            76
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            36,
+            42
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            62,
+            66
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            83,
+            84
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        11,
+        16,
+        20,
+        24,
+        31,
+        34,
+        39,
+        42,
+        45,
+        49,
+        53,
+        57,
+        60,
+        64,
+        67,
+        68,
+        71,
+        73,
+        75,
+        77,
+        78,
+        81,
+        82
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            42,
+            45
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            46,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            53,
+            57
+        ],
+        [
+            57,
+            58
+        ],
+        [
+            58,
+            60
+        ],
+        [
+            60,
+            64
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            65,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            71
+        ],
+        [
+            71,
+            72
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            75,
+            76
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            77,
+            78
+        ],
+        [
+            78,
+            81
+        ],
+        [
+            81,
+            82
+        ],
+        [
+            82,
+            84
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "count",
+        "8": "LITERAL",
+        "9": "LOCAL",
+        "10": "<operator>.assignment",
+        "11": "kopen_count",
+        "12": "LITERAL",
+        "13": "spin_lock",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "tty",
+        "17": "FIELD_IDENTIFIER",
+        "18": "BLOCK",
+        "19": "<operator>.postIncrement",
+        "20": "count",
+        "21": "spin_unlock",
+        "22": "<operator>.addressOf",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "tty",
+        "25": "FIELD_IDENTIFIER",
+        "26": "CONTROL_STRUCTURE",
+        "27": "<operator>.logicalAnd",
+        "28": "<operator>.equals",
+        "29": "<operator>.indirectFieldAccess",
+        "30": "<operator>.indirectFieldAccess",
+        "31": "tty",
+        "32": "FIELD_IDENTIFIER",
+        "33": "FIELD_IDENTIFIER",
+        "34": "TTY_DRIVER_TYPE_PTY",
+        "35": "<operator>.logicalAnd",
+        "36": "<operator>.equals",
+        "37": "<operator>.indirectFieldAccess",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "tty",
+        "40": "FIELD_IDENTIFIER",
+        "41": "FIELD_IDENTIFIER",
+        "42": "PTY_TYPE_SLAVE",
+        "43": "<operator>.logicalAnd",
+        "44": "<operator>.indirectFieldAccess",
+        "45": "tty",
+        "46": "FIELD_IDENTIFIER",
+        "47": "<operator>.indirectFieldAccess",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "tty",
+        "50": "FIELD_IDENTIFIER",
+        "51": "FIELD_IDENTIFIER",
+        "52": "<operator>.postIncrement",
+        "53": "count",
+        "54": "CONTROL_STRUCTURE",
+        "55": "tty_port_kopened",
+        "56": "<operator>.indirectFieldAccess",
+        "57": "tty",
+        "58": "FIELD_IDENTIFIER",
+        "59": "<operator>.postIncrement",
+        "60": "kopen_count",
+        "61": "CONTROL_STRUCTURE",
+        "62": "<operator>.notEquals",
+        "63": "<operator>.indirectFieldAccess",
+        "64": "tty",
+        "65": "FIELD_IDENTIFIER",
+        "66": "<operator>.addition",
+        "67": "count",
+        "68": "kopen_count",
+        "69": "BLOCK",
+        "70": "tty_warn",
+        "71": "tty",
+        "72": "LITERAL",
+        "73": "routine",
+        "74": "<operator>.indirectFieldAccess",
+        "75": "tty",
+        "76": "FIELD_IDENTIFIER",
+        "77": "count",
+        "78": "kopen_count",
+        "79": "RETURN",
+        "80": "<operator>.addition",
+        "81": "count",
+        "82": "kopen_count",
+        "83": "RETURN",
+        "84": "LITERAL",
+        "85": "METHOD_RETURN"
+    }
+}

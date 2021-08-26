@@ -1,0 +1,345 @@
+{
+    "Function": "read_misc_status",
+    "astEdges": [
+        [
+            25,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            24
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            43
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            28
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            35
+        ],
+        [
+            5,
+            29
+        ],
+        [
+            5,
+            21
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            35,
+            38
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        10,
+        12,
+        15,
+        18,
+        19,
+        20,
+        23,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        34,
+        37,
+        40,
+        41,
+        42
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            42
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "BLOCK",
+        "6": "LOCAL",
+        "7": "read_8051_config",
+        "8": "dd",
+        "9": "MISC_STATUS",
+        "10": "GENERAL_CONFIG",
+        "11": "<operator>.addressOf",
+        "12": "frame",
+        "13": "<operator>.assignment",
+        "14": "<operator>.indirection",
+        "15": "ver_major",
+        "16": "<operator>.and",
+        "17": "<operator>.arithmeticShiftRight",
+        "18": "frame",
+        "19": "STS_FM_VERSION_MAJOR_SHIFT",
+        "20": "STS_FM_VERSION_MAJOR_MASK",
+        "21": "<operator>.assignment",
+        "22": "<operator>.indirection",
+        "23": "ver_minor",
+        "24": "<operator>.and",
+        "25": "<operator>.arithmeticShiftRight",
+        "26": "frame",
+        "27": "STS_FM_VERSION_MINOR_SHIFT",
+        "28": "STS_FM_VERSION_MINOR_MASK",
+        "29": "read_8051_config",
+        "30": "dd",
+        "31": "VERSION_PATCH",
+        "32": "GENERAL_CONFIG",
+        "33": "<operator>.addressOf",
+        "34": "frame",
+        "35": "<operator>.assignment",
+        "36": "<operator>.indirection",
+        "37": "ver_patch",
+        "38": "<operator>.and",
+        "39": "<operator>.arithmeticShiftRight",
+        "40": "frame",
+        "41": "STS_FM_VERSION_PATCH_SHIFT",
+        "42": "STS_FM_VERSION_PATCH_MASK",
+        "43": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,537 @@
+{
+    "Function": "mptsas_find_portinfo_by_sas_address",
+    "astEdges": [
+        [
+            23,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            54
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            66,
+            68
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            10,
+            26
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            57
+        ],
+        [
+            46,
+            58
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            58,
+            62
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            56
+        ],
+        [
+            59,
+            61
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            51,
+            53
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            35
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            64
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            69
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            63
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            0,
+            71
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            49,
+            55
+        ],
+        [
+            35,
+            44
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            46
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            65,
+            66
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        13,
+        15,
+        18,
+        21,
+        24,
+        28,
+        33,
+        37,
+        40,
+        42,
+        45,
+        52,
+        54,
+        57,
+        60,
+        61,
+        67,
+        70
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            40,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            62
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            63,
+            67
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            68,
+            70
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "rc",
+        "8": "NULL",
+        "9": "LOCAL",
+        "10": "CONTROL_STRUCTURE",
+        "11": "<operator>.logicalAnd",
+        "12": "<operator>.greaterEqualsThan",
+        "13": "sas_address",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "ioc",
+        "16": "FIELD_IDENTIFIER",
+        "17": "<operator>.lessThan",
+        "18": "sas_address",
+        "19": "<operator>.addition",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "ioc",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.indirectFieldAccess",
+        "24": "ioc",
+        "25": "FIELD_IDENTIFIER",
+        "26": "RETURN",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "ioc",
+        "29": "FIELD_IDENTIFIER",
+        "30": "mutex_lock",
+        "31": "<operator>.addressOf",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "ioc",
+        "34": "FIELD_IDENTIFIER",
+        "35": "CONTROL_STRUCTURE",
+        "36": "<operator>.assignment",
+        "37": "i",
+        "38": "LITERAL",
+        "39": "<operator>.lessThan",
+        "40": "i",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "port_info",
+        "43": "FIELD_IDENTIFIER",
+        "44": "<operator>.postIncrement",
+        "45": "i",
+        "46": "CONTROL_STRUCTURE",
+        "47": "<operator>.equals",
+        "48": "<operator>.fieldAccess",
+        "49": "<operator>.fieldAccess",
+        "50": "<operator>.indirectIndexAccess",
+        "51": "<operator>.indirectFieldAccess",
+        "52": "port_info",
+        "53": "FIELD_IDENTIFIER",
+        "54": "i",
+        "55": "FIELD_IDENTIFIER",
+        "56": "FIELD_IDENTIFIER",
+        "57": "sas_address",
+        "58": "BLOCK",
+        "59": "<operator>.assignment",
+        "60": "rc",
+        "61": "port_info",
+        "62": "CONTROL_STRUCTURE",
+        "63": "JUMP_TARGET",
+        "64": "mutex_unlock",
+        "65": "<operator>.addressOf",
+        "66": "<operator>.indirectFieldAccess",
+        "67": "ioc",
+        "68": "FIELD_IDENTIFIER",
+        "69": "RETURN",
+        "70": "rc",
+        "71": "METHOD_RETURN"
+    }
+}

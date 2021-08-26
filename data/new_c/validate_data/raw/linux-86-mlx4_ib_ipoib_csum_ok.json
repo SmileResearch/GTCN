@@ -1,0 +1,196 @@
+{
+    "Function": "mlx4_ib_ipoib_csum_ok",
+    "astEdges": [
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            15
+        ],
+        [
+            0,
+            26
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            15,
+            22
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        9,
+        12,
+        14,
+        17,
+        20,
+        21,
+        23
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            25
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "RETURN",
+        "6": "<operator>.logicalOr",
+        "7": "<operator>.and",
+        "8": "badfcs_enc",
+        "9": "MLX4_CQE_STATUS_L4_CSUM",
+        "10": "<operator>.logicalAnd",
+        "11": "<operator>.and",
+        "12": "status",
+        "13": "cpu_to_be16",
+        "14": "MLX4_CQE_STATUS_IPOK",
+        "15": "<operator>.logicalAnd",
+        "16": "<operator>.and",
+        "17": "status",
+        "18": "cpu_to_be16",
+        "19": "<operator>.or",
+        "20": "MLX4_CQE_STATUS_TCP",
+        "21": "MLX4_CQE_STATUS_UDP",
+        "22": "<operator>.equals",
+        "23": "checksum",
+        "24": "cpu_to_be16",
+        "25": "LITERAL",
+        "26": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "Function": "mpc85xx_smp_kexec_cpu_down",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11
+    ],
+    "cfgEdges": [
+        [
+            9,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            10,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            4,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "local_irq_disable",
+        "5": "CONTROL_STRUCTURE",
+        "6": "secondary",
+        "7": "BLOCK",
+        "8": "cur_cpu_spec->cpu_down_flush",
+        "9": "atomic_inc",
+        "10": "<operator>.addressOf",
+        "11": "kexec_down_cpus",
+        "12": "CONTROL_STRUCTURE",
+        "13": "LITERAL",
+        "14": "METHOD_RETURN"
+    }
+}

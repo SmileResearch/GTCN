@@ -1,0 +1,205 @@
+{
+    "Function": "cpg_simple_notifier_register",
+    "astEdges": [
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        12,
+        15
+    ],
+    "cfgEdges": [
+        [
+            16,
+            14
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            9,
+            5
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            14,
+            13
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            13,
+            11
+        ],
+        [
+            6,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "csn",
+        "8": "FIELD_IDENTIFIER",
+        "9": "FIELD_IDENTIFIER",
+        "10": "cpg_simple_notifier_call",
+        "11": "raw_notifier_chain_register",
+        "12": "notifiers",
+        "13": "<operator>.addressOf",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "csn",
+        "16": "FIELD_IDENTIFIER",
+        "17": "METHOD_RETURN"
+    }
+}

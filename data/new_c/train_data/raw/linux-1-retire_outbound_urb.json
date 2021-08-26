@@ -1,0 +1,170 @@
+{
+    "Function": "retire_outbound_urb",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        13
+    ],
+    "cfgEdges": [
+        [
+            14,
+            12
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ],
+        [
+            8,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ep",
+        "7": "FIELD_IDENTIFIER",
+        "8": "ep->retire_data_urb",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ep",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "urb_ctx",
+        "14": "FIELD_IDENTIFIER",
+        "15": "METHOD_RETURN"
+    }
+}

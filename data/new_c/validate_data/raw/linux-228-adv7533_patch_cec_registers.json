@@ -1,0 +1,150 @@
+{
+    "Function": "adv7533_patch_cec_registers",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            7,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "regmap_register_patch",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "adv",
+        "7": "FIELD_IDENTIFIER",
+        "8": "adv7533_cec_fixed_registers",
+        "9": "ARRAY_SIZE",
+        "10": "adv7533_cec_fixed_registers",
+        "11": "METHOD_RETURN"
+    }
+}

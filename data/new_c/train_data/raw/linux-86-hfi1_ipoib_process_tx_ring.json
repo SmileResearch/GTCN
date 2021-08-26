@@ -1,0 +1,307 @@
+{
+    "Function": "hfi1_ipoib_process_tx_ring",
+    "astEdges": [
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            3,
+            24
+        ],
+        [
+            3,
+            25
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            37
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            39
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            31,
+            32
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        13,
+        17,
+        20,
+        22,
+        26,
+        28,
+        29,
+        32,
+        33,
+        35,
+        36,
+        38
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            38
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "priv",
+        "7": "hfi1_ipoib_priv",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "napi",
+        "10": "FIELD_IDENTIFIER",
+        "11": "LOCAL",
+        "12": "<operator>.assignment",
+        "13": "txq",
+        "14": "<operator>.addressOf",
+        "15": "<operator>.indirectIndexAccess",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "priv",
+        "18": "FIELD_IDENTIFIER",
+        "19": "<operator>.subtraction",
+        "20": "napi",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "priv",
+        "23": "FIELD_IDENTIFIER",
+        "24": "LOCAL",
+        "25": "<operator>.assignment",
+        "26": "work_done",
+        "27": "hfi1_ipoib_drain_tx_ring",
+        "28": "txq",
+        "29": "budget",
+        "30": "CONTROL_STRUCTURE",
+        "31": "<operator>.lessThan",
+        "32": "work_done",
+        "33": "budget",
+        "34": "napi_complete_done",
+        "35": "napi",
+        "36": "work_done",
+        "37": "RETURN",
+        "38": "work_done",
+        "39": "METHOD_RETURN"
+    }
+}

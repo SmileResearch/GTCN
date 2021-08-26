@@ -1,0 +1,150 @@
+{
+    "Function": "psc_i2s_of_remove",
+    "astEdges": [
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        8
+    ],
+    "cfgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            6,
+            5
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            5,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mpc5200_audio_dma_destroy",
+        "4": "op",
+        "5": "snd_soc_unregister_component",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "op",
+        "9": "FIELD_IDENTIFIER",
+        "10": "RETURN",
+        "11": "LITERAL",
+        "12": "METHOD_RETURN"
+    }
+}

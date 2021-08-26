@@ -1,0 +1,214 @@
+{
+    "Function": "mpt_deregister",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            15
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            9,
+            25
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        8,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        22,
+        23,
+        24,
+        26
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.logicalAnd",
+        "5": "cb_idx",
+        "6": "<operator>.lessThan",
+        "7": "cb_idx",
+        "8": "MPT_MAX_PROTOCOL_DRIVERS",
+        "9": "BLOCK",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectIndexAccess",
+        "12": "MptCallbacks",
+        "13": "cb_idx",
+        "14": "NULL",
+        "15": "<operator>.assignment",
+        "16": "<operator>.indirectIndexAccess",
+        "17": "MptDriverClass",
+        "18": "cb_idx",
+        "19": "MPTUNKNOWN_DRIVER",
+        "20": "<operator>.assignment",
+        "21": "<operator>.indirectIndexAccess",
+        "22": "MptEvHandlers",
+        "23": "cb_idx",
+        "24": "NULL",
+        "25": "<operator>.postIncrement",
+        "26": "last_drv_idx",
+        "27": "METHOD_RETURN"
+    }
+}

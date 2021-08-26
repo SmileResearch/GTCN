@@ -1,0 +1,139 @@
+{
+    "Function": "of_dump_addr",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        15
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "pr_debug",
+        "6": "LITERAL",
+        "7": "s",
+        "8": "CONTROL_STRUCTURE",
+        "9": "<operator>.postDecrement",
+        "10": "na",
+        "11": "pr_cont",
+        "12": "LITERAL",
+        "13": "<operator>.indirection",
+        "14": "<operator>.postIncrement",
+        "15": "addr",
+        "16": "pr_cont",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

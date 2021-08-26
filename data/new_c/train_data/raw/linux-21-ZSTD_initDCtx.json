@@ -1,0 +1,107 @@
+{
+    "Function": "ZSTD_initDCtx",
+    "astEdges": [
+        [
+            11,
+            12
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        9,
+        12
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "stackMem",
+        "7": "ZSTD_initStack",
+        "8": "workspace",
+        "9": "workspaceSize",
+        "10": "RETURN",
+        "11": "ZSTD_createDCtx_advanced",
+        "12": "stackMem",
+        "13": "METHOD_RETURN"
+    }
+}

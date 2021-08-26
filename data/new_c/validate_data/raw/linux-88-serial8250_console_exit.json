@@ -1,0 +1,151 @@
+{
+    "Function": "serial8250_console_exit",
+    "astEdges": [
+        [
+            2,
+            11
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9
+    ],
+    "cfgEdges": [
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "port",
+        "6": "FIELD_IDENTIFIER",
+        "7": "pm_runtime_put_sync",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "port",
+        "10": "FIELD_IDENTIFIER",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "METHOD_RETURN"
+    }
+}

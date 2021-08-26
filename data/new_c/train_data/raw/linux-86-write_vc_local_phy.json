@@ -1,0 +1,176 @@
+{
+    "Function": "write_vc_local_phy",
+    "astEdges": [
+        [
+            0,
+            21
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        10,
+        11,
+        13,
+        14,
+        17,
+        18,
+        19,
+        20
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "<operator>.assignment",
+        "7": "frame",
+        "8": "<operator>.or",
+        "9": "<operator>.shiftLeft",
+        "10": "continuous",
+        "11": "CONTINIOUS_REMOTE_UPDATE_SUPPORT_SHIFT",
+        "12": "<operator>.shiftLeft",
+        "13": "power_management",
+        "14": "POWER_MANAGEMENT_SHIFT",
+        "15": "RETURN",
+        "16": "load_8051_config",
+        "17": "dd",
+        "18": "VERIFY_CAP_LOCAL_PHY",
+        "19": "GENERAL_CONFIG",
+        "20": "frame",
+        "21": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "Function": "at91sam9_ebi_get_config",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            4,
+            15
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        13,
+        17
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            18,
+            16
+        ],
+        [
+            10,
+            6
+        ],
+        [
+            12,
+            18
+        ],
+        [
+            11,
+            5
+        ],
+        [
+            9,
+            7
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            6,
+            11
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            15,
+            4
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            14,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ],
+        [
+            4,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "atmel_smc_cs_conf_get",
+        "5": "<operator>.fieldAccess",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "ebid",
+        "9": "FIELD_IDENTIFIER",
+        "10": "FIELD_IDENTIFIER",
+        "11": "FIELD_IDENTIFIER",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "conf",
+        "14": "FIELD_IDENTIFIER",
+        "15": "<operator>.addressOf",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "conf",
+        "18": "FIELD_IDENTIFIER",
+        "19": "METHOD_RETURN"
+    }
+}

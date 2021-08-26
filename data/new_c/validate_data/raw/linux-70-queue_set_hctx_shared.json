@@ -1,0 +1,217 @@
+{
+    "Function": "queue_set_hctx_shared",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "candidateNodeList": [
+        8,
+        11,
+        13,
+        17,
+        19
+    ],
+    "cfgEdges": [
+        [
+            12,
+            10
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            16,
+            15
+        ],
+        [
+            10,
+            9
+        ],
+        [
+            18,
+            16
+        ]
+    ],
+    "ddgEdges": [
+        [
+            15,
+            20
+        ],
+        [
+            15,
+            20
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            9,
+            20
+        ],
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            9
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "BLOCK",
+        "7": "CONTROL_STRUCTURE",
+        "8": "shared",
+        "9": "<operators>.assignmentOr",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "hctx",
+        "12": "FIELD_IDENTIFIER",
+        "13": "BLK_MQ_F_TAG_QUEUE_SHARED",
+        "14": "CONTROL_STRUCTURE",
+        "15": "<operators>.assignmentAnd",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "hctx",
+        "18": "FIELD_IDENTIFIER",
+        "19": "~BLK_MQ_F_TAG_QUEUE_SHARED",
+        "20": "METHOD_RETURN"
+    }
+}

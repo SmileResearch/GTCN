@@ -1,0 +1,182 @@
+{
+    "Function": "analogix_dp_reduce_link_rate",
+    "astEdges": [
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        10,
+        13
+    ],
+    "cfgEdges": [
+        [
+            7,
+            14
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            14
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            5,
+            14
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "analogix_dp_training_pattern_dis",
+        "4": "dp",
+        "5": "analogix_dp_set_enhanced_mode",
+        "6": "dp",
+        "7": "<operator>.assignment",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "dp",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FAILED",
+        "14": "METHOD_RETURN"
+    }
+}

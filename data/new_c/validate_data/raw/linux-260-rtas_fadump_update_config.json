@@ -1,0 +1,298 @@
+{
+    "Function": "rtas_fadump_update_config",
+    "astEdges": [
+        [
+            22,
+            24
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            0,
+            25
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            18,
+            22
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        11,
+        16,
+        20,
+        23
+    ],
+    "cfgEdges": [
+        [
+            22,
+            18
+        ],
+        [
+            14,
+            25
+        ],
+        [
+            12,
+            10
+        ],
+        [
+            4,
+            17
+        ],
+        [
+            13,
+            9
+        ],
+        [
+            21,
+            19
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            18,
+            14
+        ],
+        [
+            9,
+            8
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            19,
+            24
+        ],
+        [
+            24,
+            22
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            5,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            14,
+            25
+        ],
+        [
+            14,
+            25
+        ],
+        [
+            4,
+            18
+        ],
+        [
+            4,
+            25
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            18,
+            25
+        ],
+        [
+            18,
+            25
+        ],
+        [
+            8,
+            25
+        ],
+        [
+            8,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            23,
+            24
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "<operator>.assignment",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "fadump_conf",
+        "7": "FIELD_IDENTIFIER",
+        "8": "be64_to_cpu",
+        "9": "<operator>.fieldAccess",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "fdm",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "<operator>.assignment",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "fadump_conf",
+        "17": "FIELD_IDENTIFIER",
+        "18": "<operator>.addition",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "fadump_conf",
+        "21": "FIELD_IDENTIFIER",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "fadump_conf",
+        "24": "FIELD_IDENTIFIER",
+        "25": "METHOD_RETURN"
+    }
+}

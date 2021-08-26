@@ -1,0 +1,203 @@
+{
+    "Function": "rc_cancel_ack",
+    "astEdges": [
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            24
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            20
+        ],
+        [
+            2,
+            25
+        ],
+        [
+            2,
+            15
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            27
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            21,
+            23
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        12,
+        18,
+        22,
+        24,
+        26
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "qp",
+        "6": "FIELD_IDENTIFIER",
+        "7": "LITERAL",
+        "8": "CONTROL_STRUCTURE",
+        "9": "list_empty",
+        "10": "<operator>.addressOf",
+        "11": "<operator>.indirectFieldAccess",
+        "12": "qp",
+        "13": "FIELD_IDENTIFIER",
+        "14": "RETURN",
+        "15": "list_del_init",
+        "16": "<operator>.addressOf",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "qp",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operators>.assignmentAnd",
+        "21": "<operator>.indirectFieldAccess",
+        "22": "qp",
+        "23": "FIELD_IDENTIFIER",
+        "24": "~RVT_R_RSP_NAK",
+        "25": "rvt_put_qp",
+        "26": "qp",
+        "27": "METHOD_RETURN"
+    }
+}

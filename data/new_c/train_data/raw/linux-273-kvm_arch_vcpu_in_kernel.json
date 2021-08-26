@@ -1,0 +1,206 @@
+{
+    "Function": "kvm_arch_vcpu_in_kernel",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            15
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        15
+    ],
+    "cfgEdges": [
+        [
+            9,
+            12
+        ],
+        [
+            3,
+            16
+        ],
+        [
+            14,
+            6
+        ],
+        [
+            12,
+            8
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            13,
+            7
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            7,
+            14
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            11,
+            9
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            16
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            5,
+            16
+        ],
+        [
+            0,
+            5
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "<operator>.logicalNot",
+        "5": "<operator>.and",
+        "6": "<operator>.fieldAccess",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "<operator>.fieldAccess",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "vcpu",
+        "11": "FIELD_IDENTIFIER",
+        "12": "FIELD_IDENTIFIER",
+        "13": "FIELD_IDENTIFIER",
+        "14": "FIELD_IDENTIFIER",
+        "15": "PSW_MASK_PSTATE",
+        "16": "METHOD_RETURN"
+    }
+}

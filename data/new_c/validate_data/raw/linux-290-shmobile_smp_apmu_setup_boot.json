@@ -1,0 +1,138 @@
+{
+    "Function": "shmobile_smp_apmu_setup_boot",
+    "astEdges": [
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        6,
+        8,
+        9
+    ],
+    "cfgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ddgEdges": [
+        [
+            7,
+            10
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            9
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "shmobile_boot_fn",
+        "5": "__pa_symbol",
+        "6": "shmobile_smp_boot",
+        "7": "<operator>.assignment",
+        "8": "shmobile_boot_fn_gen2",
+        "9": "shmobile_boot_fn",
+        "10": "METHOD_RETURN"
+    }
+}

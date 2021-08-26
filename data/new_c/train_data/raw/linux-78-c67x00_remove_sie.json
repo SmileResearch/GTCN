@@ -1,0 +1,148 @@
+{
+    "Function": "c67x00_remove_sie",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        10
+    ],
+    "cfgEdges": [
+        [
+            4,
+            9
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            14
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            9
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            9,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "sie",
+        "6": "FIELD_IDENTIFIER",
+        "7": "BLOCK",
+        "8": "JUMP_TARGET",
+        "9": "c67x00_hcd_remove",
+        "10": "sie",
+        "11": "CONTROL_STRUCTURE",
+        "12": "JUMP_TARGET",
+        "13": "CONTROL_STRUCTURE",
+        "14": "METHOD_RETURN"
+    }
+}

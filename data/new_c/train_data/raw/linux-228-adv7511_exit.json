@@ -1,0 +1,147 @@
+{
+    "Function": "adv7511_exit",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "i2c_del_driver",
+        "4": "<operator>.addressOf",
+        "5": "adv7511_driver",
+        "6": "CONTROL_STRUCTURE",
+        "7": "IS_ENABLED",
+        "8": "CONFIG_DRM_MIPI_DSI",
+        "9": "mipi_dsi_driver_unregister",
+        "10": "<operator>.addressOf",
+        "11": "adv7533_dsi_driver",
+        "12": "METHOD_RETURN"
+    }
+}

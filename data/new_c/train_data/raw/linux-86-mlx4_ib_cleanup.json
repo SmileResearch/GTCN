@@ -1,0 +1,73 @@
+{
+    "Function": "mlx4_ib_cleanup",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            7,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mlx4_unregister_interface",
+        "4": "<operator>.addressOf",
+        "5": "mlx4_ib_interface",
+        "6": "mlx4_ib_mcg_destroy",
+        "7": "destroy_workqueue",
+        "8": "wq",
+        "9": "METHOD_RETURN"
+    }
+}

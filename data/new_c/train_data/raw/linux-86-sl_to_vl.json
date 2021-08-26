@@ -1,0 +1,365 @@
+{
+    "Function": "sl_to_vl",
+    "astEdges": [
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            23
+        ],
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            32
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            23,
+            25
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            42
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            29,
+            31
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            4,
+            46
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            13
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            35
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            4,
+            26
+        ],
+        [
+            39,
+            41
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            48
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        15,
+        21,
+        24,
+        27,
+        30,
+        33,
+        37,
+        40,
+        44,
+        47
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            27,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            34,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            44
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            45,
+            47
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "LOCAL",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.greaterThan",
+        "9": "sl",
+        "10": "LITERAL",
+        "11": "RETURN",
+        "12": "LITERAL",
+        "13": "<operator>.assignment",
+        "14": "<operator>.fieldAccess",
+        "15": "tmp_vltab",
+        "16": "FIELD_IDENTIFIER",
+        "17": "atomic64_read",
+        "18": "<operator>.addressOf",
+        "19": "<operator>.indirectIndexAccess",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "dev",
+        "22": "FIELD_IDENTIFIER",
+        "23": "<operator>.subtraction",
+        "24": "port_num",
+        "25": "LITERAL",
+        "26": "<operator>.assignment",
+        "27": "vl",
+        "28": "<operator>.indirectIndexAccess",
+        "29": "<operator>.fieldAccess",
+        "30": "tmp_vltab",
+        "31": "FIELD_IDENTIFIER",
+        "32": "<operator>.arithmeticShiftRight",
+        "33": "sl",
+        "34": "LITERAL",
+        "35": "CONTROL_STRUCTURE",
+        "36": "<operator>.and",
+        "37": "sl",
+        "38": "LITERAL",
+        "39": "<operators>.assignmentAnd",
+        "40": "vl",
+        "41": "LITERAL",
+        "42": "CONTROL_STRUCTURE",
+        "43": "<operators>.assignmentArithmeticShiftRight",
+        "44": "vl",
+        "45": "LITERAL",
+        "46": "RETURN",
+        "47": "vl",
+        "48": "METHOD_RETURN"
+    }
+}

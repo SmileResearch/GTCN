@@ -1,0 +1,157 @@
+{
+    "Function": "rproc_init_panic",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            8,
+            11
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10,
+        12
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            6,
+            4
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            11,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            8,
+            13
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            3,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            10
+        ],
+        [
+            10,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.fieldAccess",
+        "5": "rproc_panic_nb",
+        "6": "FIELD_IDENTIFIER",
+        "7": "rproc_panic_handler",
+        "8": "atomic_notifier_chain_register",
+        "9": "<operator>.addressOf",
+        "10": "panic_notifier_list",
+        "11": "<operator>.addressOf",
+        "12": "rproc_panic_nb",
+        "13": "METHOD_RETURN"
+    }
+}

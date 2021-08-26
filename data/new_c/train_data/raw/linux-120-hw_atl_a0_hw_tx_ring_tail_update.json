@@ -1,0 +1,173 @@
+{
+    "Function": "hw_atl_a0_hw_tx_ring_tail_update",
+    "astEdges": [
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        7,
+        10
+    ],
+    "cfgEdges": [
+        [
+            6,
+            11
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            8,
+            6
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            9,
+            4
+        ],
+        [
+            0,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            4,
+            14
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "hw_atl_reg_tx_dma_desc_tail_ptr_set",
+        "5": "self",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "ring",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "ring",
+        "11": "FIELD_IDENTIFIER",
+        "12": "RETURN",
+        "13": "LITERAL",
+        "14": "METHOD_RETURN"
+    }
+}

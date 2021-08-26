@@ -1,0 +1,256 @@
+{
+    "Function": "max_packet_exceeded",
+    "astEdges": [
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            22
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            26,
+            32
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            23,
+            33
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            35
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            17
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            31
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            19
+        ],
+        [
+            6,
+            20
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        11,
+        14,
+        18,
+        21,
+        29,
+        34
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            32,
+            34
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "thread",
+        "6": "BLOCK",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.equals",
+        "9": "<operator>.and",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "packet",
+        "12": "FIELD_IDENTIFIER",
+        "13": "<operator>.subtraction",
+        "14": "MAX_PKT_RECV_THREAD",
+        "15": "LITERAL",
+        "16": "LITERAL",
+        "17": "process_rcv_qp_work",
+        "18": "packet",
+        "19": "cond_resched",
+        "20": "RETURN",
+        "21": "RCV_PKT_OK",
+        "22": "CONTROL_STRUCTURE",
+        "23": "BLOCK",
+        "24": "this_cpu_inc",
+        "25": "<operator>.indirection",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "packet",
+        "30": "FIELD_IDENTIFIER",
+        "31": "FIELD_IDENTIFIER",
+        "32": "FIELD_IDENTIFIER",
+        "33": "RETURN",
+        "34": "RCV_PKT_LIMIT",
+        "35": "METHOD_RETURN"
+    }
+}

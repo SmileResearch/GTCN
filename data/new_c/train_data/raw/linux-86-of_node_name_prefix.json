@@ -1,0 +1,151 @@
+{
+    "Function": "of_node_name_prefix",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            10,
+            19
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            17
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            0,
+            20
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        8,
+        14,
+        16,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            8,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            18,
+            19
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.logicalNot",
+        "6": "np",
+        "7": "RETURN",
+        "8": "false",
+        "9": "RETURN",
+        "10": "<operator>.equals",
+        "11": "strncmp",
+        "12": "kbasename",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "np",
+        "15": "FIELD_IDENTIFIER",
+        "16": "prefix",
+        "17": "strlen",
+        "18": "prefix",
+        "19": "LITERAL",
+        "20": "METHOD_RETURN"
+    }
+}

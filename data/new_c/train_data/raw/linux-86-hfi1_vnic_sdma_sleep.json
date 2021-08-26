@@ -1,0 +1,446 @@
+{
+    "Function": "hfi1_vnic_sdma_sleep",
+    "astEdges": [
+        [
+            58,
+            59
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            6,
+            53
+        ],
+        [
+            6,
+            26
+        ],
+        [
+            6,
+            58
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            31
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            50,
+            52
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            44,
+            45
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            44,
+            49
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            48
+        ],
+        [
+            12,
+            17
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            53,
+            54
+        ],
+        [
+            17,
+            23
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            16
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            39,
+            44
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            35,
+            37
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            39
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            26,
+            30
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            61
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            34,
+            38
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            54,
+            55
+        ]
+    ],
+    "candidateNodeList": [
+        10,
+        14,
+        15,
+        16,
+        21,
+        25,
+        28,
+        30,
+        36,
+        42,
+        45,
+        47,
+        51,
+        56,
+        60
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            36
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            42
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            43,
+            45
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            48,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            60
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "PARAM",
+        "5": "PARAM",
+        "6": "BLOCK",
+        "7": "write_seqlock",
+        "8": "<operator>.addressOf",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "sde",
+        "11": "FIELD_IDENTIFIER",
+        "12": "CONTROL_STRUCTURE",
+        "13": "sdma_progress",
+        "14": "sde",
+        "15": "seq",
+        "16": "txreq",
+        "17": "BLOCK",
+        "18": "write_sequnlock",
+        "19": "<operator>.addressOf",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "sde",
+        "22": "FIELD_IDENTIFIER",
+        "23": "RETURN",
+        "24": "<operator>.minus",
+        "25": "EAGAIN",
+        "26": "<operator>.assignment",
+        "27": "<operator>.indirectFieldAccess",
+        "28": "vnic_sdma",
+        "29": "FIELD_IDENTIFIER",
+        "30": "HFI1_VNIC_SDMA_Q_DEFERRED",
+        "31": "CONTROL_STRUCTURE",
+        "32": "list_empty",
+        "33": "<operator>.addressOf",
+        "34": "<operator>.fieldAccess",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "vnic_sdma",
+        "37": "FIELD_IDENTIFIER",
+        "38": "FIELD_IDENTIFIER",
+        "39": "BLOCK",
+        "40": "iowait_get_priority",
+        "41": "<operator>.indirectFieldAccess",
+        "42": "wait",
+        "43": "FIELD_IDENTIFIER",
+        "44": "iowait_queue",
+        "45": "pkts_sent",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "wait",
+        "48": "FIELD_IDENTIFIER",
+        "49": "<operator>.addressOf",
+        "50": "<operator>.indirectFieldAccess",
+        "51": "sde",
+        "52": "FIELD_IDENTIFIER",
+        "53": "write_sequnlock",
+        "54": "<operator>.addressOf",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "sde",
+        "57": "FIELD_IDENTIFIER",
+        "58": "RETURN",
+        "59": "<operator>.minus",
+        "60": "EBUSY",
+        "61": "METHOD_RETURN"
+    }
+}

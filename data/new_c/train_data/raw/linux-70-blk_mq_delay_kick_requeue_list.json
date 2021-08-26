@@ -1,0 +1,155 @@
+{
+    "Function": "blk_mq_delay_kick_requeue_list",
+    "astEdges": [
+        [
+            3,
+            4
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            12
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            5
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        11
+    ],
+    "cfgEdges": [
+        [
+            9,
+            7
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            4
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            4
+        ],
+        [
+            10,
+            12
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "kblockd_mod_delayed_work_on",
+        "5": "WORK_CPU_UNBOUND",
+        "6": "<operator>.addressOf",
+        "7": "<operator>.indirectFieldAccess",
+        "8": "q",
+        "9": "FIELD_IDENTIFIER",
+        "10": "msecs_to_jiffies",
+        "11": "msecs",
+        "12": "METHOD_RETURN"
+    }
+}

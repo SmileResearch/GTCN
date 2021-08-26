@@ -1,0 +1,182 @@
+{
+    "Function": "update_hcrc",
+    "astEdges": [
+        [
+            3,
+            21
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            23
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            4,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9,
+        12,
+        13,
+        15,
+        19,
+        20,
+        22
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            12
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "<operator>.equals",
+        "6": "<operator>.and",
+        "7": "opcode",
+        "8": "IB_OPCODE_TID_RDMA",
+        "9": "IB_OPCODE_TID_RDMA",
+        "10": "BLOCK",
+        "11": "<operators>.assignmentAnd",
+        "12": "pbc",
+        "13": "~PBC_INSERT_HCRC_SMASK",
+        "14": "<operators>.assignmentOr",
+        "15": "pbc",
+        "16": "<operator>.shiftLeft",
+        "17": "<operator>.cast",
+        "18": "UNKNOWN",
+        "19": "PBC_IHCRC_LKDETH",
+        "20": "PBC_INSERT_HCRC_SHIFT",
+        "21": "RETURN",
+        "22": "pbc",
+        "23": "METHOD_RETURN"
+    }
+}

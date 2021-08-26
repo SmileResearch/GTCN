@@ -1,0 +1,352 @@
+{
+    "Function": "end_trimming_bitmap",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            15,
+            17
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            22,
+            28
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            0,
+            31
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            13,
+            19
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            22
+        ],
+        [
+            7,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        12,
+        16,
+        18,
+        20,
+        25,
+        27,
+        29
+    ],
+    "cfgEdges": [
+        [
+            9,
+            8
+        ],
+        [
+            15,
+            14
+        ],
+        [
+            21,
+            19
+        ],
+        [
+            22,
+            31
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            5,
+            31
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            23,
+            30
+        ],
+        [
+            13,
+            26
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            24,
+            23
+        ],
+        [
+            26,
+            24
+        ],
+        [
+            30,
+            28
+        ],
+        [
+            19,
+            13
+        ],
+        [
+            14,
+            21
+        ],
+        [
+            17,
+            15
+        ],
+        [
+            28,
+            22
+        ]
+    ],
+    "ddgEdges": [
+        [
+            22,
+            31
+        ],
+        [
+            22,
+            31
+        ],
+        [
+            0,
+            5
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            5,
+            31
+        ],
+        [
+            5,
+            31
+        ],
+        [
+            8,
+            31
+        ],
+        [
+            8,
+            31
+        ],
+        [
+            13,
+            31
+        ],
+        [
+            13,
+            31
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            30
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "CONTROL_STRUCTURE",
+        "5": "btrfs_free_space_trimming_bitmap",
+        "6": "entry",
+        "7": "BLOCK",
+        "8": "<operator>.assignment",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "entry",
+        "11": "FIELD_IDENTIFIER",
+        "12": "BTRFS_TRIM_STATE_TRIMMED",
+        "13": "<operator>.assignmentMinus",
+        "14": "<operator>.indirectIndexAccess",
+        "15": "<operator>.indirectFieldAccess",
+        "16": "ctl",
+        "17": "FIELD_IDENTIFIER",
+        "18": "BTRFS_STAT_CURR",
+        "19": "<operator>.indirectFieldAccess",
+        "20": "entry",
+        "21": "FIELD_IDENTIFIER",
+        "22": "<operator>.assignmentMinus",
+        "23": "<operator>.indirectIndexAccess",
+        "24": "<operator>.indirectFieldAccess",
+        "25": "ctl",
+        "26": "FIELD_IDENTIFIER",
+        "27": "BTRFS_STAT_CURR",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "entry",
+        "30": "FIELD_IDENTIFIER",
+        "31": "METHOD_RETURN"
+    }
+}

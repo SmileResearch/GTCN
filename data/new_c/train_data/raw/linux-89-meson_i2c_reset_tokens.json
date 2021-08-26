@@ -1,0 +1,245 @@
+{
+    "Function": "meson_i2c_reset_tokens",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            17,
+            21
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            22
+        ],
+        [
+            18,
+            20
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            10
+        ],
+        [
+            2,
+            17
+        ],
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        13,
+        19
+    ],
+    "cfgEdges": [
+        [
+            5,
+            4
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            11,
+            10
+        ],
+        [
+            17,
+            22
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            18,
+            17
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            10,
+            20
+        ],
+        [
+            20,
+            18
+        ]
+    ],
+    "ddgEdges": [
+        [
+            17,
+            22
+        ],
+        [
+            0,
+            10
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            17
+        ],
+        [
+            3,
+            22
+        ],
+        [
+            10,
+            22
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            21
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "<operator>.assignment",
+        "4": "<operator>.indirectIndexAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "i2c",
+        "7": "FIELD_IDENTIFIER",
+        "8": "LITERAL",
+        "9": "LITERAL",
+        "10": "<operator>.assignment",
+        "11": "<operator>.indirectIndexAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "i2c",
+        "14": "FIELD_IDENTIFIER",
+        "15": "LITERAL",
+        "16": "LITERAL",
+        "17": "<operator>.assignment",
+        "18": "<operator>.indirectFieldAccess",
+        "19": "i2c",
+        "20": "FIELD_IDENTIFIER",
+        "21": "LITERAL",
+        "22": "METHOD_RETURN"
+    }
+}

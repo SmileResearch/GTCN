@@ -1,0 +1,260 @@
+{
+    "Function": "mlx4_ib_delete_counters_table",
+    "astEdges": [
+        [
+            28,
+            29
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            28
+        ],
+        [
+            11,
+            23
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            32,
+            34
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            27
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            35
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            16
+        ]
+    ],
+    "candidateNodeList": [
+        9,
+        14,
+        18,
+        21,
+        26,
+        29,
+        33
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            21
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            22,
+            26
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            27,
+            29
+        ],
+        [
+            29,
+            33
+        ],
+        [
+            33,
+            34
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "LOCAL",
+        "6": "mutex_lock",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "ctr_table",
+        "10": "FIELD_IDENTIFIER",
+        "11": "BLOCK",
+        "12": "CONTROL_STRUCTURE",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "counter",
+        "15": "FIELD_IDENTIFIER",
+        "16": "mlx4_counter_free",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "ibdev",
+        "19": "FIELD_IDENTIFIER",
+        "20": "<operator>.indirectFieldAccess",
+        "21": "counter",
+        "22": "FIELD_IDENTIFIER",
+        "23": "list_del",
+        "24": "<operator>.addressOf",
+        "25": "<operator>.indirectFieldAccess",
+        "26": "counter",
+        "27": "FIELD_IDENTIFIER",
+        "28": "kfree",
+        "29": "counter",
+        "30": "mutex_unlock",
+        "31": "<operator>.addressOf",
+        "32": "<operator>.indirectFieldAccess",
+        "33": "ctr_table",
+        "34": "FIELD_IDENTIFIER",
+        "35": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "Function": "hci_mgmt_chan_unregister",
+    "astEdges": [
+        [
+            4,
+            5
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            14
+        ],
+        [
+            0,
+            1
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        13
+    ],
+    "cfgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            12,
+            11
+        ],
+        [
+            7,
+            6
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            6,
+            12
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            10,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            14
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            6,
+            14
+        ],
+        [
+            6,
+            14
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            13
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "mutex_lock",
+        "4": "<operator>.addressOf",
+        "5": "mgmt_chan_list_lock",
+        "6": "list_del",
+        "7": "<operator>.addressOf",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "c",
+        "10": "FIELD_IDENTIFIER",
+        "11": "mutex_unlock",
+        "12": "<operator>.addressOf",
+        "13": "mgmt_chan_list_lock",
+        "14": "METHOD_RETURN"
+    }
+}

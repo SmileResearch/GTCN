@@ -1,0 +1,142 @@
+{
+    "Function": "dax_kmem_exit",
+    "astEdges": [
+        [
+            9,
+            10
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            6
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            4
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        8,
+        10
+    ],
+    "cfgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            0,
+            9
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            3,
+            11
+        ],
+        [
+            3,
+            11
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            8
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dax_driver_unregister",
+        "4": "<operator>.addressOf",
+        "5": "device_dax_kmem_driver",
+        "6": "CONTROL_STRUCTURE",
+        "7": "<operator>.logicalNot",
+        "8": "any_hotremove_failed",
+        "9": "kfree_const",
+        "10": "kmem_name",
+        "11": "METHOD_RETURN"
+    }
+}

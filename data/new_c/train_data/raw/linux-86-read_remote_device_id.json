@@ -1,0 +1,226 @@
+{
+    "Function": "read_remote_device_id",
+    "astEdges": [
+        [
+            20,
+            21
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            19
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            23,
+            27
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            6,
+            10
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            18
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            20
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            24,
+            25
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            28
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        8,
+        9,
+        11,
+        14,
+        17,
+        18,
+        19,
+        22,
+        25,
+        26,
+        27
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            11,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            22
+        ],
+        [
+            22,
+            25
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            26,
+            27
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "PARAM",
+        "4": "BLOCK",
+        "5": "LOCAL",
+        "6": "read_8051_config",
+        "7": "dd",
+        "8": "REMOTE_DEVICE_ID",
+        "9": "GENERAL_CONFIG",
+        "10": "<operator>.addressOf",
+        "11": "frame",
+        "12": "<operator>.assignment",
+        "13": "<operator>.indirection",
+        "14": "device_id",
+        "15": "<operator>.and",
+        "16": "<operator>.arithmeticShiftRight",
+        "17": "frame",
+        "18": "REMOTE_DEVICE_ID_SHIFT",
+        "19": "REMOTE_DEVICE_ID_MASK",
+        "20": "<operator>.assignment",
+        "21": "<operator>.indirection",
+        "22": "device_rev",
+        "23": "<operator>.and",
+        "24": "<operator>.arithmeticShiftRight",
+        "25": "frame",
+        "26": "REMOTE_DEVICE_REV_SHIFT",
+        "27": "REMOTE_DEVICE_REV_MASK",
+        "28": "METHOD_RETURN"
+    }
+}

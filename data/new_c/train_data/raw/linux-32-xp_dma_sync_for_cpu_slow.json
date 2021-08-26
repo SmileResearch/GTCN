@@ -1,0 +1,227 @@
+{
+    "Function": "xp_dma_sync_for_cpu_slow",
+    "astEdges": [
+        [
+            13,
+            17
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            9,
+            11
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            3,
+            9
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            13
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        10,
+        15,
+        18
+    ],
+    "cfgEdges": [
+        [
+            17,
+            13
+        ],
+        [
+            13,
+            3
+        ],
+        [
+            11,
+            9
+        ],
+        [
+            16,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            9,
+            16
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            8,
+            4
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            5,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            3
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ],
+        [
+            3,
+            19
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "dma_sync_single_range_for_cpu",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "xskb",
+        "7": "FIELD_IDENTIFIER",
+        "8": "FIELD_IDENTIFIER",
+        "9": "<operator>.indirectFieldAccess",
+        "10": "xskb",
+        "11": "FIELD_IDENTIFIER",
+        "12": "LITERAL",
+        "13": "<operator>.indirectFieldAccess",
+        "14": "<operator>.indirectFieldAccess",
+        "15": "xskb",
+        "16": "FIELD_IDENTIFIER",
+        "17": "FIELD_IDENTIFIER",
+        "18": "DMA_BIDIRECTIONAL",
+        "19": "METHOD_RETURN"
+    }
+}

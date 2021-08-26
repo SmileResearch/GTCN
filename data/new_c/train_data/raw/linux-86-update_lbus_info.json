@@ -1,0 +1,372 @@
+{
+    "Function": "update_lbus_info",
+    "astEdges": [
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            48
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            36
+        ],
+        [
+            45,
+            47
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            33,
+            34
+        ],
+        [
+            33,
+            45
+        ],
+        [
+            33,
+            41
+        ],
+        [
+            33,
+            42
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            28,
+            30
+        ],
+        [
+            22,
+            23
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            38,
+            40
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            21,
+            25
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            14,
+            16
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            2,
+            33
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            2,
+            14
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            21
+        ],
+        [
+            2,
+            27
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            27,
+            31
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11,
+        13,
+        15,
+        18,
+        23,
+        26,
+        29,
+        32,
+        35,
+        39,
+        43,
+        46
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            3
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            15
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            23
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            24,
+            26
+        ],
+        [
+            26,
+            29
+        ],
+        [
+            29,
+            30
+        ],
+        [
+            30,
+            32
+        ],
+        [
+            32,
+            35
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            36,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            41
+        ],
+        [
+            41,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            46
+        ],
+        [
+            46,
+            47
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "LOCAL",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "ret",
+        "7": "pcie_capability_read_word",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "dd",
+        "10": "FIELD_IDENTIFIER",
+        "11": "PCI_EXP_LNKSTA",
+        "12": "<operator>.addressOf",
+        "13": "linkstat",
+        "14": "CONTROL_STRUCTURE",
+        "15": "ret",
+        "16": "BLOCK",
+        "17": "dd_dev_err",
+        "18": "dd",
+        "19": "LITERAL",
+        "20": "RETURN",
+        "21": "<operator>.assignment",
+        "22": "<operator>.indirectFieldAccess",
+        "23": "dd",
+        "24": "FIELD_IDENTIFIER",
+        "25": "extract_width",
+        "26": "linkstat",
+        "27": "<operator>.assignment",
+        "28": "<operator>.indirectFieldAccess",
+        "29": "dd",
+        "30": "FIELD_IDENTIFIER",
+        "31": "extract_speed",
+        "32": "linkstat",
+        "33": "snprintf",
+        "34": "<operator>.indirectFieldAccess",
+        "35": "dd",
+        "36": "FIELD_IDENTIFIER",
+        "37": "<operator>.sizeOf",
+        "38": "<operator>.indirectFieldAccess",
+        "39": "dd",
+        "40": "FIELD_IDENTIFIER",
+        "41": "LITERAL",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "dd",
+        "44": "FIELD_IDENTIFIER",
+        "45": "<operator>.indirectFieldAccess",
+        "46": "dd",
+        "47": "FIELD_IDENTIFIER",
+        "48": "METHOD_RETURN"
+    }
+}

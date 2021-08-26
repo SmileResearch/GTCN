@@ -1,0 +1,149 @@
+{
+    "Function": "alsa_card_sb16_exit",
+    "astEdges": [
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        4,
+        7,
+        9,
+        12
+    ],
+    "cfgEdges": [
+        [
+            0,
+            11
+        ],
+        [
+            0,
+            13
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            6,
+            5
+        ],
+        [
+            5,
+            11
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            11,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            10,
+            13
+        ],
+        [
+            10,
+            13
+        ],
+        [
+            5,
+            13
+        ],
+        [
+            5,
+            13
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            4
+        ],
+        [
+            4,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            12
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "CONTROL_STRUCTURE",
+        "4": "pnp_registered",
+        "5": "pnp_unregister_card_driver",
+        "6": "<operator>.addressOf",
+        "7": "sb16_pnpc_driver",
+        "8": "CONTROL_STRUCTURE",
+        "9": "isa_registered",
+        "10": "isa_unregister_driver",
+        "11": "<operator>.addressOf",
+        "12": "snd_sb16_isa_driver",
+        "13": "METHOD_RETURN"
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "Function": "rt2x00lib_free_firmware",
+    "astEdges": [
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            2,
+            7
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            10,
+            8
+        ],
+        [
+            0,
+            6
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            8,
+            7
+        ],
+        [
+            6,
+            4
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            7
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            7,
+            12
+        ],
+        [
+            7,
+            12
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "release_firmware",
+        "4": "<operator>.indirectFieldAccess",
+        "5": "rt2x00dev",
+        "6": "FIELD_IDENTIFIER",
+        "7": "<operator>.assignment",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "rt2x00dev",
+        "10": "FIELD_IDENTIFIER",
+        "11": "NULL",
+        "12": "METHOD_RETURN"
+    }
+}

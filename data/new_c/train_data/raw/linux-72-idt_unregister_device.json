@@ -1,0 +1,208 @@
+{
+    "Function": "idt_unregister_device",
+    "astEdges": [
+        [
+            10,
+            16
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            18
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            11,
+            15
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            2,
+            8
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            8,
+            17
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            10
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        13
+    ],
+    "cfgEdges": [
+        [
+            10,
+            9
+        ],
+        [
+            3,
+            14
+        ],
+        [
+            0,
+            7
+        ],
+        [
+            11,
+            16
+        ],
+        [
+            14,
+            12
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            16,
+            10
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            15,
+            11
+        ],
+        [
+            5,
+            4
+        ],
+        [
+            8,
+            18
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            9,
+            8
+        ]
+    ],
+    "ddgEdges": [
+        [
+            3,
+            18
+        ],
+        [
+            3,
+            18
+        ],
+        [
+            0,
+            8
+        ],
+        [
+            8,
+            18
+        ],
+        [
+            8,
+            18
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            15
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            16,
+            17
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "ntb_unregister_device",
+        "4": "<operator>.addressOf",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "ndev",
+        "7": "FIELD_IDENTIFIER",
+        "8": "dev_dbg",
+        "9": "<operator>.addressOf",
+        "10": "<operator>.indirectFieldAccess",
+        "11": "<operator>.fieldAccess",
+        "12": "<operator>.indirectFieldAccess",
+        "13": "ndev",
+        "14": "FIELD_IDENTIFIER",
+        "15": "FIELD_IDENTIFIER",
+        "16": "FIELD_IDENTIFIER",
+        "17": "LITERAL",
+        "18": "METHOD_RETURN"
+    }
+}

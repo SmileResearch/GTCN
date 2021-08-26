@@ -1,0 +1,180 @@
+{
+    "Function": "kunit_unary_assert_format",
+    "astEdges": [
+        [
+            0,
+            15
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            3,
+            7
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            4,
+            6
+        ]
+    ],
+    "candidateNodeList": [
+        5,
+        6,
+        9,
+        13,
+        14
+    ],
+    "cfgEdges": [
+        [
+            0,
+            4
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            8,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            4,
+            10
+        ]
+    ],
+    "ddgEdges": [
+        [
+            0,
+            12
+        ],
+        [
+            0,
+            4
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            15
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            5
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "kunit_base_assert_format",
+        "5": "assert",
+        "6": "stream",
+        "7": "CONTROL_STRUCTURE",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "unary_assert",
+        "10": "FIELD_IDENTIFIER",
+        "11": "CONTROL_STRUCTURE",
+        "12": "kunit_assert_print_msg",
+        "13": "assert",
+        "14": "stream",
+        "15": "METHOD_RETURN"
+    }
+}

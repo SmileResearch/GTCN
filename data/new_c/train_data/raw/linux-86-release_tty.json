@@ -1,0 +1,576 @@
+{
+    "Function": "release_tty",
+    "astEdges": [
+        [
+            59,
+            61
+        ],
+        [
+            59,
+            60
+        ],
+        [
+            72,
+            73
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            78
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            31,
+            32
+        ],
+        [
+            31,
+            33
+        ],
+        [
+            11,
+            12
+        ],
+        [
+            30,
+            34
+        ],
+        [
+            30,
+            31
+        ],
+        [
+            12,
+            13
+        ],
+        [
+            45,
+            46
+        ],
+        [
+            45,
+            53
+        ],
+        [
+            42,
+            43
+        ],
+        [
+            42,
+            44
+        ],
+        [
+            36,
+            38
+        ],
+        [
+            36,
+            37
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            34,
+            35
+        ],
+        [
+            34,
+            40
+        ],
+        [
+            58,
+            59
+        ],
+        [
+            55,
+            57
+        ],
+        [
+            55,
+            56
+        ],
+        [
+            46,
+            47
+        ],
+        [
+            46,
+            52
+        ],
+        [
+            54,
+            55
+        ],
+        [
+            54,
+            58
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            16,
+            20
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            15,
+            21
+        ],
+        [
+            23,
+            24
+        ],
+        [
+            62,
+            63
+        ],
+        [
+            62,
+            66
+        ],
+        [
+            21,
+            22
+        ],
+        [
+            63,
+            64
+        ],
+        [
+            63,
+            65
+        ],
+        [
+            25,
+            26
+        ],
+        [
+            25,
+            29
+        ],
+        [
+            68,
+            69
+        ],
+        [
+            68,
+            70
+        ],
+        [
+            73,
+            74
+        ],
+        [
+            73,
+            75
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            41,
+            42
+        ],
+        [
+            41,
+            45
+        ],
+        [
+            35,
+            39
+        ],
+        [
+            35,
+            36
+        ],
+        [
+            76,
+            77
+        ],
+        [
+            17,
+            19
+        ],
+        [
+            17,
+            18
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            54
+        ],
+        [
+            3,
+            62
+        ],
+        [
+            3,
+            76
+        ],
+        [
+            3,
+            15
+        ],
+        [
+            3,
+            72
+        ],
+        [
+            3,
+            41
+        ],
+        [
+            3,
+            23
+        ],
+        [
+            3,
+            25
+        ],
+        [
+            3,
+            30
+        ],
+        [
+            3,
+            10
+        ],
+        [
+            5,
+            9
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            6,
+            8
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            67,
+            71
+        ],
+        [
+            67,
+            68
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            26,
+            28
+        ],
+        [
+            26,
+            27
+        ],
+        [
+            48,
+            49
+        ],
+        [
+            48,
+            50
+        ],
+        [
+            66,
+            67
+        ],
+        [
+            47,
+            48
+        ],
+        [
+            47,
+            51
+        ]
+    ],
+    "candidateNodeList": [
+        7,
+        9,
+        14,
+        18,
+        22,
+        24,
+        27,
+        29,
+        32,
+        37,
+        40,
+        43,
+        49,
+        53,
+        56,
+        60,
+        64,
+        69,
+        74,
+        77
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            7
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            9,
+            14
+        ],
+        [
+            14,
+            18
+        ],
+        [
+            18,
+            19
+        ],
+        [
+            19,
+            20
+        ],
+        [
+            20,
+            22
+        ],
+        [
+            22,
+            24
+        ],
+        [
+            24,
+            27
+        ],
+        [
+            27,
+            28
+        ],
+        [
+            28,
+            29
+        ],
+        [
+            29,
+            32
+        ],
+        [
+            32,
+            33
+        ],
+        [
+            33,
+            37
+        ],
+        [
+            37,
+            38
+        ],
+        [
+            38,
+            39
+        ],
+        [
+            39,
+            40
+        ],
+        [
+            40,
+            43
+        ],
+        [
+            43,
+            44
+        ],
+        [
+            44,
+            49
+        ],
+        [
+            49,
+            50
+        ],
+        [
+            50,
+            51
+        ],
+        [
+            51,
+            52
+        ],
+        [
+            52,
+            53
+        ],
+        [
+            53,
+            56
+        ],
+        [
+            56,
+            57
+        ],
+        [
+            57,
+            60
+        ],
+        [
+            60,
+            61
+        ],
+        [
+            61,
+            64
+        ],
+        [
+            64,
+            65
+        ],
+        [
+            65,
+            69
+        ],
+        [
+            69,
+            70
+        ],
+        [
+            70,
+            71
+        ],
+        [
+            71,
+            74
+        ],
+        [
+            74,
+            75
+        ],
+        [
+            75,
+            77
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "WARN_ON",
+        "5": "<operator>.notEquals",
+        "6": "<operator>.indirectFieldAccess",
+        "7": "tty",
+        "8": "FIELD_IDENTIFIER",
+        "9": "idx",
+        "10": "WARN_ON",
+        "11": "<operator>.logicalNot",
+        "12": "mutex_is_locked",
+        "13": "<operator>.addressOf",
+        "14": "tty_mutex",
+        "15": "CONTROL_STRUCTURE",
+        "16": "<operator>.indirectFieldAccess",
+        "17": "<operator>.indirectFieldAccess",
+        "18": "tty",
+        "19": "FIELD_IDENTIFIER",
+        "20": "FIELD_IDENTIFIER",
+        "21": "tty->ops->shutdown",
+        "22": "tty",
+        "23": "tty_save_termios",
+        "24": "tty",
+        "25": "tty_driver_remove_tty",
+        "26": "<operator>.indirectFieldAccess",
+        "27": "tty",
+        "28": "FIELD_IDENTIFIER",
+        "29": "tty",
+        "30": "CONTROL_STRUCTURE",
+        "31": "<operator>.indirectFieldAccess",
+        "32": "tty",
+        "33": "FIELD_IDENTIFIER",
+        "34": "<operator>.assignment",
+        "35": "<operator>.indirectFieldAccess",
+        "36": "<operator>.indirectFieldAccess",
+        "37": "tty",
+        "38": "FIELD_IDENTIFIER",
+        "39": "FIELD_IDENTIFIER",
+        "40": "NULL",
+        "41": "CONTROL_STRUCTURE",
+        "42": "<operator>.indirectFieldAccess",
+        "43": "tty",
+        "44": "FIELD_IDENTIFIER",
+        "45": "<operator>.assignment",
+        "46": "<operator>.indirectFieldAccess",
+        "47": "<operator>.indirectFieldAccess",
+        "48": "<operator>.indirectFieldAccess",
+        "49": "tty",
+        "50": "FIELD_IDENTIFIER",
+        "51": "FIELD_IDENTIFIER",
+        "52": "FIELD_IDENTIFIER",
+        "53": "NULL",
+        "54": "CONTROL_STRUCTURE",
+        "55": "<operator>.indirectFieldAccess",
+        "56": "tty",
+        "57": "FIELD_IDENTIFIER",
+        "58": "tty_buffer_cancel_work",
+        "59": "<operator>.indirectFieldAccess",
+        "60": "tty",
+        "61": "FIELD_IDENTIFIER",
+        "62": "CONTROL_STRUCTURE",
+        "63": "<operator>.indirectFieldAccess",
+        "64": "tty",
+        "65": "FIELD_IDENTIFIER",
+        "66": "tty_buffer_cancel_work",
+        "67": "<operator>.indirectFieldAccess",
+        "68": "<operator>.indirectFieldAccess",
+        "69": "tty",
+        "70": "FIELD_IDENTIFIER",
+        "71": "FIELD_IDENTIFIER",
+        "72": "tty_kref_put",
+        "73": "<operator>.indirectFieldAccess",
+        "74": "tty",
+        "75": "FIELD_IDENTIFIER",
+        "76": "tty_kref_put",
+        "77": "tty",
+        "78": "METHOD_RETURN"
+    }
+}

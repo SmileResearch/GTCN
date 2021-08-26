@@ -1,0 +1,157 @@
+{
+    "Function": "ZSTD_copyDCtx",
+    "astEdges": [
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            15,
+            18
+        ],
+        [
+            15,
+            16
+        ],
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            7,
+            8
+        ],
+        [
+            7,
+            11
+        ],
+        [
+            16,
+            17
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            3,
+            5
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            19
+        ],
+        [
+            0,
+            3
+        ],
+        [
+            12,
+            15
+        ],
+        [
+            12,
+            14
+        ],
+        [
+            12,
+            13
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        10,
+        11,
+        13,
+        14,
+        17,
+        18
+    ],
+    "cfgEdges": [],
+    "ddgEdges": [],
+    "ncsEdges": [
+        [
+            1,
+            2
+        ],
+        [
+            2,
+            4
+        ],
+        [
+            4,
+            6
+        ],
+        [
+            6,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ],
+        [
+            11,
+            13
+        ],
+        [
+            13,
+            14
+        ],
+        [
+            14,
+            17
+        ],
+        [
+            17,
+            18
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "PARAM",
+        "3": "BLOCK",
+        "4": "LOCAL",
+        "5": "<operator>.assignment",
+        "6": "workSpaceSize",
+        "7": "<operator>.addition",
+        "8": "<operator>.addition",
+        "9": "ZSTD_BLOCKSIZE_ABSOLUTEMAX",
+        "10": "WILDCOPY_OVERLENGTH",
+        "11": "ZSTD_frameHeaderSize_max",
+        "12": "memcpy",
+        "13": "dstDCtx",
+        "14": "srcDCtx",
+        "15": "<operator>.subtraction",
+        "16": "<operator>.sizeOf",
+        "17": "ZSTD_DCtx",
+        "18": "workSpaceSize",
+        "19": "METHOD_RETURN"
+    }
+}

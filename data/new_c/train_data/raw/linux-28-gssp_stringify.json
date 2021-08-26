@@ -1,0 +1,155 @@
+{
+    "Function": "gssp_stringify",
+    "astEdges": [
+        [
+            8,
+            9
+        ],
+        [
+            8,
+            10
+        ],
+        [
+            4,
+            11
+        ],
+        [
+            4,
+            8
+        ],
+        [
+            4,
+            5
+        ],
+        [
+            3,
+            4
+        ],
+        [
+            2,
+            3
+        ],
+        [
+            5,
+            6
+        ],
+        [
+            5,
+            7
+        ],
+        [
+            0,
+            2
+        ],
+        [
+            0,
+            1
+        ],
+        [
+            0,
+            12
+        ]
+    ],
+    "candidateNodeList": [
+        6,
+        9,
+        11
+    ],
+    "cfgEdges": [
+        [
+            8,
+            4
+        ],
+        [
+            7,
+            5
+        ],
+        [
+            4,
+            3
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            10,
+            8
+        ],
+        [
+            5,
+            10
+        ],
+        [
+            0,
+            7
+        ]
+    ],
+    "ddgEdges": [
+        [
+            4,
+            3
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            4,
+            12
+        ],
+        [
+            3,
+            12
+        ],
+        [
+            0,
+            4
+        ]
+    ],
+    "ncsEdges": [
+        [
+            1,
+            6
+        ],
+        [
+            6,
+            7
+        ],
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            10
+        ],
+        [
+            10,
+            11
+        ]
+    ],
+    "nodeList": {
+        "0": "METHOD",
+        "1": "PARAM",
+        "2": "BLOCK",
+        "3": "RETURN",
+        "4": "kmemdup_nul",
+        "5": "<operator>.indirectFieldAccess",
+        "6": "netobj",
+        "7": "FIELD_IDENTIFIER",
+        "8": "<operator>.indirectFieldAccess",
+        "9": "netobj",
+        "10": "FIELD_IDENTIFIER",
+        "11": "GFP_KERNEL",
+        "12": "METHOD_RETURN"
+    }
+}
