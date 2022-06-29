@@ -1,2 +1,2 @@
-# Tensor_GGNN_GCN
-this is a federated learning network by accomplish code completion task.
+# GTCN
+this is a anonymous repository for "Interpretable Graph Tensor Convolution Neural Network for Code Semantics Embedding".
