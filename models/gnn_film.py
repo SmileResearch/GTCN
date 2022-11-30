@@ -24,7 +24,6 @@ class GNN_FiLM(MessagePassing):
         self.device = device
         self.dropout = dropout
         self.model_epoch=model_epoch
-        # 先对值进行embedding
         self.value_embeddingLayer = EmbeddingLayer(embedding_num_classes,
                                                    in_features,
                                                    embedding_out_features,
@@ -39,8 +38,6 @@ class GNN_FiLM(MessagePassing):
 
 
     def forward(self, x, edge_list: List[torch.tensor],**kwargs):
-        # 要把edge_list进行拼接，然后还要制作edge_type,
-        # edge_type : size(E*edge_list_nums) 序号从0开始。
         edge_type_list = []
         for e_i in range(len(edge_list)):
             edge = edge_list[e_i]
@@ -56,11 +53,9 @@ class GNN_FiLM(MessagePassing):
         for m_epoch in range(self.model_epoch):
             cur_node_states = F.dropout(last_node_states, self.dropout, training=self.training)
 
-            #cur_node_states = self.MessagePassingNN[m_epoch](cur_node_states, edge, edge_type)
             cur_node_states = self.MessagePassingNN(cur_node_states, edge, edge_type)
 
             last_node_states = cur_node_states
 
         out = last_node_states
         return out
-        #return self.learning_output(out, slot_id, candidate_ids, candidate_masks)

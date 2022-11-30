@@ -9,14 +9,14 @@ from typing import List, Tuple
 
 from utils.model_metrics import cal_metrics
 
-# 本地库
 
 
 class VarmisuseOutputLayer(nn.Module):
+    # the downstream task use for variable misuse detection. 
     def __init__(
         self,
         out_features,
-        max_variable_candidates=5,
+        max_variable_candidates=5, # max candidate during detection.
         criterion=nn.CrossEntropyLoss(),
         metrics=cal_metrics,
         device="cpu",
@@ -71,7 +71,6 @@ class VarmisuseOutputLayer(nn.Module):
             if output_label:
                 result.append(label)
         
-        # 如果metrics传入进来了，则计算每一个metrics的值。并返回。否则使用self.metrics
         if metric_functions is not None:
             if type(metric_functions) is list:
                 metrics = dict()

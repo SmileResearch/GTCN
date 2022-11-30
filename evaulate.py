@@ -30,15 +30,13 @@ class Evaulate:
     def default_args(cls):
         parser = argparse.ArgumentParser(description="Single Task 模型预测", add_help=False)
 
-        # 导入模型
-        parser.add_argument('--load_model_file', type=str, default="trained_models/model_save/Single-Task_2022-05-28-11-18-56_17866_tensor_gcn_tensor_gcn_best_model", help='当这个值为None时，不导入模型。当部位None时，则是模型存储的地址。')
+        # load model
+        parser.add_argument('--load_model_file', type=str, default="trained_models/model_save/Single-Task_2022-05-28-11-18-56_17866_tensor_gcn_tensor_gcn_best_model", help='the checkpoint path of choose model.')
         
-        # 任务相关
+        # set device
         parser.add_argument('--device', type=str, default="cuda", help='')
         
-        
-        
-        # 导入数据
+        # load data
         parser.add_argument('--evaulate_data_dir',
                             type=str,
                             default="data/csharp/validate_data",
@@ -56,7 +54,6 @@ class Evaulate:
             help='')
         
         
-        # 输出相关
         parser.add_argument('--result_dir', type=str, default="trained_models/", help='')
         parser.add_argument('--notes', type=str, default="None", help=' notes ')
         
@@ -68,12 +65,12 @@ class Evaulate:
         
         
         parser.add_argument('-h', '--help', action='help', default=argparse.SUPPRESS,
-                    help='对数据进行评估，支持的选项如 --roc --case 等.')
+                    help='evaluate the data. can set --roc to caculate roc. set --case to case analysis.')
         
         # 评估选项
-        add_bool_arg(parser, "roc", help="是否进行roc评估", default=False) 
-        add_bool_arg(parser, "case_analysis", help="对每个样本输出详细的信息", default=True) 
-        add_bool_arg(parser, "only_different_case", help="仅对不同的样本产生输出", default=True) 
+        add_bool_arg(parser, "roc", help="do roc evaluate.", default=False) 
+        add_bool_arg(parser, "case_analysis", help="output detail probability or each variable.", default=True) 
+        add_bool_arg(parser, "only_different_case", help="following case analysis, when is True, only output the wrong case.", default=True) 
         
         
         return parser
@@ -87,7 +84,6 @@ class Evaulate:
         # pre parse args
         self.args.run_id = "_".join([self.name(), time.strftime("%Y_%m_%d_%H_%M_%S"), str(getpid()), self.args.notes])
         
-        # 设置日志
         self.evaulate_dir = os.path.join(self.args.result_dir, "evaulate")
         self.evaulate_log_dir = os.path.join(self.evaulate_dir, "log")
         self.evaulate_out_dir = os.path.join(self.evaulate_dir, "output", self.args.run_id)
@@ -101,46 +97,40 @@ class Evaulate:
         self.__load_data()
 
     def __load_data(self):
-        self.logger.info("导入数据")
-        # 导入数据
-        # 根据参数导入数据。
+        self.logger.info("load dataset")
         evaulate_data_dir = self.args.evaulate_data_dir
 
-        # 数据地址或者字典地址有误则报错。
         if not os.path.exists(evaulate_data_dir):
             raise Exception("train data or validate data dir not exists error!")
 
         if not os.path.exists(self.args.value_dict_dir) or not os.path.exists(
                 self.args.type_dict_dir):
-            # TODO: value_dict, type_dict待改。 
             raise Exception("vocab dict not exists error!")
 
 
-        # 数据初始化
+        # dataset init
         self._loaded_datasets = dict()
         
-        # 导入数据
+        # load data
         if self.args.dataset_num_workers is None:
             self.args.dataset_num_workers = int(cpu_count() / 2)
             
         self._loaded_datasets[DataFold.TEST] = name_to_dataloader(self.args.dataset_name, evaulate_data_dir, DataFold.TEST, self.args, num_workers=self.args.dataset_num_workers)
 
         self.args.eavulate_data_nums = self._loaded_datasets[DataFold.TEST].data_nums
-        self.logger.info("数据导入完毕")
+        self.logger.info("load dataset over!")
 
         
     
     def __load_model_and_args(self, path):
-        self.logger.info("导入模型:{}".format(path))
+        self.logger.info("load model:{}".format(path))
         if not os.path.exists(path):
-            raise Exception("文件夹不存在 %s" % path)
+            raise Exception("path do not exists %s" % path)
         self.model = joblib.load(os.path.join(path, "model.joblib"))
         self.output_model = joblib.load(os.path.join(path, "output_model.joblib"))
         with open(os.path.join(path, "params.json"), "r") as f:
             args = json.load(f)
             for key, value in args.items():
-                # 当key不存在的时候加入到当前args中。
-                # 如果当前文件指定了某些参数，则不进行拷贝。
                 if key not in self.args:
                     if isinstance(value, numbers.Number):
                         exec(f"self.args.{key}={value}")
@@ -151,20 +141,18 @@ class Evaulate:
             self.args.slice_edge_type = json.loads(self.args.slice_edge_type)
             self.args.num_edge_types=len(self.args.slice_edge_type)
         
-        self.logger.info("模型导入完毕")
+        self.logger.info("load model done!")
     
     def output_result(self, json_object, filename):
-        # 输出json_object。 所有的参数都已json object的方式存储
+        # output json object. all result save in json.
         path = os.path.join(self.evaulate_out_dir, filename+".json")
         with open(path, "w") as f:
             json.dump(json_object, f)
-        self.logger.info("保存文件:"+path)
+        self.logger.info("save results to:"+path)
 
     def roc_plot(self):
-        # 导入模型
-        # 对所有数据进行评估后
-        # 绘制roc曲线。
-        self.logger.info("进行roc评估")
+        # output roc points for plots.
+        self.logger.info("start roc evaluate")
         logits_cat = []
         label_cat = []
         for batch_data in tqdm(self._loaded_datasets[DataFold.TEST].batch_generator(), total=self._loaded_datasets[DataFold.TEST].size):
@@ -178,20 +166,15 @@ class Evaulate:
                 logits_cat.append(logits)
                 label_cat.append(labels)
         
-        # 评估
         logits_cat = torch.cat(logits_cat, dim=0)   
         label_cat = torch.cat(label_cat, dim=0)
         roc_dict = roc_curve_point(logits_cat, label_cat, classifier_nums=logits_cat.shape[-1])
         self.output_result(roc_dict, filename="roc")
-        self.logger.info("roc 评估完成!")
+        self.logger.info("roc evaluate done!")
 
     def case_analysis_vm(self):
-        # 变量误用的case study
-        # 对每一个样本
-        # 判断选择是否正确，
-        # 根据参数，选择是否输出， 使用logger输出， 将输出添加到list
-        # 由output输出
-        # json格式为，{"result":[{"origin":str, "predict":str, "score":score}], "slot_node_index":slot_node_index, "filename":filename}
+        # case study for vm task.
+        # json format:{"result":[{"origin":str, "predict":str, "score":score}], "slot_node_index":slot_node_index, "filename":filename}
         self.logger.info("进行样本详细评估")
         logits_cat = []
         labels_cat = []
@@ -218,7 +201,7 @@ class Evaulate:
         
         show_index = range(len(file_name))
         if self.args.only_different_case:
-            # 只展示有问题的case
+            # only show wrong predict case.
             predict= torch.argmax(logits_cat, dim=1)
             filter_index = (predict!=labels_cat).tolist() # List:[True, False, True ...] True means predict!=labels_cat
             show_index = compress(show_index, filter_index)
@@ -226,7 +209,7 @@ class Evaulate:
         output = []
         for i in show_index:
             cur_result_dict = dict()
-            cur_result_dict["filename"] = file_name[i][0] # 不知道哪里出问题了，每个都嵌套了两层的list
+            cur_result_dict["filename"] = file_name[i][0]
             cur_result_dict["slot_location"] = slot_location[i][0]
             
             cur_slot_node = slot_node_name[i][0]
@@ -245,13 +228,10 @@ class Evaulate:
             output.append(cur_result_dict)
         
         self.output_result(output, filename="case_analysis")
-        self.logger.info("样本分析完成!")
+        self.logger.info("case analysis done!")
         
             
     
-    def case_analysis_cc(self): 
-        raise Exception("我还没写")
-
 
     def evaulate(self):
         if self.args.roc:

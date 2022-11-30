@@ -15,7 +15,6 @@ from multiprocessing import cpu_count
 import joblib
 import os
 
-# 导入本地库
 from utils import name_to_dataloader, name_to_model, name_to_output_model, DataFold
 from utils import pretty_print_epoch_task_metrics, cal_early_stopping_metric, cal_metrics
 from utils import set_seed
@@ -25,55 +24,44 @@ warnings.filterwarnings('ignore')
 
 from utils.model_metrics import roc_curve_point
 
-# 重构当前代码
 
 class Single_Task:
     @classmethod
     def default_args(cls):
-        parser = argparse.ArgumentParser(description="Single Task 模型预测")
+        parser = argparse.ArgumentParser(description="Single Task Model Detection")
 
-        
-        # 任务相关
-        parser.add_argument('--output_model', type=str, default="vm", help='输出层的任务，可选varmisuse, codecompletion')
-        parser.add_argument('--max_variable_candidates', type=int, default=10, help='')
-        
-        # 输出相关
-        parser.add_argument('--result_dir', type=str, default="trained_models/", help='')
-
-        # 读取模型、继续训练
-        parser.add_argument('--load_model_file', type=str, default=None, help='当这个值为False时，不导入模型。当部位None时，则是模型存储的地址。')
-        #parser.add_argument('--load_model_file', type=str, default="trained_models/model_save/Single-Task_2022-05-07-18-27-35_26536_resgagn_best_model", help='')
-
-        # 模型训练
+        parser.add_argument('--output_model', type=str, default="vm", help='the type of downstream task, Optional[vm, cc]')
+        parser.add_argument('--max_variable_candidates', type=int, default=10, help='the max candidates num in vm task.')
+        parser.add_argument('--result_dir', type=str, default="trained_models/", help='the directory of saving result.')
+        parser.add_argument('--load_model_file', type=str, default=None, help='when is not None, the model will load checkpoint first, and the load_model_file is the checkpoint path.')
         parser.add_argument('--backbone_model',
                             type=str,
                             default="tensor_gcn",
-                            help='the backbone model of features extract')
-        parser.add_argument('--optimizer', type=str, default="Adam", help='TODO:暂时不接受选择')
-        parser.add_argument('--lr', type=float, default=0.001, help='')
-        parser.add_argument('--lr_deduce_per_epoch', type=int, default=10, help='')
-        parser.add_argument('--max_epochs', type=int, default=1500, help='')
-        parser.add_argument('--cur_epoch', type=int, default=1, help='用做读取checkpoint再训练的参数，手动设置无效。')
+                            help='the backbone model.')
+        parser.add_argument('--optimizer', type=str, default="Adam", help='the optimizer.')
+        parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
+        parser.add_argument('--max_epochs', type=int, default=1500, help='max epochs')
+        parser.add_argument('--cur_epoch', type=int, default=1, help='use for load model. Can\'t be specified.')
         parser.add_argument('--batch_size', type=int, default=128, help='')
         parser.add_argument('--dropout_rate', type=float, default=0., help='keep_prob = 1-dropout_rate')
-        parser.add_argument('--h_features', type=int, default=128, help='')
-        parser.add_argument('--out_features', type=int, default=128, help='')
-        parser.add_argument('--graph_node_max_num_chars', type=int, default=19, help='图中节点的初始特征维度')
-        parser.add_argument('--max_node_per_graph', type=int, default=50, help='一个图最多的节点个数')
+        parser.add_argument('--h_features', type=int, default=128, help='the hidden layer size of backbone model')
+        parser.add_argument('--out_features', type=int, default=128, help='the output layer size of backbone model')
+        parser.add_argument('--graph_node_max_num_chars', type=int, default=19, help='the max character nums of a variable.')
+        parser.add_argument('--max_node_per_graph', type=int, default=50, help='the max node per graph')
         parser.add_argument('--device', type=str, default="cuda", help='')
 
 
         # 数据集相关
-        parser.add_argument('--slice_edge_type', type=str, default="[0,1,2,3,4,5,6,7,8]", help='数据集中边的数量。')
-        parser.add_argument('--num_edge_types', type=int, default=3, help='数据集中边的数量。')
+        parser.add_argument('--slice_edge_type', type=str, default="[0,1,2,3,4,5,6,7,8]", help='the chose graphs for model.')
+        parser.add_argument('--num_edge_types', type=int, default=3, help='num of edges\' type, equals to length of slice_edge_type')
         parser.add_argument('--train_data_dir',
                             type=str,
                             default="data/lrtemp/train_data",
-                            help='')
+                            help='train data dir.')
         parser.add_argument('--validate_data_dir',
                             type=str,
                             default="data/csharp/validate_data",
-                            help='')
+                            help='validate data dir')
         parser.add_argument('--dataset_name', type=str, default="csharp", help='the name of the dataset. optional:[python, csharp]')
         parser.add_argument(
             '--value_dict_dir',
@@ -85,17 +73,16 @@ class Single_Task:
             type=str,
             default="vocab_dict/python_terminal_dict_1k_type.json",
             help='')
-        parser.add_argument('--dataset_num_workers', type=int, default=0, help='如果设置为None，则启用cpu_count/2个进程。若为0，则不预先加载。这是个坑，每个batch都会重新创建进程，竟然不是进程池，很难以理解。设置为0，不用想，创建进程的开销比读取数据的开销还大。')
+        parser.add_argument('--dataset_num_workers', type=int, default=0, help='the cpu nums for load data.')
         
-        # 其他参数设置
         parser.add_argument('--seed', type=int, default=42,
                         help="random seed for initialization")
         parser.add_argument("--slot_singal", default="<SLOT>", type=str,
                         help="slot singal during training, default=<SLOT>")
         parser.add_argument('--max_graph', type=int, default=100000,
-                        help="max data graph. max_graph = None时， 为使用所有数据")
+                        help="max data graph.")
         
-        parser.add_argument('--notes', type=str, default="None", help=' notes ')
+        parser.add_argument('--notes', type=str, default="None", help=' notes will show in result file title.')
         return parser
 
     @staticmethod
@@ -132,23 +119,23 @@ class Single_Task:
     
     
     def __load_data(self):
+        # load data according to train_data_dir, validate_data_dir
         train_path = self.args.train_data_dir
         validate_path = self.args.validate_data_dir
 
-        # 数据地址或者字典地址有误则报错。
+
         if not osp.exists(train_path) or not osp.exists(validate_path):
             raise Exception("train data or validate data dir not exists error!")
 
         if not osp.exists(self.args.value_dict_dir) or not osp.exists(
                 self.args.type_dict_dir):
-            # TODO: value_dict, type_dict待改。 
             raise Exception("vocab dict not exists error!")
 
 
-        # 数据初始化
+        # init dataset
         self._loaded_datasets = dict()
         
-        # 导入数据
+        # load data
         if self.args.dataset_num_workers is None:
             self.args.dataset_num_workers = int(cpu_count() / 2)
         self._loaded_datasets[DataFold.TRAIN] = name_to_dataloader(self.args.dataset_name, train_path, DataFold.TRAIN, self.args, num_workers=self.args.dataset_num_workers)
@@ -158,6 +145,7 @@ class Single_Task:
         self.args.valid_data_nums = self._loaded_datasets[DataFold.VALIDATION].data_nums
 
     def save_model(self, path, others_dict=None):
+        # save model to path.
         if not os.path.exists(path):
             os.makedirs(path)
         joblib.dump(self.model, os.path.join(path, "model.joblib"))
@@ -170,8 +158,9 @@ class Single_Task:
                 joblib.dump(others_dict[key], os.path.join(path, key+".joblib"))
     
     def load_model(self, path):
+        # load model according to path
         if not os.path.exists(path):
-            raise Exception("文件夹不存在 %s" % path)
+            raise Exception("paths not exists %s" % path)
         self.model = joblib.load(os.path.join(path, "model.joblib"))
         self.output_model = joblib.load(os.path.join(path, "output_model.joblib"))
         self.optimizer = torch.load(os.path.join(path, "optimizer.pt"))
@@ -181,32 +170,23 @@ class Single_Task:
         self.args.cur_epoch = args['cur_epoch']
     
     def __make_model(self) -> None:
-        # 构造模型
-        # 影响模型的三个方面：选定的模型、输出层、是否导入模型（模型保存二次训练）
-        # 首先判断是否导入模型，是的话导入，否的话创建模型
-        
+        # build the model according to the arguments.
         if self.args.load_model_file is not None:
-            self.log_line(f"导入模型:{self.args.load_model_file}")
+            self.log_line(f"load model:{self.args.load_model_file}")
             self.load_model(self.args.load_model_file)
             
-            assert self.model.device == self.args.device, "导入模型的device和设置不一致"
+            assert self.model.device == self.args.device, "the device of loaded model conflict with args.device"
             
         else:
-            # 构造模型
             self.model = name_to_model(self.args.backbone_model, self.args)
             self.output_model = name_to_output_model(self.args.output_model, self.args)
             
             self.model.to(self.args.device)
             self.output_model.to(self.args.device)
             
-            # 构造优化器
             self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.args.lr)
 
-            # 根据运行动态改边学习率。先不改变。
-            # batchNumsPerEpoch = len(self._loaded_datasets[DataFold.TRAIN]) // self.args.batch_size + 1
-            # self.scheduler = torch.optim.lr_scheduler.StepLR(self.optimizer, self.args.lr_deduce_per_epoch*batchNumsPerEpoch, gamma=0.6, last_epoch=-1)
-            
-            # 模型所有参数统计
+            # caculate the num of args
             self.args.num_model_params = sum(
                 p.numel() for p in list(self.model.parameters()))  # numel()
     
@@ -218,20 +198,18 @@ class Single_Task:
         data_fold: DataFold,
         quiet: Optional[bool] = False,
     ) -> Tuple[float]:
-        """具体的每一轮训练。
+        """train one epoch
 
         Args:
-            epoch_name (str): 每一轮名称
-            data (Iterable[Any]): 该轮的数据
-            data_fold (DataFold): 是test还是train
-            quiet (Optional[bool], optional): 当为真时，不显示任何信息。. Defaults to False.
+            epoch_name (str):
+            data (Iterable[Any]): the data of cur epoch
+            data_fold (DataFold): Optional[Train, Valid]
+            quiet (Optional[bool], optional): Whether to show output. Defaults to False.
 
         Returns:
-            Tuple[float]: [返回一些metrics]
+            Tuple[float]: [Return the tuple of metrics.]
         """
         
-        # 记录部分参数
-        # processed_* 每一个epoch信息的记录。
         start_time = time.time()
         processed_graphs, processed_nodes, processed_batch = 0, 0, 0
         epoch_loss = 0.0
@@ -244,7 +222,6 @@ class Single_Task:
             processed_batch += 1
 
 
-            # TODO: 模型输出后，再根据输出层产生输出。
             if data_fold == DataFold.TRAIN:
                 self.optimizer.zero_grad()
                 self.model.train()
@@ -257,11 +234,10 @@ class Single_Task:
                 loss.backward()
                 self.optimizer.step()
                 if hasattr(self, "scheduler"):
-                    # 如果设置了学习率的动态变化的化，对scheduler进行更新。
                     self.scheduler.step()
 
             if data_fold == DataFold.VALIDATION:
-                self.model.eval() # eval和no_grad设置一个就可。这里为了保险都设置了。TODO: 看看这能不能修改。
+                self.model.eval() 
                 self.output_model.eval()
                 with torch.no_grad():
 
@@ -271,7 +247,6 @@ class Single_Task:
                     task_metric_results.append(metrics)
 
             if not quiet:
-                # end="\r"意思是，打印后，光标回到句子头部。下次打印的时候覆盖这一行。
                 print("Runing %s, batch %i (has %i graphs). Loss so far: %.4f" %
                       (epoch_name, processed_batch, batch_data["num_graphs"],
                        epoch_loss / processed_batch),
@@ -287,16 +262,9 @@ class Single_Task:
 
     
     def train(self, quiet=False):
-        """对模型进行训练
-
-        Args:
-            quiet (bool, optional): _description_. Defaults to False.
-        """
         
-        # 在日志中打印当前的设置参数。
         self.log_line(json.dumps(vars(self.args), indent=4))
 
-        # 存储当前训练过程中的最好参数
         (best_valid_metric, best_val_metric_epoch,
          best_val_metric_descr) = (float("+inf"), 0, "")
         for epoch in range(self.args.cur_epoch, self.args.max_epochs + 1):
@@ -309,7 +277,7 @@ class Single_Task:
                 quiet=quiet)
 
             if not quiet:
-                print("\r\x1b[K", end='')  #该函数意义将光标回到该行开头，并擦除整行。
+                print("\r\x1b[K", end='') 
             self.log_line(
                 " Train: loss: %.5f || %s || graphs/sec: %.2f | nodes/sec: %.0f | graphs: %.0f | nodes: %.0f | lr: %0.6f"
                 %
@@ -337,7 +305,7 @@ class Single_Task:
                    valid_nodes_p_s, test_graphs, test_nodes, self.optimizer.state_dict()["param_groups"][0]['lr'])) # , self.scheduler.get_last_lr()[0]
 
             if early_stopping_metric < best_valid_metric:
-                # 设置早停。
+                # set early stopping
                 self.args.cur_epoch = epoch + 1
                 self.save_model(self.best_model_file)
                 self.log_line(
@@ -345,7 +313,6 @@ class Single_Task:
                     % (early_stopping_metric, best_valid_metric,
                        self.best_model_file))
                 best_valid_metric = early_stopping_metric
-                # 保存每一个batch的fpr,tpr，然后将其保存下来，最后读取再绘制。[{"fpr":[], "tpr":[], "auc":[]}].存储为json。
                 
                 best_val_metric_epoch = epoch
                 best_val_metric_descr = valid_metric_descr

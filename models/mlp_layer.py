@@ -7,11 +7,11 @@ import torch.nn.functional as F
 
 class MLPLayer(MessagePassing):
     def __init__(self,  in_features, out_features, device="cpu"):
-        """MPLayer  普通的MessagePassinglayer
+        """MPLayer  norm Message Passing layer for gnn.
 
         Args:
-            in_feature ([type]): 传入的features
-            out_features ([type]): 传出的features
+            in_feature ([type]): in_feature
+            out_features ([type]): out_features
             device ([type]): device
         """
         super(MLPLayer, self).__init__(aggr='add')  # "Add" aggregation (Step 5).

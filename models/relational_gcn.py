@@ -7,8 +7,7 @@ import torch
 import torch.nn.functional as F
 from typing import List, Tuple
 
-# 本地库
-from .embedding_layer import EmbeddingLayer  # from .*** import表示从当前包中导入
+from .embedding_layer import EmbeddingLayer
 from .mlp_layer import MLPLayer
 
 

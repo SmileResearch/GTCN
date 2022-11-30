@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch
 import torch.nn.functional as F
 from typing import List, Tuple
-from .embedding_layer import EmbeddingLayer # from .*** import表示从当前包中导入
+from .embedding_layer import EmbeddingLayer  
 
 
 class alignModule(nn.Module):
@@ -29,7 +29,6 @@ class alignModule(nn.Module):
 
 
 class MTFF_Co_Attention(MessagePassing):
-    # 多任务特征融合模型的部分。使用互注意力层提取不同任务之间的信息
     def __init__(
         self,
         feature_models,

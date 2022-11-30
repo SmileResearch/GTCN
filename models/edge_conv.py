@@ -25,7 +25,6 @@ class Edge_Conv(MessagePassing):
         self.device = device
         self.dropout = dropout
         self.model_epoch = model_epoch
-        # 先对值进行embedding
         self.value_embeddingLayer = EmbeddingLayer(embedding_num_classes,
                                                    in_features,
                                                    embedding_out_features,
@@ -46,16 +45,12 @@ class Edge_Conv(MessagePassing):
 
 
     def forward(self, x, edge_list: List[torch.tensor], **kwargs):
-        # 要把edge_list进行拼接，然后还要制作edge_type,
-        # edge_type : size(E*edge_list_nums) 序号从0开始。
+        # connect edges
         edge_type_list = []
         for e_i in range(len(edge_list)):
             edge = edge_list[e_i]
             edge_type_list.append(torch.ones(edge.shape[1]) * e_i)
 
-        #edge_type = torch.cat(edge_type_list, dim=0)
-        #mask = edge_type == 0
-        #edge = torch.cat(edge_list, dim=1)
 
         x_embedding = self.value_embeddingLayer(x)
 

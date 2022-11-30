@@ -7,8 +7,8 @@ import torch
 import torch.nn.functional as F
 from typing import List, Tuple
 
-# 本地库
-from .embedding_layer import EmbeddingLayer # from .*** import表示从当前包中导入
+ 
+from .embedding_layer import EmbeddingLayer  
 from .mlp_layer import MLPLayer
 
 
@@ -31,7 +31,6 @@ class Deep_GCN(MessagePassing):
         self.num_edge_types = num_edge_types
         self.device = device
         self.dropout = dropout
-        # 先对值进行embedding
         self.value_embeddingLayer = EmbeddingLayer(embedding_num_classes,
                                                    in_features,
                                                    embedding_out_features,
@@ -55,7 +54,6 @@ class Deep_GCN(MessagePassing):
         for i in range(len(edge_list)):
             edge = edge_list[i]
             if edge.shape[0] != 0:
-                # 该种类型的边存在边
                 out_list.append(self.MessagePassingNN[i](cur_node_states, edge))
         cur_node_states = torch.cat(out_list, dim=1)
 

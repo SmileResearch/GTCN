@@ -4,7 +4,7 @@ from multiprocessing import cpu_count
 import torch.nn as nn
 
 
-# 本地库
+ 
 from models import GGNN, residual_graph_attention, GNN_FiLM, Edge_Conv, MTFF_Co_Attention, Tensor_GCN
 from models import Transformer_GCN, Relational_GCN, Deep_GCN
 from dataProcessing import CSharpStaticGraphDatasetGenerator, PythonStaticGraphDatasetGenerator
@@ -68,15 +68,15 @@ def name_to_dataloader(name: str, path: str, data_fold: DataFold, args, num_work
 
 
 def name_to_model(name: str, args, **kwargs):
-    """将字符串转为模型并返回。
+    """translate the name to model
 
     Args:
-        name (str): 模型名称。推荐小写。
-        args (_type_): 可能会用到的参数
-        **kwargs: 可能需要传入的其他字典型参数。
+        name (str): the name of model
+        args (_type_): other args for init model instance.
+        **kwargs: other args.
 
     Raises:
-        ValueError: 类名不存在
+        ValueError: wrong model name.
     """
     name = name.lower()
     name = name.replace(concat_singal, "")
@@ -163,14 +163,14 @@ def name_to_model(name: str, args, **kwargs):
 
 
 def name_to_output_model(name: str, args):
-    """将字符串转为输出模型并返回。
+    """translate name to task.
 
     Args:
-        name (str): 输出模型名称。推荐小写。
-        args (_type_): 可能会用到的参数
+        name (str): the choose task.
+        args (_type_): args pass to task instance.
 
     Raises:
-        ValueError: 类名不存在
+        ValueError: wrong task type.
     """
     with open(args.value_dict_dir, 'r') as f:
         value_dict = json.load(f)
@@ -186,7 +186,6 @@ def name_to_output_model(name: str, args):
                                     metrics=cal_metrics,
                                     device=args.device)
     elif name in ["cc", "varnaming",  "codecompletion" ]:
-        # TODO: 待补充
         return VarnamingOutputLayer(out_features=args.out_features,
                                     classifier_nums=len(value_dict)+1,
                                     criterion=nn.CrossEntropyLoss(),

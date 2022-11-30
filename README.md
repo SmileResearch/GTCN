@@ -48,6 +48,8 @@ Compilation for python and C# code is now well supported.
 
 The model supports various downstream tasks including: Variable misuse detection(VM), Code Completion(CC), Vulnerability detection. We can switch the task by specifing the arguments.
 
+Please type ```python single_task.py --h``` to look more arguments.
+
 ### 2.1 Variable Misuse
 
 Specify output_model=vm can choose the variable misuse task.
@@ -71,7 +73,20 @@ python single_task.py --backbone_model tensor_gcn --output_model=cc --train_data
 Due to the different data sets for vulnerability detection. Please refer to this repository for more details: https://github.com/wannch/VDoTR.
 
 
-## 3. Evaluate
+## 3. Model
+
+use backbone_model arguments to switch the model.
+
+The supported model is list following:
++ --backbone_model = tensor_gcn => [graph tensor convolution neural network](.)
++ --backbone_model = ggnn => [Graph Gated Neural Network](https://arxiv.org/abs/1511.05493)
++ --backbone_model = resgagn => [Residual connection Graph Attention Network](https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.3094)
++ --backbone_model = gnn_film => [GNN_FiLM](https://arxiv.org/abs/1906.12192)
++ --backbone_model = edge_conv => [Edge_Conv](https://arxiv.org/pdf/1801.07829.pdf)
++ --backbone_model = transformer_gcn => [Transform GCN](Transformer_GCN)
++ --backbone_model = deep_gcn => [Deep GCN](https://arxiv.org/abs/1904.03751)
+
+## 4. Evaluate
 
 Use evaulate.py for evaluating the model preformance.
 
@@ -82,8 +97,9 @@ Example:
 ```python
 python evaluate.py --evaulate_data_idr=your_eva_data_dir --dataset_name=csharp --load_model_file=your_model_checkpoint --roc=True --case_analysis=True
 ```
-## 4. Requirements
+## 5. Requirements
 
+* python >=3.6
 * torch >= 1.8.0
 * torch-geometric  == 1.7.0
 * python >= 3.7

@@ -9,10 +9,10 @@ class EmbeddingLayer(nn.Module):
         """EmbeddingLayer
 
         Args:
-            num_classes ([type]): 字典的宽度
-            kernel_size ([type]): 一维卷积核的大小
-            in_feature ([type]): 传入的features
-            out_features ([type]): 传出的features
+            num_classes ([type]): the size of dictionary
+            kernel_size ([type]): size of one-dimension kernel
+            in_feature ([type]): in_feature
+            out_features ([type]): out_features
             device ([type]): device
         """
         super(EmbeddingLayer, self).__init__()

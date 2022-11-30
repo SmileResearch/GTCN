@@ -29,7 +29,7 @@ class Tensor_GCN(MessagePassing):
         self.device = device
         self.dropout = dropout
         self.max_node_per_graph=max_node_per_graph
-        # 先对值进行embedding
+        # value embedding layer for variable name.
         self.value_embeddingLayer = EmbeddingLayer(embedding_num_classes,
                                                    in_features,
                                                    embedding_out_features,
@@ -44,39 +44,12 @@ class Tensor_GCN(MessagePassing):
 
         self.gru_cell = torch.nn.GRUCell(input_size=embedding_out_features, hidden_size=out_features)
         
-        #self.conv1_list = nn.ModuleList([GCNConv(out_features, out_features, add_self_loops=add_self_loops) for _ in range(self.num_edge_types)] )
-        #self.interConv = InterConv(out_features, out_features, num_edge_types=self.num_edge_types)
-        #self.thirdNorm = torch.nn.InstanceNorm2d(out_features)  # 这个就是自己要找的
 
         self.lin = nn.Linear(out_features, out_features)
-        #self.conv1 = nn.ModuleList([GATConv(out_features, out_features//8, add_self_loops=True, heads=8, concat=True) for _ in range(self.num_edge_types)])
         self.conv1 = GATConv(out_features, out_features//8, add_self_loops=True, heads=8, concat=True)
 
-
-    # def forward(self, x, edge_list: List[torch.tensor], **kwargs):
-    #     # 8 层的tensor 卷积。效果也还不错，但是收敛速度没有添加ggnn的快。
-    #     x_embedding = self.value_embeddingLayer(x)
-    #     # Tensor GGNN 
-    #     last_node_states = x_embedding
-        
-    #     loop_edge_list = self.matrix_loop_new(edge_list) # 4V, 4V
-    #     for _ in range(8):
-
-    #         #ggnn_out = x_embedding
-    #         # tensor GCN:
-    #         # 直接8层
-    #         cur_x = torch.cat([last_node_states for _ in range(self.num_edge_types)], dim=0)  # 4V, D
-    #         out = self.conv1(cur_x, loop_edge_list) # 4V, D
-    #         out = out.view(self.num_edge_types, x_embedding.shape[0], out.shape[-1])  # 4, V, D
-    #         out = torch.sum(out, dim=0)  # V, D
-    #         out = F.relu(out)
-    #         last_node_states = out
-
-
-    #     return last_node_states
     
     def forward(self, x, edge_list: List[torch.tensor], **kwargs):
-        # 这个是比较不错的代码的一个备份
         
         x_embedding = self.value_embeddingLayer(x)
         # Tensor GGNN 
@@ -87,14 +60,12 @@ class Tensor_GCN(MessagePassing):
             for i in range(len(edge_list)):
                 edge = edge_list[i]
                 if edge.shape[0] != 0 :
-                    # 该种类型的边存在边
                     out_list.append(self.MessagePassingNN[i](cur_node_states, edge))
             cur_node_states = sum(out_list)
             new_node_states = self.gru_cell(cur_node_states, last_node_states)  # input:states, hidden
             last_node_states = new_node_states
 
         ggnn_out = last_node_states # shape: V, D
-        #ggnn_out = x_embedding
         # tensor GCN:
         cur_x = torch.cat([ggnn_out for _ in range(self.num_edge_types)], dim=0)  # 4V, D
         loop_edge_list = self.matrix_loop_new(edge_list) # 4V, 4V
@@ -103,15 +74,7 @@ class Tensor_GCN(MessagePassing):
         out = torch.sum(out, dim=0)  # V, D
         out = F.relu(out)
         out = self.lin(out)
-        
-        # edge_list = torch.concat(edge_list, dim=1)
-        # out_concat = []
-        # for i in range(self.num_edge_types):
-        #     temp_out = self.conv1[i](ggnn_out, edge_list)
-        #     temp_out = F.relu(temp_out)
-        #     out_concat.append(temp_out)
-        # out = sum(out_concat)
-        # out = self.lin(out)
+    
 
         return out
 
@@ -124,7 +87,7 @@ class Tensor_GCN(MessagePassing):
         return edge_new
 
     def matrix_loop(self, edge_list):
-        # 4个邻接矩阵并列。
+        # do tensor dot
         assert len(edge_list) == 4
         A1, A2, A3, A4 = edge_list
         n = self.max_node_per_graph

@@ -9,10 +9,11 @@ from typing import List, Tuple
 
 from utils.model_metrics import cal_metrics
 
-# 本地库
+ 
 
 
 class VarnamingOutputLayer(nn.Module):
+    # downstream layer for code completion task.
     def __init__(
         self,
         out_features,
@@ -56,7 +57,6 @@ class VarnamingOutputLayer(nn.Module):
                 result.append(value_label)
         
         
-        # 如果metrics传入进来了，则计算每一个metrics的值。并返回。否则使用self.metrics
         if metric_functions is not None:
             if type(metric_functions) is list:
                 metrics = dict()

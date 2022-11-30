@@ -6,6 +6,7 @@ from typing import List
 
 
 def set_seed(args):
+    # use for controlling seeds.
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
